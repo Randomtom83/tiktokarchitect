@@ -67,7 +67,7 @@ export default function GameSection() {
           {/* CTA */}
           <a
             href="#"
-            className="inline-flex justify-between items-center mt-8 py-5 px-6 bg-ink text-yellow no-underline font-serif text-[30px] italic min-w-0 sm:min-w-[360px] border-2 border-ink gap-8 hover:-translate-x-[3px] hover:-translate-y-[3px] hover:shadow-[6px_6px_0_var(--ink)] transition-all duration-200"
+            className="inline-flex justify-between items-center mt-8 py-5 px-6 bg-ink text-bone no-underline font-serif text-[30px] italic min-w-0 sm:min-w-[360px] border-2 border-ink gap-8 hover:-translate-x-[3px] hover:-translate-y-[3px] hover:shadow-[6px_6px_0_var(--ink)] transition-all duration-200"
           >
             <span>Download APK<br />↓</span>
             <span className="font-mono not-italic text-[11px] tracking-[0.18em] uppercase opacity-75 text-right leading-relaxed">
