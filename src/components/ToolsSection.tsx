@@ -29,13 +29,16 @@ export default function ToolsSection() {
 
         <div className="flex flex-col gap-8">
           {[
-            { num: "01", name: "BalyeCleaner", platform: "Windows", desc: "Desktop cleanup and file management utility for architects." },
-            { num: "02", name: "ShambaWorks", platform: "Platform TBD", desc: "[ description placeholder — one line on what ShambaWorks does. ]" },
-            { num: "03", name: "Lakou", platform: "Platform TBD", desc: "[ description placeholder — one line on what Lakou does. ]" },
+            { num: "01", name: "BalyeCleaner", platform: "Windows · 36 MB", desc: "Sweep your project folders clean. Find and remove outdated Revit and AutoCAD backup files in one pass.", href: "https://reynoldsfamily.co/builds/BalyeCleaner-1.0.0.exe" },
+            { num: "02", name: "ShambaWorks", platform: "Android · 17.7 MB", desc: "Plan your flower bed at the nursery. Smart layouts, spacing, and budgeting.", href: "https://reynoldsfamily.co/builds/ShambaWorks-1.0.0.apk" },
+            { num: "03", name: "Lakou", platform: "Android · 55.6 MB", desc: "Your practice. Your pace. Your app. Project management built for solo architects.", href: "https://reynoldsfamily.co/builds/Lakou-1.0.0.apk" },
           ].map((app) => (
-            <div
+            <a
               key={app.num}
-              className="block text-bone p-5.5 px-6 border-[1.5px] border-bone/40 bg-black/18 relative"
+              href={app.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="brutal-card block no-underline text-bone p-5.5 px-6 bg-black/18 hover:bg-ink"
             >
               <div className="flex justify-between items-baseline font-mono text-[10px] tracking-[0.2em] uppercase opacity-75">
                 <span>App · {app.num}</span>
@@ -47,7 +50,8 @@ export default function ToolsSection() {
               <p className="font-mono text-xs leading-relaxed m-0 opacity-85 max-w-[48ch]">
                 {app.desc}
               </p>
-            </div>
+              <span className="absolute right-6 bottom-5.5 font-mono text-[22px]">↗</span>
+            </a>
           ))}
 
           <a
