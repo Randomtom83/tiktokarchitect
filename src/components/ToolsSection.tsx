@@ -58,8 +58,7 @@ export default function ToolsSection() {
             href="https://greenstoriesllc.com/tools.php"
             target="_blank"
             rel="noopener noreferrer"
-            className="block no-underline p-6 px-7 border-2 border-bone bg-bone hover:bg-ink hover:text-bone transition-colors duration-200 hover:-translate-x-[3px] hover:-translate-y-[3px] hover:shadow-[3px_3px_0_var(--bone)]"
-            style={{ color: "var(--ink)" }}
+            className="catalog-linkout block no-underline p-6 px-7 border-2 border-bone bg-bone transition-colors duration-200 hover:bg-ink hover:-translate-x-[3px] hover:-translate-y-[3px] hover:shadow-[3px_3px_0_var(--bone)]"
           >
             <div className="flex justify-between font-mono text-[10px] tracking-[0.2em] uppercase">
               <span>Full catalog</span>
