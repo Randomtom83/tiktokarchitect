@@ -1,0 +1,62 @@
+name: Analytics Deploy — Merge, Deploy, Email
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/analytics-*.json'
+      - 'data/blog-trends-*.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # Don't run on commits from this workflow (prevent infinite loop)
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Merge analytics with blog trends
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/analytics_merge.py
+
+      - name: Commit enriched analytics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/analytics-*.json data/.last-digest-date
+          git diff --cached --quiet && echo "No changes" || {
+            git commit -m "analytics: enriched with verdicts and recommendations $(date +%Y-%m-%d)"
+            git push
+          }
+
+      - name: Deploy to IONOS via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.SFTP_HOST }}
+          port: ${{ secrets.SFTP_PORT }}
+          username: ${{ secrets.SFTP_USER }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          local_path: './data/'
+          remote_path: '/data/'
+          sftp_only: true
+
+      - name: Send morning digest email
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_RECIPIENT: ${{ secrets.GMAIL_RECIPIENT }}
+        run: python scripts/send_digest.py
