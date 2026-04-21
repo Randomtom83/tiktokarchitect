@@ -67,10 +67,10 @@ export default function GameSection() {
           {/* CTA */}
           <a
             href="#"
-            className="inline-flex justify-between items-center mt-8 py-5 px-6 bg-ink text-white no-underline font-serif text-[30px] italic min-w-0 sm:min-w-[360px] border-3 border-yellow gap-8 hover:-translate-x-[3px] hover:-translate-y-[3px] hover:shadow-[6px_6px_0_var(--ink)] transition-all duration-200"
+            className="inline-flex justify-between items-center mt-8 py-5 px-6 bg-yellow text-ink no-underline font-serif text-[30px] italic min-w-0 sm:min-w-[360px] border-3 border-ink gap-8 hover:-translate-x-[3px] hover:-translate-y-[3px] hover:shadow-[6px_6px_0_var(--ink)] transition-all duration-200"
           >
             <span>Download APK<br />↓</span>
-            <span className="font-mono not-italic text-[11px] tracking-[0.18em] uppercase text-yellow text-right leading-relaxed">
+            <span className="font-mono not-italic text-[11px] tracking-[0.18em] uppercase text-ink text-right leading-relaxed">
               Android · v1.0.0<br />Size · 7.6 MB
             </span>
           </a>
