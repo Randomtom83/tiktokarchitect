@@ -51,13 +51,12 @@ export default function Cover() {
       {/* Giant name */}
       <h1
         className="absolute left-4 right-4 sm:left-10 sm:right-10 bottom-20 z-[3] font-serif font-light uppercase leading-[0.82] tracking-[-0.055em] text-bone m-0"
-        style={{ fontSize: "clamp(48px, 18vw, 240px)" }}
+        style={{ fontSize: "clamp(36px, 11vw, 160px)" }}
       >
         TOM REYNOLDS<br />
         <span className="italic font-normal text-orange text-[0.38em] inline-block -translate-y-[0.7em] tracking-normal normal-case mx-[0.04em]">
           the
-        </span>
-        TIKTOKARCHITECT
+        </span>TIKTOKARCHITECT
       </h1>
 
       {/* Bottom strap */}
