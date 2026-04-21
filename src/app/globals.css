@@ -1,0 +1,246 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0c0c0a;
+  --ink-soft: #1b1b18;
+  --bone: #eeeae0;
+  --bone-dim: #d6d1c4;
+  --orange: #ff5a1f;
+  --cyan: #1e6a78;
+  --green: #1f3d2a;
+  --yellow: #f4c430;
+  --concrete: #8a8a82;
+  --redline: #e8362b;
+
+  --font-serif-family: var(--font-serif), "Times New Roman", serif;
+  --font-sans-family: var(--font-sans), Helvetica, Arial, sans-serif;
+  --font-mono-family: var(--font-mono), ui-monospace, Menlo, monospace;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-bone: var(--bone);
+  --color-bone-dim: var(--bone-dim);
+  --color-orange: var(--orange);
+  --color-cyan: var(--cyan);
+  --color-green: var(--green);
+  --color-yellow: var(--yellow);
+  --color-concrete: var(--concrete);
+  --color-redline: var(--redline);
+  --font-serif: var(--font-serif-family);
+  --font-sans: var(--font-sans-family);
+  --font-mono: var(--font-mono-family);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: var(--ink);
+  color: var(--bone);
+  font-family: var(--font-serif-family);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  padding-top: 46px;
+}
+
+a { color: inherit; }
+html { scroll-behavior: smooth; }
+
+::selection {
+  background: var(--orange);
+  color: var(--ink);
+}
+
+/* ============================================
+   SHEET CHROME — drafting grid + border + coords
+   ============================================ */
+.sheet {
+  position: relative;
+  min-height: 100vh;
+  padding: 56px 40px 48px;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.sheet::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, currentColor 0 1px, transparent 1px 100%),
+    linear-gradient(to bottom, currentColor 0 1px, transparent 1px 100%);
+  background-size: 48px 48px;
+  opacity: 0.07;
+  color: inherit;
+  z-index: 0;
+}
+
+.sheet::after {
+  content: "";
+  position: absolute;
+  inset: 32px;
+  pointer-events: none;
+  border: 1px solid currentColor;
+  opacity: 0.35;
+  z-index: 0;
+}
+
+/* Dense grid variant for blueprint sections */
+.sheet-dense::before {
+  background-image:
+    linear-gradient(to right, rgba(238, 234, 224, 0.18) 0 1px, transparent 1px 100%),
+    linear-gradient(to bottom, rgba(238, 234, 224, 0.18) 0 1px, transparent 1px 100%);
+  background-size: 32px 32px;
+  opacity: 1;
+}
+
+/* Corner coordinates */
+.coord {
+  position: absolute;
+  font-family: var(--font-mono-family);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  z-index: 2;
+}
+.coord-tl { top: 14px; left: 18px; }
+.coord-tr { top: 14px; right: 18px; }
+.coord-bl { bottom: 14px; left: 18px; }
+.coord-br { bottom: 14px; right: 18px; }
+
+/* Title block */
+.titleblock {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  z-index: 4;
+  border: 1px solid currentColor;
+  background: inherit;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  font-family: var(--font-mono-family);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+.titleblock > div {
+  padding: 8px 12px;
+  border-right: 1px solid currentColor;
+}
+.titleblock > div:last-child { border-right: 0; }
+.titleblock .k {
+  opacity: 0.55;
+  font-size: 8.5px;
+  display: block;
+  margin-bottom: 2px;
+}
+.titleblock .v { font-weight: 700; }
+
+/* Chapter marker */
+.chapter-mark {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  font-family: var(--font-mono-family);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.chapter-mark .num {
+  font-family: var(--font-serif-family);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  opacity: 0.85;
+}
+.chapter-mark .bar {
+  flex: 1;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.4;
+}
+
+/* Redline annotation */
+.redline {
+  position: absolute;
+  color: var(--redline);
+  font-family: var(--font-mono-family);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  z-index: 5;
+}
+.redline .tick {
+  width: 22px;
+  height: 22px;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-serif-family);
+  font-style: italic;
+  font-size: 13px;
+  flex: 0 0 22px;
+}
+.redline .line {
+  max-width: 220px;
+  line-height: 1.45;
+  border-bottom: 1.5px solid currentColor;
+  padding-bottom: 3px;
+}
+
+/* Stamp */
+.stamp {
+  display: inline-grid;
+  place-items: center;
+  padding: 10px 16px;
+  border: 2px solid currentColor;
+  font-family: var(--font-mono-family);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  transform: rotate(-4deg);
+  position: relative;
+}
+.stamp::before, .stamp::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: currentColor;
+}
+.stamp::before { top: -5px; }
+.stamp::after { bottom: -5px; }
+
+/* Brutalist card hover */
+.brutal-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1.5px solid currentColor;
+  transition: transform 0.2s ease, background 0.2s ease;
+  position: relative;
+}
+.brutal-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 3px 3px 0 currentColor;
+}
+
+/* Responsive */
+@media (max-width: 960px) {
+  .sheet { padding: 48px 24px 40px; }
+  .titleblock { position: static; margin-top: 32px; }
+}
