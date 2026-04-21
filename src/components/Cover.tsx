@@ -61,7 +61,7 @@ export default function Cover() {
 
       {/* Bottom strap */}
       <div className="absolute left-4 right-4 sm:left-10 sm:right-10 bottom-8 z-[3] flex justify-between items-end font-mono text-[10px] tracking-[0.2em] uppercase text-bone opacity-75">
-        <span>Green Stories LLC · Newark, NJ · Est. <b className="font-bold">2019</b></span>
+        <span>Green Stories LLC · Newark, NJ · Est. <b className="font-bold">2013</b></span>
         <span className="font-serif italic text-[22px] tracking-tight normal-case opacity-100">
           A<i>-000.</i>
         </span>
