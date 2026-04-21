@@ -45,7 +45,7 @@ export default function Bio() {
             <a href="https://greenstoriesllc.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-orange transition-colors">
               Green Stories LLC
             </a>
-            . Associate AIA. LEED Green Associate. Co-founder and former VP of
+            . NOMA. Associate AIA. LEED Green Associate. Co-founder and former VP of
             the NJ Chapter of NOMA. Former President of the Montclair Branch of
             the NAACP.
           </p>
@@ -73,7 +73,7 @@ export default function Bio() {
             {[
               { k: "Firm", v: <>Green Stories <i>LLC</i></> },
               { k: "Based", v: <>Newark, <i>NJ</i></> },
-              { k: "Credentials", v: <>Assoc. AIA · <i>LEED GA</i></> },
+              { k: "Credentials", v: <>NOMA · <i>LEED GA</i></> },
             ].map((cell, i) => (
               <div key={cell.k} className={`py-4 pr-4.5 ${i < 2 ? "border-r border-ink" : ""}`}>
                 <div className="font-mono text-[10px] tracking-[0.18em] uppercase opacity-60">{cell.k}</div>

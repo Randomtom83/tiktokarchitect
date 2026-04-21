@@ -40,7 +40,7 @@ export default function Vitals() {
               { k: "Handle", v: "@TikTokArchitect" },
               { k: "City", v: <>Newark, <i>NJ</i></> },
               { k: "Firm", v: <>Green Stories <i>LLC</i></> },
-              { k: "Credentials", v: <>Assoc. AIA<small className="block mt-1 text-sm font-mono font-normal opacity-60 uppercase tracking-[0.08em]">LEED GA · NOMA</small></> },
+              { k: "Credentials", v: <>NOMA<small className="block mt-1 text-sm font-mono font-normal opacity-60 uppercase tracking-[0.08em]">LEED GA · Assoc. AIA</small></> },
               { k: "Est.", v: <>2013<small className="block mt-1 text-sm font-mono font-normal opacity-60 uppercase tracking-[0.08em]">· Green Stories</small></> },
             ].map((item, i) => (
               <div
