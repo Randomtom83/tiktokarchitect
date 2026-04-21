@@ -25,7 +25,7 @@ export default function GameSection() {
         <div>
           <h2
             className="font-serif font-light leading-[0.82] tracking-[-0.05em] m-0"
-            style={{ fontSize: "clamp(96px, 15vw, 220px)" }}
+            style={{ fontSize: "clamp(48px, 15vw, 220px)" }}
           >
             Architect <span className="italic text-redline">the</span>
             <br />

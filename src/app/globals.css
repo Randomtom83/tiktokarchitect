@@ -46,11 +46,40 @@ body {
 }
 
 a { color: inherit; }
-html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
 
 ::selection {
   background: var(--orange);
   color: var(--ink);
+}
+
+/* Skip to content */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 200;
+  padding: 12px 20px;
+  background: var(--orange);
+  color: var(--ink);
+  font-family: var(--font-mono-family);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 8px;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
 }
 
 /* ============================================
@@ -242,5 +271,8 @@ html { scroll-behavior: smooth; }
 /* Responsive */
 @media (max-width: 960px) {
   .sheet { padding: 48px 24px 40px; }
-  .titleblock { position: static; margin-top: 32px; }
+  .titleblock { position: static; margin-top: 32px; grid-template-columns: repeat(2, auto); }
+}
+@media (max-width: 640px) {
+  .sheet::after { inset: 16px; }
 }

@@ -49,7 +49,7 @@ export default function NIASection() {
             href="https://nia.greenstoriesllc.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex justify-between items-center font-mono text-[11px] tracking-[0.2em] uppercase border-t border-bone mt-5 pt-4 no-underline text-bone"
+            className="flex justify-between items-center font-mono text-[11px] tracking-[0.2em] uppercase border-t border-bone mt-5 py-4 no-underline text-bone"
           >
             <span>Visit the Archive</span>
             <span className="text-[20px] hover:text-yellow transition-colors">→</span>

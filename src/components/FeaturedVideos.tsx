@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 const FEATURED_VIDEOS = [
   "https://www.tiktok.com/@tiktokarchitect/video/7620428002148519199",
@@ -9,18 +9,31 @@ const FEATURED_VIDEOS = [
 ];
 
 export default function FeaturedVideos() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const scriptLoaded = useRef(false);
+
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://www.tiktok.com/embed.js";
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
+    const el = sectionRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !scriptLoaded.current) {
+          scriptLoaded.current = true;
+          const script = document.createElement("script");
+          script.src = "https://www.tiktok.com/embed.js";
+          script.async = true;
+          document.body.appendChild(script);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
   }, []);
 
   return (
-    <section className="sheet bg-ink text-bone" id="videos">
+    <section className="sheet bg-ink text-bone" id="videos" ref={sectionRef}>
       <span className="coord coord-tl">A · 06 · 01</span>
       <span className="coord coord-tr">@TikTokArchitect</span>
       <span className="coord coord-bl">1,000+ Videos</span>
@@ -54,7 +67,7 @@ export default function FeaturedVideos() {
                   className="tiktok-embed"
                   cite={url}
                   data-video-id={videoId}
-                  style={{ maxWidth: "325px", minWidth: "250px", margin: 0 }}
+                  style={{ maxWidth: "325px", minWidth: "100%", margin: 0 }}
                 >
                   <section>
                     <a

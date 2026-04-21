@@ -17,7 +17,7 @@ export default function Vitals() {
         <div>
           <h2
             className="font-serif font-light leading-[0.78] tracking-[-0.06em] m-0"
-            style={{ fontSize: "clamp(180px, 30vw, 420px)" }}
+            style={{ fontSize: "clamp(80px, 30vw, 420px)" }}
           >
             2<span className="italic font-normal">%</span>
           </h2>

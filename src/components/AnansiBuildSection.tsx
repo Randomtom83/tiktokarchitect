@@ -45,9 +45,9 @@ export default function AnansiBuildSection() {
         </div>
 
         <aside className="grid content-start gap-5 border-2 border-ink p-6 bg-white/18">
-          <h4 className="font-serif italic font-normal text-[26px] leading-none m-0 mb-2 tracking-tight">
+          <h3 className="font-serif italic font-normal text-[26px] leading-none m-0 mb-2 tracking-tight">
             Spec Sheet
-          </h4>
+          </h3>
           {[
             { k: "Type", v: "Revit Plugin" },
             { k: "Platform", v: "Revit 2026" },
@@ -67,7 +67,7 @@ export default function AnansiBuildSection() {
             href="https://greenstoriesllc.com/anansibuild.php"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex justify-between items-center font-mono text-[11px] tracking-[0.18em] uppercase border-t-2 border-ink mt-2 pt-4 no-underline text-ink"
+            className="flex justify-between items-center font-mono text-[11px] tracking-[0.18em] uppercase border-t-2 border-ink mt-2 py-4 no-underline text-ink"
           >
             <span>Download Free</span>
             <span className="text-[20px]">↗</span>

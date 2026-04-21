@@ -1,0 +1,1359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>TOM REYNOLDS — DRAWING SET A-001</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=JetBrains+Mono:wght@400;500;700&family=Archivo:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   DRAWING SET: TOM REYNOLDS / @TIKTOKARCHITECT
+   ISSUE 01 · BRUTALIST CONSTRUCTION-DOC
+   ============================================================ */
+
+:root{
+  /* chapter grounds */
+  --ink:#0c0c0a;
+  --ink-soft:#1b1b18;
+  --bone:#eeeae0;
+  --bone-dim:#d6d1c4;
+  --orange:#ff5a1f;          /* safety orange - vitals */
+  --cyan:#1e6a78;            /* faded blueprint cyan - tools */
+  --green:#1f3d2a;            /* deep archive green - nia */
+  --yellow:#f4c430;          /* construction yellow - the game */
+  --concrete:#8a8a82;         /* concrete gray - anansibuild */
+  --redline:#e8362b;          /* drafter's red */
+
+  --serif:"Fraunces", "Times New Roman", serif;
+  --sans:"Archivo", Helvetica, Arial, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--ink);
+  color:var(--bone);
+  font-family:var(--serif);
+  font-feature-settings:"ss01","ss02","ss04";
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+a{color:inherit}
+
+/* ============================================================
+   UNIVERSAL CHROME — applied to every chapter
+   ============================================================ */
+.sheet{
+  position:relative;
+  min-height:100vh;
+  padding:56px 40px 48px;
+  isolation:isolate;
+  overflow:hidden;
+}
+
+/* drafting grid behind everything */
+.sheet::before{
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background-image:
+    linear-gradient(to right, currentColor 0 1px, transparent 1px 100%),
+    linear-gradient(to bottom, currentColor 0 1px, transparent 1px 100%);
+  background-size: 48px 48px;
+  opacity:.07;
+  color:inherit;
+  z-index:0;
+}
+.sheet::after{
+  content:""; position:absolute; inset:32px; pointer-events:none;
+  border:1px solid currentColor;
+  opacity:.35;
+  z-index:0;
+}
+
+/* corner coordinates */
+.coord{
+  position:absolute; font-family:var(--mono); font-size:10px;
+  letter-spacing:.16em; text-transform:uppercase; opacity:.7;
+  z-index:2;
+}
+.coord.tl{top:14px; left:18px}
+.coord.tr{top:14px; right:18px}
+.coord.bl{bottom:14px; left:18px}
+.coord.br{bottom:14px; right:18px}
+
+/* drawing-number title block bottom-right of every sheet */
+.titleblock{
+  position:absolute; right:32px; bottom:32px;
+  z-index:4;
+  border:1px solid currentColor;
+  background:inherit;
+  display:grid; grid-template-columns: repeat(4, auto);
+  font-family:var(--mono); font-size:10px; text-transform:uppercase;
+  letter-spacing:.14em;
+}
+.titleblock > div{
+  padding:8px 12px; border-right:1px solid currentColor;
+}
+.titleblock > div:last-child{border-right:0}
+.titleblock .k{opacity:.55; font-size:8.5px; display:block; margin-bottom:2px}
+.titleblock .v{font-weight:700}
+
+/* chapter marker top-left above the main content */
+.chapter-mark{
+  position:relative; z-index:2;
+  display:flex; align-items:baseline; gap:14px;
+  font-family:var(--mono); font-size:11px; letter-spacing:.18em;
+  text-transform:uppercase; margin-bottom:32px;
+}
+.chapter-mark .num{
+  font-family:var(--serif); font-style:italic; font-weight:500;
+  font-size:28px; letter-spacing:-.02em; opacity:.85;
+}
+.chapter-mark .bar{flex:1; height:1px; background:currentColor; opacity:.4}
+
+/* redline — a red hand-drawn annotation attached to a thing */
+.redline{
+  position:absolute;
+  color:var(--redline);
+  font-family:var(--mono); font-size:11px; letter-spacing:.04em;
+  text-transform:uppercase;
+  display:flex; align-items:flex-start; gap:8px;
+  z-index:5;
+}
+.redline .tick{
+  width:22px; height:22px; border:1.5px solid currentColor;
+  border-radius:50%;
+  display:grid; place-items:center;
+  font-family:var(--serif); font-style:italic; font-size:13px;
+  flex:0 0 22px;
+}
+.redline .line{
+  max-width:220px; line-height:1.45;
+}
+.redline.under-strike .line{
+  border-bottom:1.5px solid currentColor;
+  padding-bottom:3px;
+}
+
+/* a drafting stamp */
+.stamp{
+  display:inline-grid; place-items:center;
+  padding:10px 16px;
+  border:2px solid currentColor;
+  font-family:var(--mono); font-size:11px; font-weight:700;
+  letter-spacing:.22em; text-transform:uppercase;
+  transform:rotate(-4deg);
+  position:relative;
+}
+.stamp::before, .stamp::after{
+  content:""; position:absolute; left:0; right:0; height:2px;
+  background:currentColor;
+}
+.stamp::before{top:-5px}
+.stamp::after{bottom:-5px}
+.stamp.red{color:var(--redline)}
+
+/* navigation bar — always visible, fixed */
+.nav{
+  position:fixed; top:0; left:0; right:0; z-index:100;
+  display:flex; align-items:center; gap:32px;
+  padding:14px 20px;
+  background:var(--ink);
+  border-bottom:1px solid rgba(238,234,224,.2);
+  font-family:var(--mono); font-size:11px; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--bone);
+}
+.nav .mark{font-family:var(--serif); font-weight:700; letter-spacing:-.01em; text-transform:none; font-size:16px}
+.nav .mark i{font-style:italic; color:var(--orange)}
+.nav .set{opacity:.6; margin-left:8px}
+.nav .spacer{flex:1}
+.nav a{text-decoration:none; opacity:.7; transition:opacity .15s}
+.nav a:hover{opacity:1}
+.nav .rev{
+  padding:4px 10px; border:1px solid rgba(238,234,224,.4);
+  color:var(--orange); border-color:var(--orange);
+}
+
+body{padding-top:46px}
+
+/* ============================================================
+   §00 COVER — portrait full-bleed, name at 300px
+   ============================================================ */
+.cover{
+  padding:0;
+  min-height:calc(100vh - 46px);
+  color:var(--bone);
+  background:var(--ink);
+}
+.cover::before{display:none}
+.cover::after{display:none}
+
+.cover-wrap{
+  position:relative;
+  height:calc(100vh - 46px);
+  min-height:720px;
+  display:grid;
+  grid-template-columns: 1fr;
+}
+.cover-photo{
+  position:absolute; inset:0;
+  background:url('images/headshot-primary.webp') center 30%/cover no-repeat, #000;
+  filter:saturate(.85) contrast(1.08);
+}
+.cover-photo::after{
+  content:""; position:absolute; inset:0;
+  background:
+    linear-gradient(to right, rgba(0,0,0,.65) 0%, rgba(0,0,0,.2) 40%, rgba(0,0,0,0) 70%),
+    linear-gradient(to top, rgba(0,0,0,.7) 0%, transparent 40%);
+}
+.cover-grid{
+  position:absolute; inset:0; pointer-events:none;
+  background-image:
+    linear-gradient(to right, rgba(238,234,224,.12) 0 1px, transparent 1px 100%),
+    linear-gradient(to bottom, rgba(238,234,224,.12) 0 1px, transparent 1px 100%);
+  background-size: 48px 48px;
+}
+.cover-border{
+  position:absolute; inset:32px; border:1px solid rgba(238,234,224,.5);
+  pointer-events:none;
+}
+
+.cover-name{
+  position:absolute; left:40px; right:40px; bottom:84px;
+  font-family:var(--serif);
+  font-weight:300;
+  font-size: clamp(88px, 22vw, 280px);
+  line-height:.82;
+  letter-spacing:-.055em;
+  color:var(--bone);
+  margin:0;
+  text-transform:uppercase;
+  font-variation-settings: "opsz" 144, "SOFT" 0, "WONK" 1;
+  z-index:3;
+}
+.cover-name .and{
+  font-style:italic; font-weight:400;
+  color:var(--orange);
+  font-size:.38em;
+  display:inline-block;
+  transform:translateY(-.7em);
+  letter-spacing:0;
+  text-transform:none;
+  margin:0 .04em;
+}
+.cover-name .slash{
+  color:var(--orange); font-style:italic; font-weight:400;
+}
+
+.cover-handle{
+  position:absolute; left:40px; top:56px;
+  z-index:3;
+  font-family:var(--mono); font-size:12px; letter-spacing:.2em;
+  text-transform:uppercase; color:var(--bone);
+  display:flex; align-items:center; gap:10px;
+}
+.cover-handle .dot{width:8px; height:8px; background:var(--orange); border-radius:50%}
+.cover-handle b{font-weight:700}
+
+.cover-caption{
+  position:absolute; right:40px; top:56px;
+  z-index:3;
+  text-align:right;
+  font-family:var(--mono); font-size:10px; letter-spacing:.2em;
+  text-transform:uppercase; color:var(--bone); opacity:.75;
+}
+.cover-caption b{color:var(--orange); font-weight:700; opacity:1}
+
+.cover-strap{
+  position:absolute; left:40px; right:40px; bottom:32px;
+  z-index:3;
+  display:flex; justify-content:space-between; align-items:flex-end;
+  font-family:var(--mono); font-size:10px; letter-spacing:.2em;
+  text-transform:uppercase; color:var(--bone); opacity:.75;
+}
+.cover-strap .sheet-no{
+  font-family:var(--serif); font-style:italic; font-size:22px;
+  letter-spacing:-.01em; text-transform:none; opacity:1;
+}
+
+/* orange REVISION 01 stamp on cover */
+.cover-stamp{
+  position:absolute; right:80px; top:130px;
+  z-index:4;
+}
+
+/* ============================================================
+   §01 VITALS — safety-orange ground
+   ============================================================ */
+.vitals{ background:var(--orange); color:var(--ink); }
+.vitals .coord, .vitals .chapter-mark{color:var(--ink)}
+
+.vitals-grid{
+  position:relative; z-index:2;
+  display:grid; grid-template-columns: 1.4fr 1fr;
+  gap:72px;
+  padding-top:16px;
+}
+
+.vitals-stat{
+  font-family:var(--serif); font-weight:300;
+  font-size: clamp(180px, 30vw, 420px);
+  line-height:.78;
+  letter-spacing:-.06em;
+  margin:0;
+  font-variation-settings: "opsz" 144, "WONK" 1;
+}
+.vitals-stat .pct{font-style:italic; font-weight:400}
+
+.vitals-lede{
+  font-family:var(--serif);
+  font-size:clamp(28px, 3.4vw, 48px);
+  line-height:1.08;
+  font-weight:400;
+  letter-spacing:-.015em;
+  margin:24px 0 0;
+  max-width:22ch;
+}
+.vitals-lede i{font-style:italic; background:var(--ink); color:var(--orange); padding:0 .08em}
+
+.vitals-right{
+  display:flex; flex-direction:column; justify-content:space-between;
+  padding-top:48px; padding-left:32px;
+  border-left:2px solid var(--ink);
+}
+.vitals-ledger{
+  display:grid; grid-template-columns:1fr 1fr; gap:0;
+  border-top:2px solid var(--ink);
+}
+.vitals-ledger .cell{
+  border-bottom:1px solid var(--ink);
+  padding:18px 16px 14px;
+}
+.vitals-ledger .cell:nth-child(odd){border-right:1px solid var(--ink)}
+.vitals-ledger .k{
+  font-family:var(--mono); font-size:10px; letter-spacing:.18em;
+  text-transform:uppercase; opacity:.7;
+}
+.vitals-ledger .v{
+  font-family:var(--serif); font-size:34px; line-height:1.05;
+  margin-top:6px; letter-spacing:-.01em;
+  font-variation-settings:"opsz" 36;
+}
+.vitals-ledger .v i{font-style:italic}
+.vitals-ledger .v small{font-size:14px; font-family:var(--mono); font-weight:400; opacity:.6; text-transform:uppercase; letter-spacing:.08em; display:block; margin-top:4px}
+
+.vitals-quote{
+  margin-top:40px;
+  padding-top:24px;
+  border-top:1px solid var(--ink);
+  font-family:var(--serif); font-style:italic;
+  font-size:22px; line-height:1.3;
+  max-width:28ch;
+}
+.vitals-quote cite{
+  display:block; margin-top:12px;
+  font-family:var(--mono); font-size:10px; font-style:normal;
+  letter-spacing:.18em; text-transform:uppercase; opacity:.65;
+}
+
+/* ============================================================
+   §02 TOOLS — blueprint cyan
+   ============================================================ */
+.tools{ background:var(--cyan); color:var(--bone); }
+.tools .coord, .tools .chapter-mark{color:var(--bone)}
+
+/* over-emphasize grid for the blueprint chapter */
+.tools::before{
+  background-image:
+    linear-gradient(to right, rgba(238,234,224,.18) 0 1px, transparent 1px 100%),
+    linear-gradient(to bottom, rgba(238,234,224,.18) 0 1px, transparent 1px 100%);
+  background-size: 32px 32px;
+  opacity:1;
+}
+
+.tools-inner{
+  position:relative; z-index:2;
+  display:grid; grid-template-columns: 6fr 5fr;
+  gap:72px;
+  padding-top:16px;
+}
+
+.tools-head h2{
+  font-family:var(--serif); font-weight:300;
+  font-size:clamp(96px, 14vw, 200px);
+  line-height:.84;
+  letter-spacing:-.05em;
+  margin:0;
+  font-variation-settings:"opsz" 144, "WONK" 1;
+}
+.tools-head h2 i{font-style:italic; font-weight:400; color:var(--yellow)}
+.tools-head .dek{
+  font-family:var(--serif); font-size:22px; line-height:1.4;
+  max-width:34ch; margin:28px 0 0;
+  font-style:italic;
+  opacity:.92;
+}
+
+.tools-right{ display:flex; flex-direction:column; gap:32px }
+
+/* Named apps — as large as possible cards stacked */
+.app-card{
+  display:block; text-decoration:none; color:inherit;
+  padding:22px 24px;
+  border:1.5px solid var(--bone);
+  background:rgba(0,0,0,.18);
+  transition:transform .2s ease, background .2s ease;
+  position:relative;
+}
+.app-card:hover{
+  background:var(--ink); transform:translate(-3px,-3px);
+  box-shadow: 3px 3px 0 var(--bone);
+}
+.app-card .row1{
+  display:flex; justify-content:space-between; align-items:baseline;
+  font-family:var(--mono); font-size:10px; letter-spacing:.2em;
+  text-transform:uppercase; opacity:.75;
+}
+.app-card h3{
+  font-family:var(--serif); font-weight:400; font-style:italic;
+  font-size:56px; line-height:.95; margin:8px 0 10px;
+  letter-spacing:-.02em;
+  font-variation-settings:"opsz" 72;
+}
+.app-card p{
+  font-family:var(--mono); font-size:12px; line-height:1.5;
+  margin:0; opacity:.85;
+  max-width:48ch;
+}
+.app-card .arr{
+  position:absolute; right:24px; bottom:22px;
+  font-family:var(--mono); font-size:22px;
+  transition:transform .2s ease;
+}
+.app-card:hover .arr{transform:translate(4px,-4px)}
+
+/* link-out to the full catalog */
+.catalog-linkout{
+  display:block; text-decoration:none; color:inherit;
+  padding:24px 28px;
+  border:2px solid var(--bone);
+  background:var(--bone); color:var(--ink);
+  position:relative;
+  transition:transform .2s ease, background .2s ease, color .2s ease;
+}
+.catalog-linkout:hover{
+  background:var(--ink); color:var(--bone);
+  transform:translate(-3px,-3px);
+  box-shadow: 3px 3px 0 var(--bone);
+}
+.catalog-linkout .row1{
+  display:flex; justify-content:space-between;
+  font-family:var(--mono); font-size:10px; letter-spacing:.2em;
+  text-transform:uppercase;
+}
+.catalog-linkout h3{
+  font-family:var(--serif); font-weight:300;
+  font-size:48px; line-height:.95; margin:10px 0 4px;
+  letter-spacing:-.02em;
+}
+.catalog-linkout h3 i{font-style:italic; color:var(--orange)}
+.catalog-linkout .url{
+  font-family:var(--mono); font-size:13px; letter-spacing:.02em;
+  margin-top:12px; word-break:break-all;
+  border-top:1px solid currentColor; padding-top:10px;
+  display:flex; justify-content:space-between; align-items:center;
+}
+.catalog-linkout .url .big{font-size:15px; font-weight:700}
+.catalog-linkout .url .arr{font-size:22px; transition:transform .2s ease}
+.catalog-linkout:hover .url .arr{transform:translate(4px,-4px)}
+
+/* ============================================================
+   §03 NIA — deep archive green
+   ============================================================ */
+.nia{ background:var(--green); color:var(--bone); }
+.nia .coord, .nia .chapter-mark{color:var(--bone)}
+
+.nia-inner{
+  position:relative; z-index:2;
+  display:grid; grid-template-columns: 5fr 6fr;
+  gap:56px;
+  align-items:end;
+  padding-top:16px;
+}
+.nia-left{padding-right:24px}
+.nia-left h2{
+  font-family:var(--serif); font-weight:300;
+  font-size: clamp(160px, 26vw, 360px);
+  line-height:.78;
+  letter-spacing:-.055em;
+  margin:0;
+  font-variation-settings:"opsz" 144, "WONK" 1;
+}
+.nia-left h2 .dot{color:var(--yellow)}
+.nia-left .subtitle{
+  font-family:var(--serif); font-size:22px; font-style:italic;
+  margin:16px 0 0;
+  line-height:1.35;
+  max-width:28ch;
+  opacity:.92;
+}
+.nia-left .tag{
+  display:inline-block;
+  margin-top:24px;
+  font-family:var(--mono); font-size:10.5px; letter-spacing:.2em;
+  text-transform:uppercase;
+  border:1px solid var(--bone);
+  padding:6px 12px;
+  opacity:.9;
+}
+
+.nia-right{
+  border:1.5px solid var(--bone);
+  padding:28px 32px 24px;
+  background:rgba(0,0,0,.15);
+}
+.nia-right .row1{
+  display:flex; justify-content:space-between;
+  font-family:var(--mono); font-size:10px; letter-spacing:.2em;
+  text-transform:uppercase;
+  opacity:.75;
+  margin-bottom:20px;
+}
+.nia-right h3{
+  font-family:var(--serif); font-weight:400;
+  font-size:40px; line-height:1.05; margin:0 0 14px;
+  letter-spacing:-.015em;
+  font-variation-settings:"opsz" 72;
+}
+.nia-right h3 i{font-style:italic}
+.nia-right p{
+  font-family:var(--serif); font-size:17px; line-height:1.55;
+  margin:0 0 16px;
+  font-style:italic;
+  opacity:.9;
+}
+.nia-right .cta{
+  display:flex; justify-content:space-between; align-items:center;
+  font-family:var(--mono); font-size:11px; letter-spacing:.2em;
+  text-transform:uppercase;
+  border-top:1px solid var(--bone);
+  margin-top:20px; padding-top:16px;
+  text-decoration:none; color:inherit;
+}
+.nia-right .cta .arr{font-size:20px}
+.nia-right .cta:hover .arr{color:var(--yellow)}
+
+/* ============================================================
+   §04 GAME — construction yellow
+   ============================================================ */
+.game{ background:var(--yellow); color:var(--ink); }
+.game .coord, .game .chapter-mark{color:var(--ink)}
+
+/* a caution-striped band up top */
+.game::before{
+  background-image:
+    linear-gradient(to right, rgba(12,12,10,.09) 0 1px, transparent 1px 100%),
+    linear-gradient(to bottom, rgba(12,12,10,.09) 0 1px, transparent 1px 100%);
+  opacity:1; background-size:48px 48px;
+}
+.caution-band{
+  position:absolute; left:0; right:0; top:72px;
+  height:20px;
+  background: repeating-linear-gradient(
+    135deg, var(--ink) 0 16px, var(--yellow) 16px 32px
+  );
+  z-index:1;
+}
+.game .chapter-mark{margin-top:28px}
+
+.game-inner{
+  position:relative; z-index:2;
+  display:grid; grid-template-columns: 6fr 5fr;
+  gap:64px;
+  padding-top:40px;
+}
+
+.game-title{
+  font-family:var(--serif); font-weight:300;
+  font-size:clamp(96px, 15vw, 220px);
+  line-height:.82;
+  letter-spacing:-.05em;
+  margin:0;
+  font-variation-settings:"opsz" 144, "WONK" 1;
+}
+.game-title i{font-style:italic; font-weight:400}
+.game-title .amp{font-style:italic; color:var(--redline)}
+
+.game-sub{
+  font-family:var(--serif); font-style:italic;
+  font-size:clamp(30px, 3.4vw, 48px);
+  line-height:1.1;
+  border-left:4px solid var(--ink);
+  padding:4px 0 4px 20px;
+  margin:32px 0 0;
+  max-width:20ch;
+}
+
+.game-body{
+  font-family:var(--serif); font-size:19px; line-height:1.55;
+  max-width:44ch;
+  margin:28px 0 0;
+}
+
+.game-stats{
+  display:grid; grid-template-columns:repeat(4,1fr);
+  margin-top:32px;
+  border-top:2px solid var(--ink);
+  border-bottom:2px solid var(--ink);
+}
+.game-stats .cell{
+  padding:14px 12px 14px 0;
+  border-right:1px solid var(--ink);
+}
+.game-stats .cell:last-child{border-right:0}
+.game-stats .k{font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase; opacity:.7}
+.game-stats .v{font-family:var(--serif); font-size:30px; line-height:1; margin-top:6px; letter-spacing:-.01em}
+.game-stats .v.free{font-style:italic}
+
+.game-cta{
+  display:inline-flex; justify-content:space-between; align-items:center;
+  margin-top:32px;
+  padding:20px 24px;
+  background:var(--ink); color:var(--yellow);
+  text-decoration:none;
+  font-family:var(--serif); font-size:30px; font-style:italic;
+  min-width:360px;
+  border:2px solid var(--ink);
+  transition:transform .2s ease, box-shadow .2s ease;
+  gap:32px;
+}
+.game-cta:hover{
+  transform:translate(-3px,-3px);
+  box-shadow:6px 6px 0 var(--ink);
+}
+.game-cta .meta{
+  font-family:var(--mono); font-size:11px; font-style:normal;
+  letter-spacing:.18em; text-transform:uppercase; opacity:.75;
+  text-align:right; line-height:1.5;
+}
+
+/* phone mock on the right */
+.phone{
+  position:relative;
+  width:min(320px, 100%);
+  aspect-ratio: 9/19.5;
+  margin-left:auto;
+  background:var(--ink); color:var(--yellow);
+  border:2px solid var(--ink);
+  padding:18px 16px;
+  display:flex; flex-direction:column; gap:10px;
+  font-family:var(--mono); font-size:12px;
+  box-shadow: 10px 10px 0 rgba(0,0,0,.25);
+}
+.phone .stat-row{
+  display:flex; justify-content:space-between;
+  font-size:10px; letter-spacing:.15em; opacity:.7;
+  border-bottom:1px solid var(--yellow); padding-bottom:10px;
+  margin-bottom:6px;
+}
+.phone .scene{
+  font-family:var(--serif); font-size:15px; line-height:1.4;
+  font-style:italic;
+  padding:6px 0;
+  opacity:.9;
+}
+.phone .opt{
+  padding:8px 10px;
+  border:1px dashed var(--yellow);
+  font-size:12px;
+}
+.phone .opt.picked{ background:var(--yellow); color:var(--ink); font-weight:700; border-style:solid;}
+.phone .bars{
+  margin-top:auto; display:grid; gap:6px;
+  padding-top:12px; border-top:1px solid var(--yellow);
+}
+.phone .bars .row{display:grid; grid-template-columns:34px 1fr auto; gap:10px; align-items:center; font-size:10px; letter-spacing:.1em}
+.phone .bars .bar{height:6px; background:rgba(244,196,48,.2); position:relative}
+.phone .bars .bar::after{content:""; position:absolute; left:0; top:0; bottom:0; width:var(--w); background:var(--yellow)}
+.phone .caption{
+  position:absolute; bottom:-28px; right:0;
+  font-family:var(--mono); font-size:9px; letter-spacing:.18em;
+  text-transform:uppercase; opacity:.7;
+}
+
+/* ============================================================
+   §05 ANANSIBUILD — concrete
+   ============================================================ */
+.anansi{ background:var(--concrete); color:var(--ink); }
+.anansi .coord, .anansi .chapter-mark{color:var(--ink)}
+
+.anansi::before{
+  background-image:
+    linear-gradient(to right, rgba(12,12,10,.12) 0 1px, transparent 1px 100%),
+    linear-gradient(to bottom, rgba(12,12,10,.12) 0 1px, transparent 1px 100%);
+  background-size:64px 64px;
+  opacity:1;
+}
+/* concrete texture via noise layer */
+.anansi .texture{
+  position:absolute; inset:32px; pointer-events:none; z-index:1;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(0,0,0,.08) 0 2px, transparent 3px),
+    radial-gradient(circle at 70% 60%, rgba(0,0,0,.06) 0 1.5px, transparent 2px),
+    radial-gradient(circle at 45% 85%, rgba(0,0,0,.07) 0 2px, transparent 3px),
+    radial-gradient(circle at 90% 20%, rgba(0,0,0,.08) 0 1.5px, transparent 2px),
+    radial-gradient(circle at 10% 75%, rgba(0,0,0,.05) 0 1px, transparent 2px);
+  background-size: 120px 120px, 90px 90px, 140px 140px, 80px 80px, 110px 110px;
+  mix-blend-mode:multiply;
+  opacity:.9;
+}
+
+.anansi-inner{
+  position:relative; z-index:2;
+  display:grid; grid-template-columns: 7fr 5fr;
+  gap:56px;
+  padding-top:16px;
+}
+.anansi-title{
+  font-family:var(--serif); font-weight:300;
+  font-size:clamp(120px, 18vw, 260px);
+  line-height:.82;
+  letter-spacing:-.055em;
+  margin:0;
+  font-variation-settings:"opsz" 144, "WONK" 1;
+}
+.anansi-title i{font-style:italic; font-weight:400}
+
+.anansi-body{
+  font-family:var(--serif); font-style:italic; font-size:24px; line-height:1.35;
+  max-width:34ch; margin:28px 0 0;
+}
+.anansi-right{
+  display:grid; align-content:start; gap:20px;
+  border:2px solid var(--ink);
+  padding:24px;
+  background:rgba(255,255,255,.18);
+}
+.anansi-right .row{
+  display:grid; grid-template-columns:90px 1fr; gap:14px;
+  font-family:var(--mono); font-size:12px; letter-spacing:.12em;
+  text-transform:uppercase;
+  padding-bottom:10px; border-bottom:1px solid var(--ink);
+}
+.anansi-right .row:last-child{border-bottom:0}
+.anansi-right .k{opacity:.6}
+.anansi-right .v{font-weight:700}
+.anansi-right h4{
+  font-family:var(--serif); font-style:italic; font-weight:400;
+  font-size:26px; line-height:1; margin:0 0 8px; letter-spacing:-.01em;
+}
+
+/* ============================================================
+   §06 BIO — bone / paper flip
+   ============================================================ */
+.bio{ background:var(--bone); color:var(--ink); }
+.bio .coord, .bio .chapter-mark{color:var(--ink)}
+
+.bio::before{
+  background-image:
+    linear-gradient(to right, rgba(12,12,10,.08) 0 1px, transparent 1px 100%),
+    linear-gradient(to bottom, rgba(12,12,10,.08) 0 1px, transparent 1px 100%);
+  background-size:48px 48px;
+  opacity:1;
+}
+
+.bio-inner{
+  position:relative; z-index:2;
+  display:grid; grid-template-columns: 5fr 7fr;
+  gap:64px;
+  padding-top:16px;
+}
+
+.bio-photo{
+  position:relative;
+  aspect-ratio: 4/5;
+  border:2px solid var(--ink);
+  background:#0a0a09;
+  overflow:hidden;
+}
+.bio-photo img{
+  position:absolute; inset:0;
+  width:100%; height:100%;
+  object-fit:cover;
+  filter:saturate(.9) contrast(1.03);
+}
+.bio-photo .cap{
+  position:absolute; left:0; right:0; bottom:0;
+  padding:14px 16px;
+  font-family:var(--mono); font-size:10px; letter-spacing:.2em;
+  text-transform:uppercase; color:var(--bone);
+  background:linear-gradient(to top, rgba(0,0,0,.75), transparent);
+  display:flex; justify-content:space-between;
+}
+.bio-photo .cap .orange{color:var(--orange)}
+
+.bio-body h2{
+  font-family:var(--serif); font-weight:300;
+  font-size:clamp(64px, 9vw, 144px);
+  line-height:.9;
+  letter-spacing:-.035em;
+  margin:0;
+  font-variation-settings:"opsz" 144, "WONK" 1;
+}
+.bio-body h2 i{font-style:italic; font-weight:400}
+.bio-body .lede{
+  font-family:var(--serif); font-style:italic;
+  font-size:clamp(26px, 2.6vw, 34px);
+  line-height:1.25;
+  margin:24px 0 0;
+  max-width:34ch;
+}
+.bio-body p{
+  font-family:var(--serif); font-size:18px; line-height:1.6;
+  margin:20px 0 0; max-width:60ch;
+}
+.bio-body p i{font-style:italic}
+
+.bio-ledger{
+  margin-top:40px;
+  display:grid; grid-template-columns: repeat(3,1fr); gap:0;
+  border-top:2px solid var(--ink);
+  border-bottom:2px solid var(--ink);
+}
+.bio-ledger .cell{
+  padding:16px 18px 14px 0;
+  border-right:1px solid var(--ink);
+}
+.bio-ledger .cell:last-child{border-right:0}
+.bio-ledger .k{font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase; opacity:.6}
+.bio-ledger .v{font-family:var(--serif); font-size:24px; line-height:1.1; margin-top:6px; letter-spacing:-.01em}
+.bio-ledger .v i{font-style:italic}
+
+.bio-contact{
+  margin-top:40px;
+  display:flex; flex-wrap:wrap; gap:16px;
+}
+.bio-contact a{
+  display:inline-flex; align-items:center; gap:10px;
+  padding:12px 18px;
+  border:1.5px solid var(--ink);
+  font-family:var(--mono); font-size:11px; letter-spacing:.16em;
+  text-transform:uppercase; text-decoration:none; color:var(--ink);
+  transition:background .15s ease, color .15s ease;
+}
+.bio-contact a:hover{background:var(--ink); color:var(--bone)}
+.bio-contact a .arr{opacity:.7}
+
+/* ============================================================
+   §FOOT — colophon
+   ============================================================ */
+.colo{
+  background:var(--ink); color:var(--bone);
+  padding:56px 40px 40px;
+  border-top:1px solid rgba(238,234,224,.2);
+  position:relative;
+}
+.colo::before{display:none}
+.colo::after{display:none}
+.colo-grid{
+  display:grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap:40px;
+  font-family:var(--mono); font-size:11px;
+  letter-spacing:.14em; text-transform:uppercase;
+  margin-bottom:40px;
+}
+.colo-grid h5{font-family:var(--mono); font-size:10px; opacity:.5; margin:0 0 12px; font-weight:500}
+.colo-grid a{display:block; text-decoration:none; color:inherit; opacity:.85; margin-bottom:8px}
+.colo-grid a:hover{color:var(--orange)}
+.colo-mark{
+  font-family:var(--serif); font-weight:300;
+  font-size:clamp(80px, 14vw, 200px);
+  line-height:.85; letter-spacing:-.05em;
+  margin:0;
+  font-variation-settings:"opsz" 144, "WONK" 1;
+  border-top:1px solid rgba(238,234,224,.2);
+  padding-top:24px;
+}
+.colo-mark i{font-style:italic; color:var(--orange)}
+.colo-end{
+  margin-top:16px; display:flex; justify-content:space-between;
+  font-family:var(--mono); font-size:10px; letter-spacing:.18em;
+  text-transform:uppercase; opacity:.55;
+}
+
+/* ============================================================
+   RESPONSIVE — enough to not break on small viewports
+   ============================================================ */
+@media (max-width: 960px){
+  .sheet{padding:48px 24px 40px}
+  .vitals-grid, .tools-inner, .nia-inner, .game-inner, .anansi-inner, .bio-inner, .colo-grid{
+    grid-template-columns:1fr; gap:40px;
+  }
+  .vitals-right{border-left:0; border-top:2px solid var(--ink); padding-left:0; padding-top:24px}
+  .cover-name{font-size:96px}
+  .titleblock{position:static; margin-top:32px}
+  .vitals-stat{font-size:180px}
+  .game-title, .anansi-title, .tools-head h2, .nia-left h2{font-size:96px}
+  .bio-body h2{font-size:72px}
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     NAV
+     ============================================================ -->
+<nav class="nav">
+  <span class="mark">Tom <i>Reynolds.</i></span>
+  <span class="set">Drawing Set A-001 · Issue 01</span>
+  <span class="spacer"></span>
+  <a href="#vitals">Vitals</a>
+  <a href="#tools">Tools</a>
+  <a href="#nia">Archive</a>
+  <a href="#game">The Game</a>
+  <a href="#anansi">AnansiBuild</a>
+  <a href="#bio">Bio</a>
+  <span class="rev">Rev · 01</span>
+</nav>
+
+<!-- ============================================================
+     §00  COVER
+     ============================================================ -->
+<section class="sheet cover" id="cover">
+  <div class="cover-wrap">
+    <div class="cover-photo"></div>
+    <div class="cover-grid"></div>
+    <div class="cover-border"></div>
+
+    <span class="cover-handle"><span class="dot"></span> <b>@TikTokArchitect</b> · on record</span>
+    <span class="cover-caption">Sheet <b>A-000</b> · Cover<br>Scale · 1:1</span>
+
+    <span class="cover-stamp">
+      <span class="stamp red">Rev · 01</span>
+    </span>
+
+    <h1 class="cover-name">
+      TOM<br>
+      <span class="and">the</span>REYNOLDS
+    </h1>
+
+    <div class="cover-strap">
+      <span>Green Stories LLC · Detroit, MI · Est. <b>2019</b></span>
+      <span class="sheet-no">A<i>-000.</i></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §01  VITALS
+     ============================================================ -->
+<section class="sheet vitals" id="vitals">
+  <span class="coord tl">A · 01 · 01</span>
+  <span class="coord tr">X: 00 — Y: 00</span>
+  <span class="coord bl">N 42.33° · W 83.04°</span>
+  <span class="coord br">Sheet A-001</span>
+
+  <div class="chapter-mark">
+    <span class="num">§01</span>
+    <span>Vitals · One Stat That Explains Everything</span>
+    <span class="bar"></span>
+    <span>A-001</span>
+  </div>
+
+  <div class="vitals-grid">
+    <div>
+      <h2 class="vitals-stat">2<span class="pct">%</span></h2>
+      <p class="vitals-lede">
+        of licensed U.S. architects are <i>Black.</i><br>
+        The work is closing the gap.
+      </p>
+    </div>
+
+    <div class="vitals-right">
+      <div class="vitals-ledger">
+        <div class="cell"><div class="k">Name</div><div class="v">Tom <i>Reynolds</i></div></div>
+        <div class="cell"><div class="k">Handle</div><div class="v">@TikTokArchitect</div></div>
+        <div class="cell"><div class="k">City</div><div class="v">Detroit, <i>MI</i></div></div>
+        <div class="cell"><div class="k">Firm</div><div class="v">Green Stories <i>LLC</i></div></div>
+        <div class="cell"><div class="k">Licensed</div><div class="v">Architect <small>AIA · NOMA</small></div></div>
+        <div class="cell"><div class="k">Est.</div><div class="v">2019 <small>· 6 years</small></div></div>
+      </div>
+
+      <blockquote class="vitals-quote">
+        "I don't design for clients. I design for the kid who never saw a Black architect on TV."
+        <cite>— [ placeholder / replace with real line ]</cite>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="titleblock">
+    <div><span class="k">Drawing</span><span class="v">Vitals</span></div>
+    <div><span class="k">Sheet</span><span class="v">A-001</span></div>
+    <div><span class="k">Scale</span><span class="v">As noted</span></div>
+    <div><span class="k">Date</span><span class="v">Issue 01</span></div>
+  </div>
+
+  <!-- a redline annotation to sell the construction-doc vibe -->
+  <div class="redline" style="top:20%; right:6%">
+    <span class="tick">1</span>
+    <span class="line under-strike">Lede is the stat.<br>Everything else is margin.</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     §02  TOOLS
+     ============================================================ -->
+<section class="sheet tools" id="tools">
+  <span class="coord tl">A · 02 · 01</span>
+  <span class="coord tr">GREENSTORIESLLC.COM/TOOLS.PHP</span>
+  <span class="coord bl">Free · All 23</span>
+  <span class="coord br">Sheet A-002</span>
+
+  <div class="chapter-mark">
+    <span class="num">§02</span>
+    <span>Tools · Twenty-Three Free Builds</span>
+    <span class="bar"></span>
+    <span>A-002</span>
+  </div>
+
+  <div class="tools-inner">
+    <div class="tools-head">
+      <h2>Twenty-<br>three <i>tools.</i></h2>
+      <p class="dek">
+        Free for anyone doing the work — architects, contractors,
+        students, anyone tired of paying rent to a spreadsheet.
+        [ section dek placeholder — swap in Tom's own framing. ]
+      </p>
+    </div>
+
+    <div class="tools-right">
+
+      <a class="app-card" href="#">
+        <div class="row1"><span>App · 01</span><span>Windows</span></div>
+        <h3>BalyeCleaner</h3>
+        <p>[ description placeholder — one line on what BalyeCleaner does. ]</p>
+        <span class="arr">↗</span>
+      </a>
+
+      <a class="app-card" href="#">
+        <div class="row1"><span>App · 02</span><span>Platform TBD</span></div>
+        <h3>ShambaWorks</h3>
+        <p>[ description placeholder — one line on what ShambaWorks does. ]</p>
+        <span class="arr">↗</span>
+      </a>
+
+      <a class="app-card" href="#">
+        <div class="row1"><span>App · 03</span><span>Platform TBD</span></div>
+        <h3>Lakou</h3>
+        <p>[ description placeholder — one line on what Lakou does. ]</p>
+        <span class="arr">↗</span>
+      </a>
+
+      <a class="catalog-linkout" href="https://greenstoriesllc.com/tools.php" target="_blank" rel="noopener">
+        <div class="row1"><span>Full catalog</span><span>Live · greenstoriesllc.com</span></div>
+        <h3>All <i>23.</i> Maintained at the source.</h3>
+        <div class="url">
+          <span class="big">greenstoriesllc.com/tools.php</span>
+          <span class="arr">↗</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="titleblock">
+    <div><span class="k">Drawing</span><span class="v">Tools</span></div>
+    <div><span class="k">Sheet</span><span class="v">A-002</span></div>
+    <div><span class="k">Cost</span><span class="v">$0.00</span></div>
+    <div><span class="k">Date</span><span class="v">Issue 01</span></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §03  NIA  —  Black Architecture Archive
+     ============================================================ -->
+<section class="sheet nia" id="nia">
+  <span class="coord tl">A · 03 · 01</span>
+  <span class="coord tr">The Archive</span>
+  <span class="coord bl">Black Architecture · Ongoing</span>
+  <span class="coord br">Sheet A-003</span>
+
+  <div class="chapter-mark">
+    <span class="num">§03</span>
+    <span>NIA · Black Architecture Archive</span>
+    <span class="bar"></span>
+    <span>A-003</span>
+  </div>
+
+  <div class="nia-inner">
+    <div class="nia-left">
+      <h2>NIA<span class="dot">.</span></h2>
+      <p class="subtitle">[ tagline placeholder — one line on NIA's purpose. ]</p>
+      <span class="tag">Black Architecture Archive</span>
+    </div>
+
+    <div class="nia-right">
+      <div class="row1"><span>Sheet A-003</span><span>Ongoing · Web · Free</span></div>
+      <h3>An archive of <i>every</i> Black architect this country chose to forget.</h3>
+      <p>
+        [ description placeholder — 2 short paragraphs on what NIA is, who
+        it serves, and why it exists. Replace with Tom's own words. ]
+      </p>
+      <p>
+        [ second paragraph placeholder. Keep the voice. ]
+      </p>
+      <a class="cta" href="#">
+        <span>Visit the Archive</span>
+        <span class="arr">→</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="titleblock">
+    <div><span class="k">Drawing</span><span class="v">NIA</span></div>
+    <div><span class="k">Sheet</span><span class="v">A-003</span></div>
+    <div><span class="k">Type</span><span class="v">Archive</span></div>
+    <div><span class="k">Status</span><span class="v">Ongoing</span></div>
+  </div>
+
+  <div class="redline" style="top:10%; right:4%">
+    <span class="tick">2</span>
+    <span class="line under-strike">Every Black<br>architect.<br>Every one.</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     §04  THE GAME
+     ============================================================ -->
+<section class="sheet game" id="game">
+  <div class="caution-band"></div>
+
+  <span class="coord tl">A · 04 · 01</span>
+  <span class="coord tr">Android · v1.0.0</span>
+  <span class="coord bl">Size · 7.6 MB</span>
+  <span class="coord br">Sheet A-004</span>
+
+  <div class="chapter-mark">
+    <span class="num">§04</span>
+    <span>The Game · Architect the Game</span>
+    <span class="bar"></span>
+    <span>A-004</span>
+  </div>
+
+  <div class="game-inner">
+    <div>
+      <h1 class="game-title">
+        Architect <span class="amp">the</span><br>
+        <i>Game.</i>
+      </h1>
+
+      <p class="game-sub">"Sleep is for the licensed."</p>
+
+      <p class="game-body">
+        A text-driven life simulation based on real data from the
+        architecture profession. Choose your school, survive studio
+        culture, manage money, stress, energy, and relationships
+        semester by semester. Graduate — and discover that was only
+        the beginning.
+      </p>
+
+      <div class="game-stats">
+        <div class="cell"><div class="k">Platform</div><div class="v">Android</div></div>
+        <div class="cell"><div class="k">Version</div><div class="v">1.0<i>.0</i></div></div>
+        <div class="cell"><div class="k">Size</div><div class="v">7.6 MB</div></div>
+        <div class="cell"><div class="k">Price</div><div class="v free">Free</div></div>
+      </div>
+
+      <a class="game-cta" href="#">
+        <span>Download APK<br>↓</span>
+        <span class="meta">Android · v1.0.0<br>Size · 7.6 MB</span>
+      </a>
+    </div>
+
+    <div style="position:relative">
+      <div class="phone">
+        <div class="stat-row"><span>9:48 AM</span><span>ARCHITECT ·  STUDIO · S3</span></div>
+        <div class="scene">
+          "It's 2 AM. Your model is due at 9. Your roommate asks if
+          you want to come to a party."
+        </div>
+        <div class="opt picked">&gt; Stay. Grind. Eat foam.</div>
+        <div class="opt">&gt; Go for an hour.</div>
+        <div class="opt">&gt; Burn it all down.</div>
+        <div class="bars">
+          <div class="row"><span>$</span><span class="bar" style="--w:42%"></span><span>$420</span></div>
+          <div class="row"><span>zzz</span><span class="bar" style="--w:18%"></span><span>12%</span></div>
+          <div class="row"><span>HP</span><span class="bar" style="--w:58%"></span><span>58%</span></div>
+          <div class="row"><span>rep</span><span class="bar" style="--w:74%"></span><span>74%</span></div>
+        </div>
+        <span class="caption">[ placeholder screen · illustrative ]</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="titleblock">
+    <div><span class="k">Drawing</span><span class="v">The Game</span></div>
+    <div><span class="k">Sheet</span><span class="v">A-004</span></div>
+    <div><span class="k">Platform</span><span class="v">Android</span></div>
+    <div><span class="k">Cost</span><span class="v">Free</span></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §05  ANANSIBUILD
+     ============================================================ -->
+<section class="sheet anansi" id="anansi">
+  <div class="texture"></div>
+
+  <span class="coord tl">A · 05 · 01</span>
+  <span class="coord tr">The Build</span>
+  <span class="coord bl">Platform · TBD</span>
+  <span class="coord br">Sheet A-005</span>
+
+  <div class="chapter-mark">
+    <span class="num">§05</span>
+    <span>AnansiBuild · The Build</span>
+    <span class="bar"></span>
+    <span>A-005</span>
+  </div>
+
+  <div class="anansi-inner">
+    <div>
+      <h2 class="anansi-title">Anansi<i>Build.</i></h2>
+      <p class="anansi-body">
+        [ description placeholder — what AnansiBuild is, who it serves,
+        the problem it solves. Two short sentences in Tom's voice. ]
+      </p>
+    </div>
+
+    <aside class="anansi-right">
+      <h4>Spec Sheet</h4>
+      <div class="row"><span class="k">Type</span><span class="v">[ TBD ]</span></div>
+      <div class="row"><span class="k">Platform</span><span class="v">[ TBD ]</span></div>
+      <div class="row"><span class="k">Status</span><span class="v">In progress</span></div>
+      <div class="row"><span class="k">Cost</span><span class="v">Free</span></div>
+      <div class="row"><span class="k">For</span><span class="v">[ audience ]</span></div>
+    </aside>
+  </div>
+
+  <div class="titleblock">
+    <div><span class="k">Drawing</span><span class="v">AnansiBuild</span></div>
+    <div><span class="k">Sheet</span><span class="v">A-005</span></div>
+    <div><span class="k">Status</span><span class="v">WIP</span></div>
+    <div><span class="k">Date</span><span class="v">Issue 01</span></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §06  BIO  —  paper flip
+     ============================================================ -->
+<section class="sheet bio" id="bio">
+  <span class="coord tl">A · 06 · 01</span>
+  <span class="coord tr">About · Green Stories LLC</span>
+  <span class="coord bl">Detroit, MI</span>
+  <span class="coord br">Sheet A-006</span>
+
+  <div class="chapter-mark">
+    <span class="num">§06</span>
+    <span>Bio · The Person</span>
+    <span class="bar"></span>
+    <span>A-006</span>
+  </div>
+
+  <div class="bio-inner">
+    <figure class="bio-photo">
+      <img src="images/headshot-primary.webp" alt="Tom Reynolds, portrait" />
+      <figcaption class="cap">
+        <span>Tom Reynolds</span>
+        <span class="orange">@TikTokArchitect</span>
+      </figcaption>
+    </figure>
+
+    <div class="bio-body">
+      <h2>Tom <i>Reynolds.</i></h2>
+      <p class="lede">
+        Architect in Detroit. Builds free tools. Runs an archive.
+        Makes a game. Posts receipts.
+      </p>
+      <p>
+        [ bio paragraph 1 placeholder — 3–4 sentences in Tom's voice.
+        Keep it plain. No résumé bullets. ]
+      </p>
+      <p>
+        [ bio paragraph 2 placeholder — what drives the work, what
+        you're doing about the 2%. ]
+      </p>
+
+      <div class="bio-ledger">
+        <div class="cell"><div class="k">Firm</div><div class="v">Green Stories <i>LLC</i></div></div>
+        <div class="cell"><div class="k">Based</div><div class="v">Detroit, <i>MI</i></div></div>
+        <div class="cell"><div class="k">Licensed</div><div class="v">AIA · <i>NOMA</i></div></div>
+      </div>
+
+      <div class="bio-contact">
+        <a href="#"><span>TikTok</span><span class="arr">↗</span></a>
+        <a href="#"><span>Instagram</span><span class="arr">↗</span></a>
+        <a href="#"><span>YouTube</span><span class="arr">↗</span></a>
+        <a href="mailto:hello@greenstoriesllc.com"><span>hello@greenstoriesllc.com</span><span class="arr">↗</span></a>
+        <a href="https://greenstoriesllc.com" target="_blank" rel="noopener"><span>greenstoriesllc.com</span><span class="arr">↗</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="titleblock">
+    <div><span class="k">Drawing</span><span class="v">Bio</span></div>
+    <div><span class="k">Sheet</span><span class="v">A-006</span></div>
+    <div><span class="k">Of</span><span class="v">06</span></div>
+    <div><span class="k">Date</span><span class="v">Issue 01</span></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     COLOPHON
+     ============================================================ -->
+<footer class="colo">
+  <div class="colo-grid">
+    <div>
+      <h5>Drawing Set</h5>
+      A-000 · Cover<br>
+      A-001 · Vitals<br>
+      A-002 · Tools<br>
+      A-003 · NIA<br>
+      A-004 · The Game<br>
+      A-005 · AnansiBuild<br>
+      A-006 · Bio
+    </div>
+    <div>
+      <h5>Work</h5>
+      <a href="#tools">Tools</a>
+      <a href="#game">The Game</a>
+      <a href="#nia">Archive</a>
+      <a href="#anansi">AnansiBuild</a>
+    </div>
+    <div>
+      <h5>Find</h5>
+      <a href="#">TikTok ↗</a>
+      <a href="#">Instagram ↗</a>
+      <a href="#">YouTube ↗</a>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <a href="mailto:hello@greenstoriesllc.com">hello@<br>greenstoriesllc.com</a>
+      <a href="https://greenstoriesllc.com" target="_blank" rel="noopener">greenstoriesllc.com ↗</a>
+    </div>
+  </div>
+
+  <h2 class="colo-mark">Tom <i>Reynolds.</i></h2>
+
+  <div class="colo-end">
+    <span>© Green Stories LLC · Detroit, MI</span>
+    <span>Drawing Set A-001 · Issue 01 · Rev 01</span>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -14,7 +14,7 @@ const LINKS = [
       { label: "YouTube", description: "@TikTokArchitect", url: "https://www.youtube.com/@TikTokArchitect" },
       { label: "Instagram", description: "@greenstoriesllc", url: "https://www.instagram.com/greenstoriesllc" },
       { label: "LinkedIn", description: "Tom Reynolds", url: "https://www.linkedin.com/in/tlreynolds/" },
-      { label: "Snapchat", description: "@randomtom83", url: "https://www.snapchat.com/@randomtom83" },
+      { label: "Snapchat", description: "@randomtom83", url: "https://www.snapchat.com/add/randomtom83" },
     ],
   },
   {

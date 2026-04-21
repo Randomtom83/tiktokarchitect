@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>About Tom Reynolds — TikTokArchitect</title>
+<link rel="preload" href="/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="/favicon.ico">
+<style>
+/* ===== Fonts ===== */
+@font-face{font-family:'Geist';src:url('/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2') format('woff2');font-weight:100 900;font-display:swap;}
+@font-face{font-family:'Geist Mono';src:url('/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2') format('woff2');font-weight:100 900;font-display:swap;}
+
+/* ===== Reset + Tokens ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --bg:#fafafa;
+  --bg-card:#ffffff;
+  --fg:#1a1a1a;
+  --fg-muted:#555;
+  --fg-dim:#999;
+  --accent:#c2650f;
+  --accent-muted:#c2650f18;
+  --border:#e2e2e2;
+  --ease-out:cubic-bezier(.23,1,.32,1);
+  --ease-in-out:cubic-bezier(.77,0,.175,1);
+  --font:'Geist',system-ui,-apple-system,sans-serif;
+  --mono:'Geist Mono','SF Mono',monospace;
+  font-variant-numeric:tabular-nums;
+}
+html{scroll-behavior:smooth;background:var(--bg);color:var(--fg);font-family:var(--font);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;}
+body{min-height:100dvh;overflow-x:hidden;line-height:1.6;}
+::selection{background:var(--accent);color:#fff;}
+.work-card{box-shadow:0 1px 3px rgba(0,0,0,.06);}
+a{color:var(--accent);text-decoration:none;}
+a:hover{text-decoration:underline;}
+img{display:block;max-width:100%;}
+
+/* ===== Layout ===== */
+.container{max-width:1100px;margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem);}
+.section{padding:clamp(4rem,10vh,8rem) 0;}
+.section + .section{border-top:1px solid var(--border);}
+
+/* ===== Typography ===== */
+h1{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:700;letter-spacing:-0.035em;line-height:1;}
+h2{font-size:clamp(1.5rem,3.5vw,2.25rem);font-weight:600;letter-spacing:-0.02em;line-height:1.15;margin-bottom:1.5rem;}
+h3{font-size:1.125rem;font-weight:600;letter-spacing:-0.01em;}
+.eyebrow{font-family:var(--mono);font-size:.8125rem;font-weight:400;color:var(--accent);letter-spacing:.12em;text-transform:uppercase;margin-bottom:.75rem;}
+.muted{color:var(--fg-muted);}
+.dim{color:var(--fg-dim);}
+.mono{font-family:var(--mono);}
+.max-prose{max-width:60ch;}
+
+/* ===== Hero ===== */
+.hero{padding:clamp(6rem,15vh,10rem) 0 clamp(4rem,8vh,6rem);display:grid;grid-template-columns:1fr;gap:3rem;align-items:end;}
+@media(min-width:768px){.hero{grid-template-columns:1fr 280px;}}
+.hero-portrait{width:240px;height:auto;border-radius:1.5rem;opacity:0;animation:hero-in 900ms var(--ease-out) .2s both;}
+@keyframes hero-in{from{opacity:0;transform:scale(.97);filter:blur(6px);}to{opacity:1;transform:scale(1);filter:blur(0);}}
+.hero h1{margin-bottom:.75rem;}
+.hero .subtitle{font-size:clamp(1rem,2vw,1.25rem);color:var(--fg-muted);max-width:50ch;line-height:1.5;}
+.hero .subtitle strong{color:var(--fg);font-weight:500;}
+
+/* ===== Back link ===== */
+.back{display:inline-flex;align-items:center;gap:.5rem;font-size:.875rem;color:var(--fg-muted);padding:.75rem 0;transition:color 180ms var(--ease-out);}
+.back:hover{color:var(--fg);text-decoration:none;}
+.back svg{width:16px;height:16px;transition:transform 180ms var(--ease-out);}
+.back:hover svg{transform:translateX(-3px);}
+
+/* ===== Timeline ===== */
+.timeline{position:relative;padding-left:2.5rem;}
+.timeline::before{content:'';position:absolute;left:7px;top:0;bottom:0;width:1px;background:var(--border);}
+.tl-item{position:relative;padding-bottom:2.5rem;}
+.tl-item:last-child{padding-bottom:0;}
+.tl-dot{position:absolute;left:-2.5rem;top:.35rem;width:15px;height:15px;border-radius:50%;border:2px solid var(--border);background:var(--bg);transition:border-color 300ms var(--ease-out),background 300ms var(--ease-out);}
+.tl-item.is-in .tl-dot{border-color:var(--accent);background:var(--accent-muted);}
+.tl-year{font-family:var(--mono);font-size:.8125rem;color:var(--accent);font-weight:500;margin-bottom:.25rem;}
+.tl-title{font-weight:600;font-size:1rem;margin-bottom:.25rem;}
+.tl-desc{font-size:.9375rem;color:var(--fg-muted);max-width:55ch;line-height:1.55;}
+
+/* ===== Expandable detail ===== */
+.tl-detail{max-height:0;overflow:hidden;transition:max-height 500ms var(--ease-out),opacity 400ms var(--ease-out);opacity:0;}
+.tl-item.expanded .tl-detail{max-height:600px;opacity:1;}
+.tl-toggle{display:inline-block;font-size:.8125rem;color:var(--accent);cursor:pointer;margin-top:.5rem;font-family:var(--mono);transition:color 180ms var(--ease-out);-webkit-tap-highlight-color:transparent;}
+.tl-toggle:hover{color:var(--fg);}
+.tl-toggle:active{transform:scale(.97);}
+.tl-detail-inner{padding-top:.75rem;font-size:.875rem;color:var(--fg-muted);line-height:1.6;max-width:55ch;}
+.tl-detail-inner p + p{margin-top:.5rem;}
+
+/* ===== Work Grid ===== */
+.work-grid{display:grid;grid-template-columns:1fr;gap:1.5rem;}
+@media(min-width:640px){.work-grid{grid-template-columns:1.6fr 1fr;}}
+@media(min-width:900px){.work-grid{grid-template-columns:2fr 1fr 1fr;}}
+.work-card{padding:1.75rem;border:1px solid var(--border);border-radius:1rem;background:var(--bg-card);transition:border-color 220ms var(--ease-out),transform 220ms var(--ease-out);}
+.work-card:hover{border-color:var(--fg-dim);}
+.work-card:active{transform:scale(.98);}
+.work-card h3{margin-bottom:.5rem;}
+.work-card .meta{font-family:var(--mono);font-size:.75rem;color:var(--accent);margin-bottom:.75rem;}
+.work-card p{font-size:.875rem;color:var(--fg-muted);line-height:1.55;}
+.work-card.featured{grid-column:1 / -1;display:grid;grid-template-columns:1fr;gap:1.5rem;padding:2.25rem;}
+@media(min-width:640px){.work-card.featured{grid-template-columns:2fr 1fr;}}
+
+/* ===== Credentials ===== */
+.cred-list{list-style:none;display:grid;grid-template-columns:1fr;gap:.75rem;}
+@media(min-width:640px){.cred-list{grid-template-columns:1fr 1fr;}}
+.cred-item{display:flex;align-items:baseline;gap:.75rem;font-size:.9375rem;color:var(--fg-muted);line-height:1.4;}
+.cred-item::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);flex-shrink:0;margin-top:.5rem;}
+.cred-item strong{color:var(--fg);font-weight:500;}
+
+/* ===== Quote ===== */
+.pull-quote{border-left:2px solid var(--accent);padding:1.5rem 0 1.5rem 1.5rem;margin:2rem 0;font-size:clamp(1.125rem,2.5vw,1.375rem);color:var(--fg);line-height:1.45;font-style:italic;max-width:55ch;}
+.pull-quote cite{display:block;margin-top:.75rem;font-style:normal;font-size:.875rem;color:var(--fg-muted);}
+
+/* ===== Media appearances ===== */
+.media-list{display:flex;flex-direction:column;gap:1rem;}
+.media-item{display:flex;align-items:baseline;gap:1rem;padding-bottom:1rem;border-bottom:1px solid var(--border);}
+.media-item:last-child{border-bottom:none;}
+.media-year{font-family:var(--mono);font-size:.75rem;color:var(--accent);min-width:3.5rem;flex-shrink:0;}
+.media-info{font-size:.9375rem;color:var(--fg-muted);}
+.media-info strong{color:var(--fg);font-weight:500;}
+
+/* ===== Contact strip ===== */
+.contact-strip{display:flex;flex-wrap:wrap;gap:1rem 2rem;}
+.contact-link{font-size:.9375rem;color:var(--fg-muted);transition:color 180ms var(--ease-out);display:flex;align-items:center;gap:.5rem;}
+.contact-link:hover{color:var(--fg);text-decoration:none;}
+
+/* ===== Reveal animation ===== */
+[data-reveal]{opacity:0;transform:translateY(16px);transition:opacity 550ms var(--ease-out),transform 550ms var(--ease-out);transition-delay:calc(var(--i,0) * 60ms);}
+[data-reveal].is-in{opacity:1;transform:translateY(0);}
+
+/* ===== Button ===== */
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.625rem 1.25rem;border-radius:.5rem;font-size:.875rem;font-weight:500;transition:background 180ms var(--ease-out),transform 160ms var(--ease-out);-webkit-tap-highlight-color:transparent;}
+.btn:hover{text-decoration:none;}
+.btn:active{transform:scale(.97);}
+.btn-primary{background:var(--accent);color:#fff;}
+.btn-primary:hover{background:#c2650f;}
+.btn-ghost{border:1px solid var(--border);color:var(--fg);}
+.btn-ghost:hover{border-color:var(--fg-dim);}
+
+/* ===== Footer ===== */
+.page-footer{padding:3rem 0;border-top:1px solid var(--border);font-size:.8125rem;color:var(--fg-dim);}
+
+/* ===== Reduced motion ===== */
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;}
+  [data-reveal]{opacity:1!important;transform:none!important;}
+  .hero-portrait{opacity:1!important;animation:none!important;}
+}
+
+/* ===== Touch targets ===== */
+@media(hover:none) and (pointer:coarse){
+  a,.btn,.tl-toggle{min-height:44px;display:inline-flex;align-items:center;}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Back -->
+  <div style="padding-top:1.5rem;">
+    <a href="/" class="back">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M10 12L6 8l4-4"/></svg>
+      Back to site
+    </a>
+  </div>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div>
+      <p class="eyebrow">@TikTokArchitect</p>
+      <h1>Tom Reynolds</h1>
+      <p class="subtitle">
+        Architectural designer in New Jersey. 23+ years. Builds free tools for the profession. Runs <strong>NIA: The Black Architecture Archive</strong>. Posts 1,000+ architecture videos on TikTok. Former NAACP branch president, youngest in the country. Eagle Scout. Still working on the licensed part.
+      </p>
+      <div style="display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.5rem;">
+        <a href="https://www.tiktok.com/@tiktokarchitect" target="_blank" rel="noopener" class="btn btn-primary">Watch on TikTok</a>
+        <a href="https://nia.greenstoriesllc.com" target="_blank" rel="noopener" class="btn btn-ghost">NIA Archive</a>
+      </div>
+    </div>
+    <img src="/images/professional.jpg" alt="Tom Reynolds, illustrated portrait" class="hero-portrait">
+  </header>
+
+  <!-- Philosophy quote -->
+  <section class="section" data-reveal>
+    <blockquote class="pull-quote">
+      I went to the bank today and my teller had this bangle bracelet on. She said, "I got it because I like the sound it makes." Simple, yet it got me thinking, of architecture somehow. Maybe the question to derive the answer "architecture" has little to do with grand ideas of theory, but just that human, one on one experience.
+      <cite>Tom Reynolds, ~2005</cite>
+    </blockquote>
+  </section>
+
+  <!-- Timeline -->
+  <section class="section">
+    <p class="eyebrow" data-reveal>The path</p>
+    <h2 data-reveal style="--i:1">23+ years, still building</h2>
+
+    <div class="timeline" data-reveal style="--i:2">
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2000 – 2004</div>
+        <div class="tl-title">Music teacher</div>
+        <div class="tl-desc">Piano, saxophone, choir director at First Park Music Conservatory. Before architecture, there was music.</div>
+        <span class="tl-toggle" data-toggle>more</span>
+        <div class="tl-detail"><div class="tl-detail-inner">
+          <p>Played piano, saxophone, clarinet, and violin. Marched with the band. Was in orchestra. Once played Aaron Copland's Hoe-Down on a stranger's violin in Penn Station.</p>
+        </div></div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2002</div>
+        <div class="tl-title">MLK Scholarship recipient, Montclair</div>
+        <div class="tl-desc">Would return 10 years later as the featured speaker at the 23rd Annual Dr. Martin Luther King Scholarship Breakfast.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2005 – 2008</div>
+        <div class="tl-title">Fencing, NJIT</div>
+        <div class="tl-desc">Epee. Men's fencing team. His father Isadore also fenced epee at NJIT in 1983.</div>
+        <span class="tl-toggle" data-toggle>more</span>
+        <div class="tl-detail"><div class="tl-detail-inner">
+          <p>Coached by his best friend Donovan Holtz, who was ranked 12th in the nation. They met through the high school marching band when Tom had borrowed Donovan's clarinet music.</p>
+          <p>His NJIT bio line: "hard to advise a wiseman."</p>
+        </div></div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2008</div>
+        <div class="tl-title">NJIT, Bachelor of Architecture</div>
+        <div class="tl-desc">Minor: Communication. New Jersey Institute of Technology.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">~2003 – 2012</div>
+        <div class="tl-title">John J. Perkins, AIA</div>
+        <div class="tl-desc">Nearly a decade as lead architectural designer. Mack-Cali commercial work. Financial-brand offices, non-profit fitouts, a test kitchen for a national brand.</div>
+        <span class="tl-toggle" data-toggle>more</span>
+        <div class="tl-detail"><div class="tl-detail-inner">
+          <p>The first architecture internship came through a Boy Scout connection. The father of his old patrol leader responded to a cold email: "Tom Reynolds, Troop 12 Montclair? Come in, I'll find a spot for you." They worked together for approximately 9 years.</p>
+        </div></div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2010 – 2014</div>
+        <div class="tl-title">NAACP Montclair Branch President</div>
+        <div class="tl-desc">Youngest branch president in the country at the time. Increased membership over 100%, finances over 150%.</div>
+        <span class="tl-toggle" data-toggle>more</span>
+        <div class="tl-detail"><div class="tl-detail-inner">
+          <p>Revived Montclair's ACT-SO program after nearly 10 years of dormancy. Led financial literacy workshops and voter engagement. Organized community forums after the Zimmerman acquittal. Wrote public letters on racial profiling. Also served as NJ NAACP State Treasurer.</p>
+        </div></div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2011</div>
+        <div class="tl-title">Comcast Newsmakers</div>
+        <div class="tl-desc">Television appearance, September 2011. <a href="https://www.youtube.com/watch?v=3QrlTqjqplU" target="_blank" rel="noopener" style="color:var(--accent)">Watch &rarr;</a></div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2011</div>
+        <div class="tl-title">The Giblin Report</div>
+        <div class="tl-desc">Television appearance, September 2011. Segment starts at 16:32. <a href="https://www.youtube.com/watch?v=QkHt9KJWGEQ&t=992" target="_blank" rel="noopener" style="color:var(--accent)">Watch &rarr;</a></div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2012 – 2019</div>
+        <div class="tl-title">Montclair Zoning Board of Adjustment</div>
+        <div class="tl-desc">Board member. Testified at council meetings about the 30% poverty rate in the 4th Ward.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2012</div>
+        <div class="tl-title">MLK Breakfast featured speaker</div>
+        <div class="tl-desc">George Inness Atrium, Montclair High School. 10 years earlier he'd been a scholarship recipient. This time he was behind the microphone.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2013</div>
+        <div class="tl-title">Comcast Newsmakers</div>
+        <div class="tl-desc">Second television appearance, March 2013. <a href="https://www.youtube.com/watch?v=QkHt9KJWGEQ" target="_blank" rel="noopener" style="color:var(--accent)">Watch &rarr;</a></div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">MBA Architects</div>
+        <div class="tl-title">Historic restorations</div>
+        <div class="tl-desc">Residential, small commercial, medical. Projects took the Bricks & Mortar Preservation Award and the Super Service Award.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2020 – 2025</div>
+        <div class="tl-title">Warden, Christ Church in Bloomfield & Glen Ridge</div>
+        <div class="tl-desc">Commissioned January 2023. Also served as the church's livestream technician. Reader of Names at the Episcopal Diocese of Newark's COVID-19 Remembrance Service, March 2025.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2021</div>
+        <div class="tl-title">@TikTokArchitect begins</div>
+        <div class="tl-desc">First videos. Architecture education, 60 seconds at a time. Now over 1,000 videos.</div>
+        <span class="tl-toggle" data-toggle>more</span>
+        <div class="tl-detail"><div class="tl-detail-inner">
+          <p>Featured on EntreArchitect Podcast Episode 423 ("TikTok for Architects", November 2021). Talking Home Renovations Episode 44 ("TikTok Architect", April 2021). Academy of Art University Black Architect Series (February 2021). ArtsHelp.com interview.</p>
+        </div></div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2013 – Present</div>
+        <div class="tl-title">Green Stories LLC — Principal</div>
+        <div class="tl-desc">Principal. 22 free professional tools. NIA. AnansiBuild (beta). Architect the Game. Content-to-curriculum pipeline. Still working on the licensed part.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- The work -->
+  <section class="section">
+    <p class="eyebrow" data-reveal>The work</p>
+    <h2 data-reveal style="--i:1">What he's building</h2>
+
+    <div class="work-grid" data-reveal style="--i:2">
+
+      <div class="work-card featured">
+        <div>
+          <h3>NIA: The Black Architecture Archive</h3>
+          <div class="meta">nia.greenstoriesllc.com</div>
+          <p>Architect profiles. Video interviews. Data on diversity in the profession. Built by a designer in active practice, not by a historian after the fact. There are fewer than 3,000 Black architects in the United States. About 2,500 are men. NIA exists so those stories don't disappear.</p>
+        </div>
+        <div style="display:flex;align-items:end;">
+          <a href="https://nia.greenstoriesllc.com" target="_blank" rel="noopener" class="btn btn-ghost" style="margin-top:auto;">Visit NIA</a>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <h3>22 Free Tools</h3>
+        <div class="meta">6 categories</div>
+        <p>Footing calculator, egress width, fire separation, FAR/lot coverage, fixture counts, occupant load, joist selector, pipe sizing, and more. No signup, no paywall. Built by a designer who actually uses them.</p>
+        <a href="https://greenstoriesllc.com/tools.php" target="_blank" rel="noopener" class="btn btn-ghost" style="margin-top:.75rem;">View Tools</a>
+      </div>
+
+      <div class="work-card">
+        <h3>Architect the Game</h3>
+        <div class="meta">Android &middot; v1.0.0 &middot; 7.6 MB</div>
+        <p>From your first all-nighter to the ARE, every decision branches. Every choice costs something. Sleep is for the licensed.</p>
+      </div>
+
+      <div class="work-card">
+        <h3>AnansiBuild</h3>
+        <div class="meta">Revit 2026 &middot; Private Beta</div>
+        <p>Revit-to-3MF exporter for 3D printing architectural models. 26 printers. 19 scales. Auto material separation. Named after the West African folk hero who carried wisdom across the world in a pot.</p>
+      </div>
+
+      <div class="work-card">
+        <h3>ShambaWorks</h3>
+        <div class="meta">Android &middot; v1.0.0 &middot; 17.7 MB</div>
+        <p>A flower bed planning app that goes to the nursery with you. Snap your bed, add flowers as you shop, set a budget &mdash; get a visual planting map and shopping list before you check out. From the Swahili word <em>shamba</em>, meaning a cultivated garden.</p>
+      </div>
+
+      <div class="work-card">
+        <h3>BalyeCleaner</h3>
+        <div class="meta">Windows &middot; v1.0.0</div>
+        <p>Sweep your project folders clean. Scans for outdated Revit backup files (.0001.rvt, .0002.rvt) and AutoCAD backups (.bak), compares dates against the parent file, and deletes the dead weight &mdash; while flagging any backup that&rsquo;s newer than the original so nothing gets lost.</p>
+      </div>
+
+      <div class="work-card">
+        <h3>@TikTokArchitect</h3>
+        <div class="meta">1,000+ videos</div>
+        <p>Architecture education, 60 seconds at a time. Code compliance walkthroughs, tool demos, ARE prep, and the actual experience of being a Black designer in a profession that doesn't always expect to see you.</p>
+        <a href="https://www.tiktok.com/@tiktokarchitect" target="_blank" rel="noopener" class="btn btn-ghost" style="margin-top:.75rem;">Watch on TikTok</a>
+      </div>
+
+      <div class="work-card">
+        <h3>Transformation</h3>
+        <div class="meta">Anchor & Edge Romance Series, Book 1 &middot; Novel &middot; In revision</div>
+        <p>A corporate VP who has forgotten she can want anything. A consultant who reads everyone but no longer trusts himself. A workplace. A question neither of them is ready for. Dual-POV contemporary romance. In revision with editor Nina Roy.</p>
+      </div>
+
+      <div class="work-card">
+        <h3>Empty</h3>
+        <div class="meta">Memoir &middot; ~18,500 words &middot; In progress</div>
+        <p>A phone call. A two-hour drive. A garage door opener on the kitchen counter. A memoir about the woman who raised him and the questions she left behind.</p>
+      </div>
+
+      <div class="work-card">
+        <h3>3 Little Pigs, Part 2</h3>
+        <div class="meta">Children's book &middot; Architecture education</div>
+        <p>What happened after the original three little pigs grew up? Their kids build houses with real construction methods. One ignores the energy code. One goes full brutalist. And the wolf has been working construction.</p>
+      </div>
+
+      <div class="work-card">
+        <h3>The Zizzle-Who and the Giggle-Fruit Tree</h3>
+        <div class="meta">Children's picture book &middot; Published &middot; $14.99</div>
+        <p>In the land of Hum-a-Hoo, a blue Zizzle-Who arrives and is met with fear. They build a wall. But one little Hum-a-Hoo named Pip-a-Dee-Pop sees something the others won't.</p>
+      </div>
+
+      <div class="work-card">
+        <h3>Norma's Rhythm</h3>
+        <div class="meta">32-page picture book &middot; Illustrated by Natalya Garmaza</div>
+        <p>A picture book in verse about Norma Merrick Sklarek. For children who haven't been told they can do this.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Another quote -->
+  <section class="section" data-reveal>
+    <blockquote class="pull-quote">
+      He designed an iron table that would transmit vibrations from a brandy snifter in the den through the wall to the living room. Small holes framed like pictures so you could see feet appear and disappear on stairs. These are the moments I love.
+      <cite>Tom Reynolds, on architecture</cite>
+    </blockquote>
+  </section>
+
+  <!-- Credentials -->
+  <section class="section">
+    <p class="eyebrow" data-reveal>Credentials</p>
+    <h2 data-reveal style="--i:1">What's on the wall</h2>
+    <ul class="cred-list" data-reveal style="--i:2">
+      <li class="cred-item"><strong>NJIT, B.Arch 2008</strong> — Minor: Communication</li>
+      <li class="cred-item"><strong>Associate AIA</strong> — American Institute of Architects</li>
+      <li class="cred-item"><strong>LEED Green Associate</strong> — US Green Building Council</li>
+      <li class="cred-item"><strong>OSHA 30-hour</strong></li>
+      <li class="cred-item"><strong>FEMA Hurriplan</strong> — Resilient Design for Coastal Communities</li>
+      <li class="cred-item"><strong>NJ NOMA</strong> — Co-founder, former Parliamentarian, former VP</li>
+      <li class="cred-item"><strong>Eagle Scout with 2 Palms</strong> — Troop 12 Montclair</li>
+      <li class="cred-item"><strong>NAACP Montclair Branch President</strong> — 2010-2014, youngest in the country</li>
+      <li class="cred-item"><strong>NJ Governor's Award in Arts</strong></li>
+      <li class="cred-item"><strong>Bricks & Mortar Preservation Award</strong></li>
+      <li class="cred-item"><strong>Zoning Board of Adjustment</strong> — Montclair, 2012-2019</li>
+    </ul>
+  </section>
+
+  <!-- Media -->
+  <section class="section">
+    <p class="eyebrow" data-reveal>Press & media</p>
+    <h2 data-reveal style="--i:1">Where he's shown up</h2>
+    <div class="media-list" data-reveal style="--i:2">
+      <div class="media-item">
+        <span class="media-year">2025</span>
+        <span class="media-info"><strong>Episcopal Diocese of Newark</strong> — Reader of Names, COVID-19 5th Anniversary Remembrance Service</span>
+      </div>
+      <div class="media-item">
+        <span class="media-year">2021</span>
+        <span class="media-info"><a href="https://entrearchitect.com/podcast/ea423/" target="_blank" rel="noopener"><strong>EntreArchitect Podcast</strong> Ep. 423</a> — "TikTok for Architects" (38 min, host Mark R. LePage)</span>
+      </div>
+      <div class="media-item">
+        <span class="media-year">2021</span>
+        <span class="media-info"><a href="https://www.talkinghomerenovations.com/podcast/episode/tiktok-architect" target="_blank" rel="noopener"><strong>Talking Home Renovations</strong> Ep. 44</a> — "TikTok Architect"</span>
+      </div>
+      <div class="media-item">
+        <span class="media-year">2021</span>
+        <span class="media-info"><a href="https://architecture.academyart.edu/portfolio-item/black-architect-series-for-black-history-month/" target="_blank" rel="noopener"><strong>Academy of Art University</strong></a> — Black Architect Series, School of Architecture</span>
+      </div>
+      <div class="media-item">
+        <span class="media-year">2021</span>
+        <span class="media-info"><a href="https://artshelp.com/interview-with-african-american-architect-tom-reynolds/" target="_blank" rel="noopener"><strong>ArtsHelp.com</strong></a> — Interview: "African-American Architect Tom Reynolds"</span>
+      </div>
+      <div class="media-item">
+        <span class="media-year">2014</span>
+        <span class="media-info"><a href="https://www.njspotlightnews.org/video/major-files-lawsuit-against-state-police-alleging-racial-discrimination/" target="_blank" rel="noopener"><strong>NJ Spotlight News / NJTV</strong></a> — Quoted on Major Lewis racial discrimination lawsuit</span>
+      </div>
+      <div class="media-item">
+        <span class="media-year">2013</span>
+        <span class="media-info"><a href="https://montclairlocal.news" target="_blank" rel="noopener"><strong>Montclair Local</strong></a> — Op-ed on the Zimmerman acquittal, written from the floor of the NAACP National Convention</span>
+      </div>
+      <div class="media-item">
+        <span class="media-year">2012</span>
+        <span class="media-info"><strong>MLK Scholarship Breakfast</strong> — Featured speaker, 23rd Annual, George Inness Atrium, Montclair High School</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing quote -->
+  <section class="section" data-reveal>
+    <blockquote class="pull-quote">
+      My undying infatuation with the unfinished work has left me wondering what if I was to finish or even worse, be recognized for my accomplishments. Everyone sees all this potential in me, and I'm scared of if it actually becomes kinetic.
+      <cite>Tom Reynolds</cite>
+    </blockquote>
+    <p class="muted" style="margin-top:1rem;max-width:55ch;">He keeps on keepin' on.</p>
+  </section>
+
+  <!-- Contact -->
+  <section class="section">
+    <p class="eyebrow" data-reveal>Connect</p>
+    <div class="contact-strip" data-reveal style="--i:1">
+      <a href="mailto:Tom@TikTokArchitect.com" class="contact-link">Tom@TikTokArchitect.com</a>
+      <a href="https://www.tiktok.com/@tiktokarchitect" target="_blank" rel="noopener" class="contact-link">TikTok</a>
+      <a href="https://nia.greenstoriesllc.com" target="_blank" rel="noopener" class="contact-link">NIA Archive</a>
+      <a href="/" class="contact-link">tiktokarchitect.com</a>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section style="background:#0a0a0a;padding:5rem 1.5rem;text-align:center;">
+    <div style="max-width:700px;margin:0 auto;">
+      <p style="font-family:monospace;font-size:.8125rem;letter-spacing:.15em;text-transform:uppercase;color:#4ade80;margin-bottom:1rem;">Stay in the loop</p>
+      <h2 style="font-size:clamp(1.75rem,4vw,2.25rem);font-weight:700;color:#fff;margin-bottom:1rem;">New tools, new builds, and the occasional honest thought about architecture.</h2>
+      <p style="color:#a0a0a0;font-size:1.125rem;margin-bottom:2rem;">No spam. Just the work. Subscribe.</p>
+      <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+      <form action="https://app.kit.com/forms/9321763/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="9321763" data-uid="5251a77cf5" data-format="inline" data-version="5" min-width="400 500 600 700 800" style="background-color:transparent;border:none;max-width:100%;">
+        <div data-style="minimal" style="padding:0;">
+          <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+          <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields" style="display:flex;gap:8px;max-width:500px;margin:0 auto;">
+            <div class="formkit-field" style="flex:1;">
+              <input class="formkit-input" name="email_address" aria-label="Email Address" placeholder="Email Address" required="" type="email" style="color:#fff;background:#1a1a1a;border:1px solid rgba(74,222,128,0.3);border-radius:8px;font-size:1rem;padding:14px 16px;">
+            </div>
+            <button data-element="submit" class="formkit-submit" style="color:#0c0c0c;background-color:#4ade80;border-radius:8px;font-weight:600;font-size:1rem;padding:0 24px;border:none;cursor:pointer;">
+              <div class="formkit-spinner"><div></div><div></div><div></div></div>
+              <span>Subscribe</span>
+            </button>
+          </div>
+          <p style="color:#a0a0a0;font-size:.8125rem;margin-top:1rem;">Unsubscribe at any time.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <p>&copy; Tom Reynolds / TikTokArchitect. This page is not indexed.</p>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  // Scroll reveal
+  if(typeof IntersectionObserver==='undefined')return;
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}
+    });
+  },{rootMargin:'0px 0px -6% 0px',threshold:0.05});
+  document.querySelectorAll('[data-reveal]').forEach(function(el){
+    var r=el.getBoundingClientRect();
+    if(r.top<window.innerHeight*.94){el.classList.add('is-in');}
+    else io.observe(el);
+  });
+
+  // Timeline items reveal
+  var tio=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){e.target.classList.add('is-in');tio.unobserve(e.target);}
+    });
+  },{rootMargin:'0px 0px -10% 0px',threshold:0.1});
+  document.querySelectorAll('.tl-item').forEach(function(el){
+    var r=el.getBoundingClientRect();
+    if(r.top<window.innerHeight*.9){el.classList.add('is-in');}
+    else tio.observe(el);
+  });
+
+  // Toggle expand
+  document.querySelectorAll('[data-toggle]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var item=btn.closest('.tl-item');
+      var expanded=item.classList.toggle('expanded');
+      btn.textContent=expanded?'less':'more';
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

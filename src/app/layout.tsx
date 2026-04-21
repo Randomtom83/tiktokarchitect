@@ -5,16 +5,19 @@ import "./globals.css";
 const fraunces = Fraunces({
   variable: "--font-serif",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const archivo = Archivo({
   variable: "--font-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -41,7 +44,10 @@ export default function RootLayout({
       lang="en"
       className={`${fraunces.variable} ${archivo.variable} ${jetbrainsMono.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        <a href="#main" className="skip-link">Skip to content</a>
+        {children}
+      </body>
     </html>
   );
 }

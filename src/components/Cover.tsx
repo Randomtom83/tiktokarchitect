@@ -4,6 +4,8 @@ export default function Cover() {
       {/* Full-bleed photo */}
       <div
         className="absolute inset-0 bg-cover bg-[center_30%]"
+        role="img"
+        aria-label="Tom Reynolds, architectural designer"
         style={{
           backgroundImage: "url('/images/headshot-primary.webp')",
           filter: "saturate(0.85) contrast(1.08)",

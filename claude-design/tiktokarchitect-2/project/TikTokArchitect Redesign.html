@@ -1,0 +1,1128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>TikTokArchitect — Redesign</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,300;1,6..72,400;1,6..72,500&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   TIKTOKARCHITECT — EDITORIAL REDESIGN
+   Dark mode preserved, #4ade80 preserved.
+   Type: Newsreader (display serif) + Inter Tight (UI) + JetBrains Mono (technical).
+   ========================================================= */
+
+:root{
+  /* color — dark mode preserved */
+  --bg:        #0a0a0a;
+  --bg-alt:    #0f0f0f;
+  --bg-card:   #121212;
+  --ink:       #f4f4f0;
+  --ink-soft:  #b4b4ac;
+  --ink-dim:   #6a6a62;
+  --rule:      #1e1e1c;
+  --rule-soft: #161614;
+  --green:     #4ade80;   /* locked */
+  --green-dim: #2e8c52;
+  --ember:     #f97316;   /* used only as the brand gradient accent, preserved */
+
+  /* type scale — editorial, drafting-table */
+  --serif: "Newsreader", "GT Sectra", Georgia, serif;
+  --sans:  "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --mono:  "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* grid */
+  --gut: 24px;
+  --col: minmax(0, 1fr);
+  --max: 1360px;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+html{background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-feature-settings:"ss01","cv11","kern";font-variant-numeric:tabular-nums lining-nums}
+body{min-height:100vh;overflow-x:hidden}
+::selection{background:var(--green);color:#062412}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+/* ---------- grid overlay (Tweaks) ---------- */
+body[data-grid="on"]::after{
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:200;
+  background:
+    linear-gradient(to right, rgba(74,222,128,.08) 1px, transparent 1px) 0 0/calc((100vw - 2 * 48px) / 12) 100%,
+    linear-gradient(to right, transparent calc(100vw - 48px), rgba(74,222,128,.12) calc(100vw - 48px)),
+    linear-gradient(to right, rgba(74,222,128,.12) 48px, transparent 48px);
+  mix-blend-mode:screen;
+}
+
+/* ---------- layout helpers ---------- */
+.wrap{max-width:var(--max);margin:0 auto;padding:0 48px}
+@media (max-width:720px){ .wrap{padding:0 24px} }
+
+.rule{height:1px;background:var(--rule);width:100%}
+.rule-green{height:1px;background:var(--green);width:100%;opacity:.9}
+
+/* ---------- monospace eyebrow ---------- */
+.eyebrow{
+  font-family:var(--mono); font-size:12px; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--green); font-weight:500;
+  display:inline-flex; align-items:center; gap:10px;
+}
+.eyebrow::before{
+  content:""; width:24px; height:1px; background:var(--green); display:inline-block;
+}
+.eyebrow.no-rule::before{display:none}
+
+.meta{
+  font-family:var(--mono); font-size:11px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--ink-dim); font-weight:500;
+}
+
+/* ---------- NAV ---------- */
+.nav{
+  position:sticky; top:0; z-index:50; background:rgba(10,10,10,.82);
+  backdrop-filter:saturate(140%) blur(12px);
+  border-bottom:1px solid var(--rule);
+}
+.nav-inner{
+  max-width:var(--max); margin:0 auto; padding:0 48px; height:64px;
+  display:flex; align-items:center; justify-content:space-between;
+}
+.brand{display:flex;align-items:baseline;gap:10px;font-family:var(--sans);font-weight:700;letter-spacing:-.01em}
+.brand b{font-size:15px}
+.brand .slash{color:var(--green)}
+.brand .tag{font-family:var(--mono);font-size:11px;color:var(--ink-dim);letter-spacing:.14em;text-transform:uppercase}
+.nav-links{display:flex;gap:28px;align-items:center;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+.nav-links a{color:var(--ink-soft);transition:color .18s}
+.nav-links a:hover{color:var(--ink)}
+.nav-cta{
+  font-family:var(--sans); font-size:13px; font-weight:600; letter-spacing:0;
+  text-transform:none; color:#062412; background:var(--green);
+  padding:8px 14px; border-radius:2px; transition:background .18s;
+}
+.nav-cta:hover{background:#3bcc70}
+
+/* ---------- HERO — 2% DOMINANT ---------- */
+.hero{
+  position:relative; padding:72px 0 64px;
+  border-bottom:1px solid var(--rule);
+  background:
+    radial-gradient(1200px 400px at 85% -10%, rgba(74,222,128,.06), transparent 60%),
+    var(--bg);
+  overflow:hidden;
+}
+.hero-grid{
+  display:grid; grid-template-columns: 7fr 5fr; gap:64px; align-items:end;
+}
+.hero-left .stat{
+  font-family:var(--serif);
+  font-weight:500;
+  font-style:italic;
+  font-size: clamp(120px, 18vw, 260px);
+  line-height:.82;
+  letter-spacing:-.04em;
+  color:var(--ink);
+  margin:0;
+  position:relative;
+  font-variant-numeric: lining-nums;
+}
+.hero-left .stat .pct{
+  color:var(--green);
+  font-style:italic;
+  display:inline-block;
+}
+.hero-lede{
+  font-family:var(--serif);
+  font-weight:400;
+  font-size:clamp(28px, 2.6vw, 38px);
+  line-height:1.18;
+  letter-spacing:-.015em;
+  color:var(--ink);
+  max-width:640px;
+  margin:28px 0 0;
+}
+.hero-lede em{color:var(--green);font-style:italic}
+.hero-tag{
+  display:flex; align-items:center; gap:14px; margin-top:20px;
+  font-family:var(--mono); font-size:12px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--ink-dim);
+}
+.hero-tag .dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
+
+/* right column — register-style identity card */
+.hero-right{
+  border-left:1px solid var(--rule);
+  padding-left:40px;
+  padding-bottom:8px;
+  display:flex; flex-direction:column; gap:18px;
+  font-family:var(--mono); font-size:12px; color:var(--ink-soft);
+  letter-spacing:.04em;
+  min-height:440px;
+  justify-content:flex-end;
+}
+.hero-right .row{display:grid; grid-template-columns: 72px 1fr; gap:20px; padding:10px 0; border-bottom:1px solid var(--rule-soft)}
+.hero-right .row:last-of-type{border-bottom:none}
+.hero-right .k{color:var(--ink-dim); text-transform:uppercase; letter-spacing:.14em; font-size:10.5px; padding-top:2px}
+.hero-right .v{font-family:var(--sans); color:var(--ink); font-size:14px; letter-spacing:-.005em}
+.hero-right .v b{font-weight:600}
+.hero-right .v .g{color:var(--green)}
+.hero-cta-row{display:flex; gap:10px; margin-top:10px; flex-wrap:wrap}
+.btn{
+  display:inline-flex; align-items:center; gap:8px;
+  font-family:var(--sans); font-size:13px; font-weight:600;
+  padding:11px 16px; border-radius:2px; transition:transform .15s, background .18s, color .18s;
+  border:1px solid transparent;
+}
+.btn-primary{background:var(--green); color:#062412}
+.btn-primary:hover{background:#3bcc70}
+.btn-ghost{background:transparent; color:var(--ink); border-color:var(--rule)}
+.btn-ghost:hover{border-color:var(--green); color:var(--green)}
+.btn:active{transform:scale(.97)}
+.btn .arr{font-family:var(--mono); font-weight:400}
+
+/* hero footer ruler — signals a "published" masthead */
+.masthead-ruler{
+  display:flex; align-items:center; gap:24px;
+  padding:14px 0; margin-top:56px;
+  border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+  font-family:var(--mono); font-size:11px; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--ink-dim);
+  overflow:hidden; white-space:nowrap;
+}
+.masthead-ruler b{color:var(--ink);font-weight:500}
+.masthead-ruler .sep{color:var(--ink-dim)}
+
+/* ---------- SECTION SHELL (editorial, no card grid) ---------- */
+.section{ padding:120px 0; border-bottom:1px solid var(--rule); position:relative }
+.section-head{
+  display:grid; grid-template-columns: 2fr 3fr; gap:64px; align-items:end;
+  padding-bottom:48px; border-bottom:1px solid var(--rule);
+  margin-bottom:64px;
+}
+.section-head .label{display:flex;flex-direction:column;gap:18px}
+.section-head h2{
+  font-family:var(--serif);
+  font-weight:400;
+  font-size:clamp(48px, 6vw, 88px);
+  line-height:.95;
+  letter-spacing:-.028em;
+  margin:0;
+  color:var(--ink);
+}
+.section-head h2 i{ font-style:italic; color:var(--green); font-weight:400 }
+.section-head .dek{
+  font-family:var(--serif);
+  font-size:22px; line-height:1.45;
+  color:var(--ink-soft);
+  max-width:560px; margin:0;
+}
+.section-index{
+  font-family:var(--mono); font-size:11px; color:var(--ink-dim);
+  letter-spacing:.18em; text-transform:uppercase;
+  display:flex; justify-content:space-between; margin-bottom:24px;
+}
+.section-index b{color:var(--ink)}
+
+/* =========================================================
+   SECTION — THE ARSENAL (Tools & Software)
+   23 tools as a numbered ledger, not a card grid.
+   ========================================================= */
+.arsenal{
+  display:grid; grid-template-columns: 1fr; gap:0;
+}
+.tool-row{
+  display:grid;
+  grid-template-columns: 56px 1fr 2fr 110px 120px;
+  gap:32px;
+  padding:22px 0;
+  border-bottom:1px solid var(--rule);
+  align-items:baseline;
+  position:relative;
+  transition:background .15s;
+}
+.tool-row:hover{background:rgba(74,222,128,.03)}
+.tool-row:hover .t-name{color:var(--green)}
+.tool-row:hover .t-arr{opacity:1; transform:translateX(4px)}
+.tool-row .t-num{
+  font-family:var(--mono); font-size:12px; color:var(--ink-dim);
+  letter-spacing:.1em;
+}
+.tool-row .t-name{
+  font-family:var(--serif); font-size:30px; line-height:1; letter-spacing:-.018em;
+  color:var(--ink); font-weight:400;
+  transition:color .18s;
+}
+.tool-row .t-name em{font-style:italic}
+.tool-row .t-desc{
+  font-family:var(--sans); font-size:15px; line-height:1.5; color:var(--ink-soft);
+}
+.tool-row .t-type{
+  font-family:var(--mono); font-size:11px; color:var(--ink-dim); letter-spacing:.14em;
+  text-transform:uppercase; text-align:right;
+}
+.tool-row .t-type .free{color:var(--green)}
+.tool-row .t-arr{
+  font-family:var(--mono); font-size:14px; color:var(--green);
+  text-align:right; opacity:.4; transition:opacity .18s, transform .18s;
+}
+.arsenal-foot{
+  display:flex; justify-content:space-between; align-items:baseline;
+  padding-top:24px; margin-top:8px; border-top:1px solid var(--green);
+}
+.arsenal-foot .tally{
+  font-family:var(--serif); font-size:22px; color:var(--ink);
+}
+.arsenal-foot .tally b{color:var(--green); font-style:italic; font-weight:500}
+
+/* =========================================================
+   SECTION — ARCHITECT THE GAME (feature spread)
+   Asymmetric editorial treatment with pull quote.
+   ========================================================= */
+.game-section{
+  padding:140px 0;
+  border-bottom:1px solid var(--rule);
+  background:
+    linear-gradient(180deg, var(--bg) 0%, #0c0c0c 100%);
+  position:relative;
+  overflow:hidden;
+}
+.game-grid{
+  display:grid; grid-template-columns: 5fr 7fr; gap:72px; align-items:start;
+}
+.game-left .kicker{margin-bottom:28px}
+.game-title{
+  font-family:var(--serif);
+  font-weight:400;
+  font-size:clamp(60px, 7.2vw, 112px);
+  line-height:.9;
+  letter-spacing:-.03em;
+  margin:0 0 32px;
+  color:var(--ink);
+}
+.game-title i{font-style:italic;color:var(--green)}
+.game-sub{
+  font-family:var(--serif); font-style:italic; font-size:26px;
+  line-height:1.25; color:var(--green); margin:0 0 32px;
+  padding-left:18px; border-left:2px solid var(--green);
+}
+.game-body{
+  font-family:var(--serif); font-size:19px; line-height:1.55;
+  color:var(--ink-soft); margin:0 0 20px; max-width:500px;
+}
+.game-body b{color:var(--ink); font-weight:500}
+.game-meta{
+  display:grid; grid-template-columns: repeat(4, auto); gap:32px;
+  margin:40px 0 32px; padding:18px 0;
+  border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+}
+.game-meta .cell .k{font-family:var(--mono); font-size:10px; color:var(--ink-dim); letter-spacing:.16em; text-transform:uppercase; margin-bottom:6px}
+.game-meta .cell .v{font-family:var(--sans); font-size:15px; color:var(--ink); font-weight:600}
+.game-meta .cell .v.g{color:var(--green)}
+
+/* right — device mock + quote */
+.game-right{ display:flex; flex-direction:column; gap:32px; position:relative }
+.device-frame{
+  position:relative;
+  aspect-ratio: 9/19;
+  max-width:360px;
+  margin-left:auto;
+  border:1px solid var(--rule);
+  background:
+    radial-gradient(140% 100% at 50% 0%, #0e1e14 0%, #080808 60%);
+  border-radius:28px;
+  padding:14px;
+  box-shadow:
+    0 40px 80px -30px rgba(74,222,128,.18),
+    0 0 0 1px rgba(74,222,128,.06) inset;
+}
+.device-screen{
+  width:100%; height:100%; border-radius:18px;
+  background:
+    repeating-linear-gradient(0deg, rgba(74,222,128,.06) 0 1px, transparent 1px 36px),
+    radial-gradient(60% 40% at 50% 30%, rgba(74,222,128,.18), transparent 70%),
+    #050505;
+  position:relative; overflow:hidden;
+  display:flex; flex-direction:column; padding:26px 20px 20px;
+  font-family:var(--mono); color:#9cf0c2; font-size:11px; line-height:1.7;
+}
+.device-screen .notch{position:absolute;top:10px;left:50%;transform:translateX(-50%);width:80px;height:18px;background:#000;border-radius:12px}
+.device-screen .status{display:flex;justify-content:space-between;color:#6ebd93;font-size:10px;margin-bottom:18px;padding-top:10px}
+.device-screen .prompt{color:var(--green)}
+.device-screen .line{margin-bottom:6px}
+.device-screen .line.dim{color:#4a7a5e}
+.device-screen .choice{padding:8px 10px;margin:4px 0;border:1px solid rgba(74,222,128,.25);border-radius:4px;background:rgba(74,222,128,.04);font-size:10.5px}
+.device-screen .choice.on{border-color:var(--green);background:rgba(74,222,128,.12);color:#c8ffd9}
+.device-screen .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:auto;padding-top:12px;border-top:1px dashed rgba(74,222,128,.2);font-size:9px}
+.device-screen .stats .s{display:flex;flex-direction:column;gap:2px}
+.device-screen .stats .bar{height:3px;background:rgba(74,222,128,.15);border-radius:2px;position:relative;overflow:hidden}
+.device-screen .stats .bar::after{content:"";position:absolute;top:0;left:0;bottom:0;width:var(--w,50%);background:var(--green)}
+
+.pullquote{
+  font-family:var(--serif); font-size:28px; line-height:1.25;
+  color:var(--ink); font-style:italic; font-weight:400;
+  padding:28px 0 0; border-top:1px solid var(--rule);
+  max-width:520px; margin-left:auto;
+}
+.pullquote cite{
+  display:block; margin-top:14px;
+  font-family:var(--mono); font-style:normal; font-size:11px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ink-dim);
+}
+
+/* CTA that "feels earned" */
+.earned-cta{
+  margin-top:16px;
+  display:inline-grid;
+  grid-template-columns: auto auto;
+  align-items:stretch;
+  border:1px solid var(--green);
+  border-radius:2px;
+  overflow:hidden;
+  font-family:var(--sans);
+  transition:transform .15s;
+}
+.earned-cta:hover{transform:translateY(-1px)}
+.earned-cta:active{transform:scale(.98)}
+.earned-cta .main{
+  background:var(--green); color:#062412;
+  padding:16px 22px; display:flex; align-items:center; gap:12px;
+  font-weight:600; font-size:15px; letter-spacing:-.005em;
+}
+.earned-cta .main .arr{font-family:var(--mono); font-size:16px; font-weight:500}
+.earned-cta .meta-col{
+  background:#071a11; color:var(--green);
+  padding:8px 14px; display:flex; flex-direction:column; justify-content:center;
+  font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+  border-left:1px solid var(--green);
+  line-height:1.4;
+}
+.earned-cta .meta-col b{color:var(--ink); font-weight:500}
+
+/* =========================================================
+   SECTION — BIO (as a person, not a résumé)
+   ========================================================= */
+.bio-section{
+  padding:140px 0;
+  border-bottom:1px solid var(--rule);
+}
+.bio-grid{
+  display:grid; grid-template-columns: 4fr 8fr; gap:80px; align-items:start;
+}
+.bio-photo{
+  position:relative;
+  aspect-ratio: 4/5;
+  background:#0a0a09;
+  border:1px solid var(--rule);
+  display:flex; align-items:flex-end; padding:0;
+  overflow:hidden;
+}
+.bio-photo img{
+  position:absolute; inset:0;
+  width:100%; height:100%;
+  object-fit:cover;
+  filter:saturate(.92) contrast(1.02);
+}
+.bio-photo .corner{
+  position:absolute; width:22px; height:22px;
+  border:1px solid var(--ink-soft);
+  opacity:.55;
+  pointer-events:none;
+}
+.bio-photo .corner.tl{top:14px; left:14px; border-right:0; border-bottom:0}
+.bio-photo .corner.tr{top:14px; right:14px; border-left:0; border-bottom:0}
+.bio-photo .corner.bl{bottom:14px; left:14px; border-right:0; border-top:0}
+.bio-photo .corner.br{bottom:14px; right:14px; border-left:0; border-top:0}
+.bio-photo .cap{
+  position:relative; z-index:1;
+  font-family:var(--mono); font-size:10.5px; color:#fff;
+  letter-spacing:.1em; text-transform:uppercase;
+  width:100%;
+  display:flex; justify-content:space-between;
+  padding:18px;
+  background:linear-gradient(to top, rgba(0,0,0,.85), rgba(0,0,0,0));
+  border-top:0;
+}
+.bio-photo .cap .g{color:var(--green)}
+
+.bio-copy h2{
+  font-family:var(--serif); font-weight:400;
+  font-size:clamp(44px, 5.2vw, 76px); line-height:1;
+  letter-spacing:-.025em; margin:0 0 12px;
+}
+.bio-copy h2 i{font-style:italic;color:var(--green)}
+.bio-dek{
+  font-family:var(--serif); font-size:22px; line-height:1.4;
+  color:var(--ink-soft); font-style:italic; max-width:620px;
+  margin:0 0 44px;
+}
+.bio-para{
+  font-family:var(--serif); font-size:19px; line-height:1.55;
+  color:var(--ink-soft); max-width:620px; margin:0 0 18px;
+}
+.bio-para b{color:var(--ink); font-weight:500}
+.bio-para .g{color:var(--green); font-style:italic}
+
+.bio-marginalia{
+  margin-top:48px;
+  display:grid; grid-template-columns: repeat(3,1fr); gap:32px;
+  padding-top:24px; border-top:1px solid var(--rule);
+}
+.bio-marg .k{font-family:var(--mono); font-size:10.5px; color:var(--ink-dim); letter-spacing:.16em; text-transform:uppercase; margin-bottom:10px}
+.bio-marg .v{font-family:var(--serif); font-size:18px; line-height:1.35; color:var(--ink)}
+.bio-marg .v i{color:var(--green); font-style:italic}
+
+/* =========================================================
+   FOOTER MASTHEAD
+   ========================================================= */
+.foot{
+  padding:80px 0 48px;
+  background:var(--bg);
+  border-top:1px solid var(--rule);
+}
+.foot-top{
+  display:grid; grid-template-columns: 7fr 5fr; gap:64px; align-items:end;
+  padding-bottom:48px; border-bottom:1px solid var(--rule);
+}
+.foot-mark{
+  font-family:var(--serif); font-size:clamp(60px, 9vw, 140px);
+  line-height:.9; letter-spacing:-.03em; color:var(--ink);
+  font-weight:400; margin:0;
+}
+.foot-mark i{color:var(--green); font-style:italic}
+.foot-links{display:grid; grid-template-columns: repeat(2,1fr); gap:28px; font-family:var(--mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase}
+.foot-links a{color:var(--ink-soft); padding:6px 0; border-bottom:1px solid var(--rule-soft); display:flex; justify-content:space-between; align-items:baseline}
+.foot-links a:hover{color:var(--green)}
+.foot-links a .arr{color:var(--ink-dim)}
+.foot-base{
+  display:flex; justify-content:space-between; gap:32px;
+  padding-top:32px; font-family:var(--mono); font-size:11px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ink-dim);
+  flex-wrap:wrap;
+}
+.foot-base .issue b{color:var(--ink)}
+
+/* brand ribbon (preserves the existing green→ember gradient cue) */
+.ribbon{height:3px; width:100%; background:linear-gradient(90deg, var(--green), var(--ember))}
+
+/* =========================================================
+   DESIGNER NOTES overlay — critique mode
+   ========================================================= */
+body[data-notes="on"] [data-note]{position:relative}
+body[data-notes="on"] [data-note]::before{
+  content: attr(data-note);
+  position:absolute;
+  top:-10px; left:-10px;
+  background:#fff2a8; color:#1a1400;
+  font-family:var(--mono); font-size:10.5px; letter-spacing:.06em;
+  padding:6px 10px; border-radius:2px;
+  box-shadow:0 8px 24px -6px rgba(0,0,0,.4), 0 0 0 1px rgba(0,0,0,.1);
+  max-width:340px; white-space:pre-wrap; line-height:1.45;
+  z-index:30; pointer-events:none;
+  transform:translate(-100%, 0);
+  border-left:3px solid var(--green);
+}
+body[data-notes="on"] [data-note]{outline:1px dashed rgba(255,242,168,.35); outline-offset:4px}
+
+/* =========================================================
+   TWEAKS PANEL
+   ========================================================= */
+#tweaks{
+  position:fixed; right:20px; bottom:20px; z-index:300;
+  width:280px; background:#0e0e0c; border:1px solid var(--rule);
+  border-radius:4px; padding:14px 14px 12px;
+  font-family:var(--mono); font-size:11px; color:var(--ink);
+  box-shadow:0 20px 40px -12px rgba(0,0,0,.6);
+  display:none;
+}
+#tweaks.on{display:block}
+#tweaks h4{margin:0 0 10px;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--green);text-transform:uppercase}
+#tweaks .t-row{display:flex; justify-content:space-between; align-items:center; padding:6px 0; border-top:1px solid var(--rule-soft)}
+#tweaks .t-row:first-of-type{border-top:none}
+#tweaks label{color:var(--ink-soft); letter-spacing:.08em; text-transform:uppercase; font-size:10px}
+#tweaks button, #tweaks select{
+  background:#161614; color:var(--ink); border:1px solid var(--rule);
+  padding:5px 8px; border-radius:2px; font-family:inherit; font-size:10.5px; cursor:pointer;
+}
+#tweaks button:hover{border-color:var(--green); color:var(--green)}
+#tweaks .seg{display:flex;gap:2px}
+#tweaks .seg button.on{background:var(--green);color:#062412;border-color:var(--green)}
+#tweaks .foot-txt{margin-top:10px;font-size:9.5px;color:var(--ink-dim);letter-spacing:.1em}
+
+/* =========================================================
+   HERO VARIANTS
+   ========================================================= */
+body[data-hero="B"] .hero-variant-A{display:none}
+body[data-hero="B"] .hero-variant-B{display:block}
+body[data-hero="C"] .hero-variant-A{display:none}
+body[data-hero="C"] .hero-variant-C{display:block}
+.hero-variant-B, .hero-variant-C{display:none}
+
+/* Variant B — grid-composed masthead */
+.heroB{padding:56px 0 72px}
+.heroB-top{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;align-items:end;padding-bottom:24px;border-bottom:1px solid var(--rule)}
+.heroB-top .issue{grid-column:1 / span 4}
+.heroB-top .date{grid-column:5 / span 4; text-align:center}
+.heroB-top .vol{grid-column:9 / span 4; text-align:right}
+.heroB-top .meta{display:block}
+.heroB-headline{
+  font-family:var(--serif); font-weight:400;
+  font-size:clamp(80px, 11vw, 180px); line-height:.88;
+  letter-spacing:-.035em; margin:40px 0 0; color:var(--ink);
+}
+.heroB-headline i{font-style:italic; color:var(--green)}
+.heroB-headline .rule-through{position:relative; display:inline-block}
+.heroB-row2{
+  display:grid; grid-template-columns: 1fr 1fr 1fr; gap:40px;
+  margin-top:40px; padding-top:32px; border-top:1px solid var(--rule);
+}
+.heroB-row2 p{font-family:var(--serif); font-size:19px; line-height:1.5; color:var(--ink-soft); margin:0}
+.heroB-row2 p:first-letter{
+  font-family:var(--serif); font-size:54px; line-height:.9; float:left;
+  color:var(--green); padding:4px 8px 0 0; font-style:italic;
+}
+
+/* Variant C — statistic-as-billboard */
+.heroC{padding:40px 0 80px}
+.heroC-pct{
+  font-family:var(--serif); font-style:italic; font-weight:500;
+  font-size:min(60vw, 720px); line-height:.78; letter-spacing:-.05em;
+  color:var(--ink); margin:0; text-align:center;
+  padding:40px 0 24px;
+}
+.heroC-pct .percent{color:var(--green)}
+.heroC-caption{
+  display:grid; grid-template-columns: 1fr 1fr 1fr; gap:32px;
+  padding-top:28px; border-top:1px solid var(--green);
+}
+.heroC-caption p{font-family:var(--serif); font-size:22px; line-height:1.35; color:var(--ink); margin:0}
+.heroC-caption p.right{text-align:right; color:var(--ink-soft); font-style:italic}
+.heroC-caption p.center{text-align:center; color:var(--green); font-family:var(--mono); font-size:12px; letter-spacing:.14em; text-transform:uppercase; align-self:center}
+
+/* responsive */
+@media (max-width:1024px){
+  .hero-grid{grid-template-columns:1fr; gap:40px}
+  .hero-right{border-left:none; border-top:1px solid var(--rule); padding-left:0; padding-top:32px; min-height:unset}
+  .game-grid{grid-template-columns:1fr; gap:40px}
+  .device-frame{margin-left:0; max-width:320px}
+  .bio-grid{grid-template-columns:1fr; gap:40px}
+  .bio-photo{max-width:400px}
+  .section-head{grid-template-columns:1fr; gap:28px}
+  .foot-top{grid-template-columns:1fr; gap:40px}
+  .tool-row{grid-template-columns: 40px 1fr 130px; gap:16px; padding:18px 0}
+  .tool-row .t-desc{grid-column: 2 / span 2; font-size:14px; color:var(--ink-dim); order:3}
+  .tool-row .t-arr{display:none}
+  .nav-links{display:none}
+  .heroB-row2{grid-template-columns:1fr}
+  .heroC-caption{grid-template-columns:1fr; gap:16px}
+}
+@media (max-width:640px){
+  .hero-left .stat{font-size:96px}
+  .hero-lede{font-size:22px}
+  .section{padding:80px 0}
+  .game-section, .bio-section{padding:80px 0}
+  .game-title{font-size:56px}
+  .tool-row{grid-template-columns: 32px 1fr 100px; gap:12px}
+  .tool-row .t-name{font-size:22px}
+  .foot-mark{font-size:56px}
+  .tools-linkout{grid-template-columns:1fr !important; gap:24px !important}
+  .linkout-title{font-size:36px !important}
+}
+
+/* Tools link-out card — replaces the 20-slot placeholder list */
+.tools-linkout{
+  display:grid; grid-template-columns: 1.1fr .9fr; gap:48px;
+  align-items:stretch;
+  padding:40px;
+  border:1px solid var(--rule);
+  background:
+    linear-gradient(135deg, rgba(122,160,96,.05) 0%, transparent 55%),
+    #0f0f0e;
+  text-decoration:none; color:var(--ink);
+  position:relative; overflow:hidden;
+  transition:border-color .2s ease, transform .25s ease, background .25s ease;
+}
+.tools-linkout::before{
+  content:""; position:absolute; inset:0;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 28px, rgba(255,255,255,.02) 28px 29px);
+  pointer-events:none;
+}
+.tools-linkout:hover{ border-color:var(--green); }
+.tools-linkout:hover .linkout-cta .arr{ transform:translate(4px,-4px); }
+.tools-linkout:hover .linkout-url{ color:var(--green); }
+
+.linkout-left{ display:flex; flex-direction:column; gap:16px; position:relative; z-index:1; }
+.linkout-title{
+  font-family:var(--serif); font-weight:400; font-size:clamp(40px, 5vw, 64px);
+  line-height:.98; letter-spacing:-.02em; color:var(--ink);
+  margin:4px 0 0;
+}
+.linkout-title i{ font-style:italic; color:var(--green); }
+.linkout-title u{ text-decoration:none; border-bottom:1px solid var(--green); padding-bottom:2px; }
+.linkout-dek{
+  font-family:var(--serif); font-style:italic; font-size:17px; line-height:1.5;
+  color:var(--ink-dim); max-width:38ch; margin:8px 0 0;
+}
+
+.linkout-right{
+  display:flex; flex-direction:column; justify-content:space-between; gap:28px;
+  padding:24px; border:1px solid var(--rule);
+  background:#0a0a09;
+  position:relative; z-index:1;
+}
+.linkout-url{
+  font-family:var(--mono); font-size:13px; letter-spacing:.02em;
+  color:var(--ink); word-break:break-all; line-height:1.5;
+  transition:color .2s ease;
+}
+.linkout-url .scheme{ color:var(--ink-soft); }
+.linkout-url .path{ color:var(--ink-soft); }
+.linkout-cta{
+  display:flex; justify-content:space-between; align-items:center;
+  border-top:1px solid var(--rule); padding-top:20px;
+  font-family:var(--mono); font-size:11px; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--ink);
+}
+.linkout-cta .arr{ font-size:20px; transition:transform .25s ease; display:inline-block; }
+</style>
+</head>
+<body data-hero="A" data-grid="off" data-notes="off">
+
+<!-- ============================ NAV ============================ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="brand">
+      <b>TikTokArchitect</b>
+      <span class="slash">/</span>
+      <span class="tag">Tom Reynolds · NOMA</span>
+    </div>
+    <div class="nav-links">
+      <a href="#">Mission</a>
+      <a href="#arsenal">Tools</a>
+      <a href="#game">Builds</a>
+      <a href="#bio">About</a>
+      <a href="#" class="nav-cta">Subscribe</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================ HERO — variant A (default) ============================ -->
+<section class="hero hero-variant-A">
+  <div class="wrap">
+
+    <!-- dateline row — all bracketed values are placeholders awaiting real copy -->
+    <div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:28px;border-bottom:1px solid var(--rule);margin-bottom:48px">
+      <span class="meta">tiktokarchitect.com</span>
+      <span class="meta" style="color:var(--ink-soft)">Architect · Educator · Builder of tools</span>
+      <span class="meta"><b style="color:var(--green)">●</b> @TikTokArchitect</span>
+    </div>
+
+    <div class="hero-grid">
+      <div class="hero-left" data-note="HERO FIX: 2% leads at ~240px. The claim is the headline, not a footnote.">
+        <p class="eyebrow" style="margin-bottom:20px">Representation in US Architecture</p>
+        <h1 class="stat">
+          Only<br>
+          <span class="pct">2%</span>
+        </h1>
+        <p class="hero-lede">
+          of licensed architects in the United States<br>
+          are Black. <em>I'm working to change that.</em>
+        </p>
+        <div class="hero-tag">
+          <span class="dot"></span>
+          [ source citation placeholder — confirm NCARB figure + year ]
+        </div>
+      </div>
+
+      <aside class="hero-right" aria-label="Credentials">
+        <div class="meta" style="color:var(--green);margin-bottom:4px">Author / Practitioner</div>
+        <div style="font-family:var(--serif);font-size:44px;line-height:.95;letter-spacing:-.02em;color:var(--ink);margin-bottom:20px">
+          Tom<br><i style="color:var(--green)">Reynolds</i>
+        </div>
+
+        <div class="row"><span class="k">Title</span><span class="v">Principal, <b>Green Stories LLC</b></span></div>
+        <div class="row"><span class="k">Practice</span><span class="v">23+ years in architecture</span></div>
+        <div class="row"><span class="k">Channel</span><span class="v"><b class="g">@TikTokArchitect</b> · 1,000+ TikToks</span></div>
+        <div class="row"><span class="k">Archive</span><span class="v"><b class="g">NIA</b> — Black Architecture Archive</span></div>
+        <div class="row"><span class="k">Builds</span><span class="v">Architect the Game · BalyeCleaner · ShambaWorks · Lakou · AnansiBuild</span></div>
+
+        <div class="hero-cta-row">
+          <a class="btn btn-primary" href="#">Watch on TikTok <span class="arr">↗</span></a>
+          <a class="btn btn-ghost" href="#arsenal">The Tools <span class="arr">→</span></a>
+        </div>
+      </aside>
+    </div>
+
+    <div class="masthead-ruler" data-note="Section index. Jumps to each anchor on the page.">
+      <span><b>§01</b> The 2% Problem</span>
+      <span class="sep">/</span>
+      <span><b>§02</b> Tools</span>
+      <span class="sep">/</span>
+      <span><b>§03</b> Architect the Game</span>
+      <span class="sep">/</span>
+      <span><b>§04</b> BalyeCleaner</span>
+      <span class="sep">/</span>
+      <span><b>§05</b> NIA Archive</span>
+      <span class="sep">/</span>
+      <span><b>§06</b> About</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ HERO — variant B (grid-composed masthead) ============================ -->
+<section class="hero hero-variant-B">
+  <div class="wrap heroB">
+    <div class="heroB-top">
+      <div class="issue"><span class="meta">tiktokarchitect.com</span></div>
+      <div class="date"><span class="meta">Architect · Educator</span></div>
+      <div class="vol"><span class="meta">@TikTokArchitect</span></div>
+    </div>
+    <h1 class="heroB-headline">
+      Only <i>2%</i><br>
+      of US architects<br>
+      are <i>Black.</i>
+    </h1>
+    <div class="heroB-row2">
+      <p>23 years in architecture. 1,000+ TikToks. The NIA archive, Architect the Game, BalyeCleaner, ShambaWorks, Lakou, AnansiBuild. 23 free tools in total. All in service of the next architect who doesn't see themselves in the profession yet.</p>
+      <p>[ second paragraph placeholder — supply your own framing for the mission, ~40 words ]</p>
+      <p style="text-align:right">— <b style="color:var(--ink);font-weight:500">Tom Reynolds</b><br>Principal, Green Stories LLC</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ HERO — variant C (statistic-as-billboard) ============================ -->
+<section class="hero hero-variant-C">
+  <div class="wrap heroC">
+    <div style="display:flex;justify-content:space-between;padding-bottom:20px;border-bottom:1px solid var(--rule)">
+      <span class="meta">Representation in US Architecture</span>
+      <span class="meta" style="color:var(--green)">[ source citation placeholder ]</span>
+    </div>
+    <h1 class="heroC-pct">2<span class="percent">%</span></h1>
+    <div class="heroC-caption">
+      <p>Of licensed architects<br>in the United States are Black.</p>
+      <p class="center">— Tom Reynolds, @TikTokArchitect</p>
+      <p class="right">I'm working<br>to change that.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ARSENAL (Tools reimagined as a ledger) ============================ -->
+<section class="section" id="arsenal">
+  <div class="wrap">
+    <div class="section-index">
+      <span><b>§02</b> &nbsp; Tools &amp; Software</span>
+      <span><b>23</b> &nbsp;free tools</span>
+    </div>
+
+    <header class="section-head" data-note="FIX: Tools as a numbered ledger, not a 3-up card grid. Reads like a drafting index, not a spec sheet.">
+      <div class="label">
+        <span class="eyebrow">Free · For architects</span>
+        <h2>Twenty-three<br><i>tools.</i></h2>
+      </div>
+      <p class="dek">
+        [ section dek placeholder — supply your own framing for the 23 tools, ~30 words. ]
+      </p>
+    </header>
+
+    <!-- Apps & Builds: the three named non-archive / non-game projects -->
+    <div class="arsenal" data-note="Apps & Builds — the brief's named projects that aren't NIA (Archive, its own section) or Architect the Game (Feature Build). AnansiBuild gets its own section below." style="margin-bottom:48px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:12px;border-bottom:1px solid var(--green)">
+        <span class="meta" style="color:var(--green)">Apps &amp; Builds</span>
+        <span class="meta">Named in the brief</span>
+      </div>
+      <a class="tool-row" href="#"><span class="t-num">A1</span><span class="t-name">BalyeCleaner</span><span class="t-desc">[ description placeholder ]</span><span class="t-type"><span class="free">Free</span> · Windows</span><span class="t-arr">↗</span></a>
+      <a class="tool-row" href="#"><span class="t-num">A2</span><span class="t-name">ShambaWorks</span><span class="t-desc">[ description placeholder ]</span><span class="t-type"><span class="free">Free</span> · TBD</span><span class="t-arr">↗</span></a>
+      <a class="tool-row" href="#"><span class="t-num">A3</span><span class="t-name">Lakou</span><span class="t-desc">[ description placeholder ]</span><span class="t-type"><span class="free">Free</span> · TBD</span><span class="t-arr">↗</span></a>
+    </div>
+
+    <!-- Link-out to full tool catalog on greenstoriesllc.com -->
+    <a class="tools-linkout" href="https://greenstoriesllc.com/tools.php" target="_blank" rel="noopener" data-note="FIX: replaced the 20-slot placeholder list with a single link-out card to the live Green Stories tools page. No invented tool names.">
+      <div class="linkout-left">
+        <span class="meta">The full catalog</span>
+        <div class="linkout-title">All <i>23</i> tools.<br>On <u>greenstoriesllc.com</u>.</div>
+        <p class="linkout-dek">Every free tool, maintained at the source. New ones ship there first.</p>
+      </div>
+      <div class="linkout-right">
+        <div class="linkout-url">
+          <span class="scheme">https://</span>greenstoriesllc.com<span class="path">/tools.php</span>
+        </div>
+        <div class="linkout-cta">
+          <span>Open the catalog</span>
+          <span class="arr">↗</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- NIA Archive — own callout within §02 -->
+    <div style="margin-top:80px;border-top:1px solid var(--rule);padding-top:48px">
+      <div class="game-grid">
+        <div class="game-left">
+          <span class="eyebrow kicker">The Archive</span>
+          <h3 class="game-title" style="font-size:clamp(44px,6vw,84px)"><i>NIA.</i></h3>
+          <blockquote class="game-sub">[ tagline placeholder — one line about NIA's purpose. ]</blockquote>
+          <p class="game-body" style="color:var(--ink-dim);font-style:italic">
+            [ description placeholder — 2 short paragraphs on what NIA is, who it serves, and why it exists. ]
+          </p>
+          <a class="earned-cta" href="#"><span class="main">Visit the archive <span class="arr">→</span></span><span class="meta-col"><span>Web · <b>Free</b></span><span>NIA · <b>Ongoing</b></span></span></a>
+        </div>
+        <div class="game-right">
+          <figure style="aspect-ratio:4/5;max-width:420px;margin-left:auto;border:1px solid var(--rule);background:repeating-linear-gradient(135deg,#1a1a18 0 2px,#131311 2px 10px),#121210;display:flex;align-items:flex-end;padding:18px;position:relative" data-note="Placeholder for NIA hero image.">
+            <span style="position:absolute;top:18px;left:18px;font-family:var(--mono);font-size:10px;color:var(--ink-dim);letter-spacing:.14em;text-transform:uppercase">[ NIA hero image ]</span>
+            <figcaption style="font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);letter-spacing:.1em;text-transform:uppercase;border-top:1px solid var(--rule);padding-top:10px;width:100%;display:flex;justify-content:space-between"><span>NIA</span><span style="color:var(--green)">Black Architecture Archive</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- AnansiBuild — own callout within §02 -->
+    <div style="margin-top:80px;border-top:1px solid var(--rule);padding-top:48px">
+      <div class="game-grid">
+        <div class="game-right" style="order:1">
+          <figure style="aspect-ratio:4/5;max-width:420px;border:1px solid var(--rule);background:repeating-linear-gradient(135deg,#1a1a18 0 2px,#131311 2px 10px),#121210;display:flex;align-items:flex-end;padding:18px;position:relative" data-note="Placeholder for AnansiBuild hero image.">
+            <span style="position:absolute;top:18px;left:18px;font-family:var(--mono);font-size:10px;color:var(--ink-dim);letter-spacing:.14em;text-transform:uppercase">[ AnansiBuild image ]</span>
+            <figcaption style="font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);letter-spacing:.1em;text-transform:uppercase;border-top:1px solid var(--rule);padding-top:10px;width:100%;display:flex;justify-content:space-between"><span>AnansiBuild</span><span style="color:var(--green)">[ tag ]</span></figcaption>
+          </figure>
+        </div>
+        <div class="game-left" style="order:2">
+          <span class="eyebrow kicker">The Build</span>
+          <h3 class="game-title" style="font-size:clamp(44px,6vw,84px)">Anansi<i>Build.</i></h3>
+          <blockquote class="game-sub">[ tagline placeholder ]</blockquote>
+          <p class="game-body" style="color:var(--ink-dim);font-style:italic">
+            [ description placeholder — what AnansiBuild is, who it serves, the problem it solves. ]
+          </p>
+          <a class="earned-cta" href="#"><span class="main">Learn more <span class="arr">→</span></span><span class="meta-col"><span>[ platform ]</span><span>[ status ]</span></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ARCHITECT THE GAME — feature spread ============================ -->
+<section class="game-section" id="game">
+  <div class="wrap">
+    <div class="section-index">
+      <span><b>§03</b> &nbsp; Feature Build</span>
+      <span>Android · v1.0.0</span>
+    </div>
+
+    <div class="game-grid">
+      <div class="game-left">
+        <span class="eyebrow kicker">The Game</span>
+        <h2 class="game-title">Architect<br>the <i>Game.</i></h2>
+        <blockquote class="game-sub">“Sleep is for the licensed.”</blockquote>
+        <p class="game-body">
+          A text-driven life simulation based on real data from the
+          architecture profession. Choose your school, survive studio
+          culture, manage money, stress, energy, and relationships
+          semester by semester. Graduate — and discover that was only
+          the beginning.
+        </p>
+        <p class="game-body" style="color:var(--ink-dim);font-style:italic">
+          [ the two paragraphs above are from the brief's existing homepage copy — keep or replace to taste. ]
+        </p>
+
+        <div class="game-meta">
+          <div class="cell"><div class="k">Platform</div><div class="v">Android</div></div>
+          <div class="cell"><div class="k">Version</div><div class="v">1.0.0</div></div>
+          <div class="cell"><div class="k">Size</div><div class="v">7.6 MB</div></div>
+          <div class="cell"><div class="k">Price</div><div class="v g">Free</div></div>
+        </div>
+
+        <a class="earned-cta" href="#" data-note="FIX: split CTA surfaces platform + size so the download doesn't feel generic.">
+          <span class="main">Download APK <span class="arr">↓</span></span>
+          <span class="meta-col">
+            <span>Android · <b>v1.0.0</b></span>
+            <span>Size · <b>7.6 MB</b></span>
+          </span>
+        </a>
+      </div>
+
+      <div class="game-right">
+        <div class="device-frame" aria-hidden="true" data-note="Device mock is a visual placeholder only. Swap with real Architect the Game screenshot when available. All text inside is illustrative — not sourced from the actual game.">
+          <div class="device-screen">
+            <div class="notch"></div>
+            <div class="status"><span>[ time ]</span><span>●●●●●</span></div>
+            <div class="line dim">[ game screenshot placeholder ]</div>
+            <div class="line dim">[ replace with a real frame from<br>Architect the Game ]</div>
+            <div class="choice on">&gt; [ choice 1 ]</div>
+            <div class="choice">&gt; [ choice 2 ]</div>
+            <div class="choice">&gt; [ choice 3 ]</div>
+            <div class="stats">
+              <div class="s"><span>$</span><div class="bar" style="--w:40%"></div></div>
+              <div class="s"><span>zzz</span><div class="bar" style="--w:20%"></div></div>
+              <div class="s"><span>HP</span><div class="bar" style="--w:60%"></div></div>
+              <div class="s"><span>rep</span><div class="bar" style="--w:75%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <blockquote class="pullquote" data-note="Pull-quote slot. Drop in a real line from the channel.">
+          [ <i>pull-quote placeholder</i> — a real line from @TikTokArchitect ]
+          <cite>— source TBD</cite>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BIO — as a person ============================ -->
+<section class="bio-section" id="bio">
+  <div class="wrap">
+    <div class="section-index">
+      <span><b>§06</b> &nbsp; About</span>
+      <span>Green Stories LLC</span>
+    </div>
+
+    <div class="bio-grid">
+      <figure class="bio-photo" data-note="Primary headshot — brick wall portrait from uploads. Two alts (studio / workshop) live in /images if you'd rather swap.">
+        <img src="images/headshot-primary.webp" alt="Tom Reynolds, portrait" />
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <figcaption class="cap">
+          <span>Tom Reynolds</span>
+          <span class="g">@TikTokArchitect</span>
+        </figcaption>
+      </figure>
+
+      <div class="bio-copy" data-note="FIX: bio lede = a sentence, not a résumé bullet. Facts moved to margin. ALL paragraph copy below is a placeholder for Tom's own words.">
+        <span class="eyebrow" style="margin-bottom:24px;display:inline-flex">About · In His Own Words</span>
+        <h2>[ headline<br><i>placeholder.</i> ]</h2>
+        <p class="bio-dek">
+          [ one-sentence dek placeholder — a line Tom would actually say,
+          about why this mission matters to him. ]
+        </p>
+        <p class="bio-para">
+          <b>Tom Reynolds</b> is a <b>Black architectural designer</b> with
+          <b>23+ years</b> in the profession, principal at
+          <b>Green Stories LLC</b>, and the person behind
+          <b class="g">@TikTokArchitect</b>.
+        </p>
+        <p class="bio-para" style="color:var(--ink-dim);font-style:italic">
+          [ bio body placeholder — 2–3 short paragraphs in Tom's voice.
+          The existing about page at /about/ has a timeline treatment worth
+          preserving; this is the lede/intro only. ]
+        </p>
+
+        <div class="bio-marginalia">
+          <div class="bio-marg">
+            <div class="k">Years in practice</div>
+            <div class="v"><i>23+</i></div>
+          </div>
+          <div class="bio-marg">
+            <div class="k">Firm</div>
+            <div class="v">Green Stories <i>LLC</i></div>
+          </div>
+          <div class="bio-marg">
+            <div class="k">Find me</div>
+            <div class="v"><i>@TikTokArchitect</i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER MASTHEAD ============================ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <h2 class="foot-mark">
+        The record<br>the profession<br><i>never kept.</i>
+      </h2>
+      <div class="foot-links" data-note="Link list — preserve from the current site; I haven't verified which social handles exist beyond TikTok + NIA. Fill in or remove rows as needed.">
+        <a href="#">TikTok <span class="arr">↗</span></a>
+        <a href="#">NIA Archive <span class="arr">↗</span></a>
+        <a href="#">Green Stories <span class="arr">↗</span></a>
+        <a href="#">Email <span class="arr">↗</span></a>
+        <a href="#">[ other socials — TBD ] <span class="arr">↗</span></a>
+        <a href="#">[ other socials — TBD ] <span class="arr">↗</span></a>
+      </div>
+    </div>
+
+    <div class="foot-base">
+      <div class="issue">tiktokarchitect.com</div>
+      <div>© Green Stories LLC · Tom Reynolds</div>
+      <div>Dark mode · <b style="color:var(--green)">#4ade80</b></div>
+    </div>
+  </div>
+  <div class="ribbon" style="margin-top:40px"></div>
+</footer>
+
+<!-- ============================ TWEAKS PANEL ============================ -->
+<div id="tweaks">
+  <h4>Tweaks</h4>
+  <div class="t-row">
+    <label>Hero variant</label>
+    <div class="seg" id="seg-hero">
+      <button data-v="A" class="on">A</button>
+      <button data-v="B">B</button>
+      <button data-v="C">C</button>
+    </div>
+  </div>
+  <div class="t-row">
+    <label>12-col grid overlay</label>
+    <button id="btn-grid">off</button>
+  </div>
+  <div class="t-row">
+    <label>Designer notes</label>
+    <button id="btn-notes">off</button>
+  </div>
+  <div class="foot-txt">A = 2% dominant · B = masthead · C = billboard</div>
+</div>
+
+<script>
+/* EDITMODE JSON */
+const __TWEAKS__ = /*EDITMODE-BEGIN*/{
+  "hero": "A",
+  "grid": "off",
+  "notes": "off"
+}/*EDITMODE-END*/;
+
+const body = document.body;
+function apply(state){
+  body.dataset.hero = state.hero;
+  body.dataset.grid = state.grid;
+  body.dataset.notes = state.notes;
+  // reflect in panel
+  document.querySelectorAll('#seg-hero button').forEach(b=>{
+    b.classList.toggle('on', b.dataset.v === state.hero);
+  });
+  document.getElementById('btn-grid').textContent  = state.grid;
+  document.getElementById('btn-notes').textContent = state.notes;
+}
+const state = {...__TWEAKS__};
+apply(state);
+
+function push(patch){
+  Object.assign(state, patch);
+  apply(state);
+  try{
+    window.parent.postMessage({type:'__edit_mode_set_keys', edits: patch}, '*');
+  }catch(e){}
+}
+
+document.querySelectorAll('#seg-hero button').forEach(b=>{
+  b.addEventListener('click', ()=> push({hero: b.dataset.v}));
+});
+document.getElementById('btn-grid').addEventListener('click', ()=>{
+  push({grid: state.grid === 'on' ? 'off' : 'on'});
+});
+document.getElementById('btn-notes').addEventListener('click', ()=>{
+  push({notes: state.notes === 'on' ? 'off' : 'on'});
+});
+
+/* Edit-mode protocol */
+window.addEventListener('message', (e)=>{
+  const d = e.data || {};
+  if(d.type === '__activate_edit_mode')   document.getElementById('tweaks').classList.add('on');
+  if(d.type === '__deactivate_edit_mode') document.getElementById('tweaks').classList.remove('on');
+});
+try{
+  window.parent.postMessage({type:'__edit_mode_available'}, '*');
+}catch(e){}
+</script>
+
+</body>
+</html>

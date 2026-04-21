@@ -69,7 +69,7 @@ export default function Bio() {
           </p>
 
           {/* Ledger */}
-          <div className="mt-10 grid grid-cols-3 border-t-2 border-b-2 border-ink">
+          <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 border-t-2 border-b-2 border-ink">
             {[
               { k: "Firm", v: <>Green Stories <i>LLC</i></> },
               { k: "Based", v: <>Newark, <i>NJ</i></> },
