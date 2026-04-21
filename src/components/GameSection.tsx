@@ -48,7 +48,7 @@ export default function GameSection() {
           </p>
 
           {/* Stats */}
-          <div className="grid grid-cols-4 mt-8 border-t-2 border-b-2 border-ink">
+          <div className="grid grid-cols-2 sm:grid-cols-4 mt-8 border-t-2 border-b-2 border-ink">
             {[
               { k: "Platform", v: "Android" },
               { k: "Version", v: "1.0.0" },

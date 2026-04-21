@@ -33,7 +33,7 @@ export default function AnansiBuildSection() {
         <div>
           <h2
             className="font-serif font-light leading-[0.82] tracking-[-0.055em] m-0"
-            style={{ fontSize: "clamp(120px, 18vw, 260px)" }}
+            style={{ fontSize: "clamp(64px, 18vw, 260px)" }}
           >
             Anansi<i className="italic font-normal">Build.</i>
           </h2>

@@ -32,13 +32,13 @@ export default function Cover() {
       <div className="absolute pointer-events-none border border-bone/50" style={{ inset: "32px" }} />
 
       {/* Top-left handle */}
-      <span className="absolute left-10 top-14 z-[3] font-mono text-xs tracking-[0.2em] uppercase text-bone flex items-center gap-2.5">
+      <span className="absolute left-4 sm:left-10 top-14 z-[3] font-mono text-xs tracking-[0.2em] uppercase text-bone flex items-center gap-2.5">
         <span className="w-2 h-2 bg-orange rounded-full" />
         <b className="font-bold">@TikTokArchitect</b> · on record
       </span>
 
       {/* Top-right caption */}
-      <span className="absolute right-10 top-14 z-[3] text-right font-mono text-[10px] tracking-[0.2em] uppercase text-bone opacity-75">
+      <span className="absolute right-4 sm:right-10 top-14 z-[3] text-right font-mono text-[10px] tracking-[0.2em] uppercase text-bone opacity-75">
         Sheet <b className="text-orange font-bold opacity-100">A-000</b> · Cover<br />
         Scale · 1:1
       </span>
@@ -50,8 +50,8 @@ export default function Cover() {
 
       {/* Giant name */}
       <h1
-        className="absolute left-10 right-10 bottom-20 z-[3] font-serif font-light uppercase leading-[0.82] tracking-[-0.055em] text-bone m-0"
-        style={{ fontSize: "clamp(88px, 22vw, 280px)" }}
+        className="absolute left-4 right-4 sm:left-10 sm:right-10 bottom-20 z-[3] font-serif font-light uppercase leading-[0.82] tracking-[-0.055em] text-bone m-0"
+        style={{ fontSize: "clamp(48px, 22vw, 280px)" }}
       >
         TIKTOK<br />
         <span className="italic font-normal text-orange text-[0.38em] inline-block -translate-y-[0.7em] tracking-normal normal-case mx-[0.04em]">
@@ -61,7 +61,7 @@ export default function Cover() {
       </h1>
 
       {/* Bottom strap */}
-      <div className="absolute left-10 right-10 bottom-8 z-[3] flex justify-between items-end font-mono text-[10px] tracking-[0.2em] uppercase text-bone opacity-75">
+      <div className="absolute left-4 right-4 sm:left-10 sm:right-10 bottom-8 z-[3] flex justify-between items-end font-mono text-[10px] tracking-[0.2em] uppercase text-bone opacity-75">
         <span>Green Stories LLC · Newark, NJ · Est. <b className="font-bold">2019</b></span>
         <span className="font-serif italic text-[22px] tracking-tight normal-case opacity-100">
           A<i>-000.</i>

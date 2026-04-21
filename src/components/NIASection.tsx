@@ -17,7 +17,7 @@ export default function NIASection() {
         <div className="lg:pr-6">
           <h2
             className="font-serif font-light leading-[0.78] tracking-[-0.055em] m-0"
-            style={{ fontSize: "clamp(160px, 26vw, 360px)" }}
+            style={{ fontSize: "clamp(80px, 26vw, 360px)" }}
           >
             NIA<span className="text-yellow">.</span>
           </h2>
