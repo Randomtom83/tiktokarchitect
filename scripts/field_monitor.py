@@ -78,22 +78,49 @@ If you find nothing noteworthy in the last 24 hours, return the JSON with empty 
         messages=[{"role": "user", "content": scan_prompt}],
     )
 
-    # Extract text from response (may have multiple content blocks due to tool use)
+    # Extract text from response — take the LAST text block (tool use blocks come first)
     text = ""
     for block in response.content:
         if block.type == "text":
             text = block.text
-            break
 
-    # Parse JSON
-    if text.startswith("```"):
-        text = text.split("```")[1]
-        if text.startswith("json"):
-            text = text[4:]
-
+    # Extract JSON from response (may have prose around it)
+    # Try direct parse first
+    result = None
     try:
         result = json.loads(text)
     except json.JSONDecodeError:
+        pass
+
+    # Try extracting from markdown code block
+    if result is None and "```" in text:
+        for chunk in text.split("```"):
+            chunk = chunk.strip()
+            if chunk.startswith("json"):
+                chunk = chunk[4:].strip()
+            try:
+                result = json.loads(chunk)
+                break
+            except json.JSONDecodeError:
+                continue
+
+    # Try finding JSON object in the text
+    if result is None:
+        start = text.find("{")
+        if start >= 0:
+            # Find the matching closing brace
+            depth = 0
+            for i in range(start, len(text)):
+                if text[i] == "{": depth += 1
+                elif text[i] == "}": depth -= 1
+                if depth == 0:
+                    try:
+                        result = json.loads(text[start:i+1])
+                    except json.JSONDecodeError:
+                        pass
+                    break
+
+    if result is None:
         print(f"ERROR: Failed to parse Claude response as JSON")
         print(f"Raw response: {text[:500]}")
         sys.exit(1)
