@@ -73,10 +73,15 @@ If you find nothing noteworthy in the last 24 hours, return the JSON with empty 
 
     response = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=4096,
+        max_tokens=16384,
         tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 10}],
         messages=[{"role": "user", "content": scan_prompt}],
     )
+
+    print(f"  Stop reason: {response.stop_reason}")
+    print(f"  Content blocks: {len(response.content)}")
+    for i, block in enumerate(response.content):
+        print(f"  Block {i}: type={block.type}")
 
     # Extract text from response — take the LAST text block (tool use blocks come first)
     text = ""
