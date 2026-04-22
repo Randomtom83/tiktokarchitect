@@ -20,6 +20,98 @@ const VARIATIONS: Array<{ id: Variation; label: string }> = [
   { id: "control-room", label: "Control Room" },
 ];
 
+/** Normalize old-format JSON to the new AnalyticsData schema */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function normalize(raw: any, accountId: string): AnalyticsData {
+  // If the data already has `account`, it's the new format — pass through
+  if (raw.account && raw.headline_signal) return raw as AnalyticsData;
+
+  // Old format: adapt to new schema with safe defaults
+  const o = raw.overview || {};
+  return {
+    account: {
+      handle: `@${accountId}`,
+      display_name: "Tom Reynolds",
+      followers: 0,
+      following: 0,
+      updated_at: raw.generated_at || new Date().toISOString(),
+    },
+    overview: {
+      date_range: o.date_range || { start: null, end: null },
+      videos: o.total_videos || 0,
+      views: o.total_views || 0,
+      likes: o.total_likes || 0,
+      comments: o.total_comments || 0,
+      shares: 0,
+      engagement_rate: o.engagement_rate || 0,
+      new_followers: 0,
+      follower_conversion_rate: 0,
+    },
+    headline_signal: {
+      best_performing_cluster_id: null,
+      verdict: "MEH",
+      rec_title: "Waiting for pipeline data",
+      rec_reason: "The analytics pipeline hasn't run yet. Once it does, you'll see a specific recommendation here based on your content clusters, audience questions, and trending architecture topics.",
+      rec_confidence: 0,
+    },
+    videos: (raw.videos || []).map((v: Record<string, unknown>) => ({
+      id: v.id || "",
+      title: v.title || "",
+      description: v.description || "",
+      date: v.date || null,
+      duration: (v.duration as number) || 0,
+      views: (v.views as number) || 0,
+      likes: (v.likes as number) || 0,
+      comments: (v.comments as number) || 0,
+      shares: (v.shares as number) || 0,
+      engagement_rate: (v.engagement as number) || 0,
+      sentiment: (v.sentiment as { positive: number; neutral: number; negative: number }) || { positive: 0, neutral: 0, negative: 0 },
+      url: (v.url as string) || "",
+      has_transcript: !!v.has_transcript,
+      cluster: null,
+      style: null,
+      watch_through: null,
+      follower_conversion: null,
+    })),
+    timeline: (raw.timeline || []).map((t: Record<string, unknown>) => ({
+      month: t.month || "",
+      videos: (t.videos as number) || 0,
+      views: (t.views as number) || 0,
+      likes: (t.likes as number) || 0,
+      comments: 0,
+      new_followers: 0,
+    })),
+    duration_analysis: Object.entries(raw.duration_analysis || {}).map(([bucket, v]) => ({
+      bucket,
+      count: ((v as Record<string, number>).count) || 0,
+      avg_views: 0,
+      avg_engagement: ((v as Record<string, number>).avg_engagement) || 0,
+      avg_watch_through: null,
+    })),
+    sentiment: raw.sentiment || { positive: 0, neutral: 0, negative: 0 },
+    audience: {
+      inferred_segments: [],
+      lurker_to_fan: {},
+      questions: (raw.audience?.questions || []).map((q: string | Record<string, unknown>) =>
+        typeof q === "string" ? { text: q, count: 1, cluster: "" } : q
+      ),
+      requests: (raw.audience?.requests || []).map((r: string | Record<string, unknown>) =>
+        typeof r === "string" ? { text: r, count: 1 } : r
+      ),
+    },
+    top_commenters: (raw.top_commenters || []).map((c: Record<string, unknown>) => ({
+      handle: `@${c.author || "unknown"}`,
+      comments: (c.count as number) || 0,
+      sentiment: 0.7,
+    })),
+    content_clusters: [],
+    topic_engagement_matrix: raw.topic_engagement_matrix || [],
+    presentation_styles: [],
+    audience_conversation_themes: [],
+    external_trends: [],
+  };
+}
+
 export default function AnalyticsPage() {
   const [data, setData] = useState<AnalyticsData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -66,7 +158,7 @@ export default function AnalyticsPage() {
         return r.json();
       })
       .then((json) => {
-        setData(json);
+        setData(normalize(json, account.id));
         setLoading(false);
       })
       .catch((e) => {
