@@ -23,9 +23,9 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_unknown",
     "verdict": "MEH",
-    "rec_title": "Post a reaction/opinion video on the LACMA David Geffen Galleries opening — frame it as 'what happens when a master of intimate space builds at civic scale'",
-    "rec_reason": "With no audience data available (empty clusters, themes, questions, requests, and presentation styles), this recommendation defaults to the strongest external momentum signal of the week. LACMA's opening is the most widely covered architecture story across ArchDaily, Dezeen, Designboom, and The Architect's Newspaper simultaneously, giving it maximum discoverability potential via trending audio and hashtags. The critical split — admiration vs. 'overly inflated tech monument' — is inherently TikTok-friendly because it invites audience reaction and debate. A designer's professional POV on Zumthor's scale challenge is a credible hook that doesn't require prior audience trust to perform. Confidence is intentionally low because zero internal data exists to validate any claim about what this specific audience responds to.",
-    "rec_confidence": 0.25
+    "rec_title": "Post a short opinion video reacting to the LACMA David Geffen Galleries opening — specifically the 'human scale vs. civic monument' tension — using Zumthor's reputation for intimacy as the hook",
+    "rec_reason": "With no audience data available (empty clusters, themes, questions, requests, and style signals), this recommendation defaults to pure external momentum. LACMA's David Geffen Galleries is the highest-velocity architecture story of the week across ArchDaily, Dezeen, Designboom, and The Architect's Newspaper simultaneously, with a live critical debate that invites designer opinion. The 'Swiss master of intimate craft asked to build at LA civic scale' angle is inherently TikTok-friendly — it creates a clear narrative tension, requires no prior audience knowledge, and positions the creator as a commentator rather than a reporter. A 60–90 second 'hot take' or 'as a designer, here's what I actually see' format tends to perform on architectural TikTok because it signals expertise without requiring a building tour. Confidence is low because there is zero audience signal to validate any topic choice — this is a trend-opportunism pick only.",
+    "rec_confidence": 0.28
   },
   "videos": [],
   "timeline": [],
