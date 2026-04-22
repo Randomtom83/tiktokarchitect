@@ -93,7 +93,7 @@ Return ONLY valid JSON:
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     response = client.messages.create(
-        model="claude-sonnet-4-6-20250514",
+        model="claude-sonnet-4-6-20250410",
         max_tokens=2048,
         messages=[{"role": "user", "content": prompt}],
     )
