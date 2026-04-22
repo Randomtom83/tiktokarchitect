@@ -1,0 +1,50 @@
+{
+  "account": {
+    "handle": "@tiktokarchitect",
+    "display_name": "Tom Reynolds",
+    "followers": 0,
+    "following": 0,
+    "updated_at": "2026-04-22T03:30:02.688850"
+  },
+  "overview": {
+    "date_range": {
+      "start": null,
+      "end": null
+    },
+    "videos": 0,
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "engagement_rate": 0.0,
+    "new_followers": 0,
+    "follower_conversion_rate": 0
+  },
+  "headline_signal": {
+    "best_performing_cluster_id": null,
+    "verdict": "MEH",
+    "rec_title": "",
+    "rec_reason": "",
+    "rec_confidence": 0
+  },
+  "videos": [],
+  "timeline": [],
+  "duration_analysis": [],
+  "sentiment": {
+    "positive": 0,
+    "neutral": 0,
+    "negative": 0
+  },
+  "audience": {
+    "inferred_segments": [],
+    "lurker_to_fan": {},
+    "questions": [],
+    "requests": []
+  },
+  "top_commenters": [],
+  "content_clusters": [],
+  "topic_engagement_matrix": [],
+  "presentation_styles": [],
+  "audience_conversation_themes": [],
+  "external_trends": []
+}
