@@ -51,7 +51,7 @@ jobs:
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
           local_path: './data/'
-          remote_path: '/data/'
+          remote_path: '/website/data/'
           sftp_only: true
 
       - name: Send morning digest email
