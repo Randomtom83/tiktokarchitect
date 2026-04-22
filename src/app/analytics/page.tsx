@@ -105,7 +105,12 @@ function normalize(raw: any, accountId: string): AnalyticsData {
       sentiment: 0.7,
     })),
     content_clusters: [],
-    topic_engagement_matrix: raw.topic_engagement_matrix || [],
+    topic_engagement_matrix: (raw.topic_engagement_matrix || []).map((r: Record<string, unknown>) => ({
+      topic: (r.topic as string) || (r.video_theme as string) || "",
+      views_idx: (r.views_idx as number) || 0,
+      likes_idx: (r.likes_idx as number) || 0,
+      comments_idx: (r.comments_idx as number) || 0,
+    })),
     presentation_styles: [],
     audience_conversation_themes: [],
     external_trends: [],
