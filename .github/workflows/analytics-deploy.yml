@@ -2,10 +2,9 @@ name: Analytics Deploy — Merge, Deploy, Email
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - 'data/analytics-*.json'
-      - 'data/blog-trends-*.json'
   workflow_dispatch:
 
 permissions:
@@ -14,8 +13,8 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    # Don't run on commits from this workflow (prevent infinite loop)
-    if: github.actor != 'github-actions[bot]'
+    # Don't run on commits from this workflow's own enrichment step
+    if: "!contains(github.event.head_commit.message, 'analytics: enriched')"
     steps:
       - uses: actions/checkout@v4
         with:
