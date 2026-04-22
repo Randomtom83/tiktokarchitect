@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_unknown",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Post a reaction/opinion video on the LACMA David Geffen Galleries opening — frame it as 'what happens when a master of intimate space builds at civic scale'",
+    "rec_reason": "With no audience data available (empty clusters, themes, questions, requests, and presentation styles), this recommendation defaults to the strongest external momentum signal of the week. LACMA's opening is the most widely covered architecture story across ArchDaily, Dezeen, Designboom, and The Architect's Newspaper simultaneously, giving it maximum discoverability potential via trending audio and hashtags. The critical split — admiration vs. 'overly inflated tech monument' — is inherently TikTok-friendly because it invites audience reaction and debate. A designer's professional POV on Zumthor's scale challenge is a credible hook that doesn't require prior audience trust to perform. Confidence is intentionally low because zero internal data exists to validate any claim about what this specific audience responds to.",
+    "rec_confidence": 0.25
   },
   "videos": [],
   "timeline": [],
@@ -46,5 +46,36 @@
   "topic_engagement_matrix": [],
   "presentation_styles": [],
   "audience_conversation_themes": [],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "LACMA's David Geffen Galleries: A 25-year mega-project opens to divided critical reception",
+      "audience_resonance": 0.5,
+      "source": "The Architect's Newspaper / ArchDaily / Designboom"
+    },
+    {
+      "topic": "Adaptive Reuse Wins Europe's Highest Architecture Prize — and the Jury Framed It as a Manifesto",
+      "audience_resonance": 0.5,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Francis Kéré's Earth-and-Community Model Arrives at Institutional Scale in Dakar",
+      "audience_resonance": 0.5,
+      "source": "ArchDaily / Dezeen / Designboom"
+    },
+    {
+      "topic": "Milan Design Week 2026: Salone Repositions as Cultural Infrastructure, Not Trade Fair",
+      "audience_resonance": 0.5,
+      "source": "ArchDaily / Dezeen / Wallpaper"
+    },
+    {
+      "topic": "Gender Pay Gap at UK Architecture Studios: ZHA Worsens Sharply as Industry Shows Mixed Progress",
+      "audience_resonance": 0.5,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "A Wave of Major Cultural Buildings Opens Simultaneously, Raising Questions About the Museum Typology's Direction",
+      "audience_resonance": 0.5,
+      "source": "Designboom / ArchDaily"
+    }
+  ]
 }

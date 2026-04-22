@@ -12120,5 +12120,36 @@
   "topic_engagement_matrix": [],
   "presentation_styles": [],
   "audience_conversation_themes": [],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "LACMA's David Geffen Galleries: A 25-year mega-project opens to divided critical reception",
+      "audience_resonance": 0.5,
+      "source": "The Architect's Newspaper / ArchDaily / Designboom"
+    },
+    {
+      "topic": "Adaptive Reuse Wins Europe's Highest Architecture Prize — and the Jury Framed It as a Manifesto",
+      "audience_resonance": 0.5,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Francis Kéré's Earth-and-Community Model Arrives at Institutional Scale in Dakar",
+      "audience_resonance": 0.5,
+      "source": "ArchDaily / Dezeen / Designboom"
+    },
+    {
+      "topic": "Milan Design Week 2026: Salone Repositions as Cultural Infrastructure, Not Trade Fair",
+      "audience_resonance": 0.5,
+      "source": "ArchDaily / Dezeen / Wallpaper"
+    },
+    {
+      "topic": "Gender Pay Gap at UK Architecture Studios: ZHA Worsens Sharply as Industry Shows Mixed Progress",
+      "audience_resonance": 0.5,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "A Wave of Major Cultural Buildings Opens Simultaneously, Raising Questions About the Museum Typology's Direction",
+      "audience_resonance": 0.5,
+      "source": "Designboom / ArchDaily"
+    }
+  ]
 }
