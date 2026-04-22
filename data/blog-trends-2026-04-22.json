@@ -1,0 +1,177 @@
+{
+  "scan_date": "2026-04-22",
+  "sources_checked": [
+    "ArchDaily",
+    "Dezeen",
+    "Archinect",
+    "The Architect's Newspaper",
+    "Curbed",
+    "Architectural Digest",
+    "Designboom",
+    "Architect Magazine (AIA)",
+    "Failed Architecture",
+    "McMansion Hell",
+    "99% Invisible"
+  ],
+  "trends": [
+    {
+      "topic": "LACMA's David Geffen Galleries: A 25-year mega-project opens to divided critical reception",
+      "synthesis": "Peter Zumthor's David Geffen Galleries at LACMA opened to the public on April 19, 2026, completing a two-decade, $835 million transformation of the Los Angeles County Museum of Art. The building — a 900-foot-long, elevated glass-and-concrete arc spanning Wilshire Boulevard — has immediately generated polarized critical discourse. The Architect's Newspaper published a pre-opening roundup of architects, critics, and educators offering 'early takes,' with responses ranging from admiration for the building's cinematic quality and structural precision to sharp critiques that it reads as an 'overly inflated tech monument' that 'struggles to connect at a human scale.' Critics note value engineering, reduced gallery space (down ~10,000 sq ft from earlier proposals), and a stark public realm as liabilities. Inside, the museum deploys a radical non-hierarchical hang of 155,000 objects across 6,000 years — no department has earmarked space — which some reviewers call a triumph for pluralistic art history. Today (April 22), Peter Zumthor joins LACMA CEO Michael Govan in a live public conversation on the building.",
+      "sources": [
+        {
+          "title": "Ahead of the opening of LACMA's David Geffen Galleries, architects and critics share early takes",
+          "url": "https://www.archpaper.com/2026/04/architects-critics-educators-early-takes-lacma/",
+          "source": "The Architect's Newspaper"
+        },
+        {
+          "title": "Peter Zumthor's LACMA David Geffen Galleries Open in Los Angeles",
+          "url": "https://www.archdaily.com/1040778/peter-zumthors-lacma-david-geffen-galleries-open-in-los-angeles",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Peter Zumthor's David Geffen Galleries Open at LACMA as a Sweeping Glass-and-Concrete Arc",
+          "url": "https://www.designboom.com/architecture/peter-zumthor-david-geffen-galleries-lacma-sweeping-glass-concrete-arc-los-angeles/",
+          "source": "Designboom"
+        }
+      ],
+      "so_what": "This is the architecture story of the week — and arguably the year in the US. The critical split is instructive: the most interesting content angle isn't 'is it good?' but rather 'what does it mean that a Swiss master of intimate, craft-driven space was asked to build at civic scale in sprawling LA?' The gap between Zumthor's reputation and this specific execution is a live debate right now. Content creators should engage the institutional ambition vs. built reality tension, and the non-hierarchical hang as a curatorial/spatial model worth examining."
+    },
+    {
+      "topic": "Adaptive Reuse Wins Europe's Highest Architecture Prize — and the Jury Framed It as a Manifesto",
+      "synthesis": "The 2026 Mies van der Rohe Award — Europe's most prestigious architecture prize — went to the Charleroi Palais des Expositions in Belgium, a 1950s convention centre revitalised by studios AgwA and Architecten Jan de Vylder Inge Vinck over seven years. The jury, chaired by 2026 Pritzker laureate Smiljan Radić, called it a 'bold yet resourceful approach,' citing 'intelligent and precise transformation of an immense existing exhibition building, demonstrating how architecture can work with what is already there.' The interventions included removing facades in the central hall to create covered outdoor space and converting a south wing into a car park — moves that preserve mass while radically rethinking program. The emerging architecture prize went to Vidic Grohar Arhitekti's Temporary Spaces for Slovenian National Theatre Drama in Ljubljana — again, low-budget incremental interventions in former industrial buildings. Both winners signal that the European architecture establishment is now explicitly valorising constraint, resourcefulness, and working with the existing over new-build spectacle.",
+      "sources": [
+        {
+          "title": "Belgian Convention Centre Wins Mies van der Rohe Award 2026",
+          "url": "https://www.dezeen.com/2026/04/16/mies-van-der-rohe-award-2026/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Charleroi Palais des Expositions Revamp Wins Mies van der Rohe Award 2026 (via ArchDaily news feed)",
+          "url": "https://www.archdaily.com/architecture-news",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "When the Mies Award goes to a car-park conversion, not a landmark pavilion, it's a signal shift in what the field officially rewards. Architecture content creators should interrogate this: Is 'resourceful' becoming the new 'iconic'? Is the award legitimising a whole class of practice (repair, conservation, low-budget transformation) that was previously underseen? This is a generational argument about what counts as architecture excellence — worth a full explainer or opinion piece."
+    },
+    {
+      "topic": "Francis Kéré's Earth-and-Community Model Arrives at Institutional Scale in Dakar",
+      "synthesis": "Kéré Architecture's Goethe-Institut in Dakar, Senegal opened on April 18, 2026, becoming the first purpose-built Goethe-Institut on the African continent — and the first time in the organization's 75-year history that it commissioned a building from concept to completion. Designed around a central baobab tree, the two-storey building uses compacted-earth blocks (Senegal's red soil mixed with minimal cement), a canopy roof for passive cooling, and spaces for language instruction, exhibitions, and a library foregrounding African knowledge. The project involved local Dakar firm Worofila and German engineers Rebuild.ing, positioning it as a model of transnational collaborative construction. Multiple outlets (ArchDaily, Dezeen, Designboom) are covering it this week simultaneously with Kéré presenting his new TASCHEN monograph 'Building Stories' at Milan Design Week on April 22 — making him one of the most discussed architects alive right now across two continents.",
+      "sources": [
+        {
+          "title": "Kéré Architecture's Goethe-Institut in Senegal Opens as a Landmark for Cultural Exchange in West Africa",
+          "url": "https://www.archdaily.com/1040701/kere-architectures-goethe-institut-in-senegal-opens-as-a-landmark-for-cultural-exchange-in-west-africa",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Kéré Architecture Unveils Compacted-Earth Goethe-Institut in Dakar",
+          "url": "https://www.dezeen.com/2026/04/20/kere-architecture-goethe-institut/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Kéré Architecture-Designed Goethe-Institut Sénégal Opens in Dakar",
+          "url": "https://www.designboom.com/architecture/kere-architecture-goethe-institut-senegal-dakar-organization-purpose-built-home/",
+          "source": "Designboom"
+        }
+      ],
+      "so_what": "This is the clearest live example of what 'architecture as cultural diplomacy' looks like when it's done with material honesty rather than imported glass-and-steel. The earth-brick, baobab-centered, co-produced model is the counter-argument to every glossy institutional commission. For content creators: the overlap of the Dakar opening + Milan book launch is a rare moment when one practitioner's full theory of practice is being performed simultaneously in two places. Worth an analytical thread on 'what Kéré's model actually costs to copy.'"
+    },
+    {
+      "topic": "Milan Design Week 2026: Salone Repositions as Cultural Infrastructure, Not Trade Fair",
+      "synthesis": "Milan Design Week 2026 (April 20–26) is mid-run and generating heavy coverage today. The structural story is the Salone del Mobile's self-conscious repositioning: the 64th edition introduces Salone Raritas (collectible and limited-edition design within the fair itself) and Salone Contract — a new initiative led by OMA, with Rem Koolhaas delivering a keynote and masterplan reveal today, April 22, at the Drafting Futures Arena. The Fuorisalone theme 'Be the Project' shifts attention from outcomes to process. Lina Ghotmeh anchors a major architectural installation at Palazzo Litta. Ma Yansong and Francis Kéré are both speaking at Politecnico di Milano today. The critical frame across ArchDaily, Dezeen, and Wallpaper is that the Salone is evolving from commercial furniture fair to 'evolving cultural infrastructure,' using curatorial partnerships with figures like Koolhaas and Formafantasma to claim relevance beyond product launches.",
+      "sources": [
+        {
+          "title": "Milan Design Week 2026: Must-See Installations, Exhibitions, and Events",
+          "url": "https://www.archdaily.com/1040640/milan-design-week-2026-must-see-installations-exhibitions-and-events",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Twenty-Nine Unmissable Highlights at Milan Design Week 2026",
+          "url": "https://www.dezeen.com/2026/04/15/milan-design-week-2026-highlights-preview-installations-exhibitions-2/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Wallpaper* Live at Salone del Mobile 2026",
+          "url": "https://www.wallpaper.com/design-interiors/live/salone-del-mobile-2026",
+          "source": "Designboom (adjacent coverage)"
+        }
+      ],
+      "so_what": "The Salone's OMA/Koolhaas bet is the most interesting institutional move happening in design culture today: a trade fair hiring architecture's most theoretically provocative firm to curate its future contract offering. This is a signal that the boundary between architecture discourse and furniture commerce is dissolving further. Content creators should ask: what does it mean when Koolhaas writes the masterplan for how a furniture fair presents itself?"
+    },
+    {
+      "topic": "Gender Pay Gap at UK Architecture Studios: ZHA Worsens Sharply as Industry Shows Mixed Progress",
+      "synthesis": "Dezeen's annual UK architecture gender pay gap report (published April 20, 2026) shows the average gender pay gap has shot up at Zaha Hadid Architects, reversing last year's dramatic improvement. ZHA's median bonus pay gap stands at 33.8% (women lower), while the mean hourly gap has remained around 22% across three consecutive reports. ZHA attributed the widened median gap to 'an increase in the percentage of young women architects at entry level' — a framing that critics will read as structural deflection. Meanwhile, the majority of UK studios narrowed their gaps: Foster + Partners and Allford Hall Monaghan Morris both improved. Architecture and engineering firm HDR reported a 41.1% median wage disparity — the worst in the data. The story arrives one week after Barbara Buser was awarded the 2026 Jane Drew Prize, creating an implicit contrast between individual recognition of women and structural failure at the firm level.",
+      "sources": [
+        {
+          "title": "Gender Pay Gap More Than Doubles at Zaha Hadid Architects",
+          "url": "https://www.dezeen.com/2026/04/20/gender-pay-gap-uk-architecture-2/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "This is a recurring story with a new data point that matters: ZHA's brand is built on Zaha Hadid as a woman who broke every barrier, yet the firm keeps appearing near the bottom of pay equity rankings. That tension is highly discussable. The 'entry-level women' explanation is contestable and likely to generate responses from equity advocates. Architecture content creators should treat this as a structural critique of the profession's pipeline, not just a firm-level story."
+    },
+    {
+      "topic": "A Wave of Major Cultural Buildings Opens Simultaneously, Raising Questions About the Museum Typology's Direction",
+      "synthesis": "Within a single week, three significant cultural architecture projects have opened or been covered as newly complete: LACMA's David Geffen Galleries (Zumthor, LA, April 19), the V&A East Museum (O'Donnell + Tuomey, London, April 18), and Kéré Architecture's Goethe-Institut (Dakar, April 18). A fourth — ZGF Architects' Samuel Oschin Air and Space Center at the California Science Center (completed April 13) — is also circulating in coverage. Each project embodies a different institutional strategy: Zumthor's LACMA proposes the non-hierarchical encyclopedic museum; O'Donnell + Tuomey's V&A East is a folded concrete landmark activating an Olympic Park; Kéré's Goethe-Institut is a community-scaled, material-honest cultural exchange hub; and ZGF's air and space center is a 200,000 sq ft science education facility housing Space Shuttle Endeavour. The convergence is producing implicit comparisons about scale, ambition, and what public cultural buildings should do.",
+      "sources": [
+        {
+          "title": "V&A East Museum by O'Donnell + Tuomey Opens in London as a Folded Concrete Landmark",
+          "url": "https://www.designboom.com/architecture/peter-zumthor-david-geffen-galleries-lacma-sweeping-glass-concrete-arc-los-angeles/",
+          "source": "Designboom"
+        },
+        {
+          "title": "ZGF Architects Completes Los Angeles Air and Space Center Housing Space Shuttle Endeavour",
+          "url": "https://www.archdaily.com/1040750/zgf-architects-nears-completion-of-los-angeles-air-and-space-center-housing-space-shuttle-endeavour",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "V&A East Museum, Designed by O'Donnell + Tuomey, Opens April 18 (via ArchDaily weekly review)",
+          "url": "https://www.archdaily.com/1040716/milan-design-week-2026-and-niall-mclaughlin-architects-cathedral-precinct-in-sydney-this-weeks-reviewReyyan",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "The coincidence of openings is analytically productive: you can read these four buildings as a spectrum from 'institution as spectacle' to 'institution as community infrastructure.' Content creators should resist covering each in isolation and instead build a comparative framework — what does each model assume about who museums are for and what buildings should cost? The Kéré vs. Zumthor contrast alone is worth a long-form piece."
+    }
+  ],
+  "people": [
+    {
+      "name": "Peter Zumthor",
+      "role": "Atelier Peter Zumthor & Partner / Architect",
+      "why": "His LACMA David Geffen Galleries opened April 19 to immediate and divided critical reception across every major outlet. He is in conversation with LACMA CEO Michael Govan today (April 22) in a public event at the museum."
+    },
+    {
+      "name": "Francis Kéré",
+      "role": "Kéré Architecture / Founder",
+      "why": "His Goethe-Institut in Dakar opened April 18 — the first purpose-built Goethe-Institut in Africa and his most significant institutional commission to date. Simultaneously presenting his new TASCHEN monograph 'Building Stories' at Politecnico di Milano today (April 22) as part of Milan Design Week."
+    },
+    {
+      "name": "Rem Koolhaas",
+      "role": "OMA / Founding Partner",
+      "why": "Delivering a keynote lecture and masterplan reveal at Salone del Mobile today (April 22) as part of a day of talks on Salone Contract — a new initiative positioning OMA as the curatorial force behind the fair's future contract furniture strategy."
+    },
+    {
+      "name": "AgwA + Architecten Jan de Vylder Inge Vinck",
+      "role": "Belgian Architecture Studios / Collaborative Practice",
+      "why": "Their seven-year transformation of the Charleroi Palais des Expositions won the 2026 Mies van der Rohe Award — the most recent and most discussed affirmation that European architectural culture is officially pivoting toward adaptive reuse and resourceful transformation."
+    },
+    {
+      "name": "Smiljan Radić",
+      "role": "Smiljan Radić Arquitecto / 2026 Pritzker Prize Laureate",
+      "why": "Chaired the Mies van der Rohe Award jury that selected Charleroi, reinforcing the coherence of the emerging 'poetic restraint' critical consensus in European architecture awards."
+    },
+    {
+      "name": "Lina Ghotmeh",
+      "role": "Lina Ghotmeh Architecture / Principal",
+      "why": "Her 'Metamorphosis in Motion' — described as a labyrinthine pavilion of curved geometries — is anchoring MoscaPartners Variations at Palazzo Litta during Milan Design Week, and is one of the most-discussed architectural installations of the week."
+    },
+    {
+      "name": "Ma Yansong",
+      "role": "MAD Architects / Founder",
+      "why": "Speaking at Politecnico di Milano today (April 22) in a Domus-hosted public conversation during Milan Design Week, ahead of MAD's Lucas Museum of Narrative Art opening in LA in September 2026."
+    },
+    {
+      "name": "Michael Govan",
+      "role": "LACMA / CEO and Director",
+      "why": "Led LACMA's 25-year campus transformation and championed Zumthor against sustained opposition. His in-conversation with Zumthor today is the public capstone of one of the longest-running institutional architecture bets in recent American museum history."
+    }
+  ]
+}
