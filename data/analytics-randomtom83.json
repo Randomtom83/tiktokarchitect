@@ -23,9 +23,9 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_carride",
     "verdict": "MEH",
-    "rec_title": "Film a car ride conversation where Sophia asks a 'why' question that connects to how buildings or spaces are designed — e.g., 'Why do some buildings look like they're floating?' or 'Why don't houses have more trees inside?'",
-    "rec_reason": "This account has no STRONG-performing clusters by conversion, but the clearest demand signals all point to the dad-daughter car ride format. Audience requests for 'more car ride conversations' (5 requests, highest of any content type) align with the top two rising comment themes: appreciation for the dad-daughter relationship (45 comments, trending up) and Sophia's developmental milestones (30 comments, trending up). The car ride cluster also holds the highest raw video volume (76 videos), signaling the creator is most comfortable and consistent there. The walkthrough style has the highest measured engagement of any format (0.1204) but almost no video count (3 videos) — suggesting it's underexploited. Combining the car ride premise with a quasi-walkthrough structure (Sophia asks a child's question about the built environment; creator answers by showing or explaining something architectural in their surroundings) bridges the creator's professional identity with the content the audience demonstrably returns for. None of the external architecture trends score above 0.22 audience resonance because this audience is not here for professional discourse — they are here for the relationship. The architecture angle is the differentiator that makes a car ride video ownable and non-replicable, not the primary draw. Post this as a single unscripted take, not a talking-head explainer.",
-    "rec_confidence": 0.71
+    "rec_title": "Post a car ride conversation where Sophia asks a question that connects to something you design or build — use her 'why' energy as the hook, not the architecture.",
+    "rec_reason": "Every strong audience signal points back to Sophia and the dad-daughter dynamic, not architecture content. The top comment themes by volume and trend are: appreciation for the dad-daughter relationship (45 comments, trending up), Sophia's developmental milestones (30 comments, trending up), and funny/relatable toddler behavior (25 comments, trending up). The single highest-asked question on the entire account — with 14 responses — is about whether Bluey and Bingo are Disney princesses, from a car ride video. Audience requests explicitly call for more car ride conversations (5 requests, the highest of any request). The car ride cluster also has the most content volume (76 videos) giving it algorithmic familiarity. None of the five architecture blog trends score above 0.16 resonance because this audience has demonstrated zero engagement behavior tied to professional practice topics — follower conversion is 0.0 across every cluster and style, meaning no content format has yet converted viewers into followers at a measurable rate. The practical move is not to chase architecture trends the audience hasn't signaled interest in, but to do what already generates conversation: film a short car ride clip where Sophia's question — ideally a 'why' question, which the audience has explicitly asked about (3 comments on patience with 'why' questions) — accidentally or intentionally lands on something design-adjacent, like why buildings look different, why some houses are big, or why a construction site exists. The architecture connection gives you a professional identity hook without requiring the audience to care about architecture first. The walkthrough style has the highest observed engagement (0.1204) of any format tested, but with only 3 videos it lacks volume to be definitive — it is worth testing as the presentation format for this concept if a physical space is available to walk through with Sophia.",
+    "rec_confidence": 0.61
   },
   "videos": [
     {
@@ -12578,34 +12578,29 @@
   ],
   "external_trends": [
     {
-      "topic": "LACMA's David Geffen Galleries: A 25-year mega-project opens to divided critical reception",
-      "audience_resonance": 0.18,
-      "source": "The Architect's Newspaper / ArchDaily / Designboom"
-    },
-    {
-      "topic": "Adaptive Reuse Wins Europe's Highest Architecture Prize — and the Jury Framed It as a Manifesto",
+      "topic": "The EU Mies Award crowns adaptive reuse twice over — repair is now the European architectural mainstream",
       "audience_resonance": 0.12,
-      "source": "Dezeen / ArchDaily"
+      "source": "ArchDaily / World Architects / Euronews"
     },
     {
-      "topic": "Francis Kéré's Earth-and-Community Model Arrives at Institutional Scale in Dakar",
-      "audience_resonance": 0.14,
-      "source": "ArchDaily / Dezeen / Designboom"
-    },
-    {
-      "topic": "Milan Design Week 2026: Salone Repositions as Cultural Infrastructure, Not Trade Fair",
-      "audience_resonance": 0.1,
-      "source": "ArchDaily / Dezeen / Wallpaper"
-    },
-    {
-      "topic": "Gender Pay Gap at UK Architecture Studios: ZHA Worsens Sharply as Industry Shows Mixed Progress",
-      "audience_resonance": 0.22,
+      "topic": "Milan Design Week 2026 turns the fair into a cultural-political arena — architects lead the most talked-about interventions",
+      "audience_resonance": 0.09,
       "source": "Dezeen"
     },
     {
-      "topic": "A Wave of Major Cultural Buildings Opens Simultaneously, Raising Questions About the Museum Typology's Direction",
-      "audience_resonance": 0.15,
-      "source": "Designboom / ArchDaily"
+      "topic": "Gulf conflict is severing the Global South design event calendar — Design Doha and Design Mumbai both go dark",
+      "audience_resonance": 0.14,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Salone del Mobile pivots from trade fair to cultural institution — OMA's contract masterplan signals a long-term repositioning",
+      "audience_resonance": 0.07,
+      "source": "ArchDaily / Dezeen / Designboom"
+    },
+    {
+      "topic": "New cultural institutions are completing in clusters — public architecture as civic reactivation",
+      "audience_resonance": 0.16,
+      "source": "ArchDaily / Designboom"
     }
   ]
 }

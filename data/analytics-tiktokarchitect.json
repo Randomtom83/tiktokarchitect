@@ -23,8 +23,8 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "MEH",
-    "rec_title": "Profile Francis Kéré — framed through the lens of Black architect history — as a talking-head video that ties his Dakar Goethe-Institut opening to the broader story of African and diaspora architects reshaping global practice",
-    "rec_reason": "The Black Architect Profiles cluster has the highest avg_engagement of all clusters (0.1285) and the strongest active audience demand: 12 viewers explicitly requested the series continue (top request by volume), 55 comments express appreciation and hunger for more profiles, and that conversation trend is up. The Kéré story provides rare external momentum — three major outlets covered his Dakar opening simultaneously this week, and he is presenting a TASCHEN monograph at Milan Design Week on the same day, making him one of the most-discussed architects alive right now. This collapses two high-signal inputs into one post: a creator who already has an engaged audience for Black architect history profiles can ride a live news cycle with zero extra research burden. The diversity, equity, and access theme (25 comments, trending up) further reinforces that this framing will resonate. Talking-head is the dominant proven format (33 videos, 0.1062 engagement) and pairs naturally with a profile piece. The one weakness is that no cluster is currently rated STRONG — all are MEH — but Black architect history is the ceiling of what exists, and the Kéré peg elevates it from evergreen to timely. Framing suggestion: 'The architect who just opened the first-ever purpose-built Goethe-Institut in Africa — and why you've never heard of him' with a hook on earth-brick construction as a deliberate material and political choice.",
+    "rec_title": "Start a dedicated Black Architect History series episode spotlighting Francis Kéré, framed around the just-opened Goethe-Institut Sénégal — and explicitly connect it to the audience's broader demand to keep the profile series going",
+    "rec_reason": "This recommendation sits at the sharpest intersection of all available signals. On the audience demand side, 'Keep the Black architect history profile series going' is the single highest-requested action (count: 12) — more than twice the next closest request — and the 'Appreciation and demand for Black architect history profiles' comment theme is trending up with 55 comments, the highest comment count of any theme. That demand is structurally unmet: c_blackarch_history has only 16 videos and zero share_of_views, meaning the audience appetite is real but the content supply hasn't scaled to capture it. On the external momentum side, Kéré Architecture's Goethe-Institut Sénégal opening (April 2026, compacted-earth construction, first purpose-built home for the NGO) gives a concrete, timely news hook that TikTok's algorithm can index against a trending search term — Kéré is the first African-born Pritzker laureate, which is independently searchable. The 'new cultural institutions as civic reactivation' trend scores 0.61 audience resonance, the highest of any external trend, because it maps directly onto the construction/materials interest (comment theme: 40 comments, steady) and the profession practice cluster. Combining a Black architect profile with a just-opened building also addresses the 'diversity, equity, and access in architecture' comment theme (trending up, 25 comments), giving the video three emotional entry points: history, current news, and equity. Format recommendation: talking_head (highest video count at 33, engagement 0.1062, the top-performing style) with a brief walkthrough segment showing the compacted-earth wall detail from available published imagery — this mirrors the 'construction details and materials' audience interest without requiring site access. The series framing directly answers the viewer question 'Would you be interested in doing a piece on architect Louis A. S. Bellinger?' by signaling the series is active and expanding, which tends to generate the next round of profile suggestions in comments, compounding future content pipeline.",
     "rec_confidence": 0.74
   },
   "videos": [
@@ -24750,34 +24750,29 @@
   ],
   "external_trends": [
     {
-      "topic": "LACMA's David Geffen Galleries: A 25-year mega-project opens to divided critical reception",
-      "audience_resonance": 0.35,
-      "source": "The Architect's Newspaper / ArchDaily / Designboom"
+      "topic": "The EU Mies Award crowns adaptive reuse twice over — repair is now the European architectural mainstream",
+      "audience_resonance": 0.52,
+      "source": "ArchDaily / World Architects / Euronews"
     },
     {
-      "topic": "Adaptive Reuse Wins Europe's Highest Architecture Prize — and the Jury Framed It as a Manifesto",
-      "audience_resonance": 0.42,
-      "source": "Dezeen / ArchDaily"
-    },
-    {
-      "topic": "Francis Kéré's Earth-and-Community Model Arrives at Institutional Scale in Dakar",
-      "audience_resonance": 0.72,
-      "source": "ArchDaily / Dezeen / Designboom"
-    },
-    {
-      "topic": "Milan Design Week 2026: Salone Repositions as Cultural Infrastructure, Not Trade Fair",
-      "audience_resonance": 0.22,
-      "source": "ArchDaily / Dezeen / Wallpaper"
-    },
-    {
-      "topic": "Gender Pay Gap at UK Architecture Studios: ZHA Worsens Sharply as Industry Shows Mixed Progress",
-      "audience_resonance": 0.61,
+      "topic": "Milan Design Week 2026 turns the fair into a cultural-political arena — architects lead the most talked-about interventions",
+      "audience_resonance": 0.28,
       "source": "Dezeen"
     },
     {
-      "topic": "A Wave of Major Cultural Buildings Opens Simultaneously, Raising Questions About the Museum Typology's Direction",
+      "topic": "Gulf conflict is severing the Global South design event calendar — Design Doha and Design Mumbai both go dark",
       "audience_resonance": 0.38,
-      "source": "Designboom / ArchDaily"
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Salone del Mobile pivots from trade fair to cultural institution — OMA's contract masterplan signals a long-term repositioning",
+      "audience_resonance": 0.22,
+      "source": "ArchDaily / Dezeen / Designboom"
+    },
+    {
+      "topic": "New cultural institutions are completing in clusters — public architecture as civic reactivation",
+      "audience_resonance": 0.61,
+      "source": "ArchDaily / Designboom"
     }
   ]
 }
