@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_carride",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Film a car ride conversation where Sophia asks a 'why' question that connects to how buildings or spaces are designed — e.g., 'Why do some buildings look like they're floating?' or 'Why don't houses have more trees inside?'",
+    "rec_reason": "This account has no STRONG-performing clusters by conversion, but the clearest demand signals all point to the dad-daughter car ride format. Audience requests for 'more car ride conversations' (5 requests, highest of any content type) align with the top two rising comment themes: appreciation for the dad-daughter relationship (45 comments, trending up) and Sophia's developmental milestones (30 comments, trending up). The car ride cluster also holds the highest raw video volume (76 videos), signaling the creator is most comfortable and consistent there. The walkthrough style has the highest measured engagement of any format (0.1204) but almost no video count (3 videos) — suggesting it's underexploited. Combining the car ride premise with a quasi-walkthrough structure (Sophia asks a child's question about the built environment; creator answers by showing or explaining something architectural in their surroundings) bridges the creator's professional identity with the content the audience demonstrably returns for. None of the external architecture trends score above 0.22 audience resonance because this audience is not here for professional discourse — they are here for the relationship. The architecture angle is the differentiator that makes a car ride video ownable and non-replicable, not the primary draw. Post this as a single unscripted take, not a talking-head explainer.",
+    "rec_confidence": 0.71
   },
   "videos": [
     {
@@ -12576,5 +12576,36 @@
       "trend": "up"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "LACMA's David Geffen Galleries: A 25-year mega-project opens to divided critical reception",
+      "audience_resonance": 0.18,
+      "source": "The Architect's Newspaper / ArchDaily / Designboom"
+    },
+    {
+      "topic": "Adaptive Reuse Wins Europe's Highest Architecture Prize — and the Jury Framed It as a Manifesto",
+      "audience_resonance": 0.12,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Francis Kéré's Earth-and-Community Model Arrives at Institutional Scale in Dakar",
+      "audience_resonance": 0.14,
+      "source": "ArchDaily / Dezeen / Designboom"
+    },
+    {
+      "topic": "Milan Design Week 2026: Salone Repositions as Cultural Infrastructure, Not Trade Fair",
+      "audience_resonance": 0.1,
+      "source": "ArchDaily / Dezeen / Wallpaper"
+    },
+    {
+      "topic": "Gender Pay Gap at UK Architecture Studios: ZHA Worsens Sharply as Industry Shows Mixed Progress",
+      "audience_resonance": 0.22,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "A Wave of Major Cultural Buildings Opens Simultaneously, Raising Questions About the Museum Typology's Direction",
+      "audience_resonance": 0.15,
+      "source": "Designboom / ArchDaily"
+    }
+  ]
 }

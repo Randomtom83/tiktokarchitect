@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Profile Francis Kéré — framed through the lens of Black architect history — as a talking-head video that ties his Dakar Goethe-Institut opening to the broader story of African and diaspora architects reshaping global practice",
+    "rec_reason": "The Black Architect Profiles cluster has the highest avg_engagement of all clusters (0.1285) and the strongest active audience demand: 12 viewers explicitly requested the series continue (top request by volume), 55 comments express appreciation and hunger for more profiles, and that conversation trend is up. The Kéré story provides rare external momentum — three major outlets covered his Dakar opening simultaneously this week, and he is presenting a TASCHEN monograph at Milan Design Week on the same day, making him one of the most-discussed architects alive right now. This collapses two high-signal inputs into one post: a creator who already has an engaged audience for Black architect history profiles can ride a live news cycle with zero extra research burden. The diversity, equity, and access theme (25 comments, trending up) further reinforces that this framing will resonate. Talking-head is the dominant proven format (33 videos, 0.1062 engagement) and pairs naturally with a profile piece. The one weakness is that no cluster is currently rated STRONG — all are MEH — but Black architect history is the ceiling of what exists, and the Kéré peg elevates it from evergreen to timely. Framing suggestion: 'The architect who just opened the first-ever purpose-built Goethe-Institut in Africa — and why you've never heard of him' with a hook on earth-brick construction as a deliberate material and political choice.",
+    "rec_confidence": 0.74
   },
   "videos": [
     {
@@ -24748,5 +24748,36 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "LACMA's David Geffen Galleries: A 25-year mega-project opens to divided critical reception",
+      "audience_resonance": 0.35,
+      "source": "The Architect's Newspaper / ArchDaily / Designboom"
+    },
+    {
+      "topic": "Adaptive Reuse Wins Europe's Highest Architecture Prize — and the Jury Framed It as a Manifesto",
+      "audience_resonance": 0.42,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Francis Kéré's Earth-and-Community Model Arrives at Institutional Scale in Dakar",
+      "audience_resonance": 0.72,
+      "source": "ArchDaily / Dezeen / Designboom"
+    },
+    {
+      "topic": "Milan Design Week 2026: Salone Repositions as Cultural Infrastructure, Not Trade Fair",
+      "audience_resonance": 0.22,
+      "source": "ArchDaily / Dezeen / Wallpaper"
+    },
+    {
+      "topic": "Gender Pay Gap at UK Architecture Studios: ZHA Worsens Sharply as Industry Shows Mixed Progress",
+      "audience_resonance": 0.61,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "A Wave of Major Cultural Buildings Opens Simultaneously, Raising Questions About the Museum Typology's Direction",
+      "audience_resonance": 0.38,
+      "source": "Designboom / ArchDaily"
+    }
+  ]
 }
