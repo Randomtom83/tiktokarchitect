@@ -4,30 +4,76 @@
     "display_name": "Tom Reynolds",
     "followers": 0,
     "following": 0,
-    "updated_at": "2026-04-22T08:33:49.960220"
+    "updated_at": "2026-04-23T03:03:13.871301"
   },
   "overview": {
     "date_range": {
       "start": "2020-05-27",
-      "end": "2026-04-21"
+      "end": "2026-04-23"
     },
-    "videos": 1028,
-    "views": 3558811,
-    "likes": 330011,
-    "comments": 16644,
+    "videos": 1030,
+    "views": 3559229,
+    "likes": 330044,
+    "comments": 16646,
     "shares": 6585,
     "engagement_rate": 0.0993,
     "new_followers": 0,
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_blackarch_history",
+    "best_performing_cluster_id": null,
     "verdict": "MEH",
-    "rec_title": "Post a personal-story-style profile of Francis Kéré — framed as 'The architect the whole world is talking about this week, and why he matters to me as a Black designer' — tying his Dakar Goethe-Institut opening and Milan book launch to your ongoing Black architect history series and the audience's live conversation about diversity and access in the profession.",
-    "rec_reason": "Three signals converge here. First, audience demand: 'Appreciation for Black architectural history spotlights' is your highest-comment theme (60 comments, trending UP), and 9 viewers explicitly requested the series continue — the single strongest audience request by count. Second, external momentum: Kéré is the most-discussed living architect across ArchDaily, Dezeen, and Designboom this exact week due to the simultaneous Dakar opening and Milan monograph launch, giving the video a search and share tailwind that your steady-state history profiles don't normally get. Third, the gender/equity pay gap story (audience_resonance 0.68) and the rising 'diversity, equity, and access in architecture' comment theme (25 comments, trending UP) create a natural bridge — Kéré's community-built, earth-brick, co-produced model is a living counter-argument to the structural inequities your audience is already discussing. The personal_story presentation style is your highest-engagement format (0.115 avg) and fits naturally here: your own reaction to seeing a Burkinabé architect designing the first-ever purpose-built Goethe-Institut on the African continent is a genuine, credible hook. The one limitation is that all clusters currently sit at 'MEH' with near-zero follower conversion, meaning engagement is present but growth is stalled — this video won't fix that structural problem alone, but it is the highest-probability move available given current signals.",
-    "rec_confidence": 0.74
+    "rec_title": "",
+    "rec_reason": "",
+    "rec_confidence": 0
   },
   "videos": [
+    {
+      "id": "7631772624896544030",
+      "title": "from two brothers to an AEC empire that's still family owned and oper...",
+      "description": "from two brothers to an AEC empire that's still family owned and operated, McKissack & McKissack, #blackarchitect  . . #blackarchitecturetiktok ",
+      "date": "2026-04-23",
+      "duration": 144.0,
+      "views": 188,
+      "likes": 16,
+      "comments": 1,
+      "shares": 0,
+      "engagement_rate": 0.0904,
+      "sentiment": {
+        "positive": 0.0,
+        "neutral": 1.0,
+        "negative": 0.0
+      },
+      "url": "https://www.tiktok.com/@tiktokarchitect/video/7631772624896544030",
+      "has_transcript": false,
+      "cluster": "c_blackarch_history",
+      "style": "talking_head",
+      "watch_through": null,
+      "follower_conversion": null
+    },
+    {
+      "id": "7631569292785454366",
+      "title": "code questions: accessory dwelling units #adu #blackarchitect #blacka...",
+      "description": "code questions: accessory dwelling units #adu #blackarchitect #blackarchitecturetiktok #CodeQuestions ",
+      "date": "2026-04-22",
+      "duration": 199.0,
+      "views": 230,
+      "likes": 17,
+      "comments": 1,
+      "shares": 0,
+      "engagement_rate": 0.0783,
+      "sentiment": {
+        "positive": 0.0,
+        "neutral": 1.0,
+        "negative": 0.0
+      },
+      "url": "https://www.tiktok.com/@tiktokarchitect/video/7631569292785454366",
+      "has_transcript": false,
+      "cluster": "c_building_codes",
+      "style": "tutorial",
+      "watch_through": null,
+      "follower_conversion": null
+    },
     {
       "id": "7631244864696356127",
       "title": "John S Chase, #blackarchitect #blackarchitecturetiktok ",
@@ -47,7 +93,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7631244864696356127",
       "has_transcript": false,
       "cluster": "c_blackarch_history",
-      "style": "personal_story",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -69,7 +115,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7631303104721358110",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
+      "cluster": "c_3dprinting_tools",
       "style": null,
       "watch_through": null,
       "follower_conversion": null
@@ -93,7 +139,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7630859745800326431",
       "has_transcript": false,
       "cluster": "c_blackarch_history",
-      "style": "personal_story",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -115,8 +161,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7630982443608116511",
       "has_transcript": false,
-      "cluster": null,
-      "style": null,
+      "cluster": "c_profession_practice",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -139,7 +185,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7630062571168517406",
       "has_transcript": false,
       "cluster": "c_blackarch_history",
-      "style": "personal_story",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -161,8 +207,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7630133395774819615",
       "has_transcript": false,
-      "cluster": null,
-      "style": "talking_head",
+      "cluster": "c_profession_practice",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -208,7 +254,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7629844871334890783",
       "has_transcript": false,
       "cluster": null,
-      "style": "reaction",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -231,7 +277,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7629853217257426207",
       "has_transcript": false,
       "cluster": "c_blackarch_history",
-      "style": null,
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -253,7 +299,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7629502343913934111",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
+      "cluster": "c_building_codes",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -276,7 +322,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7628958656603671839",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
+      "cluster": "c_building_codes",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -299,7 +345,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7628959355999718686",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
+      "cluster": "c_building_codes",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -323,7 +369,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7628965151894441247",
       "has_transcript": false,
       "cluster": "c_blackarch_history",
-      "style": "personal_story",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -345,8 +391,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7629124040212352286",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": null,
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -368,8 +414,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7627967855794949406",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": null,
+      "cluster": "c_profession_practice",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -391,8 +437,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7626832905133624606",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": "tutorial",
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -414,8 +460,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7626259751952862495",
       "has_transcript": false,
-      "cluster": null,
-      "style": "personal_story",
+      "cluster": "c_profession_practice",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -437,7 +483,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7626486943286709534",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
+      "cluster": "c_profession_practice",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -460,8 +506,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7626102631819201822",
       "has_transcript": false,
-      "cluster": null,
-      "style": null,
+      "cluster": "c_profession_practice",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -483,7 +529,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7625669147015253278",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
+      "cluster": "c_3dprinting_tools",
       "style": null,
       "watch_through": null,
       "follower_conversion": null
@@ -506,7 +552,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7625017352714767647",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
+      "cluster": "c_building_codes",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -529,8 +575,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7625044967823527198",
       "has_transcript": false,
-      "cluster": null,
-      "style": null,
+      "cluster": "c_blackarch_history",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -552,7 +598,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7624291775246535966",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
+      "cluster": "c_3dprinting_tools",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -575,7 +621,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7623799004018511135",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -599,7 +645,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7623048776130891039",
       "has_transcript": false,
       "cluster": "c_blackarch_history",
-      "style": "personal_story",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -621,7 +667,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7623067789871336734",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
+      "cluster": "c_3dprinting_tools",
       "style": null,
       "watch_through": null,
       "follower_conversion": null
@@ -644,7 +690,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7623079649786072351",
       "has_transcript": false,
-      "cluster": null,
+      "cluster": "c_profession_practice",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -667,7 +713,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7623145487348108575",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
+      "cluster": "c_3dprinting_tools",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -690,8 +736,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7622479064871324959",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": "tutorial",
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -713,8 +759,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7622674658097253663",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "personal_story",
+      "cluster": "c_profession_practice",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -737,7 +783,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7622125132475125023",
       "has_transcript": false,
       "cluster": "c_blackarch_history",
-      "style": "personal_story",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -759,8 +805,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7622320646231575838",
       "has_transcript": false,
-      "cluster": null,
-      "style": null,
+      "cluster": "c_blackarch_history",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -782,8 +828,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7621976644969909535",
       "has_transcript": false,
-      "cluster": null,
-      "style": null,
+      "cluster": "c_blackarch_history",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -806,7 +852,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7621649833367047454",
       "has_transcript": false,
       "cluster": "c_blackarch_history",
-      "style": "personal_story",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -829,7 +875,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7621713441048251678",
       "has_transcript": false,
       "cluster": "c_blackarch_history",
-      "style": "personal_story",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -875,7 +921,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7620428002148519199",
       "has_transcript": false,
       "cluster": "c_blackarch_history",
-      "style": "personal_story",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -897,8 +943,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7620507060119112990",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": null,
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -920,8 +966,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7620510764926881055",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
-      "style": "reaction",
+      "cluster": "c_building_codes",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -943,7 +989,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7605641893073947934",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -966,7 +1012,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7605644745641168159",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -989,7 +1035,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7602248833594166559",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
+      "cluster": "c_building_codes",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1012,8 +1058,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7595610302025043230",
       "has_transcript": false,
-      "cluster": null,
-      "style": null,
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1036,7 +1082,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7580739090648190239",
       "has_transcript": false,
       "cluster": "c_profession_practice",
-      "style": "talking_head",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1058,7 +1104,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7576400505157586206",
       "has_transcript": false,
-      "cluster": null,
+      "cluster": "c_profession_practice",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1081,8 +1127,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7570190052626648351",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": null,
+      "cluster": "c_profession_practice",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1104,7 +1150,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7569287175062195486",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1127,8 +1173,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7568931096151280927",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
-      "style": "tutorial",
+      "cluster": "c_building_codes",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1150,8 +1196,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7566920717791464734",
       "has_transcript": false,
-      "cluster": null,
-      "style": null,
+      "cluster": "c_profession_practice",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1173,7 +1219,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7566669179919535390",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1196,8 +1242,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7566744773424467231",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": null,
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1219,8 +1265,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7565709175087467807",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": null,
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1242,7 +1288,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7565905546574843166",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1265,8 +1311,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7565909374636444959",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
-      "style": "tutorial",
+      "cluster": "c_profession_practice",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1288,7 +1334,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7565913722917604639",
       "has_transcript": false,
-      "cluster": null,
+      "cluster": "c_profession_practice",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1311,8 +1357,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7565361398126038302",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": null,
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1334,7 +1380,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564627111475039519",
       "has_transcript": false,
-      "cluster": null,
+      "cluster": "c_3dprinting_tools",
       "style": null,
       "watch_through": null,
       "follower_conversion": null
@@ -1357,8 +1403,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564664891433372958",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": null,
+      "cluster": "c_3dprinting_tools",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1403,8 +1449,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564811909950639390",
       "has_transcript": false,
-      "cluster": null,
-      "style": "talking_head",
+      "cluster": "c_profession_practice",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1427,7 +1473,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564833972258131230",
       "has_transcript": false,
       "cluster": "c_profession_practice",
-      "style": null,
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1449,7 +1495,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564344799592025375",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
+      "cluster": "c_profession_practice",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1473,7 +1519,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564408139135651102",
       "has_transcript": false,
       "cluster": "c_profession_practice",
-      "style": "talking_head",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1495,8 +1541,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564088547905522975",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": "tutorial",
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1518,8 +1564,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7560365427474418975",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": null,
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1541,8 +1587,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7557709890676903198",
       "has_transcript": false,
-      "cluster": null,
-      "style": "reaction",
+      "cluster": "c_profession_practice",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1564,8 +1610,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7557849805205032223",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
-      "style": "talking_head",
+      "cluster": "c_building_codes",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1587,8 +1633,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7557418707039816990",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": null,
+      "cluster": "c_3dprinting_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1610,7 +1656,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7557030969358781726",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
+      "cluster": "c_3dprinting_tools",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -1633,7 +1679,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7555562958558907678",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
+      "cluster": "c_3dprinting_tools",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -1656,7 +1702,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7546644842722463007",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1702,7 +1748,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7536020943026638111",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1725,8 +1771,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7535500072394558751",
       "has_transcript": false,
-      "cluster": "c_construction",
-      "style": "tutorial",
+      "cluster": "c_construction_progress",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1748,8 +1794,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7535513289497857311",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
-      "style": "reaction",
+      "cluster": "c_building_codes",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1771,7 +1817,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7532969738620685598",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1794,7 +1840,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7510325699979250974",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1817,7 +1863,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7506906641044917534",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1841,7 +1887,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7494316476782873887",
       "has_transcript": false,
       "cluster": "c_profession_practice",
-      "style": "talking_head",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1909,7 +1955,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7492435364188146974",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
+      "cluster": "c_building_codes",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1932,7 +1978,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7491330046880206111",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
+      "cluster": "c_building_codes",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -1955,8 +2001,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7491330745802263838",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
-      "style": "talking_head",
+      "cluster": "c_building_codes",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2001,8 +2047,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7490721081234427167",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tech",
-      "style": null,
+      "cluster": "c_profession_practice",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2025,7 +2071,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7489465497830886687",
       "has_transcript": false,
       "cluster": "c_profession_practice",
-      "style": "tutorial",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2070,8 +2116,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7489229909122944286",
       "has_transcript": false,
-      "cluster": "c_profession_practice",
-      "style": "talking_head",
+      "cluster": "c_construction_progress",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2093,7 +2139,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7488751091945917726",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -2116,7 +2162,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7486549110284209438",
       "has_transcript": false,
-      "cluster": "c_profession_practice",
+      "cluster": "c_blackarch_history",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -2140,7 +2186,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7481858524197309726",
       "has_transcript": false,
       "cluster": "c_profession_practice",
-      "style": "talking_head",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2162,8 +2208,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7480195754179480862",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
-      "style": "talking_head",
+      "cluster": "c_building_codes",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2231,8 +2277,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7478358819614117150",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
-      "style": "tutorial",
+      "cluster": "c_profession_practice",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2254,7 +2300,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7473662754339999007",
       "has_transcript": false,
-      "cluster": "c_construction",
+      "cluster": "c_construction_progress",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -2277,8 +2323,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7473595691235855647",
       "has_transcript": false,
-      "cluster": null,
-      "style": "personal_story",
+      "cluster": "c_construction_progress",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2301,7 +2347,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7473617844261948703",
       "has_transcript": false,
       "cluster": null,
-      "style": "personal_story",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2323,8 +2369,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7470350564128296222",
       "has_transcript": false,
-      "cluster": "c_codes_regs",
-      "style": "walkthrough",
+      "cluster": null,
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -24180,10 +24226,10 @@
     },
     {
       "month": "2026-04",
-      "videos": 24,
-      "views": 10556,
-      "likes": 1067,
-      "comments": 91,
+      "videos": 26,
+      "views": 10974,
+      "likes": 1100,
+      "comments": 93,
       "new_followers": 0
     }
   ],
@@ -24225,8 +24271,8 @@
     },
     {
       "bucket": "120s+",
-      "count": 251,
-      "avg_views": 1787,
+      "count": 253,
+      "avg_views": 1774,
       "avg_engagement": 0.0838,
       "avg_watch_through": null
     }
@@ -24241,177 +24287,154 @@
     "lurker_to_fan": {},
     "questions": [
       {
-        "text": "What model and brand of 3D printer do you use / recommend?",
-        "count": 4,
-        "cluster_id": "c_3dprinting_tech"
-      },
-      {
-        "text": "How did the final 3D print come out?",
+        "text": "What model and brand of 3D printer do you have?",
         "count": 3,
-        "cluster_id": "c_3dprinting_tech"
+        "cluster_id": "c_3dprinting_tools"
       },
       {
-        "text": "Is this the multi-family place you started doing videos about before the slab was poured?",
-        "count": 2,
-        "cluster_id": "c_construction"
-      },
-      {
-        "text": "How long has it been since construction began?",
-        "count": 2,
-        "cluster_id": "c_construction"
-      },
-      {
-        "text": "Is this market rate or LIHTC?",
+        "text": "Is this market rate or LIHTC housing?",
         "count": 1,
-        "cluster_id": "c_construction"
-      },
-      {
-        "text": "Do you work on any LEED projects?",
-        "count": 2,
-        "cluster_id": "c_profession_practice"
+        "cluster_id": "c_construction_progress"
       },
       {
         "text": "Will you be talking about local codes or national codes, or both?",
         "count": 2,
-        "cluster_id": "c_codes_regs"
+        "cluster_id": "c_building_codes"
       },
       {
-        "text": "Are you allowed to size the beam yourself, or do you need a structural engineer?",
-        "count": 3,
+        "text": "How did the final 3D print come out?",
+        "count": 2,
+        "cluster_id": "c_3dprinting_tools"
+      },
+      {
+        "text": "Are you an engineer, or why are you allowed to size the beam?",
+        "count": 2,
         "cluster_id": "c_profession_practice"
       },
       {
         "text": "What are the fix options when framing is done incorrectly?",
         "count": 2,
-        "cluster_id": "c_profession_practice"
+        "cluster_id": "c_construction_progress"
       },
       {
-        "text": "Is the NIA resource a website? How do I access it?",
-        "count": 3,
-        "cluster_id": "c_blackarch_history"
-      },
-      {
-        "text": "Do you ever use a 0.2mm nozzle for finer architectural model details?",
-        "count": 2,
-        "cluster_id": "c_3dprinting_tech"
-      },
-      {
-        "text": "Is your Revit-to-3D-printer plugin compatible with UK versions of Revit?",
+        "text": "Do you work on any LEED projects?",
         "count": 1,
-        "cluster_id": "c_3dprinting_tech"
+        "cluster_id": "c_construction_progress"
+      },
+      {
+        "text": "Is there software where you can type in the words and it will make the ambigram design for you?",
+        "count": 2,
+        "cluster_id": "c_3dprinting_tools"
       },
       {
         "text": "Are flood vents also used for crawl spaces in residential homes?",
         "count": 1,
-        "cluster_id": "c_codes_regs"
+        "cluster_id": "c_building_codes"
       },
       {
-        "text": "What scanner did you use on site and how accurate is it?",
+        "text": "So does the city just not want rooftop structures?",
+        "count": 1,
+        "cluster_id": "c_building_codes"
+      },
+      {
+        "text": "How long has construction been going since it began?",
+        "count": 2,
+        "cluster_id": "c_construction_progress"
+      },
+      {
+        "text": "What scanner did you use and what is its accuracy?",
         "count": 1,
         "cluster_id": "c_profession_practice"
       },
       {
-        "text": "Is there software where you type in words and it generates the ambigram design for you?",
+        "text": "Can green walls and brick architecture work together?",
         "count": 2,
-        "cluster_id": "c_3dprinting_tech"
+        "cluster_id": "c_profession_practice"
       },
       {
-        "text": "What type of ceiling is going in the parking area?",
+        "text": "What happens with the anchor bolts when a project is delayed?",
         "count": 1,
-        "cluster_id": "c_construction"
+        "cluster_id": "c_construction_progress"
       },
       {
-        "text": "Was OSB used for sub-flooring instead of plywood?",
+        "text": "Do you ever see single houses built out of steel?",
         "count": 1,
-        "cluster_id": "c_construction"
+        "cluster_id": "c_construction_progress"
       },
       {
-        "text": "What happens with the anchor bolts when a project is delayed six years?",
+        "text": "Is this Revit plugin UK version compatible?",
         "count": 1,
-        "cluster_id": "c_construction"
+        "cluster_id": "c_3dprinting_tools"
       },
       {
-        "text": "Do you think the workforce demographic changes on construction sites are related to the current administration's policy push?",
+        "text": "Are you encountering sensitive conversations when using AI notetakers and how do you handle them?",
         "count": 1,
-        "cluster_id": "c_construction"
+        "cluster_id": "c_profession_practice"
       },
       {
-        "text": "Are sensitive or confidential conversations a problem when using AI notetaking tools on professional calls?",
+        "text": "Would you be interested in doing a piece on architect Louis A. S. Bellinger?",
         "count": 1,
-        "cluster_id": "c_3dprinting_tech"
+        "cluster_id": "c_blackarch_history"
       },
       {
-        "text": "Can green walls and brick architecture work together structurally and aesthetically?",
-        "count": 2,
-        "cluster_id": "c_codes_regs"
-      },
-      {
-        "text": "Does the city code simply not want rooftop structures at all?",
+        "text": "How much Frank Lloyd Wright coverage will there be in the series?",
         "count": 1,
-        "cluster_id": "c_codes_regs"
+        "cluster_id": "c_blackarch_history"
       },
       {
-        "text": "How did you know how to design an anamorphic projection for 3D printing?",
+        "text": "Hard copy or digital for building code resources?",
         "count": 1,
-        "cluster_id": "c_3dprinting_tech"
+        "cluster_id": "c_building_codes"
       }
     ],
     "requests": [
       {
         "text": "Keep the Black architect history profile series going",
-        "count": 9
+        "count": 12
       },
       {
-        "text": "Start or continue a building code education series",
+        "text": "Do a full series on building codes",
         "count": 8
       },
       {
-        "text": "Show blueprints or plans compared to what was actually built on the construction project",
-        "count": 4
-      },
-      {
-        "text": "Do a video specifically on Louis A.S. Bellinger or other lesser-known Black architects suggested in comments",
+        "text": "Show blueprints vs. reality — what the drawings look like compared to the built result",
         "count": 3
       },
       {
-        "text": "Share or demo the Revit-to-3D-printer plugin publicly",
+        "text": "Make the Revit-to-3D-printer tool publicly available",
         "count": 5
       },
       {
-        "text": "Continue the AnansiBuild / architectural model 3D printing tool development updates",
-        "count": 3
-      },
-      {
-        "text": "Post more content about what architects are actually allowed to do vs. engineers (scope of practice)",
-        "count": 3
-      },
-      {
-        "text": "Make a video about LEED projects and sustainable design",
+        "text": "Do more content on stormwater management and drainage",
         "count": 2
       },
       {
-        "text": "Publish the children's book about architecture",
-        "count": 4
-      },
-      {
-        "text": "Record a dedicated Revit tutorial series",
+        "text": "Share spreadsheets and calculation tools used in practice",
         "count": 3
       },
       {
-        "text": "Show more detailed construction progress with narrated explanations of each phase",
+        "text": "Continue and expand the NIA database project",
         "count": 4
       },
       {
-        "text": "Do a video walking through actual construction drawings or blueprints",
+        "text": "Publish the children's architecture books",
         "count": 3
-      },
-      {
-        "text": "Cover stormwater management and drainage design in more depth",
-        "count": 2
       },
       {
         "text": "Provide an architecture 101 explainer series for non-architects",
-        "count": 3
+        "count": 2
+      },
+      {
+        "text": "Do a profile on architect Louis A. S. Bellinger",
+        "count": 1
+      },
+      {
+        "text": "Cover the ARE exam process and preparation",
+        "count": 2
+      },
+      {
+        "text": "Do more content on AI tools in architectural practice",
+        "count": 2
       }
     ]
   },
@@ -24512,13 +24535,13 @@
       "sentiment": 0.7
     },
     {
-      "handle": "@j.innocent",
+      "handle": "@tiffanycoppock5",
       "comments": 25,
       "sentiment": 0.7
     },
     {
-      "handle": "@tiffanycoppock5",
-      "comments": 24,
+      "handle": "@j.innocent",
+      "comments": 25,
       "sentiment": 0.7
     },
     {
@@ -24570,191 +24593,160 @@
   "content_clusters": [
     {
       "id": "c_blackarch_history",
-      "label": "Profiles of Black Architects in History",
-      "video_count": 13,
+      "label": "Black Architect Profiles & History",
+      "video_count": 16,
       "share_of_views": 0.0,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.1355,
+      "avg_engagement": 0.1285,
       "trend": "steady",
       "verdict": "MEH"
     },
     {
-      "id": "c_construction",
-      "label": "Active Construction Project Updates and Site Visits",
+      "id": "c_building_codes",
+      "label": "Building Codes, Zoning & Regulatory Practice",
       "video_count": 14,
-      "share_of_views": 0.01,
-      "avg_follower_conversion": 0,
-      "avg_engagement": 0.1018,
-      "trend": "steady",
-      "verdict": "MEH"
-    },
-    {
-      "id": "c_codes_regs",
-      "label": "Building Codes, Zoning, and Regulatory Education",
-      "video_count": 17,
       "share_of_views": 0.0,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0861,
-      "trend": "steady",
-      "verdict": "MEH"
+      "avg_engagement": 0.0818,
+      "trend": "down",
+      "verdict": "NOISE"
     },
     {
-      "id": "c_3dprinting_tech",
-      "label": "3D Printing, Revit Tools, and Architectural Technology",
-      "video_count": 21,
-      "share_of_views": 0.01,
-      "avg_follower_conversion": 0,
-      "avg_engagement": 0.087,
-      "trend": "steady",
-      "verdict": "MEH"
-    },
-    {
-      "id": "c_profession_practice",
-      "label": "Architecture Profession, Practice, and Industry Commentary",
+      "id": "c_construction_progress",
+      "label": "Active Construction Site Updates & Project Walkthroughs",
       "video_count": 16,
       "share_of_views": 0.01,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.1054,
+      "avg_engagement": 0.1058,
+      "trend": "steady",
+      "verdict": "MEH"
+    },
+    {
+      "id": "c_3dprinting_tools",
+      "label": "3D Printing, Fabrication & Digital Tools for Architecture",
+      "video_count": 20,
+      "share_of_views": 0.01,
+      "avg_follower_conversion": 0,
+      "avg_engagement": 0.0848,
+      "trend": "down",
+      "verdict": "NOISE"
+    },
+    {
+      "id": "c_profession_practice",
+      "label": "Architectural Practice, Industry Commentary & Professional Tools",
+      "video_count": 32,
+      "share_of_views": 0.01,
+      "avg_follower_conversion": 0,
+      "avg_engagement": 0.0916,
       "trend": "steady",
       "verdict": "MEH"
     }
   ],
   "topic_engagement_matrix": [
     {
-      "topic": "Profiles of Black Architects in History",
-      "views_idx": 0.21,
-      "likes_idx": 0.28,
-      "comments_idx": 0.45
+      "topic": "Black Architect Profiles & History",
+      "views_idx": 0.19,
+      "likes_idx": 0.25,
+      "comments_idx": 0.33
     },
     {
-      "topic": "Active Construction Project Updates and Site Visits",
-      "views_idx": 0.38,
-      "likes_idx": 0.39,
-      "comments_idx": 0.49
-    },
-    {
-      "topic": "Building Codes, Zoning, and Regulatory Education",
-      "views_idx": 0.27,
-      "likes_idx": 0.23,
-      "comments_idx": 0.35
-    },
-    {
-      "topic": "3D Printing, Revit Tools, and Architectural Technology",
+      "topic": "Building Codes, Zoning & Regulatory Practice",
       "views_idx": 0.25,
-      "likes_idx": 0.18,
-      "comments_idx": 0.48
+      "likes_idx": 0.2,
+      "comments_idx": 0.32
     },
     {
-      "topic": "Architecture Profession, Practice, and Industry Commentary",
-      "views_idx": 0.37,
-      "likes_idx": 0.39,
-      "comments_idx": 0.67
+      "topic": "Active Construction Site Updates & Project Walkthroughs",
+      "views_idx": 0.35,
+      "likes_idx": 0.35,
+      "comments_idx": 0.47
+    },
+    {
+      "topic": "3D Printing, Fabrication & Digital Tools for Architecture",
+      "views_idx": 0.26,
+      "likes_idx": 0.19,
+      "comments_idx": 0.47
+    },
+    {
+      "topic": "Architectural Practice, Industry Commentary & Professional Tools",
+      "views_idx": 0.3,
+      "likes_idx": 0.29,
+      "comments_idx": 0.51
     }
   ],
   "presentation_styles": [
     {
       "style": "walkthrough",
-      "video_count": 17,
-      "avg_engagement": 0.1004,
+      "video_count": 23,
+      "avg_engagement": 0.1032,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     },
     {
       "style": "tutorial",
-      "video_count": 18,
-      "avg_engagement": 0.0924,
+      "video_count": 16,
+      "avg_engagement": 0.0865,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     },
     {
       "style": "personal_story",
-      "video_count": 17,
-      "avg_engagement": 0.115,
+      "video_count": 11,
+      "avg_engagement": 0.087,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     },
     {
       "style": "reaction",
       "video_count": 10,
-      "avg_engagement": 0.0982,
+      "avg_engagement": 0.099,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     },
     {
       "style": "talking_head",
-      "video_count": 14,
-      "avg_engagement": 0.1009,
+      "video_count": 33,
+      "avg_engagement": 0.1062,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     }
   ],
   "audience_conversation_themes": [
     {
-      "theme": "Appreciation for Black architectural history spotlights and requests for more profiles",
-      "comment_count": 60,
+      "theme": "Appreciation and demand for Black architect history profiles",
+      "comment_count": 55,
       "trend": "up"
     },
     {
-      "theme": "Building code complexity, zoning nuance, and regulatory learning discussions",
+      "theme": "Building codes and zoning as practical professional knowledge",
+      "comment_count": 35,
+      "trend": "up"
+    },
+    {
+      "theme": "Construction details, materials, and site observations",
+      "comment_count": 40,
+      "trend": "steady"
+    },
+    {
+      "theme": "3D printing workflow, settings, and architecture model applications",
       "comment_count": 40,
       "trend": "up"
     },
     {
-      "theme": "3D printing process questions, printer recommendations, and technical challenges",
-      "comment_count": 45,
-      "trend": "steady"
-    },
-    {
-      "theme": "Construction site observations, structural questions, and material choices",
-      "comment_count": 50,
-      "trend": "steady"
-    },
-    {
-      "theme": "Diversity, equity, and access in the architecture profession and licensure",
+      "theme": "Diversity, equity, and access in the architecture profession",
       "comment_count": 25,
       "trend": "up"
     },
     {
-      "theme": "Architect's scope of work, professional skills, and career questions",
+      "theme": "Personal projects, side ventures, books, and creative work",
       "comment_count": 30,
       "trend": "steady"
     },
     {
-      "theme": "Personal parenting moments and family life woven into architectural content",
-      "comment_count": 30,
+      "theme": "Stormwater, site engineering, and environmental design curiosity",
+      "comment_count": 20,
       "trend": "steady"
     }
   ],
-  "external_trends": [
-    {
-      "topic": "LACMA's David Geffen Galleries: A 25-year mega-project opens to divided critical reception",
-      "audience_resonance": 0.35,
-      "source": "The Architect's Newspaper / ArchDaily / Designboom"
-    },
-    {
-      "topic": "Adaptive Reuse Wins Europe's Highest Architecture Prize — and the Jury Framed It as a Manifesto",
-      "audience_resonance": 0.42,
-      "source": "Dezeen / ArchDaily"
-    },
-    {
-      "topic": "Francis Kéré's Earth-and-Community Model Arrives at Institutional Scale in Dakar",
-      "audience_resonance": 0.72,
-      "source": "ArchDaily / Dezeen / Designboom"
-    },
-    {
-      "topic": "Milan Design Week 2026: Salone Repositions as Cultural Infrastructure, Not Trade Fair",
-      "audience_resonance": 0.22,
-      "source": "ArchDaily / Dezeen / Wallpaper"
-    },
-    {
-      "topic": "Gender Pay Gap at UK Architecture Studios: ZHA Worsens Sharply as Industry Shows Mixed Progress",
-      "audience_resonance": 0.68,
-      "source": "Dezeen"
-    },
-    {
-      "topic": "A Wave of Major Cultural Buildings Opens Simultaneously, Raising Questions About the Museum Typology's Direction",
-      "audience_resonance": 0.45,
-      "source": "Designboom / ArchDaily"
-    }
-  ]
+  "external_trends": []
 }
