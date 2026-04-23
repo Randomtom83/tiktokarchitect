@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Profile a lesser-known Black architect on camera — talking-head format with sketched visual aids — explicitly connecting their work to a live 2026 story (Kéré Architecture's Goethe-Institut Sénégal opening or the EU Mies adaptive reuse wins) to anchor the history in present-day stakes",
+    "rec_reason": "This is the clearest multi-signal intersection in the data. Audience demand is the strongest measurable signal: 'Keep the Black architect history series going' is the single most-requested content type at 12 explicit requests, 'Do a video on Louis A.S. Bellinger and other lesser-known Black architects' adds 3 more, and the 'Celebrating Black Architects and Demanding More Historical Recognition' comment theme is the highest-volume conversation thread (60 comments) and the only one trending UP. The cluster itself has the highest avg_engagement of any cluster at 0.1325 — meaning when people see it, they respond — and talking-head is the highest-volume format with the strongest engagement (0.1147) across all styles, making it the natural production choice. The Kéré Architecture angle (Goethe-Institut Sénégal, compacted-earth blocks, first purpose-built home for the organization) provides external momentum: it's a current opening by a Black African architect that directly bridges history, material culture, and the 'diversity and barriers to entry' theme trending in comments (30 comments, up). Pairing a historical profile with a live 2026 reference gives the video a news hook that can pull in viewers beyond the existing follower base — addressing the zero follower-conversion problem across all clusters. The Gulf conflict / Global South design platform disruption trend (0.40 resonance) is a secondary reinforcement: the DEI-in-architecture conversation thread maps directly onto a live geopolitical story about whose design voices get platformed, which could be woven in as a one-line context bridge. No cluster is STRONG — all are MEH or NOISE — so this recommendation is built on suppressed demand rather than proven breakout performance, which caps confidence.",
+    "rec_confidence": 0.72
   },
   "videos": [
     {
@@ -24751,5 +24751,31 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "The EU Mies Award crowns adaptive reuse twice over — repair is now the European architectural mainstream",
+      "audience_resonance": 0.35,
+      "source": "ArchDaily / World Architects / Euronews"
+    },
+    {
+      "topic": "Milan Design Week 2026 turns the fair into a cultural-political arena — architects lead the most talked-about interventions",
+      "audience_resonance": 0.2,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Gulf conflict is severing the Global South design event calendar — Design Doha and Design Mumbai both go dark",
+      "audience_resonance": 0.4,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Salone del Mobile pivots from trade fair to cultural institution — OMA's contract masterplan signals a long-term repositioning",
+      "audience_resonance": 0.15,
+      "source": "ArchDaily / Dezeen / Designboom"
+    },
+    {
+      "topic": "New cultural institutions are completing in clusters — public architecture as civic reactivation",
+      "audience_resonance": 0.5,
+      "source": "ArchDaily / Designboom"
+    }
+  ]
 }
