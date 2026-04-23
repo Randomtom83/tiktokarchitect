@@ -156,11 +156,19 @@ def main():
         json.dump(analytics, f, ensure_ascii=False, indent=2)
     print(f"  Wrote enriched: {out_path}")
 
-    # Also enrich randomtom83 if it exists and is different
+    # Also enrich randomtom83 with its own recommendation
     if handle != "randomtom83":
         rm_analytics = load_analytics("randomtom83")
-        if rm_analytics:
-            rm_analytics["external_trends"] = result.get("external_trends", [])
+        if rm_analytics and rm_analytics.get("content_clusters"):
+            print(f"\n  Generating recommendation for @randomtom83...")
+            try:
+                rm_result = merge_and_recommend(rm_analytics, blog_trends)
+                rm_analytics["headline_signal"] = rm_result["headline_signal"]
+                rm_analytics["external_trends"] = rm_result.get("external_trends", [])
+                print(f"  Recommendation: {rm_result['headline_signal']['rec_title'][:60]}...")
+            except Exception as e:
+                print(f"  ERROR: @randomtom83 merge failed: {e}")
+                rm_analytics["external_trends"] = result.get("external_trends", [])
             rm_path = DATA_DIR / "analytics-randomtom83.json"
             with open(rm_path, "w", encoding="utf-8") as f:
                 json.dump(rm_analytics, f, ensure_ascii=False, indent=2)
