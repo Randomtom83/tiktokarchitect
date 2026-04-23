@@ -131,7 +131,7 @@ export default function AnalyticsPage() {
   });
   const [variation, setVariation] = useState<Variation>(() => {
     if (typeof window !== "undefined") {
-      return (localStorage.getItem("ttka.variation") as Variation) || "drafting-table";
+      return (localStorage.getItem("ttka.variation") as Variation) || "brief";
     }
     return "drafting-table";
   });
@@ -226,46 +226,23 @@ export default function AnalyticsPage() {
           ← Back to Site
         </Link>
 
-        {/* Center: account switcher + variation toggle */}
-        <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
-          {/* Account switcher */}
-          <div style={{ display: "flex", gap: 0, border: `1px solid ${t.rule}` }}>
-            {ACCOUNTS.map((acc) => (
-              <button
-                key={acc.id}
-                onClick={() => setAccountId(acc.id)}
-                style={{
-                  fontFamily: FONTS.mono, fontSize: 11, letterSpacing: 0.5,
-                  padding: "6px 14px", border: "none", cursor: "pointer",
-                  background: acc.id === accountId ? t.ink : "transparent",
-                  color: acc.id === accountId ? t.bg : t.inkMuted,
-                  transition: "none",
-                }}
-              >
-                {acc.label}
-              </button>
-            ))}
-          </div>
-
-          {/* Variation toggle */}
-          <div style={{ display: "flex", gap: 0, border: `1px solid ${t.rule}` }}>
-            {VARIATIONS.map((v) => (
-              <button
-                key={v.id}
-                onClick={() => setVariation(v.id)}
-                style={{
-                  fontFamily: FONTS.mono, fontSize: 10, letterSpacing: 0.8,
-                  padding: "6px 12px", border: "none", cursor: "pointer",
-                  textTransform: "uppercase",
-                  background: v.id === variation ? t.accent : "transparent",
-                  color: v.id === variation ? "#fff" : t.inkSubtle,
-                  transition: "none",
-                }}
-              >
-                {v.label}
-              </button>
-            ))}
-          </div>
+        {/* Center: account switcher */}
+        <div style={{ display: "flex", gap: 0, border: `1px solid ${t.rule}` }}>
+          {ACCOUNTS.map((acc) => (
+            <button
+              key={acc.id}
+              onClick={() => setAccountId(acc.id)}
+              style={{
+                fontFamily: FONTS.mono, fontSize: 11, letterSpacing: 0.5,
+                padding: "6px 14px", border: "none", cursor: "pointer",
+                background: acc.id === accountId ? t.ink : "transparent",
+                color: acc.id === accountId ? t.bg : t.inkMuted,
+                transition: "none",
+              }}
+            >
+              {acc.label}
+            </button>
+          ))}
         </div>
 
         {/* Right: tweaks + timestamp */}
@@ -333,6 +310,27 @@ export default function AnalyticsPage() {
                   }}
                 >
                   {dk}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Layout */}
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <Label t={t}>Layout</Label>
+            <div style={{ display: "flex", gap: 0, border: `1px solid ${t.rule}` }}>
+              {VARIATIONS.map((v) => (
+                <button
+                  key={v.id}
+                  onClick={() => setVariation(v.id)}
+                  style={{
+                    fontFamily: FONTS.mono, fontSize: 10, padding: "4px 10px",
+                    border: "none", cursor: "pointer", textTransform: "uppercase",
+                    background: v.id === variation ? t.ink : "transparent",
+                    color: v.id === variation ? t.bg : t.inkSubtle,
+                  }}
+                >
+                  {v.label}
                 </button>
               ))}
             </div>
