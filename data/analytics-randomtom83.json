@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_carride",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Film the next car ride drop-off with Sophia reacting to a real-world architecture or design question — e.g., 'Sophia, if you could design our school, what would you change?' — and let the conversation run naturally.",
+    "rec_reason": "No cluster has broken STRONG, so the signal must come from audience demand, not past performance. The car ride format is the single most requested content type (6 explicit requests, highest of any ask), and 'Affirming Dad's Parenting Style' and 'Sophia's Personality and Growth' are both the highest-volume comment themes (40 comments each) and trending up — meaning the audience is emotionally invested in this dynamic specifically. The walkthrough style is the most-used and highest-engagement format (0.0715 avg, 79 videos), but it needs a content upgrade: pairing it with a light architecture angle bridges the creator's professional identity with the slice-of-life content the audience already loves. The gender pay gap trend scores the highest external resonance (0.32) because it touches civic and social values — a theme the audience engages with (15 rising comments on social justice content, 2 content requests for more civic explanation to Sophia) — but a direct UK pay gap video has low native fit. Threading that civic energy through the car ride format (e.g., 'Sophia asked me if boys and girls get paid the same at my job') would activate both the top audience demand and the social values cluster simultaneously without forcing an unnatural pivot. Avoid standalone talking-head or personal-story formats — both are rated NOISE at sub-0.057 engagement.",
+    "rec_confidence": 0.61
   },
   "videos": [
     {
@@ -12600,27 +12600,27 @@
     },
     {
       "topic": "Adaptive Reuse Wins Europe's Highest Architecture Prize — and the Jury Framed It as a Manifesto",
-      "audience_resonance": 0.35,
+      "audience_resonance": 0.15,
       "source": "Dezeen / ArchDaily"
     },
     {
       "topic": "Francis Kéré's Earth-and-Community Model Arrives at Institutional Scale in Dakar",
-      "audience_resonance": 0.72,
+      "audience_resonance": 0.2,
       "source": "ArchDaily / Dezeen / Designboom"
     },
     {
       "topic": "Milan Design Week 2026: Salone Repositions as Cultural Infrastructure, Not Trade Fair",
-      "audience_resonance": 0.18,
+      "audience_resonance": 0.12,
       "source": "ArchDaily / Dezeen / Wallpaper"
     },
     {
       "topic": "Gender Pay Gap at UK Architecture Studios: ZHA Worsens Sharply as Industry Shows Mixed Progress",
-      "audience_resonance": 0.68,
+      "audience_resonance": 0.32,
       "source": "Dezeen"
     },
     {
       "topic": "A Wave of Major Cultural Buildings Opens Simultaneously, Raising Questions About the Museum Typology's Direction",
-      "audience_resonance": 0.38,
+      "audience_resonance": 0.22,
       "source": "Designboom / ArchDaily"
     }
   ]

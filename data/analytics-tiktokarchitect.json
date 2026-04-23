@@ -23,8 +23,8 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "MEH",
-    "rec_title": "Profile Francis Kéré through the lens of your Black architect history series — framing his Dakar Goethe-Institut opening as a live case study in what community-rooted, materially honest architecture looks like at institutional scale, and connecting it to the broader DEI-in-architecture conversation your audience is already raising in comments.",
-    "rec_reason": "This recommendation sits at the intersection of four converging signals. (1) Audience demand: 'Profiles of Black Architects in History' has the highest raw comment engagement of any cluster (avg 0.1355) and the single strongest audience request — 9 viewers explicitly asked to keep the series going, the highest request count in the dataset. (2) Rising comment themes: 'Diversity, equity, and access in the architecture profession' is trending up with 25 comments, and 'Appreciation for Black architectural history spotlights' is trending up with 60 comments — the highest comment volume of any theme. Together these signal an audience that is emotionally invested and growing. (3) External momentum: Kéré is the highest-resonance external trend (0.72) because he is a Black African architect whose work directly embodies the community-and-equity values your audience already discusses. His Dakar opening on April 18 and Milan book launch on April 22 make him the most-discussed living architect across two continents this week — giving the video a timely news hook that most creator profiles of historical figures lack. (4) Topical bridge: By framing Kéré not just as a historical profile but as a living practitioner whose current project answers audience questions about DEI and scope of practice (compacted-earth construction, community co-production, working in the Global South vs. imported glass-and-steel), you extend the series into present-tense relevance without abandoning the format that works. The personal_story presentation style (avg engagement 0.115, highest of any format) is a natural fit — open with why Kéré's model matters to you as a Black architect practicing today, then move into the profile. The one honest caveat: no cluster in this dataset is currently STRONG on views or follower conversion, so confidence is tempered by the overall account-level plateau rather than any weakness in this specific recommendation.",
+    "rec_title": "Post a personal-story-style profile of Francis Kéré — framed as 'The architect the whole world is talking about this week, and why he matters to me as a Black designer' — tying his Dakar Goethe-Institut opening and Milan book launch to your ongoing Black architect history series and the audience's live conversation about diversity and access in the profession.",
+    "rec_reason": "Three signals converge here. First, audience demand: 'Appreciation for Black architectural history spotlights' is your highest-comment theme (60 comments, trending UP), and 9 viewers explicitly requested the series continue — the single strongest audience request by count. Second, external momentum: Kéré is the most-discussed living architect across ArchDaily, Dezeen, and Designboom this exact week due to the simultaneous Dakar opening and Milan monograph launch, giving the video a search and share tailwind that your steady-state history profiles don't normally get. Third, the gender/equity pay gap story (audience_resonance 0.68) and the rising 'diversity, equity, and access in architecture' comment theme (25 comments, trending UP) create a natural bridge — Kéré's community-built, earth-brick, co-produced model is a living counter-argument to the structural inequities your audience is already discussing. The personal_story presentation style is your highest-engagement format (0.115 avg) and fits naturally here: your own reaction to seeing a Burkinabé architect designing the first-ever purpose-built Goethe-Institut on the African continent is a genuine, credible hook. The one limitation is that all clusters currently sit at 'MEH' with near-zero follower conversion, meaning engagement is present but growth is stalled — this video won't fix that structural problem alone, but it is the highest-probability move available given current signals.",
     "rec_confidence": 0.74
   },
   "videos": [
@@ -24728,12 +24728,12 @@
   "external_trends": [
     {
       "topic": "LACMA's David Geffen Galleries: A 25-year mega-project opens to divided critical reception",
-      "audience_resonance": 0.25,
+      "audience_resonance": 0.35,
       "source": "The Architect's Newspaper / ArchDaily / Designboom"
     },
     {
       "topic": "Adaptive Reuse Wins Europe's Highest Architecture Prize — and the Jury Framed It as a Manifesto",
-      "audience_resonance": 0.35,
+      "audience_resonance": 0.42,
       "source": "Dezeen / ArchDaily"
     },
     {
@@ -24743,7 +24743,7 @@
     },
     {
       "topic": "Milan Design Week 2026: Salone Repositions as Cultural Infrastructure, Not Trade Fair",
-      "audience_resonance": 0.18,
+      "audience_resonance": 0.22,
       "source": "ArchDaily / Dezeen / Wallpaper"
     },
     {
@@ -24753,7 +24753,7 @@
     },
     {
       "topic": "A Wave of Major Cultural Buildings Opens Simultaneously, Raising Questions About the Museum Typology's Direction",
-      "audience_resonance": 0.38,
+      "audience_resonance": 0.45,
       "source": "Designboom / ArchDaily"
     }
   ]
