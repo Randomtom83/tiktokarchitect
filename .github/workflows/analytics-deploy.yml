@@ -40,6 +40,7 @@ jobs:
           git add data/.last-digest-date 2>/dev/null || true
           git diff --cached --quiet && echo "No changes" || {
             git commit -m "analytics: enriched with verdicts and recommendations $(date +%Y-%m-%d)"
+            git pull --rebase origin master
             git push
           }
 

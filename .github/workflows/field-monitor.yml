@@ -39,6 +39,7 @@ jobs:
           git add data/blog-trends-*.json
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "field-monitor: blog trends $(date +%Y-%m-%d)"
+          git pull --rebase origin master
           git push
 
       - name: Trigger Analytics Deploy
