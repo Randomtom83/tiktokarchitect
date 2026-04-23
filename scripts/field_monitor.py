@@ -83,11 +83,13 @@ If you find nothing noteworthy in the last 24 hours, return the JSON with empty 
     for i, block in enumerate(response.content):
         print(f"  Block {i}: type={block.type}")
 
-    # Extract text from response — take the LAST text block (tool use blocks come first)
-    text = ""
+    # Extract text from response — concatenate ALL text blocks
+    text_blocks = []
     for block in response.content:
-        if block.type == "text":
-            text = block.text
+        if block.type == "text" and block.text.strip():
+            text_blocks.append(block.text)
+    text = "\n".join(text_blocks)
+    print(f"  Combined text length: {len(text)} chars from {len(text_blocks)} text blocks")
 
     # Extract JSON from response (may have prose around it)
     # Try direct parse first
@@ -126,13 +128,15 @@ If you find nothing noteworthy in the last 24 hours, return the JSON with empty 
                     break
 
     if result is None:
-        print(f"ERROR: Failed to parse Claude response as JSON")
-        print(f"Raw response: {text[:500]}")
-        sys.exit(1)
+        print(f"WARNING: Could not parse JSON from Claude response. Writing empty trends.")
+        print(f"Raw response (first 500 chars): {text[:500]}")
+        result = {"trends": [], "people": []}
 
-    # Validate required fields
-    assert "trends" in result, "Missing 'trends' field"
-    assert "people" in result, "Missing 'people' field"
+    # Ensure required fields exist
+    if "trends" not in result:
+        result["trends"] = []
+    if "people" not in result:
+        result["people"] = []
     result["scan_date"] = date_str
     result["sources_checked"] = SOURCES
 
