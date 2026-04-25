@@ -23,9 +23,9 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_carride",
     "verdict": "MEH",
-    "rec_title": "Film a car ride drop-off where you explain the LACMA controversy to Sophia in plain terms — 'why did they spend $750 million and end up with less space than before?' — and let her reaction lead the video",
-    "rec_reason": "Every strong signal in this account points to the same asset: Sophia and the father-daughter dynamic. The top two audience conversation themes — both trending up — are affirmations of the parenting style (35 comments) and delight at Sophia's personality and wit (35 comments). 'More car ride conversations with Sophia' is the #1 audience request (5 asks), and 'more content explaining difficult topics to kids in simple terms' has 3 direct requests and a dedicated trending comment theme. The car ride cluster (c_carride) has 77 videos and 10% share of views — the largest content surface on the account by far — meaning the format is already load-bearing even at modest per-video engagement (0.0677). The LACMA story is the one external trend with any resonance bridge: it involves public money, a civic building that cost more and delivered less, and an architect whose ego blocked acoustic panels from being installed. That is a genuinely explainable injustice — exactly the kind of topic this audience rewards ('praise for dad explaining complex topics to a young child,' trending up, 15 comments). No external trend scores above 0.31 because this audience is not an architecture enthusiast audience yet — they are a parenting and personality audience. The winning move is not to pivot to architecture content; it is to pull architecture into the proven format. The LACMA angle also connects to the books/community cluster's civic values thread (c_books_community scores the highest engagement at 0.1261), giving a secondary resonance path. Personal story style (avg engagement 0.0863) outperforms walkthrough (0.0695) and talking head (0.0491), so the format should feel spontaneous and reactive — not scripted — with Sophia's unfiltered response as the emotional payoff.",
-    "rec_confidence": 0.61
+    "rec_title": "Car ride conversation where you explain to Sophia what an architect actually does — prompted by a real project or building she can see or touch — and why daddy's job is about how people feel inside a space, not just how it looks",
+    "rec_reason": "The data points converge here more than anywhere else. The car ride cluster has 77 videos and 10% share of views — by far the highest volume and reach of any cluster. Audience conversation themes show the top two trending comment categories are both Sophia-specific: 'affirmations of dad's parenting style' (35 comments, trending up) and 'delight at Sophia's personality and milestones' (35 comments, trending up). The third trending theme is 'praise for dad explaining complex or serious topics to a young child' (15 comments, trending up) — and there are 3 explicit audience requests for 'more content explaining difficult topics to kids in simple terms.' That request has no recent fulfillment: the last 14 days of posts show four social/political AI song videos (c_social_political, low engagement, NOISE verdict) and two generic car ride clips with no complex-topic framing. The architecture angle resolves the one persistent gap in this creator's content: their professional identity as an architectural designer has zero expressed presence in any cluster, yet their audience has already demonstrated they will engage with complex explanations delivered through the Sophia relationship. The gender pay gap trend (highest resonance score at 0.31) surfaces a usable professional hook — 'I work in a field where women are paid 14–40% less than men; here's what I want Sophia to understand about that' — but the safer, higher-confidence entry point is simply making the profession visible to her in a car ride context, which requires no political framing and maps directly to the proven walkthrough format (81 videos, 0.0695 avg engagement, the dominant style). The walkthrough style in a car ride setting is the single most-practiced format in this account. The personal_story style scores higher engagement (0.0863 vs 0.0695) and could be layered in if the conversation becomes emotionally resonant. Do not repeat the Bluey/Disney content (already posted Jan 30 and Feb 1), the pediatrician framing (posted March 10), or the great-grandfather grief conversation (posted March 4). A fresh 'what does daddy do at work' car ride — grounded in something tangible like a building they drive past, a blueprint, or a model — has no recent analog in the feed, directly answers audience demand for complex-topic explanations, and creates a natural bridge between the creator's professional identity and the content cluster that already owns their audience's attention.",
+    "rec_confidence": 0.78
   },
   "videos": [
     {
@@ -12596,29 +12596,39 @@
   ],
   "external_trends": [
     {
-      "topic": "LACMA's Zumthor building is drawing serious critical fire — not just praise — as a $750M monument to celebrity architecture over civic function",
-      "audience_resonance": 0.31,
-      "source": "Dezeen / ArchDaily / Designboom"
+      "topic": "Zumthor's LACMA Is Dividing Critics the Moment It Opens — and That Tension Is the Story",
+      "audience_resonance": 0.22,
+      "source": "Dezeen / The Architect's Newspaper"
     },
     {
-      "topic": "Indigenous co-authorship is becoming a structural requirement in major academic architecture, not a token gesture",
+      "topic": "Milan Design Week 2026 Closes with Architecture Firms Repositioning as Cultural Curators",
       "audience_resonance": 0.18,
-      "source": "ArchDaily"
-    },
-    {
-      "topic": "Foster + Partners' Queen Elizabeth II Memorial reveals final design — and the glassed bridge over St. James's Park is now government-approved",
-      "audience_resonance": 0.12,
-      "source": "Dezeen / Foster + Partners"
-    },
-    {
-      "topic": "Milan Design Week 2026 is being used as a platform for architects doing spatial installations — not just product designers",
-      "audience_resonance": 0.09,
       "source": "ArchDaily / Dezeen"
     },
     {
-      "topic": "Kéré Architecture's Goethe-Institut in Senegal marks a new model for institutional African architecture using compacted-earth construction",
-      "audience_resonance": 0.14,
-      "source": "Designboom / ArchDaily"
+      "topic": "The Architecture Gender Pay Gap Is Measurable, Named, and Getting Worse at Some of the Field's Most Prominent Firms",
+      "audience_resonance": 0.31,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Small and Mid-Scale Cultural Institutions Are Driving Museum Architecture Commissions — Not the Majors",
+      "audience_resonance": 0.19,
+      "source": "ArchDaily / The Architect's Newspaper"
+    },
+    {
+      "topic": "African Architecture Is Getting Institutional Anchors — Not Just Attention",
+      "audience_resonance": 0.21,
+      "source": "ArchDaily / Designboom"
+    },
+    {
+      "topic": "Jeddah Tower Hitting Its 100th Floor Reopens the Supertall Debate — With the White House as a Counterpoint",
+      "audience_resonance": 0.24,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial Finalizes — Civic Architecture Gets a Rare London Approval",
+      "audience_resonance": 0.17,
+      "source": "Dezeen"
     }
   ]
 }

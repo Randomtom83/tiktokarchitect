@@ -23,8 +23,8 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_black_arch_history",
     "verdict": "MEH",
-    "rec_title": "Post a talking-head profile video on a specific Black architect — lead with Kéré Architecture's Goethe-Institut Senegal opening as a live news hook, then bridge to a historical profile (e.g., Louis A.S. Bellinger or Van B. Bruner Jr.) to serve the pending audience requests",
-    "rec_reason": "Black architect profiles are the single most requested content type with 8 direct requests to 'make more,' the highest comment volume at 55 with an upward trend, and a specific pending ask for Bellinger and a deeper Bruner profile. The cluster's engagement rate of 0.1232 is the highest in the account. While no cluster currently scores STRONG — follower conversion is flat across the board — this is the clearest gap between audience demand and supply. The Kéré Goethe-Institut opening (audience resonance 0.71) is a rare live news event that directly serves this cluster: Kéré is a practicing Black architect with an institutional opening this week, giving the video a timely hook that can surface it in the algorithm beyond the existing follower base. A talking-head format (highest engagement style at 0.1116) grounded in the news peg, followed by a historical profile segment, combines the two strongest signals in the data. The NIA website request (3 mentions) can be embedded as a CTA, adding community utility.",
+    "rec_title": "Post a talking-head profile on the Pan-African Architecture Biennale and its curator Omar Degan — framed as 'the institutional moment Black and African architects have been building toward,' connecting to Kéré's Goethe-Institut inauguration in Dakar as a concrete anchor example",
+    "rec_reason": "This recommendation sits at the sharpest intersection of available signals. (1) AUDIENCE DEMAND: 'Black Architect Profiles and History' has the highest raw comment volume on appreciation and requests (55 comments trending up, 8 explicit requests for more profiles), making it the most audience-requested content type on the account. (2) EXTERNAL MOMENTUM: The African Architecture trend scores 0.78 audience resonance — the highest of any blog trend this week — because Kéré's work and African design institutions map directly onto what this audience already engages with. The creator already posted the Kéré/Dakar Goethe-Institut video on 2026-04-23, which establishes a live hook to build on rather than repeat. (3) FRESHNESS CHECK: The Kéré video was posted but covered the building; the Pan-African Biennale and Omar Degan have NOT been covered in the recent 30-video window. Degan and the Biennale's 'resilience over fragility' curatorial frame is a distinct, untouched subject. (4) STYLE: talking_head is the highest-engagement format (0.1116 avg) and the natural fit for a profile/commentary piece. (5) DIFFERENTIATION: This video can bridge the 'Black Architect Profiles' cluster with the 'Profession Advocacy' cluster — which has an active and trending audience thread around diversity and equity — without duplicating any recent post. The September 2026 Biennale launch also gives the creator a forward-looking hook ('watch this space') that encourages return viewership. The cluster verdict remains MEH at the account level due to near-zero follower conversion, but audience engagement (0.1232) and demand signals are the strongest on the account, making this the lowest-risk, highest-demand play available this week.",
     "rec_confidence": 0.74
   },
   "videos": [
@@ -24866,29 +24866,39 @@
   ],
   "external_trends": [
     {
-      "topic": "LACMA's Zumthor building is drawing serious critical fire — not just praise — as a $750M monument to celebrity architecture over civic function",
-      "audience_resonance": 0.41,
+      "topic": "Zumthor's LACMA Is Dividing Critics the Moment It Opens — and That Tension Is the Story",
+      "audience_resonance": 0.25,
+      "source": "Dezeen / The Architect's Newspaper"
+    },
+    {
+      "topic": "Milan Design Week 2026 Closes with Architecture Firms Repositioning as Cultural Curators",
+      "audience_resonance": 0.15,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "The Architecture Gender Pay Gap Is Measurable, Named, and Getting Worse at Some of the Field's Most Prominent Firms",
+      "audience_resonance": 0.62,
       "source": "Dezeen"
     },
     {
-      "topic": "Indigenous co-authorship is becoming a structural requirement in major academic architecture, not a token gesture",
-      "audience_resonance": 0.52,
-      "source": "ArchDaily"
-    },
-    {
-      "topic": "Foster + Partners' Queen Elizabeth II Memorial reveals final design — and the glassed bridge over St. James's Park is now government-approved",
-      "audience_resonance": 0.28,
-      "source": "Dezeen"
-    },
-    {
-      "topic": "Milan Design Week 2026 is being used as a platform for architects doing spatial installations — not just product designers",
+      "topic": "Small and Mid-Scale Cultural Institutions Are Driving Museum Architecture Commissions — Not the Majors",
       "audience_resonance": 0.22,
-      "source": "ArchDaily"
+      "source": "ArchDaily / The Architect's Newspaper"
     },
     {
-      "topic": "Kéré Architecture's Goethe-Institut in Senegal marks a new model for institutional African architecture using compacted-earth construction",
-      "audience_resonance": 0.71,
-      "source": "Designboom"
+      "topic": "African Architecture Is Getting Institutional Anchors — Not Just Attention",
+      "audience_resonance": 0.78,
+      "source": "ArchDaily / Designboom"
+    },
+    {
+      "topic": "Jeddah Tower Hitting Its 100th Floor Reopens the Supertall Debate — With the White House as a Counterpoint",
+      "audience_resonance": 0.18,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial Finalizes — Civic Architecture Gets a Rare London Approval",
+      "audience_resonance": 0.12,
+      "source": "Dezeen"
     }
   ]
 }
