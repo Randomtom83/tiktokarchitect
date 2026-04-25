@@ -46,6 +46,17 @@ def merge_and_recommend(analytics, blog_trends):
     styles_summary = json.dumps(analytics.get("presentation_styles", []), indent=2)
     trends_summary = json.dumps(blog_trends.get("trends", []) if blog_trends else [], indent=2)
 
+    # Recent videos — so Claude knows what was already posted
+    recent_videos = []
+    for v in analytics.get("videos", []):
+        if v.get("date"):
+            recent_videos.append({"title": v["title"], "date": v["date"],
+                                  "cluster": v.get("cluster"), "style": v.get("style")})
+    # Sort by date descending, take last 14 days
+    recent_videos.sort(key=lambda x: x["date"], reverse=True)
+    recent_videos = recent_videos[:30]  # last ~30 videos
+    recent_summary = json.dumps(recent_videos, indent=2)
+
     prompt = f"""You are analyzing TikTok content strategy for an architectural designer.
 
 CONTENT CLUSTERS (what topics perform well):
@@ -66,6 +77,11 @@ PRESENTATION STYLES (what formats work):
 TODAY'S ARCHITECTURE BLOG TRENDS:
 {trends_summary}
 
+RECENTLY POSTED VIDEOS (most recent first):
+{recent_summary}
+
+CRITICAL RULE: Do NOT recommend a topic the creator has already posted about in the last 14 days. Check the recent videos list above. If a topic or person was already covered, suggest something DIFFERENT. The recommendation must be fresh — not a repeat of recent content.
+
 Tasks:
 1. Score each blog trend for "audience_resonance" (0.0-1.0) — how closely it maps to existing content clusters and audience themes. High score = the audience already cares about this.
 
@@ -73,7 +89,8 @@ Tasks:
    - Audience demand (questions + requests)
    - External momentum (blog trends with high resonance)
    - Proven performance (STRONG clusters and styles)
-   Pick the intersection. Be specific — not "post about architecture" but "post a walkthrough of [specific topic] because [specific reason]."
+   - What was ALREADY POSTED recently (do not repeat)
+   Pick the intersection of demand + momentum + performance that has NOT been covered recently. Be specific — not "post about architecture" but "post a walkthrough of [specific topic] because [specific reason]."
 
 3. Set confidence (0.0-1.0): high if multiple signals align, low if it's a guess.
 
