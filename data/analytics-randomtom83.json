@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_carride",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Film a car ride drop-off where you explain the LACMA controversy to Sophia in plain terms — 'why did they spend $750 million and end up with less space than before?' — and let her reaction lead the video",
+    "rec_reason": "Every strong signal in this account points to the same asset: Sophia and the father-daughter dynamic. The top two audience conversation themes — both trending up — are affirmations of the parenting style (35 comments) and delight at Sophia's personality and wit (35 comments). 'More car ride conversations with Sophia' is the #1 audience request (5 asks), and 'more content explaining difficult topics to kids in simple terms' has 3 direct requests and a dedicated trending comment theme. The car ride cluster (c_carride) has 77 videos and 10% share of views — the largest content surface on the account by far — meaning the format is already load-bearing even at modest per-video engagement (0.0677). The LACMA story is the one external trend with any resonance bridge: it involves public money, a civic building that cost more and delivered less, and an architect whose ego blocked acoustic panels from being installed. That is a genuinely explainable injustice — exactly the kind of topic this audience rewards ('praise for dad explaining complex topics to a young child,' trending up, 15 comments). No external trend scores above 0.31 because this audience is not an architecture enthusiast audience yet — they are a parenting and personality audience. The winning move is not to pivot to architecture content; it is to pull architecture into the proven format. The LACMA angle also connects to the books/community cluster's civic values thread (c_books_community scores the highest engagement at 0.1261), giving a secondary resonance path. Personal story style (avg engagement 0.0863) outperforms walkthrough (0.0695) and talking head (0.0491), so the format should feel spontaneous and reactive — not scripted — with Sophia's unfiltered response as the emotional payoff.",
+    "rec_confidence": 0.61
   },
   "videos": [
     {
@@ -12594,5 +12594,31 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "LACMA's Zumthor building is drawing serious critical fire — not just praise — as a $750M monument to celebrity architecture over civic function",
+      "audience_resonance": 0.31,
+      "source": "Dezeen / ArchDaily / Designboom"
+    },
+    {
+      "topic": "Indigenous co-authorship is becoming a structural requirement in major academic architecture, not a token gesture",
+      "audience_resonance": 0.18,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial reveals final design — and the glassed bridge over St. James's Park is now government-approved",
+      "audience_resonance": 0.12,
+      "source": "Dezeen / Foster + Partners"
+    },
+    {
+      "topic": "Milan Design Week 2026 is being used as a platform for architects doing spatial installations — not just product designers",
+      "audience_resonance": 0.09,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "Kéré Architecture's Goethe-Institut in Senegal marks a new model for institutional African architecture using compacted-earth construction",
+      "audience_resonance": 0.14,
+      "source": "Designboom / ArchDaily"
+    }
+  ]
 }
