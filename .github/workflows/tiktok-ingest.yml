@@ -1,0 +1,52 @@
+name: TikTok Ingest — Download & Analyze
+
+on:
+  schedule:
+    # Daily at 08:00 UTC (3:00 AM ET) — before Field Monitor at 10:00 UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt yt-dlp
+
+      - name: Download TikTok metadata and comments
+        run: python scripts/tiktok_ingest.py
+        timeout-minutes: 15
+
+      - name: Run Claude semantic analysis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/export_analytics.py
+        timeout-minutes: 10
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/tiktok-archive-*.json data/analytics-*.json
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "tiktok-ingest: daily update $(date +%Y-%m-%d)"
+          git pull --rebase origin master
+          git push
+
+      - name: Trigger Analytics Deploy
+        if: success()
+        run: gh workflow run "Analytics Deploy — Merge, Deploy, Email" --ref master
+        env:
+          GH_TOKEN: ${{ github.token }}
