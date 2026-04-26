@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_bluey_media",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Post a reaction video: 'Is Bluey actually better than Disney Princess content for raising strong, independent daughters?' — filmed as a dad-to-camera reaction using clips or stills, directly answering the 12-count audience question while weaving in your own parenting philosophy around Sophia.",
+    "rec_reason": "Bluey (c_bluey_media) is the highest-engagement cluster at 0.1198 avg engagement, and the reaction format is the top-performing style at 0.1023 — the only combination in the data where both content and format outperform the field. The audience has asked 'Is Bluey as good as Disney princess content for girls?' 12 times, making it the single highest-volume unanswered question in the dataset. Two audience conversation themes trending upward — 'Affection and Pride for Sophia's Growth and Personality' (45 comments, up) and 'Praise for Engaged and Thoughtful Fathering' (25 comments, up) — directly intersect with a dad answering this question through the lens of raising Sophia. The audience request for 'more content about raising strong, independent daughters' (count: 2) further confirms latent demand. The last Bluey post was on 2026-02-01, well outside the 14-day window, so this is a fresh angle. External blog trends scored low for direct audience resonance this week — the architecture news cycle is critic-heavy and institution-focused, with no natural bridge to this creator's established audience, making internal demand signals the stronger lever to pull. The gender pay gap story (0.31 resonance) is the closest architecture trend to this audience's sensibility, and a secondary hook — 'I design buildings, Bluey teaches my daughter what a strong woman looks like, and the architecture field still has a 14% pay gap for women' — could be threaded in as a bridge to the creator's professional identity without requiring a full architecture walkthrough that has no proven traction here.",
+    "rec_confidence": 0.74
   },
   "videos": [
     {
@@ -12552,5 +12552,41 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "Zumthor's LACMA Is Dividing Critics the Moment It Opens — and That Tension Is the Story",
+      "audience_resonance": 0.18,
+      "source": "Dezeen / The Architect's Newspaper / Designboom"
+    },
+    {
+      "topic": "Milan Design Week 2026 Closes with Architecture Firms Repositioning as Cultural Curators",
+      "audience_resonance": 0.12,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "The Architecture Gender Pay Gap Is Measurable, Named, and Getting Worse at Some of the Field's Most Prominent Firms",
+      "audience_resonance": 0.31,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Small and Mid-Scale Cultural Institutions Are Driving Museum Architecture Commissions — Not the Majors",
+      "audience_resonance": 0.14,
+      "source": "ArchDaily / The Architect's Newspaper / Dezeen"
+    },
+    {
+      "topic": "African Architecture Is Getting Institutional Anchors — Not Just Attention",
+      "audience_resonance": 0.15,
+      "source": "ArchDaily / Designboom"
+    },
+    {
+      "topic": "Jeddah Tower Hitting Its 100th Floor Reopens the Supertall Debate — With the White House as a Counterpoint",
+      "audience_resonance": 0.16,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial Finalizes — Civic Architecture Gets a Rare London Approval",
+      "audience_resonance": 0.13,
+      "source": "Dezeen"
+    }
+  ]
 }

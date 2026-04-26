@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_black_arch_history",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Post a personal_story profile of the Pan-African Architecture Biennale curator Omar Degan — framed as 'the Black architect building the infrastructure, not just the buildings' — connecting the September 2026 Nairobi launch to the audience's existing appetite for underrepresented architect profiles and advocacy.",
+    "rec_reason": "The African Architecture institutional trend scores the highest audience_resonance (0.82) of any external trend this week because it directly overlaps with the creator's two strongest audience conversation themes: excitement for Black architect history content (55 comments, trending up) and advocacy for recognizing underrepresented architects and Black professionals (25 comments, trending up). The audience has explicitly requested 'profile more Black architects, especially lesser-known ones' (5 requests) and named specific individuals like Clarence Wigington and Louis Bellinger — signaling they want discovery content, not just marquee names. Omar Degan is a Somali-Italian architect curating 54 nations' worth of architectural voices and is not yet widely covered in this creator's niche, making him a fresh profile target. The creator just covered Kéré's Goethe-Institut in Dakar on 2026-04-23, so that specific project is off-limits — but Degan and the Pan-African Biennale are a distinct, forward-looking angle that extends the same cultural moment without repeating it. The personal_story format is the highest-engagement style in the dataset (avg 0.1179) and is the creator's proven vehicle for architect profiles. The Biennale's September launch also creates natural follow-up content momentum. Confidence is moderated slightly because this cluster carries a MEH verdict on pure metrics and follower conversion remains zero across all clusters — the play here is audience depth and community resonance over algorithmic reach.",
+    "rec_confidence": 0.74
   },
   "videos": [
     {
@@ -24903,5 +24903,41 @@
       "trend": "up"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "Zumthor's LACMA Is Dividing Critics the Moment It Opens — and That Tension Is the Story",
+      "audience_resonance": 0.35,
+      "source": "Dezeen / The Architect's Newspaper"
+    },
+    {
+      "topic": "Milan Design Week 2026 Closes with Architecture Firms Repositioning as Cultural Curators",
+      "audience_resonance": 0.25,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "The Architecture Gender Pay Gap Is Measurable, Named, and Getting Worse at Some of the Field's Most Prominent Firms",
+      "audience_resonance": 0.55,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Small and Mid-Scale Cultural Institutions Are Driving Museum Architecture Commissions — Not the Majors",
+      "audience_resonance": 0.4,
+      "source": "ArchDaily / The Architect's Newspaper"
+    },
+    {
+      "topic": "African Architecture Is Getting Institutional Anchors — Not Just Attention",
+      "audience_resonance": 0.82,
+      "source": "ArchDaily / Designboom"
+    },
+    {
+      "topic": "Jeddah Tower Hitting Its 100th Floor Reopens the Supertall Debate — With the White House as a Counterpoint",
+      "audience_resonance": 0.3,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial Finalizes — Civic Architecture Gets a Rare London Approval",
+      "audience_resonance": 0.28,
+      "source": "Dezeen"
+    }
+  ]
 }
