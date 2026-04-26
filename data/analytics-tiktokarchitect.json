@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Post a talking-head profile on the Pan-African Architecture Biennale launching in Nairobi (September 2026) — framed through the lens of Black and African architects building institutional power, not just getting attention — and connect it explicitly to the NIA platform and your audience's interest in surfacing hidden architectural history.",
+    "rec_reason": "Multiple signals converge here without repeating recent content. (1) EXTERNAL MOMENTUM: The African Architecture trend scores 0.82 audience resonance — the highest of any blog trend this week — because it maps directly onto the c_blackarch_history cluster and the audience's top comment theme ('appreciation for surfacing unknown Black architects and hidden history,' 55 comments, trending up). Kéré's Goethe-Institut in Dakar was already posted on 2026-04-23, but the Pan-African Biennale has NOT been covered and is a distinct, forward-looking story. (2) AUDIENCE DEMAND: 'NIA platform interest and requests for more information' is a trending-up conversation theme (15 comments), and 3 viewers directly asked 'What is NIA and where can I find the website?' — this video can address that by framing the Biennale and NIA as parallel infrastructure-building efforts for Black and African architects globally, giving the NIA mention organic context rather than a standalone explainer. (3) TIMING: The Biennale launches September 7, 2026 — early coverage now positions the creator as ahead of the story, not reactive to it, and creates a natural content arc through the fall. (4) FORMAT FIT: talking_head is the highest-volume style (28 videos) and posts the strongest engagement in this cluster (0.1264 avg); a direct-to-camera take on why this Biennale matters — 'from fragility to resilience' as a framing — suits the creator's established voice. (5) NO REPEAT RISK: Recent Black architect history posts covered Kéré/Goethe-Institut (Apr 23), John S Chase (Apr 21), Harvey Gantt (Apr 20), Paul R. Williams (Apr 18), Adjaye (Apr 18), and Wigington (Apr 17). The Pan-African Biennale and its curator Omar Degan are entirely fresh territory within the 14-day window.",
+    "rec_confidence": 0.76
   },
   "videos": [
     {
@@ -24927,5 +24927,41 @@
       "trend": "up"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "Zumthor's LACMA Is Dividing Critics the Moment It Opens — and That Tension Is the Story",
+      "audience_resonance": 0.35,
+      "source": "Dezeen / The Architect's Newspaper"
+    },
+    {
+      "topic": "Milan Design Week 2026 Closes with Architecture Firms Repositioning as Cultural Curators",
+      "audience_resonance": 0.2,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "The Architecture Gender Pay Gap Is Measurable, Named, and Getting Worse at Some of the Field's Most Prominent Firms",
+      "audience_resonance": 0.72,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Small and Mid-Scale Cultural Institutions Are Driving Museum Architecture Commissions — Not the Majors",
+      "audience_resonance": 0.38,
+      "source": "ArchDaily / The Architect's Newspaper"
+    },
+    {
+      "topic": "African Architecture Is Getting Institutional Anchors — Not Just Attention",
+      "audience_resonance": 0.82,
+      "source": "ArchDaily / Designboom"
+    },
+    {
+      "topic": "Jeddah Tower Hitting Its 100th Floor Reopens the Supertall Debate — With the White House as a Counterpoint",
+      "audience_resonance": 0.28,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial Finalizes — Civic Architecture Gets a Rare London Approval",
+      "audience_resonance": 0.22,
+      "source": "Dezeen"
+    }
+  ]
 }

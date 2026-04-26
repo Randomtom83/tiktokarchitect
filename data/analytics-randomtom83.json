@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_carride",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Car ride where you explain a big architectural concept to Sophia — specifically: 'Why do buildings fall down?' or 'Why do some buildings look like they're from the future?' — framed as a genuine kid-question conversation, not a lesson.",
+    "rec_reason": "This is the intersection of the three strongest demand signals in the data. First, the top audience request with 4 responses explicitly asks for 'more content explaining big concepts to Sophia (science, history, social issues)' — architecture is the one domain the creator has professional authority over that has never been applied to this format. Second, the two highest-engagement audience conversation themes (both at 45 comments, both trending up) are admiration for the father-daughter relationship and engagement with Sophia's personality — the car ride format is the proven delivery mechanism for both. Third, the best-performing external trend for this audience is the gender pay gap / Zumthor / supertall cluster, all of which share a common hook: the gap between a building's mythology and its real-world performance — a concept a five-year-old can intuitively grasp ('but WHY does it have to be so tall?'). The car ride cluster carries the most volume (75 videos, 9% share of views) and the personal_story style has 85 videos of proven consistency. Critically, recent posts in this cluster (April 18 bike ride, April 7 back-to-class) have been pure slice-of-life with no professional angle — this recommendation fuses the creator's architectural identity into the format for the first time, which is a genuinely fresh execution that has not appeared in any recent video. The walkthrough style (avg engagement 0.0917, highest of any format) suggests that when the creator moves beyond passive observation into active explanation, engagement rises — this concept brings that energy into the car ride frame.",
+    "rec_confidence": 0.74
   },
   "videos": [
     {
@@ -12605,5 +12605,41 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "Zumthor's LACMA Is Dividing Critics the Moment It Opens — and That Tension Is the Story",
+      "audience_resonance": 0.18,
+      "source": "Dezeen / The Architect's Newspaper"
+    },
+    {
+      "topic": "Milan Design Week 2026 Closes with Architecture Firms Repositioning as Cultural Curators",
+      "audience_resonance": 0.12,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "The Architecture Gender Pay Gap Is Measurable, Named, and Getting Worse at Some of the Field's Most Prominent Firms",
+      "audience_resonance": 0.31,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Small and Mid-Scale Cultural Institutions Are Driving Museum Architecture Commissions — Not the Majors",
+      "audience_resonance": 0.14,
+      "source": "ArchDaily / The Architect's Newspaper"
+    },
+    {
+      "topic": "African Architecture Is Getting Institutional Anchors — Not Just Attention",
+      "audience_resonance": 0.22,
+      "source": "ArchDaily / Designboom"
+    },
+    {
+      "topic": "Jeddah Tower Hitting Its 100th Floor Reopens the Supertall Debate — With the White House as a Counterpoint",
+      "audience_resonance": 0.27,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial Finalizes — Civic Architecture Gets a Rare London Approval",
+      "audience_resonance": 0.16,
+      "source": "Dezeen"
+    }
+  ]
 }
