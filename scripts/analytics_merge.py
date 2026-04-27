@@ -35,7 +35,7 @@ def load_latest_blog_trends():
     return json.loads(Path(files[0]).read_text(encoding="utf-8"))
 
 
-def merge_and_recommend(analytics, blog_trends):
+def merge_and_recommend(analytics, blog_trends, account_context="architecture"):
     """Use Claude to cross-reference blog trends with TikTok analytics
     and generate the headline recommendation."""
 
@@ -45,6 +45,8 @@ def merge_and_recommend(analytics, blog_trends):
     requests = json.dumps(analytics.get("audience", {}).get("requests", [])[:10], indent=2)
     styles_summary = json.dumps(analytics.get("presentation_styles", []), indent=2)
     trends_summary = json.dumps(blog_trends.get("trends", []) if blog_trends else [], indent=2)
+
+    is_personal = account_context == "personal"
 
     # Recent videos — so Claude knows what was already posted
     # Include title AND description for better topic matching
@@ -64,7 +66,29 @@ def merge_and_recommend(analytics, blog_trends):
     # Previously recommended topics (from headline_signal if it exists)
     prev_rec = analytics.get("headline_signal", {}).get("rec_title", "")
 
-    prompt = f"""You are analyzing TikTok content strategy for an architectural designer named Tom Reynolds (@tiktokarchitect).
+    if is_personal:
+        account_intro = """You are analyzing TikTok content strategy for Tom Reynolds' PERSONAL account (@randomtom83).
+
+This is NOT an architecture account. This is a dad/family/personal life account. Content includes:
+- Daily car ride conversations with his daughter Sophia (preschool drop-off)
+- Bambi the rescue dog
+- Personal grief, family memories, and life moments
+- Pop culture reactions (Bluey, etc.)
+- Occasional personal projects (garden, home)
+
+Do NOT suggest architecture content. Do NOT reference architecture blogs or trends.
+Recommend content based purely on what performs well on THIS account and what THIS audience engages with."""
+    else:
+        account_intro = "You are analyzing TikTok content strategy for an architectural designer named Tom Reynolds (@tiktokarchitect)."
+
+    trends_section = ""
+    if not is_personal and trends_summary != "[]":
+        trends_section = f"""
+TODAY'S ARCHITECTURE BLOG TRENDS:
+{trends_summary}
+"""
+
+    prompt = f"""{account_intro}
 
 CONTENT CLUSTERS (what topics perform well):
 {clusters_summary}
@@ -80,9 +104,7 @@ AUDIENCE REQUESTS:
 
 PRESENTATION STYLES (what formats work):
 {styles_summary}
-
-TODAY'S ARCHITECTURE BLOG TRENDS:
-{trends_summary}
+{trends_section}
 
 RECENTLY POSTED VIDEOS (most recent first — includes title AND description):
 {recent_summary}
@@ -199,18 +221,19 @@ def main():
     print(f"  Wrote enriched: {out_path}")
 
     # Also enrich randomtom83 with its own recommendation
+    # This is a PERSONAL/DAD LIFE account — no architecture blog trends
     if handle != "randomtom83":
         rm_analytics = load_analytics("randomtom83")
         if rm_analytics and rm_analytics.get("content_clusters"):
-            print(f"\n  Generating recommendation for @randomtom83...")
+            print(f"\n  Generating recommendation for @randomtom83 (personal account, no arch trends)...")
             try:
-                rm_result = merge_and_recommend(rm_analytics, blog_trends)
+                rm_result = merge_and_recommend(rm_analytics, None, account_context="personal")
                 rm_analytics["headline_signal"] = rm_result["headline_signal"]
-                rm_analytics["external_trends"] = rm_result.get("external_trends", [])
+                rm_analytics["external_trends"] = []
                 print(f"  Recommendation: {rm_result['headline_signal']['rec_title'][:60]}...")
             except Exception as e:
                 print(f"  ERROR: @randomtom83 merge failed: {e}")
-                rm_analytics["external_trends"] = result.get("external_trends", [])
+                rm_analytics["external_trends"] = []
             rm_path = DATA_DIR / "analytics-randomtom83.json"
             with open(rm_path, "w", encoding="utf-8") as f:
                 json.dump(rm_analytics, f, ensure_ascii=False, indent=2)
