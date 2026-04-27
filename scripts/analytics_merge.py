@@ -47,17 +47,24 @@ def merge_and_recommend(analytics, blog_trends):
     trends_summary = json.dumps(blog_trends.get("trends", []) if blog_trends else [], indent=2)
 
     # Recent videos — so Claude knows what was already posted
+    # Include title AND description for better topic matching
     recent_videos = []
     for v in analytics.get("videos", []):
         if v.get("date"):
-            recent_videos.append({"title": v["title"], "date": v["date"],
-                                  "cluster": v.get("cluster"), "style": v.get("style")})
-    # Sort by date descending, take last 14 days
+            recent_videos.append({
+                "title": v["title"],
+                "description": (v.get("description", "") or "")[:200],
+                "date": v["date"],
+                "cluster": v.get("cluster"),
+            })
     recent_videos.sort(key=lambda x: x["date"], reverse=True)
-    recent_videos = recent_videos[:30]  # last ~30 videos
+    recent_videos = recent_videos[:50]
     recent_summary = json.dumps(recent_videos, indent=2)
 
-    prompt = f"""You are analyzing TikTok content strategy for an architectural designer.
+    # Previously recommended topics (from headline_signal if it exists)
+    prev_rec = analytics.get("headline_signal", {}).get("rec_title", "")
+
+    prompt = f"""You are analyzing TikTok content strategy for an architectural designer named Tom Reynolds (@tiktokarchitect).
 
 CONTENT CLUSTERS (what topics perform well):
 {clusters_summary}
@@ -77,20 +84,27 @@ PRESENTATION STYLES (what formats work):
 TODAY'S ARCHITECTURE BLOG TRENDS:
 {trends_summary}
 
-RECENTLY POSTED VIDEOS (most recent first):
+RECENTLY POSTED VIDEOS (most recent first — includes title AND description):
 {recent_summary}
 
-CRITICAL RULE: Do NOT recommend a topic the creator has already posted about in the last 14 days. Check the recent videos list above. If a topic or person was already covered, suggest something DIFFERENT. The recommendation must be fresh — not a repeat of recent content.
+PREVIOUS RECOMMENDATION (already suggested, do NOT repeat):
+{prev_rec}
+
+CRITICAL RULES:
+1. Do NOT recommend any topic, person, project, or building that appears in the recent videos list above. Scan EVERY title and description. If "Kéré", "Goethe-Institut", "LACMA", or any other specific subject appears in ANY recent video, it is OFF LIMITS.
+2. Do NOT repeat the previous recommendation shown above.
+3. The recommendation must be about a topic the creator has NOT covered in the last 30 days.
+4. If all trending topics were already covered, recommend something from audience questions/requests that hasn't been addressed yet.
 
 Tasks:
-1. Score each blog trend for "audience_resonance" (0.0-1.0) — how closely it maps to existing content clusters and audience themes. High score = the audience already cares about this.
+1. Score each blog trend for "audience_resonance" (0.0-1.0) — how closely it maps to existing content clusters and audience themes.
 
-2. Generate the "headline_signal" — the single best recommendation for what to post next. Consider:
-   - Audience demand (questions + requests)
-   - External momentum (blog trends with high resonance)
-   - Proven performance (STRONG clusters and styles)
-   - What was ALREADY POSTED recently (do not repeat)
-   Pick the intersection of demand + momentum + performance that has NOT been covered recently. Be specific — not "post about architecture" but "post a walkthrough of [specific topic] because [specific reason]."
+2. Generate the "headline_signal" — the single best recommendation for what to post next. Must be FRESH (not covered recently). Include:
+   - A specific, actionable title
+   - Why this topic (data references)
+   - 3-5 talking points the video could cover
+   - 2-3 reference article URLs from the blog trends (if applicable)
+   - Suggested video format and length
 
 3. Set confidence (0.0-1.0): high if multiple signals align, low if it's a guess.
 
@@ -102,16 +116,27 @@ Return ONLY valid JSON:
   "headline_signal": {{
     "best_performing_cluster_id": "c_<id of best cluster>",
     "verdict": "STRONG|MEH|NOISE",
-    "rec_title": "specific actionable recommendation",
+    "rec_title": "specific actionable recommendation (MUST be a new topic)",
     "rec_reason": "why this, with data references",
-    "rec_confidence": 0.82
+    "rec_confidence": 0.82,
+    "talking_points": [
+      "First key point the video should cover",
+      "Second key point",
+      "Third key point"
+    ],
+    "reference_urls": [
+      {{"title": "Article title", "url": "https://...", "source": "ArchDaily"}},
+      {{"title": "Article title", "url": "https://...", "source": "Dezeen"}}
+    ],
+    "suggested_format": "walkthrough|tutorial|personal_story|reaction|talking_head",
+    "suggested_length": "60-90s"
   }}
 }}"""
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     response = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=2048,
+        max_tokens=8192,
         messages=[{"role": "user", "content": prompt}],
     )
 

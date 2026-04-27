@@ -222,6 +222,10 @@ export interface AnalyticsData {
     rec_title: string;
     rec_reason: string;
     rec_confidence: number;
+    talking_points?: string[];
+    reference_urls?: Array<{ title: string; url: string; source: string }>;
+    suggested_format?: string;
+    suggested_length?: string;
   };
   videos: Array<{
     id: string;

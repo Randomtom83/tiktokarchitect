@@ -54,12 +54,46 @@ export default function TheBrief({ data, t, d }: { data: AnalyticsData; t: Theme
         }}>
           {h.rec_reason}
         </p>
-        <div style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
+        <div style={{ display: 'flex', gap: 24, alignItems: 'center', marginBottom: 28 * d.gap }}>
           <VerdictPill kind="good" label={`${Math.round(h.rec_confidence * 100)}% confidence`} t={t} size={12} />
-          <span style={{ fontFamily: FONTS.mono, fontSize: 11, color: t.inkSubtle, letterSpacing: 1 }}>
-            BASED ON {o.videos} VIDEOS · {fmt(o.new_followers)} NEW FOLLOWERS · {pct(o.engagement_rate)} ENGAGEMENT
-          </span>
+          {h.suggested_format && (
+            <span style={{ fontFamily: FONTS.mono, fontSize: 11, color: t.inkSubtle, letterSpacing: 1 }}>
+              {h.suggested_format.toUpperCase().replace('_', ' ')} · {h.suggested_length || '60-90s'}
+            </span>
+          )}
         </div>
+
+        {/* Talking points */}
+        {h.talking_points && h.talking_points.length > 0 && (
+          <div style={{ background: t.bgRaised, border: `1px solid ${t.rule}`, padding: 24 * d.pad, marginBottom: 20 * d.gap }}>
+            <Label t={t} style={{ marginBottom: 14 }}>What to cover</Label>
+            {h.talking_points.map((point, i) => (
+              <div key={i} style={{ display: 'flex', gap: 12, padding: `${8 * d.row}px 0`, borderBottom: i < h.talking_points!.length - 1 ? `1px solid ${t.ruleSoft}` : 'none' }}>
+                <span style={{ fontFamily: FONTS.mono, fontSize: 11, color: t.accent, minWidth: 20 }}>{String(i + 1).padStart(2, '0')}</span>
+                <span style={{ fontFamily: FONTS.sans, fontSize: 15, color: t.ink, lineHeight: 1.5 }}>{point}</span>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Reference articles */}
+        {h.reference_urls && h.reference_urls.length > 0 && (
+          <div style={{ marginBottom: 20 * d.gap }}>
+            <Label t={t} style={{ marginBottom: 10 }}>Reference reading</Label>
+            {h.reference_urls.map((ref, i) => (
+              <div key={i} style={{ padding: `${6 * d.row}px 0` }}>
+                <a href={ref.url} target="_blank" rel="noopener noreferrer" style={{
+                  fontFamily: FONTS.sans, fontSize: 14, color: t.accent, textDecoration: 'none',
+                }}>
+                  {ref.title}
+                </a>
+                <span style={{ fontFamily: FONTS.mono, fontSize: 10, color: t.inkSubtle, marginLeft: 8, letterSpacing: 0.5 }}>
+                  {ref.source}
+                </span>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
       <Rule t={t} dashed style={{ marginBottom: 48 * d.gap }} />
