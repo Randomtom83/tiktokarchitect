@@ -23,9 +23,9 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_pop_culture",
     "verdict": "MEH",
-    "rec_title": "React to the LACMA Zumthor debate through the lens of a parent who takes their kid to museums — does atmosphere-first architecture actually work for families with young children?",
-    "rec_reason": "No architecture content has been posted in the entire recent video history, creating a wide-open lane for the creator's professional identity. The LACMA story is the highest-momentum architecture discourse of the week with live, contested critical conversation across Dezeen, AN, and The Art Newspaper — the window is open now and closing fast. The pop culture reaction format (c_pop_culture) is the creator's highest-engagement cluster at 0.1023 avg engagement and the Bluey reaction videos generated 12 audience questions and active comment debate about whether a creative work 'earns' its cultural status — exactly the same fault line as the LACMA debate (does this building earn its $800M, its 20 years, its reduced gallery square footage?). The creator can bridge their two identities — architectural designer and engaged girldad — by framing the question as: 'I took Sophia to a museum recently and here's what I noticed about how architecture actually serves families versus how critics evaluate it,' grounding the professional commentary in the personal voice the audience already trusts. This has NOT been covered in any recent post. The reaction/talking-head style is proven. The LACMA angle gives external search momentum. The dad-at-a-museum framing connects the architecture credential to the parenting persona the audience is already invested in, solving the identity bridge problem without forcing it.",
-    "rec_confidence": 0.61
+    "rec_title": "React to Fallingwater's restoration reveal — specifically the fact that Wright's most iconic house leaked for 90 years because he refused to install through-wall flashing — and connect it to what your daughter Sophia would say if you told her the most famous house in America had a leaky roof on purpose",
+    "rec_reason": "No architecture content has been posted in the entire recent video history — this creator is sitting on a professional identity that is completely absent from their feed, which is a missed differentiation opportunity. Among this week's blog trends, the Fallingwater story scores highest on audience resonance (0.22) because it has a built-in narrative hook accessible to non-architects: a legendary building that was canonically broken. The pop culture reaction cluster (c_pop_culture) is the creator's best-performing topic cluster by avg_engagement (0.1023) and has an active, trending audience question thread around Bluey qualifying as 'Disney-level' — meaning this audience already engages with 'does this famous thing deserve its reputation?' debates, which is exactly the frame the Fallingwater restoration invites. The reaction style (avg_engagement 0.0668) is proven in this cluster specifically. Crucially, nothing architecture-related has been posted in the last 14 days — the last 30 days are dominated by AI music content and a single emotional car ride post — so this is maximally fresh. The Sophia angle is optional but strategic: the audience's top two comment themes are praise for dad's parenting and delight in Sophia's humor, so a brief framing device ('I told my 5-year-old the most famous house ever built had a leaky roof') gives the creator's existing community an entry point into professional content without alienating them. Keep the architecture critique as the substance; use the dad voice as the hook.",
+    "rec_confidence": 0.71
   },
   "videos": [
     {
@@ -12624,22 +12624,22 @@
     },
     {
       "topic": "Climate-responsive permeability in Latin American architecture is being theorized as a distinct spatial tradition, not just a passive strategy",
-      "audience_resonance": 0.09,
+      "audience_resonance": 0.08,
       "source": "ArchDaily"
     },
     {
       "topic": "Prefabricated off-grid cabins are pushing Passivhaus standards into extreme-site architecture",
-      "audience_resonance": 0.11,
+      "audience_resonance": 0.09,
       "source": "Dezeen"
     },
     {
       "topic": "Frank Lloyd Wright preservation is experiencing a renewed critical and institutional moment, with Fallingwater as the anchor",
-      "audience_resonance": 0.15,
+      "audience_resonance": 0.22,
       "source": "Dezeen / ArchDaily"
     },
     {
       "topic": "Milan Design Week's closing moment reveals a design culture consumed by brand spectacle, with architecture barely visible",
-      "audience_resonance": 0.08,
+      "audience_resonance": 0.14,
       "source": "Dezeen / ArchDaily / Designboom"
     }
   ]
