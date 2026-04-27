@@ -21,11 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Post a talking-head reaction video on the UK architecture gender pay gap through the lens of race and access — framing it as 'the diversity pipeline problem hiding inside a pay equity story'",
+    "rec_reason": "Multiple signals converge here without repeating anything posted in the last 14 days. The gender pay gap story (Dezeen, April 20-24) scores 0.72 audience resonance because it directly maps to two of the creator's highest-comment audience themes: 'Diversity, equity and access in the architecture profession' (25 comments, trending up) and 'Appreciation for Black architect history and representation' (45 comments, highest volume, trending up). The creator has NOT covered this topic recently — the recent video slate is dominated by Black architect profiles (Kéré/Goethe-Institut on 4/23, John S Chase on 4/21, Harvey Gantt on 4/20, Paul Williams on 4/18, Wigington on 4/17, Julian Abele on 4/15), building codes, 3D printing, and NAACP ACT-SO content. The pay gap angle is adjacent to the existing Black architect history cluster but approaches it from a systemic/industry-critique direction the creator has not recently used. The specific editorial hook the data supports: ZHA — founded by a Black woman (Zaha Hadid) — now has one of the worst gender pay gaps in UK architecture (median gap more than doubled to 14.5%, mean gap static at ~22% for three years), while smaller studios are outperforming. That irony is the content. The creator can connect it to the broader NIA/pipeline conversation (NIA resource interest trending up, 20 comments) and to the youth pipeline theme (25 comments, trending up) by asking: what does a pay gap story tell young Black students considering architecture as a career? The talking-head style has the second-highest video count (21) and solid engagement (0.105 avg), making it the lowest-risk format for a topic the creator hasn't tested directly. The personal-story style (0.1114 avg engagement, highest of all formats) could be layered in if the creator has a firsthand pay equity experience to draw from. Audience requests also include 'Create a series giving an architecture 101 overview for non-architects' — this video can serve that audience by making a UK data story legible to US viewers unfamiliar with the reporting requirement context.",
+    "rec_confidence": 0.74
   },
   "videos": [
     {
@@ -24982,5 +24982,41 @@
       "trend": "up"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "Zumthor's LACMA Is Dividing Critics the Moment It Opens — and That Tension Is the Story",
+      "audience_resonance": 0.35,
+      "source": "Dezeen / The Architect's Newspaper"
+    },
+    {
+      "topic": "Milan Design Week 2026 Closes with Architecture Firms Repositioning as Cultural Curators",
+      "audience_resonance": 0.2,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "The Architecture Gender Pay Gap Is Measurable, Named, and Getting Worse at Some of the Field's Most Prominent Firms",
+      "audience_resonance": 0.72,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Small and Mid-Scale Cultural Institutions Are Driving Museum Architecture Commissions — Not the Majors",
+      "audience_resonance": 0.3,
+      "source": "ArchDaily / The Architect's Newspaper"
+    },
+    {
+      "topic": "African Architecture Is Getting Institutional Anchors — Not Just Attention",
+      "audience_resonance": 0.88,
+      "source": "ArchDaily / Designboom"
+    },
+    {
+      "topic": "Jeddah Tower Hitting Its 100th Floor Reopens the Supertall Debate — With the White House as a Counterpoint",
+      "audience_resonance": 0.28,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial Finalizes — Civic Architecture Gets a Rare London Approval",
+      "audience_resonance": 0.22,
+      "source": "Dezeen"
+    }
+  ]
 }
