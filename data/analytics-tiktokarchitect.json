@@ -22,31 +22,20 @@
   },
   "headline_signal": {
     "best_performing_cluster_id": "c_blackarch_history",
-    "verdict": "MEH",
-    "rec_title": "Two Row Architect and the Temerty Building: What It Actually Means When an Indigenous Firm Co-Designs a Major Institution — Not as Culture Consultants, But as Spatial Authors",
-    "rec_reason": "This recommendation is driven by three converging signals. First, the Temerty Building trend scores the highest audience resonance (0.62) among this week's blog topics because it directly bridges Tom's two strongest audience themes: appreciation for underrepresented design traditions (45 comments trending up) and diversity, equity and access in the profession (25 comments trending up). Second, the 'Black Architects & Architectural History' cluster carries the highest avg_engagement of any cluster (0.1225) and is Tom's most consistent identity anchor — and Two Row Architect's Erik Skouris and the structural co-design model maps cleanly onto the intellectual argument Tom already makes about Black architects: that these are not marginal voices but full authors of spatial ideas. Third, the audience has explicitly requested more content on architects not yet covered (5 requests), and Indigenous architecture as a design tradition — not a cultural gesture — is entirely absent from Tom's recent 30-day post history. This is fresh territory that extends his existing thesis without repeating it. The Temerty project also introduces a procurement model (three-firm: global starchitect + local executor + Indigenous co-designer) that connects naturally to Tom's architecture profession cluster (c_arch_profession, steady trend) and could generate follow-on content about how commissions are structured. No recent video touches Two Row Architect, the Temerty Building, MVRDV, Diamond Schmitt, or Indigenous design practice.",
-    "rec_confidence": 0.74,
+    "verdict": "STRONG",
+    "rec_title": "Louis A. S. Bellinger and the New Granada Theater: The Black Architect Behind One of America's Most Storied Venues",
+    "rec_reason": "This recommendation is driven by a direct, named audience request ('Cover Louis A. S. Bellinger and the New Granada Theater') that has gone completely unaddressed in the recent 30-day video log. The c_blackarch_history cluster carries the highest avg_engagement of all clusters (0.1225) and the highest audience comment volume on any single theme (45 comments on 'Appreciation for Black architect history and representation,' trending up). A separate request for 'more Black architects, specifically ones not yet covered' has 5 votes — the second-highest request count in the dataset. The NIA platform theme (20 comments, trending up) and the request to share the NIA link (3 votes) suggest Tom's audience sees these history profiles as connected to a larger discovery resource, which adds a natural CTA opportunity. No external blog trend directly covers Bellinger, making this a differentiated, owned-niche play rather than a reactive trend-chase — appropriate given that the history cluster performs on community loyalty, not virality. The personal_story format has the second-highest avg_engagement (0.1114) among presentation styles and pairs naturally with how Tom typically delivers Black architect profiles.",
+    "rec_confidence": 0.81,
     "talking_points": [
-      "Introduce Two Row Architect and designer Erik Skouris — explain that 'Two Row' references the Two Row Wampum Treaty, a foundational Indigenous sovereignty agreement, and that the firm's name is itself a design philosophy, not a brand choice: two nations, two vessels, moving in parallel without interference.",
-      "Break down what 'designing with the land, not on it' actually means spatially in the Temerty Building: the massing references the Niagara Escarpment, the rooftop grows the four sacred medicines (cedar, sage, sweetgrass, tobacco), and the ground floor is organized around a Longhouse gathering hall — these are not decorative flourishes, they are load-bearing spatial decisions that shaped the plan.",
-      "Explain the three-firm procurement model — MVRDV (global), Diamond Schmitt (local institutional), Two Row Architect (Indigenous co-designer with equal design weight from the outset) — and why this matters: it is structurally different from hiring an Indigenous consultant after the design is done, which is the more common and more tokenizing model.",
-      "Connect this to the broader argument Tom already makes about Black architects: the question of who gets to be a spatial author versus who gets to be a cultural symbol is the same fight. Kéré, Julian Abele, John S. Chase — and now Erik Skouris — are all examples of practitioners whose intellectual contributions get filtered through an identity lens before they get credited as designers.",
-      "Close with a prompt toward NIA and the audience: are there Indigenous architects whose work belongs in this conversation? The platform Tom is building is exactly the right place to document this — before these names get absorbed into the canon without attribution."
+      "Who was Louis A. S. Bellinger — his training, practice era, and the context of being a Black architect designing major public-facing venues during the Jim Crow period",
+      "The New Granada Theater specifically: what made it architecturally significant, who it served, and what it represented culturally for Pittsburgh's Hill District community",
+      "How buildings like the New Granada functioned as both architectural achievements and acts of community sovereignty — spaces Black Americans could enter with full dignity when most public architecture excluded them",
+      "Where Bellinger sits in the broader NIA archive and why preserving these names matters beyond representation — these buildings are physical evidence of a parallel architectural tradition that mainstream history systematically omitted",
+      "Direct callout: the NIA link is in bio, and viewers can explore more architects like Bellinger there — connecting the profile to the platform Tom is already building"
     ],
-    "reference_urls": [
-      {
-        "title": "Diamond Schmitt and MVRDV reveal design for terraced research building for University of Toronto",
-        "url": "https://www.dezeen.com/2026/04/24/diamond-schmitt-mvrdv-terraced-temerty-research-building-university-of-toronto/",
-        "source": "Dezeen"
-      },
-      {
-        "title": "MVRDV, Diamond Schmitt, and Two Row Architect Reveal Design for the Temerty Building at the University of Toronto",
-        "url": "https://www.archdaily.com/1040922/mvrdv-diamond-schmitt-and-two-row-architect-reveal-design-for-the-temerty-building-at-the-university-of-toronto",
-        "source": "ArchDaily"
-      }
-    ],
-    "suggested_format": "talking_head",
-    "suggested_length": "90-120s"
+    "reference_urls": [],
+    "suggested_format": "personal_story",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
@@ -25006,27 +24995,27 @@
   "external_trends": [
     {
       "topic": "LACMA's David Geffen Galleries opens to a divided field: Zumthor's concrete monument is both thrilling and functionally flawed",
-      "audience_resonance": 0.38,
+      "audience_resonance": 0.31,
       "source": "Dezeen / The Architect's Newspaper / The Art Newspaper"
     },
     {
       "topic": "Indigenous design principles are becoming structural, not decorative: the Temerty Building at U of T proves the model",
-      "audience_resonance": 0.62,
+      "audience_resonance": 0.55,
       "source": "Dezeen / ArchDaily"
     },
     {
       "topic": "Cultural institutions are betting on small firms with critical reputations for museum expansions",
-      "audience_resonance": 0.41,
+      "audience_resonance": 0.38,
       "source": "ArchDaily / The Architect's Newspaper / Dezeen"
     },
     {
-      "topic": "Climate-responsive permeability in Latin American architecture is being theorized as a distinct spatial tradition, not just a passive strategy",
-      "audience_resonance": 0.44,
+      "topic": "Climate-responsive permeability in Latin American architecture is being theorized as a distinct spatial tradition",
+      "audience_resonance": 0.22,
       "source": "ArchDaily"
     },
     {
       "topic": "Prefabricated off-grid cabins are pushing Passivhaus standards into extreme-site architecture",
-      "audience_resonance": 0.29,
+      "audience_resonance": 0.27,
       "source": "Dezeen"
     },
     {
@@ -25036,7 +25025,7 @@
     },
     {
       "topic": "Milan Design Week's closing moment reveals a design culture consumed by brand spectacle, with architecture barely visible",
-      "audience_resonance": 0.22,
+      "audience_resonance": 0.19,
       "source": "Dezeen / ArchDaily / Designboom"
     }
   ]
