@@ -23,9 +23,9 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_pop_culture",
     "verdict": "MEH",
-    "rec_title": "Record a talking-head reaction to the LACMA opening controversy — framed through the lens of 'when a genius architect makes something you can't criticize but also can't fully love,' with a direct callback to Bluey's quality debate as a parallel: audiences already know how to argue about whether something lives up to its mythology.",
-    "rec_reason": "No architecture content has been posted in the entire recent video history — the creator's professional identity is completely absent from their feed, representing both a gap and an untapped opportunity. Among all external trends, LACMA scores the highest actionable resonance (0.18) because its core tension — does a visionary creator's work justify 20 years and $150M of institutional faith? — maps directly onto the pop culture debate format this audience already engages with (c_pop_culture: 0.1023 avg engagement, the highest of any cluster; 12 audience questions about Bluey's quality vs. Disney mythology). The Bluey comparison is not a stretch: both are cases where an auteur's work provokes the question 'is this actually good or are we just supposed to say it is?' That frame is native to this audience and gives the creator a bridge between their professional expertise and their established content identity. The talking_head style (avg engagement 0.0841) is the most proven format for opinion-driven content and requires no additional footage. Critically, no architecture content and no pop culture reaction content has been posted in the last 14 days — the most recent pop culture content (Bluey reactions) dates to January/February 2026, making this angle fresh. The gender pay gap story scores second (0.21) for resonance given its social justice angle aligning with c_social_political's engagement ceiling of 0.103, but that cluster has only 2 videos and no follower conversion, making it a riskier bet. LACMA via the pop culture reaction frame is the cleanest intersection of proven format, audience-demonstrated appetite for quality debates, external momentum, and professional credibility.",
-    "rec_confidence": 0.61
+    "rec_title": "React to the LACMA opening controversy as a dad taking Sophia someday — frame the 'should museum architecture prioritize atmosphere or program?' debate through the lens of what makes a space work for a curious kid",
+    "rec_reason": "Every architecture blog trend this week scores low audience resonance (0.07–0.18) because this audience follows for Sophia, parenting, and emotional moments — not architectural criticism. However, c_pop_culture is the highest-engagement non-NOISE cluster at 0.1023 avg engagement, driven specifically by reaction-format videos about content Sophia experiences (Bluey generated 12 repeat questions and is still a trending conversation theme). The LACMA story is the biggest architectural discourse moment of the year and the critical window is live now. The bridge that makes it land for THIS audience: frame it as a dad's eye view — 'I'm an architect and I'd love to take Sophia here someday, but here's what actually makes a space feel magical to a 5-year-old vs. what the critics are fighting about.' This ties the professional identity (architectural designer) to the proven emotional hook (Sophia + dad perspective) using the reaction style that already performs at MEH-or-better. No recent video has touched architecture criticism or LACMA. The pop culture cluster hasn't been posted to since the Bluey videos in late January/early February, making it fresh. Audience requests for more Sophia content (morning routine, car ride crossovers) confirm appetite for Sophia-adjacent content in any format. Confidence is moderate because no cluster here is STRONG — zero follower conversion across all clusters is a systemic issue — but within the available options this is the highest intersection of proven engagement format (reaction), proven cluster (c_pop_culture), live external momentum (LACMA), and audience identity fit.",
+    "rec_confidence": 0.58
   },
   "videos": [
     {
@@ -12608,39 +12608,39 @@
   ],
   "external_trends": [
     {
-      "topic": "Zumthor's LACMA Is Dividing Critics the Moment It Opens — and That Tension Is the Story",
+      "topic": "LACMA's David Geffen Galleries opens to a divided field: Zumthor's concrete monument is both thrilling and functionally flawed",
       "audience_resonance": 0.18,
-      "source": "Dezeen / The Architect's Newspaper / Designboom"
+      "source": "Dezeen / The Architect's Newspaper / The Art Newspaper"
     },
     {
-      "topic": "Milan Design Week 2026 Closes with Architecture Firms Repositioning as Cultural Curators",
+      "topic": "Indigenous design principles are becoming structural, not decorative: the Temerty Building at U of T proves the model",
       "audience_resonance": 0.12,
-      "source": "ArchDaily / Dezeen"
+      "source": "Dezeen / ArchDaily"
     },
     {
-      "topic": "The Architecture Gender Pay Gap Is Measurable, Named, and Getting Worse at Some of the Field's Most Prominent Firms",
-      "audience_resonance": 0.21,
-      "source": "Dezeen"
-    },
-    {
-      "topic": "Small and Mid-Scale Cultural Institutions Are Driving Museum Architecture Commissions — Not the Majors",
-      "audience_resonance": 0.14,
+      "topic": "Cultural institutions are betting on small firms with critical reputations for museum expansions",
+      "audience_resonance": 0.1,
       "source": "ArchDaily / The Architect's Newspaper / Dezeen"
     },
     {
-      "topic": "African Architecture Is Getting Institutional Anchors — Not Just Attention",
-      "audience_resonance": 0.16,
-      "source": "ArchDaily / Designboom"
+      "topic": "Climate-responsive permeability in Latin American architecture is being theorized as a distinct spatial tradition, not just a passive strategy",
+      "audience_resonance": 0.09,
+      "source": "ArchDaily"
     },
     {
-      "topic": "Jeddah Tower Hitting Its 100th Floor Reopens the Supertall Debate — With the White House as a Counterpoint",
-      "audience_resonance": 0.19,
+      "topic": "Prefabricated off-grid cabins are pushing Passivhaus standards into extreme-site architecture",
+      "audience_resonance": 0.08,
       "source": "Dezeen"
     },
     {
-      "topic": "Foster + Partners' Queen Elizabeth II Memorial Finalizes — Civic Architecture Gets a Rare London Approval",
-      "audience_resonance": 0.13,
-      "source": "Dezeen"
+      "topic": "Frank Lloyd Wright preservation is experiencing a renewed critical and institutional moment, with Fallingwater as the anchor",
+      "audience_resonance": 0.14,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Milan Design Week's closing moment reveals a design culture consumed by brand spectacle, with architecture barely visible",
+      "audience_resonance": 0.07,
+      "source": "Dezeen / ArchDaily / Designboom"
     }
   ]
 }

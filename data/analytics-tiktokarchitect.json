@@ -23,8 +23,8 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "MEH",
-    "rec_title": "Post a talking-head reaction video on the UK architecture gender pay gap through the lens of race and access — framing it as 'the diversity pipeline problem hiding inside a pay equity story'",
-    "rec_reason": "Multiple signals converge here without repeating anything posted in the last 14 days. The gender pay gap story (Dezeen, April 20-24) scores 0.72 audience resonance because it directly maps to two of the creator's highest-comment audience themes: 'Diversity, equity and access in the architecture profession' (25 comments, trending up) and 'Appreciation for Black architect history and representation' (45 comments, highest volume, trending up). The creator has NOT covered this topic recently — the recent video slate is dominated by Black architect profiles (Kéré/Goethe-Institut on 4/23, John S Chase on 4/21, Harvey Gantt on 4/20, Paul Williams on 4/18, Wigington on 4/17, Julian Abele on 4/15), building codes, 3D printing, and NAACP ACT-SO content. The pay gap angle is adjacent to the existing Black architect history cluster but approaches it from a systemic/industry-critique direction the creator has not recently used. The specific editorial hook the data supports: ZHA — founded by a Black woman (Zaha Hadid) — now has one of the worst gender pay gaps in UK architecture (median gap more than doubled to 14.5%, mean gap static at ~22% for three years), while smaller studios are outperforming. That irony is the content. The creator can connect it to the broader NIA/pipeline conversation (NIA resource interest trending up, 20 comments) and to the youth pipeline theme (25 comments, trending up) by asking: what does a pay gap story tell young Black students considering architecture as a career? The talking-head style has the second-highest video count (21) and solid engagement (0.105 avg), making it the lowest-risk format for a topic the creator hasn't tested directly. The personal-story style (0.1114 avg engagement, highest of all formats) could be layered in if the creator has a firsthand pay equity experience to draw from. Audience requests also include 'Create a series giving an architecture 101 overview for non-architects' — this video can serve that audience by making a UK data story legible to US viewers unfamiliar with the reporting requirement context.",
+    "rec_title": "Post a personal-story video on Diébédo Francis Kéré's design philosophy — specifically using the Temerty Building's 'designing with the land' moment as a bridge to spotlight an African architect who built that principle into practice decades before it became institutional policy",
+    "rec_reason": "The Temerty Building trend (audience_resonance 0.62) introduces 'designing with the land' as a structural spatial methodology — a framing that maps directly onto Kéré's lifelong practice of climate-responsive, community-embedded architecture rooted in Burkina Faso. Critically, the April 23 video already covered the Goethe-Institut in Dakar by Kéré as a project, but did NOT do a deeper profile of Kéré himself as an architect or his design philosophy — leaving room for a distinct follow-up that goes beyond the building to the person and method. The c_blackarch_history cluster has the highest avg_engagement of all clusters (0.1225), the audience conversation theme 'Appreciation for Black architect history and representation' is trending up with 45 comments (highest comment count of any theme), and there are 5 outstanding audience requests for more Black architect profiles covering figures not yet featured in depth. The personal_story style (avg_engagement 0.1114) is the second-highest performing format and suits a 'why Kéré's approach matters right now' framing. Tying Kéré's community-first, climate-adaptive methodology to the live Temerty Building discourse gives this video external momentum and a hook beyond the archive — the angle being: the institutional world is just now learning to credit what Kéré has been building since the 1990s. No video on Kéré as a subject (versus a single building) has been posted in the 14-day window, making this fresh.",
     "rec_confidence": 0.74
   },
   "videos": [
@@ -24984,39 +24984,39 @@
   ],
   "external_trends": [
     {
-      "topic": "Zumthor's LACMA Is Dividing Critics the Moment It Opens — and That Tension Is the Story",
+      "topic": "LACMA's David Geffen Galleries opens to a divided field: Zumthor's concrete monument is both thrilling and functionally flawed",
+      "audience_resonance": 0.45,
+      "source": "Dezeen / The Architect's Newspaper / The Art Newspaper"
+    },
+    {
+      "topic": "Indigenous design principles are becoming structural, not decorative: the Temerty Building at U of T proves the model",
+      "audience_resonance": 0.62,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Cultural institutions are betting on small firms with critical reputations for museum expansions",
+      "audience_resonance": 0.38,
+      "source": "ArchDaily / The Architect's Newspaper / Dezeen"
+    },
+    {
+      "topic": "Climate-responsive permeability in Latin American architecture is being theorized as a distinct spatial tradition",
       "audience_resonance": 0.35,
-      "source": "Dezeen / The Architect's Newspaper"
+      "source": "ArchDaily"
     },
     {
-      "topic": "Milan Design Week 2026 Closes with Architecture Firms Repositioning as Cultural Curators",
-      "audience_resonance": 0.2,
-      "source": "ArchDaily / Dezeen"
-    },
-    {
-      "topic": "The Architecture Gender Pay Gap Is Measurable, Named, and Getting Worse at Some of the Field's Most Prominent Firms",
-      "audience_resonance": 0.72,
-      "source": "Dezeen"
-    },
-    {
-      "topic": "Small and Mid-Scale Cultural Institutions Are Driving Museum Architecture Commissions — Not the Majors",
-      "audience_resonance": 0.3,
-      "source": "ArchDaily / The Architect's Newspaper"
-    },
-    {
-      "topic": "African Architecture Is Getting Institutional Anchors — Not Just Attention",
-      "audience_resonance": 0.88,
-      "source": "ArchDaily / Designboom"
-    },
-    {
-      "topic": "Jeddah Tower Hitting Its 100th Floor Reopens the Supertall Debate — With the White House as a Counterpoint",
+      "topic": "Prefabricated off-grid cabins are pushing Passivhaus standards into extreme-site architecture",
       "audience_resonance": 0.28,
       "source": "Dezeen"
     },
     {
-      "topic": "Foster + Partners' Queen Elizabeth II Memorial Finalizes — Civic Architecture Gets a Rare London Approval",
-      "audience_resonance": 0.22,
-      "source": "Dezeen"
+      "topic": "Frank Lloyd Wright preservation is experiencing a renewed critical and institutional moment, with Fallingwater as the anchor",
+      "audience_resonance": 0.52,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Milan Design Week's closing moment reveals a design culture consumed by brand spectacle, with architecture barely visible",
+      "audience_resonance": 0.3,
+      "source": "Dezeen / ArchDaily / Designboom"
     }
   ]
 }
