@@ -45,15 +45,33 @@ jobs:
           }
 
       - name: Deploy to IONOS via SFTP
+        env:
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_PORT: ${{ secrets.SFTP_PORT }}
+          SFTP_USER: ${{ secrets.SFTP_USER }}
+          SSHPASS: ${{ secrets.SFTP_PASSWORD }}
         run: |
           sudo apt-get install -y sshpass > /dev/null 2>&1
-          sshpass -p "${{ secrets.SFTP_PASSWORD }}" sftp -o StrictHostKeyChecking=no -P ${{ secrets.SFTP_PORT }} ${{ secrets.SFTP_USER }}@${{ secrets.SFTP_HOST }} <<'SFTP_COMMANDS'
+          for f in data/analytics-tiktokarchitect.json data/analytics-randomtom83.json; do
+            if [ -f "$f" ]; then
+              echo "Uploading $f..."
+              sshpass -e sftp -o StrictHostKeyChecking=no -P "$SFTP_PORT" "$SFTP_USER@$SFTP_HOST" <<EOF
           cd /website/data
-          put data/analytics-tiktokarchitect.json
-          put data/analytics-randomtom83.json
-          put data/blog-trends-*.json
+          put $f
           bye
-          SFTP_COMMANDS
+          EOF
+            fi
+          done
+          for f in data/blog-trends-*.json; do
+            if [ -f "$f" ]; then
+              echo "Uploading $f..."
+              sshpass -e sftp -o StrictHostKeyChecking=no -P "$SFTP_PORT" "$SFTP_USER@$SFTP_HOST" <<EOF
+          cd /website/data
+          put $f
+          bye
+          EOF
+            fi
+          done
           echo "SFTP deploy complete"
 
       - name: Send morning digest email
