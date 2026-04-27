@@ -23,9 +23,30 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "MEH",
-    "rec_title": "Post a personal-story-style video on Diébédo Francis Kéré — specifically connecting his Goethe-Institut Dakar work to the broader argument that African and Global South architects are not vernacular curiosities but authors of a full intellectual design tradition, mirroring the ArchDaily framing of Latin American permeability this week.",
-    "rec_reason": "The Goethe-Institut Dakar video posted on 2026-04-23 covered Kéré's project but as a standalone talking-head feature. This recommendation is intentionally different: it uses the personal-story format (avg_engagement 0.1114, highest among all styles) to position Kéré's body of work — not just one building — within the same 'distinct spatial tradition, not regional variant' argument that ArchDaily is actively publishing about Latin American architecture this week (audience_resonance 0.41 for that trend, but the parallel framing elevates relevance). This angles the content at the trending critical discourse without repeating the recent Kéré post. It also directly answers the top audience request ('Do a video or series on more Black architects, specifically ones not yet covered' — count: 5) and the theme 'Appreciation for Black architect history and representation' (comment_count: 45, trend: up). Kéré is the entry point, but the frame — African architects as theorists, not just practitioners — is the hook that connects external momentum to the creator's established identity. No video in the last 14 days has taken this comparative-theoretical angle on the cluster. The c_blackarch_history cluster has the highest avg_engagement at 0.1225 and a steady trend, making it the most reliable base to build from. Pairing the personal-story style with an intellectually elevated frame is the highest-probability move available given current signals.",
-    "rec_confidence": 0.71
+    "rec_title": "Two Row Architect and the Temerty Building: What It Actually Means When an Indigenous Firm Co-Designs a Major Institution — Not as Culture Consultants, But as Spatial Authors",
+    "rec_reason": "This recommendation is driven by three converging signals. First, the Temerty Building trend scores the highest audience resonance (0.62) among this week's blog topics because it directly bridges Tom's two strongest audience themes: appreciation for underrepresented design traditions (45 comments trending up) and diversity, equity and access in the profession (25 comments trending up). Second, the 'Black Architects & Architectural History' cluster carries the highest avg_engagement of any cluster (0.1225) and is Tom's most consistent identity anchor — and Two Row Architect's Erik Skouris and the structural co-design model maps cleanly onto the intellectual argument Tom already makes about Black architects: that these are not marginal voices but full authors of spatial ideas. Third, the audience has explicitly requested more content on architects not yet covered (5 requests), and Indigenous architecture as a design tradition — not a cultural gesture — is entirely absent from Tom's recent 30-day post history. This is fresh territory that extends his existing thesis without repeating it. The Temerty project also introduces a procurement model (three-firm: global starchitect + local executor + Indigenous co-designer) that connects naturally to Tom's architecture profession cluster (c_arch_profession, steady trend) and could generate follow-on content about how commissions are structured. No recent video touches Two Row Architect, the Temerty Building, MVRDV, Diamond Schmitt, or Indigenous design practice.",
+    "rec_confidence": 0.74,
+    "talking_points": [
+      "Introduce Two Row Architect and designer Erik Skouris — explain that 'Two Row' references the Two Row Wampum Treaty, a foundational Indigenous sovereignty agreement, and that the firm's name is itself a design philosophy, not a brand choice: two nations, two vessels, moving in parallel without interference.",
+      "Break down what 'designing with the land, not on it' actually means spatially in the Temerty Building: the massing references the Niagara Escarpment, the rooftop grows the four sacred medicines (cedar, sage, sweetgrass, tobacco), and the ground floor is organized around a Longhouse gathering hall — these are not decorative flourishes, they are load-bearing spatial decisions that shaped the plan.",
+      "Explain the three-firm procurement model — MVRDV (global), Diamond Schmitt (local institutional), Two Row Architect (Indigenous co-designer with equal design weight from the outset) — and why this matters: it is structurally different from hiring an Indigenous consultant after the design is done, which is the more common and more tokenizing model.",
+      "Connect this to the broader argument Tom already makes about Black architects: the question of who gets to be a spatial author versus who gets to be a cultural symbol is the same fight. Kéré, Julian Abele, John S. Chase — and now Erik Skouris — are all examples of practitioners whose intellectual contributions get filtered through an identity lens before they get credited as designers.",
+      "Close with a prompt toward NIA and the audience: are there Indigenous architects whose work belongs in this conversation? The platform Tom is building is exactly the right place to document this — before these names get absorbed into the canon without attribution."
+    ],
+    "reference_urls": [
+      {
+        "title": "Diamond Schmitt and MVRDV reveal design for terraced research building for University of Toronto",
+        "url": "https://www.dezeen.com/2026/04/24/diamond-schmitt-mvrdv-terraced-temerty-research-building-university-of-toronto/",
+        "source": "Dezeen"
+      },
+      {
+        "title": "MVRDV, Diamond Schmitt, and Two Row Architect Reveal Design for the Temerty Building at the University of Toronto",
+        "url": "https://www.archdaily.com/1040922/mvrdv-diamond-schmitt-and-two-row-architect-reveal-design-for-the-temerty-building-at-the-university-of-toronto",
+        "source": "ArchDaily"
+      }
+    ],
+    "suggested_format": "talking_head",
+    "suggested_length": "90-120s"
   },
   "videos": [
     {
@@ -24985,7 +25006,7 @@
   "external_trends": [
     {
       "topic": "LACMA's David Geffen Galleries opens to a divided field: Zumthor's concrete monument is both thrilling and functionally flawed",
-      "audience_resonance": 0.45,
+      "audience_resonance": 0.38,
       "source": "Dezeen / The Architect's Newspaper / The Art Newspaper"
     },
     {
@@ -24995,27 +25016,27 @@
     },
     {
       "topic": "Cultural institutions are betting on small firms with critical reputations for museum expansions",
-      "audience_resonance": 0.38,
+      "audience_resonance": 0.41,
       "source": "ArchDaily / The Architect's Newspaper / Dezeen"
     },
     {
       "topic": "Climate-responsive permeability in Latin American architecture is being theorized as a distinct spatial tradition, not just a passive strategy",
-      "audience_resonance": 0.41,
+      "audience_resonance": 0.44,
       "source": "ArchDaily"
     },
     {
       "topic": "Prefabricated off-grid cabins are pushing Passivhaus standards into extreme-site architecture",
-      "audience_resonance": 0.28,
+      "audience_resonance": 0.29,
       "source": "Dezeen"
     },
     {
       "topic": "Frank Lloyd Wright preservation is experiencing a renewed critical and institutional moment, with Fallingwater as the anchor",
-      "audience_resonance": 0.52,
+      "audience_resonance": 0.35,
       "source": "Dezeen / ArchDaily"
     },
     {
       "topic": "Milan Design Week's closing moment reveals a design culture consumed by brand spectacle, with architecture barely visible",
-      "audience_resonance": 0.31,
+      "audience_resonance": 0.22,
       "source": "Dezeen / ArchDaily / Designboom"
     }
   ]
