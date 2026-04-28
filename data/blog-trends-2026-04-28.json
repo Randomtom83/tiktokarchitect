@@ -1,0 +1,164 @@
+{
+  "scan_date": "2026-04-28",
+  "sources_checked": [
+    "ArchDaily",
+    "Dezeen",
+    "Archinect",
+    "The Architect's Newspaper",
+    "Curbed",
+    "Architectural Digest",
+    "Designboom",
+    "Architect Magazine (AIA)",
+    "Failed Architecture",
+    "McMansion Hell",
+    "99% Invisible"
+  ],
+  "trends": [
+    {
+      "topic": "LACMA opens and immediately attracts critical fire — the $750M museum as symptom of architectural hubris",
+      "synthesis": "The opening of Peter Zumthor's David Geffen Galleries at LACMA is this cycle's sharpest critical flashpoint. A Dezeen opinion piece by local writer Shane Reiner-Roth, published April 23 and still the most-linked architecture story on Dezeen today, argues that the 347,000-sq-ft concrete building — Zumthor's first and largest US project, 20+ years in the making at $750M — somehow delivers less gallery space than the buildings it demolished. The critique bites on functional grounds: acoustic paneling hasn't been approved by Zumthor yet, so gallery talks are compromised; the building feels severed from the rest of the LACMA campus; and the ground-level park beneath is an artwork without benches or basic human amenities. The building is structurally audacious — it spans Wilshire Boulevard on piers — but Reiner-Roth frames it as what happens when a publicly funded institution optimizes for 'immortality' over public service. This is not a puff-piece opening; it's a critical autopsy of a building still warm. The story feeds a growing genre of 'starchitect reckoning' pieces that are gaining more traction than straight project coverage.",
+      "sources": [
+        {
+          "title": "\"Zumthor's LACMA building captures the strangeness of our times\"",
+          "url": "https://www.dezeen.com/2026/04/23/zumthors-lacma-opinion-shane-reiner-roth/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Art installations bring colour to Zumthor's austere LACMA addition",
+          "url": "https://www.dezeen.com/2026/04/15/art-installations-peter-zumthor-lacma-california/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "This is the most contentious new building in the US right now. For architecture content creators, the LACMA debate is a rare case where the critical case *against* the building is more compelling than the promotional case *for* it — lean into that tension. The Reiner-Roth piece is a model for how to write critically about an opening without being purely contrarian; it's worth studying for structure and tone."
+    },
+    {
+      "topic": "Architecture of air as medium — passive design theory gets a genuine intellectual reframe",
+      "synthesis": "ArchDaily published 'Designing with Air: Rethinking Architecture Beyond the Wall' today (April 28), authored by Diogo Borges Ferreira. The piece is tagged under their 2026 'Light Lighter Lightest' topic and argues that the architectural envelope should be reconceived not as a line of separation but as a site of filtration and pressure — where air is directed, slowed, and thickened through section. The piece draws on historical precedents from the Alhambra's thermal water courts to Persian windtowers to Sou Fujimoto's porous structures and Diller Scofidio + Renfro's work. This is a theory piece, not a project gallery — and it arrives as climate-responsive design discourse is intensifying post-Earth Day. It's a genuine contribution to passive design theory that elevates the conversation beyond solar panels and green roofs toward a more spatial, phenomenological vocabulary for climate responsiveness.",
+      "sources": [
+        {
+          "title": "Designing with Air: Rethinking Architecture Beyond the Wall",
+          "url": "https://www.archdaily.com/1040962/designing-with-air-rethinking-architecture-beyond-the-wall",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "If you cover sustainable or climate-responsive design, this is a vocabulary upgrade — the shift from 'passive cooling' as a technical checklist toward 'air as medium' is a more compelling content framing. Consider how historic examples like windtowers and the Alhambra are being reclaimed as design references, not nostalgia."
+    },
+    {
+      "topic": "UK architecture's gender pay gap reverses course — ZHA goes from best-in-class to worst regression in one year",
+      "synthesis": "UK annual gender pay gap reporting dropped this week, and the headline story is a dramatic reversal at Zaha Hadid Architects. After ZHA recorded its lowest-ever median gender pay gap in 2024/25 (6.3%), the latest figures show it has more than doubled to 14.5% — meaning middle-ranking women now earn 86p for every £1 earned by men. The studio's mean hourly pay gap has hovered around 22% for three consecutive years. ZHA's public response attributes the rise to an influx of young women joining at entry level, which statistically depresses median women's pay. Dezeen covered this directly, AND dedicated a podcast episode to it (Dezeen Weekly, April 24) alongside discussion of the White House ballroom stall and the Jeddah Tower milestone. The broader industry picture is slightly more positive — other studios including Foster + Partners narrowed their gaps — but architecture as a sector continues to outperform (in the bad direction) the UK economy overall. The RIBA's own gender pay gap nearly doubled as well, from 6.3% to 11.3%.",
+      "sources": [
+        {
+          "title": "Gender pay gap more than doubles at Zaha Hadid Architects",
+          "url": "https://www.dezeen.com/2026/04/20/gender-pay-gap-uk-architecture-2/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Why architecture has a large gender pay gap (Dezeen Weekly podcast)",
+          "url": "https://www.dezeen.com/2026/04/24/gender-pay-gap-jeddah-tower-stalled-buildings-dezeen-weekly-podcast/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "The ZHA story has unusual staying power because it pits the most iconic 'woman-founded' firm against the worst gender pay trend — it's structurally ironic and will keep generating commentary. For content creators covering equity in practice, the ZHA data is high-signal; but the deeper story — that architecture-wide median gaps haven't moved in eight years — is the one worth contextualizing."
+    },
+    {
+      "topic": "Gensler takes Trump Tower Tbilisi commission — the political economy of starchitect neutrality under pressure",
+      "synthesis": "The Architect's Newspaper and Dezeen both covered this week's announcement that Gensler — the world's largest architecture firm by revenue — has been commissioned to design a 70-story Trump Tower in Tbilisi, Georgia, set to become the country's tallest building. The project is positioned as a luxury mixed-use tower (residences, retail, hotel) adjacent to Tbilisi's Central Park, developed by a consortium including Biograpi Living, Archi Group, and the Sapir Organization. The announcement raises pointed questions neither outlet fully answers: does Gensler's acceptance of a Trump branding commission implicate the firm in political optics? The Trump Organization has significantly expanded its international licensing and branding activity since the start of Trump's second term. A Belgrade Trump International Hotel deal collapsed last February. Meanwhile Gensler is simultaneously working on the US Embassy architecture roster. The firm has not made a public statement addressing any conflict or positioning.",
+      "sources": [
+        {
+          "title": "Gensler to design Trump Tower Tbilisi, what could be the 'tallest building in Georgia'",
+          "url": "https://www.archpaper.com/2026/04/gensler-trump-tower-tbilisi/",
+          "source": "The Architect's Newspaper"
+        },
+        {
+          "title": "Gensler set to design Trump Tower Tbilisi as country's tallest building",
+          "url": "https://www.dezeen.com/2026/04/20/trump-tower-tbilisi-gensler-georgia-tallest-building/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "This story sits at the live edge of 'architecture and political ethics' and is unlikely to go away quietly. For content creators, it's a lens into a real dilemma facing large commercial firms: at what point does brand association with political power become a reputational liability? Architects who have publicly rejected Trump-adjacent work in the past (the travel ban-era exodus from advisory councils, 2017) will be asked to respond."
+    },
+    {
+      "topic": "Historic preservation and adaptive reuse are generating the most architecturally interesting new openings — not new builds",
+      "synthesis": "Two notable project completions surfacing in the past 24-48 hours point to adaptive reuse and historic preservation as the project type producing the most architecturally compelling work right now. ARO (Architecture Research Office, New York) has restored the historic 19th-century greenhouse at Green-Wood Cemetery in Brooklyn, surrounding it with a new welcome centre and entrance courtyard — a rare case of a cemetery commission driving architecture conversation. Separately, ArchDaily surfaced its weekly digest this week noting that architects are 'reimagining existing structures and districts, transforming underused offices, historic landmarks, and unfinished buildings into mixed-use, culturally significant, or publicly accessible spaces.' The Spaceworkers-designed Vila do Bispo Museum in Portugal (adding a red-concrete volume to repurposed granaries) also appeared on Dezeen's architecture feed. The throughline: the most discussed and critically praised built work is not greenfield construction but careful, inventive acts on existing structures.",
+      "sources": [
+        {
+          "title": "ARO transforms Green-Wood Cemetery greenhouse in New York into welcome centre",
+          "url": "https://www.dezeen.com/architecture/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Spaceworkers transforms Portuguese granaries into museum with red-concrete extension",
+          "url": "https://www.dezeen.com/architecture/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "Adaptive reuse is not a niche topic anymore — it's the dominant mode of architecturally interesting practice in 2026. Content creators should treat every cemetery, granary, or industrial shell as a possible subject. The framing that generates the most engagement is not 'before and after' renovation coverage but 'what does this building remember?' — the memory and material continuity angle."
+    },
+    {
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial finalised — civic memorial design as contested cultural ground",
+      "synthesis": "Foster + Partners revealed the final design for the Queen Elizabeth II memorial in St James's Park, London, this week (April 22), featuring a glazed Unity Bridge over the park lake, a stone path, a statue of the Queen on the Mall, and a Wind Sculpture by artist Yinka Shonibare. The design was confirmed after a public consultation process among five shortlisted teams (also including Heatherwick Studio and WilkinsonEyre). Dezeen's weekly newsletter and their events guide both prominently flagged this. The memorial is described as 'serene and contemplative.' The Foster + Partners project draws on John Nash's original landscape for the park and integrates artist collaborations throughout — a model increasingly common in high-profile civic commissions where architects and artists share authorship.",
+      "sources": [
+        {
+          "title": "Foster + Partners reveals final design for \"serene and contemplative\" Queen Elizabeth II memorial",
+          "url": "https://www.dezeen.com/2026/04/22/queen-elizabeth-ii-memorial-foster-partners/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "The QE II memorial signals a broader shift in how top UK firms position civic memorials — artist collaboration and landscape integration are now table stakes for high-profile public commissions. For content creators, the interesting story is not 'Foster wins again' but the process: how a public competition with genuine alternatives navigated to a consensus choice, and what that says about what 'appropriate' civic architecture looks like in post-Elizabethan Britain."
+    },
+    {
+      "topic": "Milan Design Week 2026 aftermath — process-over-product framing is reshaping how design events are covered",
+      "synthesis": "With Milan Design Week wrapping up (April 20–26), the post-event coverage and synthesis pieces are now landing. Dezeen published its 'six trends to know' roundup noting a 'blow-up IKEA chair and a creepy AI-powered chandelier' as headline moments — a sign that novelty and spectacle continue to drive trade press attention. ArchDaily's framing is more theoretical: the Fuorisalone theme 'Be the Project' explicitly shifted focus from outcomes to processes, embracing 'error, temporality, and experimentation as integral to creative production.' Designboom ran coverage from their 'Room for Dreams' activation at Piazza della Repubblica. The split between spectacle-first trade coverage (Dezeen trending items) and process-first architectural discourse (ArchDaily) reflects a genuine tension about what design events are *for* — cultural platform or product launch vehicle.",
+      "sources": [
+        {
+          "title": "Sci-fi lamps and inflatable furniture among six trends to know from Milan design week",
+          "url": "https://www.dezeen.com/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Milan Design Week 2026: Must-See Installations, Exhibitions, and Events",
+          "url": "https://www.archdaily.com/1040640/milan-design-week-2026-must-see-installations-exhibitions-and-events",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "For architecture content creators covering design weeks: the 'six trends' format is saturated. The signal content is in the process-and-philosophy angle — what does this year's theme tell us about where design institutions think the profession is heading? The 'Be the Project' framing at Fuorisalone 2026 is an invitation to write about methodology, not products."
+    }
+  ],
+  "people": [
+    {
+      "name": "Shane Reiner-Roth",
+      "role": "Architecture critic / writer, Los Angeles",
+      "why": "Authored the most-discussed architecture opinion piece of the week on Dezeen — a sharp critical reading of Zumthor's LACMA building that goes beyond aesthetics to interrogate institutional decision-making, public accountability, and the gap between architectural ambition and user experience."
+    },
+    {
+      "name": "Peter Zumthor",
+      "role": "Architect, Atelier Peter Zumthor & Partner",
+      "why": "His David Geffen Galleries at LACMA — 20+ years in the making, his first and largest US project — has finally opened and is already generating significant critical controversy. He is also reportedly holding up the installation of acoustic panels in the building, adding a layer of artist-control-vs-function tension to the opening."
+    },
+    {
+      "name": "Dominique Petit-Frère",
+      "role": "Founder, Limbo Museum (Accra, Ghana) / Dezeen Awards 2026 judge",
+      "why": "Named to the Dezeen Awards 2026 architecture jury (announced today, April 28). Her work establishing Limbo Museum as an experimental cultural institution in Ghana — and her previous co-founding of Limbo Accra — makes her a significant emerging voice in African architectural practice and alternative institutional models."
+    },
+    {
+      "name": "Ben Addy",
+      "role": "Founder, Moxon Architects (Scotland)",
+      "why": "Also named Dezeen Awards 2026 architecture judge (April 28). His practice's focus on heritage, circularity, and Passivhaus is positioned as a counterpoint to spectacle architecture — his presence on the jury signals what Dezeen is prioritising this awards cycle."
+    },
+    {
+      "name": "Diogo Borges Ferreira",
+      "role": "Writer / architect, ArchDaily contributor",
+      "why": "Published today's most intellectually substantive piece: 'Designing with Air' on ArchDaily, which proposes a new theoretical vocabulary for passive and climate-responsive architecture using historical precedents. A writer to follow if you cover sustainable design theory."
+    },
+    {
+      "name": "Norman Foster / Foster + Partners",
+      "role": "Architect, Foster + Partners",
+      "why": "Finalised designs for the Queen Elizabeth II memorial were revealed this week — the firm's highest-profile civic commission of 2026, featuring a glazed bridge, artist collaborations, and park landscape integration. Staying at the centre of UK institutional architecture."
+    },
+    {
+      "name": "Patrik Schumacher",
+      "role": "Principal, Zaha Hadid Architects",
+      "why": "ZHA's doubled gender pay gap (6.3% → 14.5% in one year) is driving renewed scrutiny of the firm's employment practices. The studio's public response attributes the reversal to demographic hiring patterns rather than structural pay inequity — a position that is receiving pushback from the architecture press."
+    }
+  ]
+}
