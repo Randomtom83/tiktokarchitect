@@ -21,32 +21,32 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_blackarch_history",
-    "verdict": "MEH",
-    "rec_title": "Two Row Architect & the Temerty Building: When Indigenous Design Is the Architect, Not the Decoration",
-    "rec_reason": "The Temerty Building at University of Toronto is the week's strongest external trend with meaningful resonance for Tom's existing content pillars. His Black architect history series drives his highest engagement (0.1244) and the most emotionally charged comment theme — 'excitement and gratitude for underrepresented architectural history being documented' — with 50 comments trending up. The Temerty project directly extends that territory: Two Row Architect (an Indigenous design firm) holds co-equal design authority alongside MVRDV and Diamond Schmitt, making it a structural parallel to the Black architect visibility story Tom already owns. His profession advocacy cluster also maps here — the three-firm procurement model (global starchitect + local executor + Indigenous co-designer) is a concrete, talkable example of how diversity enters the design process at the commission level, not as an afterthought. Critically, no recent video touches this subject, and no prior recommendation covers it. The Temerty story also feeds Tom's audience's documented appetite for systemic framing of equity in architecture (25 comments on that theme, trending up), giving him a timely, credible hook that isn't purely retrospective. The Indigenous spatial methodology — designing with the land, massing referencing the Niagara Escarpment, rooftop sacred medicine gardens, Longhouse-oriented gathering space — gives him visual and conceptual talking points that are more architecturally specific than a values statement.",
-    "rec_confidence": 0.74,
+    "best_performing_cluster_id": "c_profession_advocacy",
+    "verdict": "STRONG",
+    "rec_title": "The Gender Pay Gap in Architecture Is Getting Worse — And the Numbers at Zaha Hadid Architects Should Embarrass All of Us",
+    "rec_reason": "The ZHA gender pay gap story has the strongest multi-signal alignment available right now. Tom's audience is actively engaged on diversity and systemic barriers in architecture (25 comments trending up on that theme, third-highest comment volume in the audience conversation data). The c_profession_advocacy cluster holds a steady engagement rate of 0.0955 — above the building codes and 3D printing clusters — and audience requests explicitly call out diversity and equity content. The ZHA story is structurally ironic in a way that is tailor-made for Tom's voice: the most famous woman-founded firm in history now has a median gender pay gap of 14.5%, more than double last year's figure, in a profession where architecture-wide gaps have barely moved in eight years. The RIBA's own gap nearly doubled simultaneously. This is not abstract — it connects directly to the 'concerns about diversity, equity, and systemic barriers' conversation already happening in Tom's comments. Critically, nothing in Tom's recent 30-day video history touches gender pay equity, ZHA, or UK profession data, so this is a fully fresh lane. The talking_head format is Tom's highest-engagement style (0.1163 avg) and is ideal for a take-driven profession commentary piece. The ZHA angle also creates a natural bridge to Tom's Black architect history work — he can connect systemic pay inequity to the same structural barriers that erased Black architects from the historical record, making this a thematic continuation rather than a detour.",
+    "rec_confidence": 0.81,
     "talking_points": [
-      "Explain the three-firm procurement model: MVRDV (global starchitect), Diamond Schmitt (established local firm), and Two Row Architect (Indigenous practice) — and why having the Indigenous firm embedded from the outset, not added as a consultant, changes what the building actually looks like spatially.",
-      "Break down the tangible design consequences of 'designing with the land, not on it': the massing references the Niagara Escarpment, the rooftop grows the four sacred medicines (cedar, sage, sweetgrass, tobacco), and the ground floor organizes around a Longhouse-oriented gathering hall — this is Indigenous spatial logic expressed in plan and section, not surface decoration.",
-      "Connect this to the broader pattern Tom's audience already cares about: just as Black architects like Julian Abele or Paul R. Williams were often erased from credit on buildings they designed, Indigenous design contributions have historically been absorbed into the dominant firm's portfolio — the Temerty model is a documented attempt to break that pattern.",
-      "Raise the honest question: is this a replicable procurement template or a one-time institutional gesture? The project uses integrated project delivery and breaks ground July 2026 — Tom can invite his audience to watch whether the co-design credit holds through construction and into the building's public identity.",
-      "Pull the thread to Tom's own practice and audience: what does it mean for architecture students and emerging professionals from underrepresented communities to see a model where equity is written into the contract structure, not just the marketing copy?"
+      "The numbers: ZHA's median gender pay gap jumped from 6.3% to 14.5% in one year — the firm's own explanation (more young women entering at entry level) actually proves the pipeline problem rather than excusing it, because it shows women are being concentrated at the bottom of the salary band.",
+      "Architecture-wide context: this isn't a ZHA anomaly — the RIBA's own gender pay gap nearly doubled in the same reporting cycle, and the profession has outperformed the broader UK economy in the wrong direction for eight consecutive years. The data suggests structural failure, not individual firm variance.",
+      "The irony that demands to be named: Zaha Hadid was the first woman to win the Pritzker, the most visible proof that women can reach the top of this profession — and the firm bearing her name now has some of the worst gender pay data in UK architecture. What does that tell us about whether representation at the top changes conditions at the bottom?",
+      "Connect to the US context Tom's audience lives in: AIA gender pay data shows similar patterns domestically, and the systemic barriers Tom's audience discusses in comments — the ones that pushed Black architects out of the profession for generations — are part of the same structural logic that suppresses women's compensation today.",
+      "Actionable close: what should firms actually do? Transparent pay bands, structured promotion criteria, and third-party audits are the three levers with evidence behind them — give the audience something to demand from their employers or internship firms, not just a reason to be angry."
     ],
     "reference_urls": [
       {
-        "title": "Diamond Schmitt and MVRDV reveal design for terraced research building for University of Toronto",
-        "url": "https://www.dezeen.com/2026/04/24/diamond-schmitt-mvrdv-terraced-temerty-research-building-university-of-toronto/",
+        "title": "Gender pay gap more than doubles at Zaha Hadid Architects",
+        "url": "https://www.dezeen.com/2026/04/20/gender-pay-gap-uk-architecture-2/",
         "source": "Dezeen"
       },
       {
-        "title": "MVRDV, Diamond Schmitt, and Two Row Architect Reveal Design for the Temerty Building at the University of Toronto",
-        "url": "https://www.archdaily.com/1040922/mvrdv-diamond-schmitt-and-two-row-architect-reveal-design-for-the-temerty-building-at-the-university-of-toronto",
-        "source": "ArchDaily"
+        "title": "Why architecture has a large gender pay gap (Dezeen Weekly podcast)",
+        "url": "https://www.dezeen.com/2026/04/24/gender-pay-gap-jeddah-tower-stalled-buildings-dezeen-weekly-podcast/",
+        "source": "Dezeen"
       }
     ],
     "suggested_format": "talking_head",
-    "suggested_length": "60-90s"
+    "suggested_length": "90-120s"
   },
   "videos": [
     {
@@ -25117,39 +25117,39 @@
   ],
   "external_trends": [
     {
-      "topic": "LACMA's David Geffen Galleries opens to a divided field: Zumthor's concrete monument is both thrilling and functionally flawed",
-      "audience_resonance": 0.35,
-      "source": "Dezeen / The Architect's Newspaper / The Art Newspaper"
-    },
-    {
-      "topic": "Indigenous design principles are becoming structural, not decorative: the Temerty Building at U of T proves the model",
-      "audience_resonance": 0.62,
-      "source": "Dezeen / ArchDaily"
-    },
-    {
-      "topic": "Cultural institutions are betting on small firms with critical reputations for museum expansions",
+      "topic": "LACMA opens and immediately attracts critical fire — the $750M museum as symptom of architectural hubris",
       "audience_resonance": 0.41,
-      "source": "ArchDaily / The Architect's Newspaper / Dezeen"
-    },
-    {
-      "topic": "Climate-responsive permeability in Latin American architecture is being theorized as a distinct spatial tradition",
-      "audience_resonance": 0.38,
-      "source": "ArchDaily"
-    },
-    {
-      "topic": "Prefabricated off-grid cabins are pushing Passivhaus standards into extreme-site architecture",
-      "audience_resonance": 0.28,
       "source": "Dezeen"
     },
     {
-      "topic": "Frank Lloyd Wright preservation is experiencing a renewed critical and institutional moment, with Fallingwater as the anchor",
+      "topic": "Architecture of air as medium — passive design theory gets a genuine intellectual reframe",
+      "audience_resonance": 0.28,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "UK architecture's gender pay gap reverses course — ZHA goes from best-in-class to worst regression in one year",
+      "audience_resonance": 0.62,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Gensler takes Trump Tower Tbilisi commission — the political economy of starchitect neutrality under pressure",
       "audience_resonance": 0.44,
+      "source": "The Architect's Newspaper"
+    },
+    {
+      "topic": "Historic preservation and adaptive reuse are generating the most architecturally interesting new openings — not new builds",
+      "audience_resonance": 0.35,
       "source": "Dezeen / ArchDaily"
     },
     {
-      "topic": "Milan Design Week's closing moment reveals a design culture consumed by brand spectacle, with architecture barely visible",
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial finalised — civic memorial design as contested cultural ground",
+      "audience_resonance": 0.29,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Milan Design Week 2026 aftermath — process-over-product framing is reshaping how design events are covered",
       "audience_resonance": 0.22,
-      "source": "Dezeen / ArchDaily / Designboom"
+      "source": "Dezeen / ArchDaily"
     }
   ]
 }

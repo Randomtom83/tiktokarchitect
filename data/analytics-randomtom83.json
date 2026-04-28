@@ -21,21 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_carride",
+    "best_performing_cluster_id": "c_bluey_pop",
     "verdict": "MEH",
-    "rec_title": "Sophia sings something completely unhinged on the way to school — and I can't stop her",
-    "rec_reason": "Sophia's singing and musical creativity is a rising comment theme (15 comments, trending UP) and has generated direct audience requests (4 people explicitly asking for more). The car ride format is the account's most-filmed cluster (70 videos) and the audience consistently returns for Sophia's personality — comments show 80 people actively engaged with admiration for her growth. Critically, no recent video in the last 30 days has leaned into Sophia singing or being musically creative — the recent car ride posts have been conversation-driven or milestone-driven. This is a gap the audience has already told Tom they want filled. The 'personal story + walkthrough' hybrid format (filming the moment as it happens, with Tom's low-key reaction) mirrors what already earns engagement on the account. Sophia's unscripted, chaotic musical energy is exactly the kind of authentic kid content that performs in the #girldad and #preschoolersoftiktok spaces.",
-    "rec_confidence": 0.83,
+    "rec_title": "Sophia finally tries taco pizza — and I have to explain why it exists",
+    "rec_reason": "Audience requests directly name 'get Sophia a taco pizza to blow her mind' (2 requests). This is an unmet, audience-generated content idea that has never been posted. It bridges the two strongest audience engagement themes: affection for Sophia's personality and reactions (80 comments) and praise for Tom's parenting communication style (45 comments, trending UP). The Bambi + Sophia combo videos (c_pets_home) and milestone reaction moments (c_milestones) both outperform the raw car ride cluster in engagement when there's a visual payoff beyond the car window. A food reaction video gives Sophia room to be expressive and unscripted — which is exactly what the audience keeps coming back for. The 'explaining why taco pizza exists' framing also taps into the audience request for 'more content about explaining the world and big topics to Sophia' (3 requests), grounding a silly moment in the relationship dynamic viewers love. No reference articles apply — this is a purely audience-driven personal content recommendation.",
+    "rec_confidence": 0.81,
     "talking_points": [
-      "Let Sophia perform whatever song she's currently obsessed with — full, uninterrupted, in the backseat — and just film her",
-      "Tom reacts in real time with minimal interruption, letting her personality carry the video (the audience loves his low-key admiring dad energy)",
-      "At the end, Tom can note what the song actually is vs. what Sophia thinks it is — the gap between her version and reality is the comedy",
-      "Optional: callback to any Bluey songs, kids' show songs, or something wildly off-topic she may have invented herself",
-      "Close with Tom speaking directly to camera: 'She's been doing this every single morning and I will never ask her to stop'"
+      "The moment Sophia sees/smells taco pizza for the first time — let her reaction breathe, don't cut it short",
+      "Tom attempts to explain the logic of taco pizza to a 5-year-old ('why would someone put tacos on a pizza?') — play it straight and let her philosophy land",
+      "Sophia's verdict: does it make sense to her? Does she invent a new food combo in response?",
+      "Optional: Bambi in the background or nearby — the audience has asked for more Bambi and it adds warmth without changing the video's focus",
+      "Close on Tom's genuine reaction to her take — the parenting communication dynamic is what keeps viewers coming back"
     ],
     "reference_urls": [],
-    "suggested_format": "walkthrough",
-    "suggested_length": "45-75s"
+    "suggested_format": "personal_story",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
