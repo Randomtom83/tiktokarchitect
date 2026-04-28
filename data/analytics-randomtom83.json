@@ -21,11 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_carride",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Sophia sings something completely unhinged on the way to school — and I can't stop her",
+    "rec_reason": "Sophia's singing and musical creativity is a rising comment theme (15 comments, trending UP) and has generated direct audience requests (4 people explicitly asking for more). The car ride format is the account's most-filmed cluster (70 videos) and the audience consistently returns for Sophia's personality — comments show 80 people actively engaged with admiration for her growth. Critically, no recent video in the last 30 days has leaned into Sophia singing or being musically creative — the recent car ride posts have been conversation-driven or milestone-driven. This is a gap the audience has already told Tom they want filled. The 'personal story + walkthrough' hybrid format (filming the moment as it happens, with Tom's low-key reaction) mirrors what already earns engagement on the account. Sophia's unscripted, chaotic musical energy is exactly the kind of authentic kid content that performs in the #girldad and #preschoolersoftiktok spaces.",
+    "rec_confidence": 0.83,
+    "talking_points": [
+      "Let Sophia perform whatever song she's currently obsessed with — full, uninterrupted, in the backseat — and just film her",
+      "Tom reacts in real time with minimal interruption, letting her personality carry the video (the audience loves his low-key admiring dad energy)",
+      "At the end, Tom can note what the song actually is vs. what Sophia thinks it is — the gap between her version and reality is the comedy",
+      "Optional: callback to any Bluey songs, kids' show songs, or something wildly off-topic she may have invented herself",
+      "Close with Tom speaking directly to camera: 'She's been doing this every single morning and I will never ask her to stop'"
+    ],
+    "reference_urls": [],
+    "suggested_format": "walkthrough",
+    "suggested_length": "45-75s"
   },
   "videos": [
     {

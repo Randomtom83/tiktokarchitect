@@ -21,11 +21,32 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Two Row Architect & the Temerty Building: When Indigenous Design Is the Architect, Not the Decoration",
+    "rec_reason": "The Temerty Building at University of Toronto is the week's strongest external trend with meaningful resonance for Tom's existing content pillars. His Black architect history series drives his highest engagement (0.1244) and the most emotionally charged comment theme — 'excitement and gratitude for underrepresented architectural history being documented' — with 50 comments trending up. The Temerty project directly extends that territory: Two Row Architect (an Indigenous design firm) holds co-equal design authority alongside MVRDV and Diamond Schmitt, making it a structural parallel to the Black architect visibility story Tom already owns. His profession advocacy cluster also maps here — the three-firm procurement model (global starchitect + local executor + Indigenous co-designer) is a concrete, talkable example of how diversity enters the design process at the commission level, not as an afterthought. Critically, no recent video touches this subject, and no prior recommendation covers it. The Temerty story also feeds Tom's audience's documented appetite for systemic framing of equity in architecture (25 comments on that theme, trending up), giving him a timely, credible hook that isn't purely retrospective. The Indigenous spatial methodology — designing with the land, massing referencing the Niagara Escarpment, rooftop sacred medicine gardens, Longhouse-oriented gathering space — gives him visual and conceptual talking points that are more architecturally specific than a values statement.",
+    "rec_confidence": 0.74,
+    "talking_points": [
+      "Explain the three-firm procurement model: MVRDV (global starchitect), Diamond Schmitt (established local firm), and Two Row Architect (Indigenous practice) — and why having the Indigenous firm embedded from the outset, not added as a consultant, changes what the building actually looks like spatially.",
+      "Break down the tangible design consequences of 'designing with the land, not on it': the massing references the Niagara Escarpment, the rooftop grows the four sacred medicines (cedar, sage, sweetgrass, tobacco), and the ground floor organizes around a Longhouse-oriented gathering hall — this is Indigenous spatial logic expressed in plan and section, not surface decoration.",
+      "Connect this to the broader pattern Tom's audience already cares about: just as Black architects like Julian Abele or Paul R. Williams were often erased from credit on buildings they designed, Indigenous design contributions have historically been absorbed into the dominant firm's portfolio — the Temerty model is a documented attempt to break that pattern.",
+      "Raise the honest question: is this a replicable procurement template or a one-time institutional gesture? The project uses integrated project delivery and breaks ground July 2026 — Tom can invite his audience to watch whether the co-design credit holds through construction and into the building's public identity.",
+      "Pull the thread to Tom's own practice and audience: what does it mean for architecture students and emerging professionals from underrepresented communities to see a model where equity is written into the contract structure, not just the marketing copy?"
+    ],
+    "reference_urls": [
+      {
+        "title": "Diamond Schmitt and MVRDV reveal design for terraced research building for University of Toronto",
+        "url": "https://www.dezeen.com/2026/04/24/diamond-schmitt-mvrdv-terraced-temerty-research-building-university-of-toronto/",
+        "source": "Dezeen"
+      },
+      {
+        "title": "MVRDV, Diamond Schmitt, and Two Row Architect Reveal Design for the Temerty Building at the University of Toronto",
+        "url": "https://www.archdaily.com/1040922/mvrdv-diamond-schmitt-and-two-row-architect-reveal-design-for-the-temerty-building-at-the-university-of-toronto",
+        "source": "ArchDaily"
+      }
+    ],
+    "suggested_format": "talking_head",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
@@ -25094,5 +25115,41 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "LACMA's David Geffen Galleries opens to a divided field: Zumthor's concrete monument is both thrilling and functionally flawed",
+      "audience_resonance": 0.35,
+      "source": "Dezeen / The Architect's Newspaper / The Art Newspaper"
+    },
+    {
+      "topic": "Indigenous design principles are becoming structural, not decorative: the Temerty Building at U of T proves the model",
+      "audience_resonance": 0.62,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Cultural institutions are betting on small firms with critical reputations for museum expansions",
+      "audience_resonance": 0.41,
+      "source": "ArchDaily / The Architect's Newspaper / Dezeen"
+    },
+    {
+      "topic": "Climate-responsive permeability in Latin American architecture is being theorized as a distinct spatial tradition",
+      "audience_resonance": 0.38,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Prefabricated off-grid cabins are pushing Passivhaus standards into extreme-site architecture",
+      "audience_resonance": 0.28,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Frank Lloyd Wright preservation is experiencing a renewed critical and institutional moment, with Fallingwater as the anchor",
+      "audience_resonance": 0.44,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Milan Design Week's closing moment reveals a design culture consumed by brand spectacle, with architecture barely visible",
+      "audience_resonance": 0.22,
+      "source": "Dezeen / ArchDaily / Designboom"
+    }
+  ]
 }
