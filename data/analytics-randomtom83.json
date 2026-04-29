@@ -21,11 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_bluey_popculture",
+    "verdict": "STRONG",
+    "rec_title": "We got Sophia a taco pizza and filmed her reaction — she had thoughts",
+    "rec_reason": "This is a direct audience request with 2 explicit asks to document the taco pizza moment, rooted in an organic car ride conversation that already resonated. The c_bluey_popculture cluster has the highest avg_engagement on the account at 0.1197, and the car ride cluster drives the highest raw comment volume — this video merges both worlds by turning a Sophia-originated idea into a real-life payoff moment. 'Affirmations of Dad's Parenting Style' (35 comments, trending up) and 'Shared Parenting Experiences' (35 comments, trending up) are the two hottest audience conversation themes right now, and this video directly feeds both: dad follows through on his daughter's silly idea, documents her genuine reaction, and lets the moment speak for itself. The audience has been waiting for this specific video. It costs almost nothing to make and requires zero setup beyond a pizza order.",
+    "rec_confidence": 0.88,
+    "talking_points": [
+      "Callback to the original car ride conversation where Sophia couldn't choose between tacos and pizza — remind viewers of the moment that started it all",
+      "Show the actual taco pizza arriving and Sophia's unscripted first reaction — let her lead the whole thing, no coaching",
+      "Let Sophia deliver a verdict: does it solve the problem or does she now want something else entirely (taco sushi? pizza tacos?)",
+      "Dad reaction layer: reflect briefly on how following your kid's weird logic is genuinely one of the best parts of this age",
+      "Optional closer: ask the audience what food mashup Sophia should try next — drives comment engagement and seeds the next video"
+    ],
+    "reference_urls": [],
+    "suggested_format": "walkthrough",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {

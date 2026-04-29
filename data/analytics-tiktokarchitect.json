@@ -21,11 +21,32 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_profession_equity",
+    "verdict": "STRONG",
+    "rec_title": "Why the gender pay gap at the world's most famous woman-founded architecture firm just got WORSE — and what it means for every architect",
+    "rec_reason": "The ZHA gender pay gap story scores 0.78 on audience resonance because it directly intersects Tom's two most engaged content territories: profession equity commentary (c_profession_equity, avg_engagement 0.0936, steady) and the 'concerns about diversity, equity and access in architecture' audience conversation theme (25 comments, trending UP). Tom already covers pay equity — there's a recent video tagged #payequity and #parenting — but the ZHA angle is fresh: no recent video touches Zaha Hadid Architects, the UK pay gap data, or the structural irony of the most iconic woman-led firm recording the worst gender pay regression. The talking_head format is Tom's highest-engagement style (avg 0.1239) and is the right fit for a commentary piece with no site visit required. Audience requests include more industry commentary and equity content, and this story has unusual staying power because the ZHA brand contradiction — woman founder, worsening women's pay — will keep generating discussion. Connecting this to the US context (RIBA equivalent data, AIA pay gap trends) gives Tom a way to localize an international story for his core audience.",
+    "rec_confidence": 0.81,
+    "talking_points": [
+      "Set up the structural irony: Zaha Hadid Architects was founded by the most celebrated woman in architecture history — so why did its median gender pay gap more than double in one year, jumping from 6.3% to 14.5%, meaning women now earn 86p for every £1 men earn?",
+      "Explain ZHA's own justification — an influx of young women entering at entry level statistically depresses median women's pay — and interrogate whether that's a real explanation or a deflection: if your pipeline is filling with women at the bottom, what does that say about promotion and retention?",
+      "Zoom out to the industry-wide picture: architecture as a sector has not meaningfully closed its gender pay gap in eight years, and the RIBA's own gap nearly doubled in the same period — this is a structural profession problem, not a single-firm anomaly",
+      "Connect to the US context Tom's audience knows: AIA data on pay disparities by race and gender, and whether Black women architects face a compounded gap that pay reporting rarely disaggregates",
+      "End with a direct question to the audience: does it matter who founded a firm when the economic outcomes for women inside it look like this? What would actually change the numbers — and what has Tom seen or experienced in his own practice?"
+    ],
+    "reference_urls": [
+      {
+        "title": "Gender pay gap more than doubles at Zaha Hadid Architects",
+        "url": "https://www.dezeen.com/2026/04/20/gender-pay-gap-uk-architecture-2/",
+        "source": "Dezeen"
+      },
+      {
+        "title": "Why architecture has a large gender pay gap (Dezeen Weekly podcast)",
+        "url": "https://www.dezeen.com/2026/04/24/gender-pay-gap-jeddah-tower-stalled-buildings-dezeen-weekly-podcast/",
+        "source": "Dezeen"
+      }
+    ],
+    "suggested_format": "talking_head",
+    "suggested_length": "90-120s"
   },
   "videos": [
     {
@@ -25134,5 +25155,41 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "LACMA opens and immediately attracts critical fire — the $750M museum as symptom of architectural hubris",
+      "audience_resonance": 0.62,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Architecture of air as medium — passive design theory gets a genuine intellectual reframe",
+      "audience_resonance": 0.45,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "UK architecture's gender pay gap reverses course — ZHA goes from best-in-class to worst regression in one year",
+      "audience_resonance": 0.78,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Gensler takes Trump Tower Tbilisi commission — the political economy of starchitect neutrality under pressure",
+      "audience_resonance": 0.71,
+      "source": "The Architect's Newspaper / Dezeen"
+    },
+    {
+      "topic": "Historic preservation and adaptive reuse are generating the most architecturally interesting new openings — not new builds",
+      "audience_resonance": 0.58,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Foster + Partners' Queen Elizabeth II Memorial finalised — civic memorial design as contested cultural ground",
+      "audience_resonance": 0.41,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Milan Design Week 2026 aftermath — process-over-product framing is reshaping how design events are covered",
+      "audience_resonance": 0.33,
+      "source": "Dezeen / ArchDaily"
+    }
+  ]
 }
