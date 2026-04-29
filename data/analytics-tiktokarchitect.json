@@ -23,26 +23,21 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_profession_equity",
     "verdict": "STRONG",
-    "rec_title": "Why the gender pay gap at the world's most famous woman-founded architecture firm just got WORSE — and what it means for every architect",
-    "rec_reason": "The ZHA gender pay gap story scores 0.78 on audience resonance because it directly intersects Tom's two most engaged content territories: profession equity commentary (c_profession_equity, avg_engagement 0.0936, steady) and the 'concerns about diversity, equity and access in architecture' audience conversation theme (25 comments, trending UP). Tom already covers pay equity — there's a recent video tagged #payequity and #parenting — but the ZHA angle is fresh: no recent video touches Zaha Hadid Architects, the UK pay gap data, or the structural irony of the most iconic woman-led firm recording the worst gender pay regression. The talking_head format is Tom's highest-engagement style (avg 0.1239) and is the right fit for a commentary piece with no site visit required. Audience requests include more industry commentary and equity content, and this story has unusual staying power because the ZHA brand contradiction — woman founder, worsening women's pay — will keep generating discussion. Connecting this to the US context (RIBA equivalent data, AIA pay gap trends) gives Tom a way to localize an international story for his core audience.",
-    "rec_confidence": 0.81,
+    "rec_title": "Architects generate $3.5 trillion for the US economy — so why does zero of us sit in Congress?",
+    "rec_reason": "The Arthur Kay / TIME Magazine thesis is the highest-signal external trend right now and maps directly onto Tom's strongest audience conversation clusters. The 'profession, equity, and industry commentary' cluster scores the highest avg_engagement of the equity-adjacent topics (0.0936), and 'concerns about diversity, equity and access in the architecture profession' is a trending comment theme with 25 comments and an upward trend. Crucially, Tom already covers the structural barriers Black architects face inside the profession — this TIME piece extends that conversation outward to political and civic power, a natural and fresh escalation. The Fox/Hedgehog framing gives Tom a strong conceptual hook (generalist vs. specialist identity crisis) that he can personalize through his own multi-disciplinary practice: licensed architect, tool-builder, historian, educator. The 'what an architect actually does versus an engineer' audience question (count: 2) and the recurring 'architect vs. consultant scope' tension in comments further validate demand for a scope-of-practice explainer with teeth. No recent video covers this story or the TIME article. The talking_head format scores the highest avg_engagement of all formats at 0.1239 and is the natural fit for opinion-driven industry commentary.",
+    "rec_confidence": 0.84,
     "talking_points": [
-      "Set up the structural irony: Zaha Hadid Architects was founded by the most celebrated woman in architecture history — so why did its median gender pay gap more than double in one year, jumping from 6.3% to 14.5%, meaning women now earn 86p for every £1 men earn?",
-      "Explain ZHA's own justification — an influx of young women entering at entry level statistically depresses median women's pay — and interrogate whether that's a real explanation or a deflection: if your pipeline is filling with women at the bottom, what does that say about promotion and retention?",
-      "Zoom out to the industry-wide picture: architecture as a sector has not meaningfully closed its gender pay gap in eight years, and the RIBA's own gap nearly doubled in the same period — this is a structural profession problem, not a single-firm anomaly",
-      "Connect to the US context Tom's audience knows: AIA data on pay disparities by race and gender, and whether Black women architects face a compounded gap that pay reporting rarely disaggregates",
-      "End with a direct question to the audience: does it matter who founded a firm when the economic outcomes for women inside it look like this? What would actually change the numbers — and what has Tom seen or experienced in his own practice?"
+      "The built environment generates $3.5 trillion annually in the US and supports 20.4 million jobs — yet not a single architect holds a seat in the House or Senate. Lawyers hold 31% of House seats and 47% of Senate seats. Open with that contrast, cold.",
+      "Introduce the Fox vs. Hedgehog framework from Isaiah Berlin via Kay's TIME essay: architecture is fundamentally a Fox discipline — sitting at the intersection of capital, politics, climate, engineering, art, and psychology — but has marketed itself as a narrow specialist (Hedgehog), and that specialization is what cost the profession its civic seat at the table.",
+      "Connect this to the Black architect experience specifically: if the profession as a whole has been squeezed out of power by over-specializing, Black architects have faced a compounded version — excluded from the rooms where power was distributed even before the specialization narrowed the door further. Paul Williams, Norma Merrick Sklarek, and others built careers navigating those exclusions. What does civic architectural power look like when it was never evenly distributed to begin with?",
+      "Challenge the viewer with the scope-of-practice question the audience is already asking: what does an architect actually do versus what an engineer or project manager does? The Kay thesis says architects surrendered that scope voluntarily. Tom can push back or agree from lived experience.",
+      "End with a provocation rather than a resolution: if architects want to reclaim civic influence — in zoning boards, city councils, federal housing policy — what would that actually require? Is it a pipeline problem, a branding problem, or a structural exclusion problem? Invite the comments to argue."
     ],
     "reference_urls": [
       {
-        "title": "Gender pay gap more than doubles at Zaha Hadid Architects",
-        "url": "https://www.dezeen.com/2026/04/20/gender-pay-gap-uk-architecture-2/",
-        "source": "Dezeen"
-      },
-      {
-        "title": "Why architecture has a large gender pay gap (Dezeen Weekly podcast)",
-        "url": "https://www.dezeen.com/2026/04/24/gender-pay-gap-jeddah-tower-stalled-buildings-dezeen-weekly-podcast/",
-        "source": "Dezeen"
+        "title": "What Has Gone Wrong With Architecture",
+        "url": "https://time.com/article/2026/04/28/what-has-gone-wrong-with-architecture/",
+        "source": "TIME Magazine"
       }
     ],
     "suggested_format": "talking_head",
@@ -25157,39 +25152,39 @@
   ],
   "external_trends": [
     {
-      "topic": "LACMA opens and immediately attracts critical fire — the $750M museum as symptom of architectural hubris",
-      "audience_resonance": 0.62,
-      "source": "Dezeen"
+      "topic": "Architecture's authority crisis: the discipline lost influence by specializing itself into irrelevance",
+      "audience_resonance": 0.82,
+      "source": "TIME Magazine"
     },
     {
-      "topic": "Architecture of air as medium — passive design theory gets a genuine intellectual reframe",
-      "audience_resonance": 0.45,
-      "source": "ArchDaily"
-    },
-    {
-      "topic": "UK architecture's gender pay gap reverses course — ZHA goes from best-in-class to worst regression in one year",
-      "audience_resonance": 0.78,
-      "source": "Dezeen"
-    },
-    {
-      "topic": "Gensler takes Trump Tower Tbilisi commission — the political economy of starchitect neutrality under pressure",
-      "audience_resonance": 0.71,
-      "source": "The Architect's Newspaper / Dezeen"
-    },
-    {
-      "topic": "Historic preservation and adaptive reuse are generating the most architecturally interesting new openings — not new builds",
-      "audience_resonance": 0.58,
-      "source": "Dezeen / ArchDaily"
-    },
-    {
-      "topic": "Foster + Partners' Queen Elizabeth II Memorial finalised — civic memorial design as contested cultural ground",
+      "topic": "Zumthor's LACMA opens to critical ambivalence — the building works as art object but stumbles as public space",
       "audience_resonance": 0.41,
       "source": "Dezeen"
     },
     {
-      "topic": "Milan Design Week 2026 aftermath — process-over-product framing is reshaping how design events are covered",
+      "topic": "Trump is using architecture as political instrument — the White House ballroom story escalates again after WHCD shooting",
+      "audience_resonance": 0.58,
+      "source": "Dezeen / CNBC"
+    },
+    {
+      "topic": "Gender pay gap at UK architecture studios widens again — ZHA's gap more than doubles in a single year",
+      "audience_resonance": 0.61,
+      "source": "Dezeen / The Architects' Journal"
+    },
+    {
+      "topic": "Air, lightness, and pneumatic structures emerge as a distinct design research thread — architecture beyond the wall",
       "audience_resonance": 0.33,
-      "source": "Dezeen / ArchDaily"
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "UIA 2026 Barcelona Congress releases full program — 10,000 architects converging on 'Architectures for a Planet in Transition'",
+      "audience_resonance": 0.52,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Adaptive reuse as civic/cultural institution-making: granaries, barns, and cemeteries become the new museum and community typology",
+      "audience_resonance": 0.44,
+      "source": "ArchDaily / Dezeen"
     }
   ]
 }

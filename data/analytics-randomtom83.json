@@ -22,19 +22,19 @@
   },
   "headline_signal": {
     "best_performing_cluster_id": "c_bluey_popculture",
-    "verdict": "STRONG",
-    "rec_title": "We got Sophia a taco pizza and filmed her reaction — she had thoughts",
-    "rec_reason": "This is a direct audience request with 2 explicit asks to document the taco pizza moment, rooted in an organic car ride conversation that already resonated. The c_bluey_popculture cluster has the highest avg_engagement on the account at 0.1197, and the car ride cluster drives the highest raw comment volume — this video merges both worlds by turning a Sophia-originated idea into a real-life payoff moment. 'Affirmations of Dad's Parenting Style' (35 comments, trending up) and 'Shared Parenting Experiences' (35 comments, trending up) are the two hottest audience conversation themes right now, and this video directly feeds both: dad follows through on his daughter's silly idea, documents her genuine reaction, and lets the moment speak for itself. The audience has been waiting for this specific video. It costs almost nothing to make and requires zero setup beyond a pizza order.",
-    "rec_confidence": 0.88,
+    "verdict": "MEH",
+    "rec_title": "Sophia explains what Bluey teaches her about being a good person — and she's not wrong",
+    "rec_reason": "Bluey/pop culture is the highest-engagement cluster on the account at 0.1197 avg engagement, nearly double the car ride cluster. The audience question 'Are the Bluey girls Disney princesses?' generated 12 responses — by far the most active single question in the dataset — showing this community is hungry to discuss Bluey and Sophia's relationship to it. Two rising audience conversation themes directly support this angle: 'Affirmations of Dad's Parenting Style' (35 comments, trending up) and 'Raising strong, curious daughters' (3 explicit requests). A Bluey-anchored video that lets Sophia articulate what she's learned from the show fuses the highest-resonance cluster with the two strongest rising audience themes. The last Bluey video posted was on 2026-02-01 — nearly 3 months ago — making this clearly fresh territory. No Bluey content appears anywhere in the last 30 days of posts.",
+    "rec_confidence": 0.84,
     "talking_points": [
-      "Callback to the original car ride conversation where Sophia couldn't choose between tacos and pizza — remind viewers of the moment that started it all",
-      "Show the actual taco pizza arriving and Sophia's unscripted first reaction — let her lead the whole thing, no coaching",
-      "Let Sophia deliver a verdict: does it solve the problem or does she now want something else entirely (taco sushi? pizza tacos?)",
-      "Dad reaction layer: reflect briefly on how following your kid's weird logic is genuinely one of the best parts of this age",
-      "Optional closer: ask the audience what food mashup Sophia should try next — drives comment engagement and seeds the next video"
+      "Ask Sophia which Bluey character she is most like and why — let her answer surprise you, then reflect on what it reveals about how she sees herself",
+      "Ask her what Bluey teaches her about how to treat people, or what Bluey would do in a situation Sophia recently faced (a conflict at school, a hard feeling, a friendship moment)",
+      "Layer in your own reaction as dad — what does it mean to you that she's absorbing these values from a cartoon? Connect it to the kind of person you're hoping she becomes",
+      "Optionally: revisit the Disney princess question organically — does Sophia think Bluey is a princess? What makes someone a princess to her? Her answer will be gold",
+      "Close with a genuine moment — not a punchline, but something that lands emotionally, which is what drives the comment section on this account"
     ],
     "reference_urls": [],
-    "suggested_format": "walkthrough",
+    "suggested_format": "personal_story",
     "suggested_length": "60-90s"
   },
   "videos": [
