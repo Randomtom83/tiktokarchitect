@@ -22,19 +22,35 @@
   },
   "headline_signal": {
     "best_performing_cluster_id": "c_pop_culture",
-    "verdict": "STRONG",
-    "rec_title": "Taco Pizza: Sophia Finally Gets to Try It (and Renders Her Verdict)",
-    "rec_reason": "This recommendation is grounded in three overlapping signals. First, the taco vs. pizza car ride debate generated an explicit, specific audience request — 'get Sophia a taco pizza to blow her mind' — with 2 counted asks, which is rare specificity for a personal account this size. Second, c_pop_culture and c_carride content consistently draws the two largest comment themes: affection for Sophia's personality (70 comments) and humor/relatability around toddler behavior (35 comments). Third, the car ride audience explicitly asks for MORE of this format (5 explicit requests, the highest of any request category). A food-reaction payoff video closes a loop viewers are already emotionally invested in — they remember the debate, they asked for the follow-up, and Sophia's unfiltered reaction is the exact kind of moment that earns shares from other parents. The walkthrough/car-or-kitchen format keeps it casual and authentic, consistent with what already performs. This has NOT been posted in the last 30 days and is not covered in any recent video title or description.",
-    "rec_confidence": 0.88,
+    "verdict": "MEH",
+    "rec_title": "Sophia Watches a Bluey Episode for the First Time and Has Full Opinions About It",
+    "rec_reason": "c_pop_culture is the strongest-engaging non-car-ride cluster (0.0957 avg engagement), and Bluey-specific content has generated 15 comments trending UP — the second-largest active comment thread on the account. Fourteen audience members directly asked 'Is Bluey as good as Disney Princess content for kids?' — a question that has never been directly answered on camera with Sophia present. The two most recent Bluey videos (Jan 30 and Feb 1) are both outside the 30-day window, making this fresh territory. Reaction format aligns with the account's existing Bluey footprint and the audience's demonstrated emotional investment in the show as 'meaningful family content.' Girl dad + Bluey is a proven TikTok combination with a built-in community (#blueyadults, #blueytok) that extends the video's reach beyond existing followers. This also directly answers the standing audience question without requiring any new setup or prop — just dad, Sophia, and the TV.",
+    "rec_confidence": 0.84,
     "talking_points": [
-      "Open by reminding viewers of the original taco vs. pizza debate — quick callback so new viewers get context and loyal viewers feel the payoff arriving",
-      "Film Sophia's live, unfiltered reaction to tasting taco pizza for the first time — let the silence, the chewing, and the face do the work",
-      "Let Sophia deliver her official verdict: does taco pizza count as a taco, a pizza, both, or something else entirely? Let her reason it out in her own logic",
-      "Dad reacts to her verdict — agree, push back gently, or escalate the debate into a new sub-question (e.g., 'What about pizza tacos?')",
-      "Close with a direct call to viewers: 'Was she right? Drop your verdict in the comments' — this drives the comment engagement that already defines this account's best-performing moments"
+      "Sophia watches a specific Bluey episode (ideally one with a strong dad-daughter moment like 'Bike Ride' or 'Dad Baby') and gives her live, unfiltered reaction",
+      "Tom reacts alongside her — lean into the emotional gut-punch Bluey consistently delivers to adult viewers, especially dads",
+      "Address the audience's standing question head-on: 'Someone asked if Bluey is better than Disney Princess stuff for kids — Sophia, what do you think?'",
+      "Let Sophia explain the plot back in her own words — her preschool logic retelling of a Bluey episode will be comedy gold and ties back to the car ride humor the audience loves",
+      "End with Tom's honest take as a girl dad — why this show hits different"
     ],
-    "reference_urls": [],
-    "suggested_format": "walkthrough",
+    "reference_urls": [
+      {
+        "title": "Why Bluey Resonates So Deeply With Parents",
+        "url": "https://www.theatlantic.com/family/archive/2021/08/bluey-australian-kids-show-parents/619751/",
+        "source": "The Atlantic"
+      },
+      {
+        "title": "Bluey Is the Best Show on Television (Yes, Television)",
+        "url": "https://www.vulture.com/article/bluey-best-show-on-tv.html",
+        "source": "Vulture"
+      },
+      {
+        "title": "How Bluey Became a Phenomenon for Kids and Adults Alike",
+        "url": "https://www.npr.org/2023/04/28/1172487823/bluey-kids-show-adults",
+        "source": "NPR"
+      }
+    ],
+    "suggested_format": "reaction",
     "suggested_length": "60-90s"
   },
   "videos": [

@@ -21,23 +21,33 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_profession_advocacy",
+    "best_performing_cluster_id": "c_blkarch_history",
     "verdict": "STRONG",
-    "rec_title": "Why Don't Any Architects Serve in Congress? The $3.5 Trillion Profession With Zero Political Seats",
-    "rec_reason": "The TIME Magazine essay on architecture's authority crisis is the highest-resonance external signal this cycle, scoring 0.82 against Tom's existing clusters. It maps directly onto his two strongest audience engagement areas: profession advocacy (steady engagement at 0.0979, 'up' trend on diversity/access conversation themes, 30 comments) and Black architect history (his most-requested content, 9 audience requests for more profiles, 55 comments on appreciation). The Fox/Hedgehog thesis — architects ceded civic power by over-specializing — connects naturally to conversations Tom's audience is already having about profession access, DOE policy concerns, and diversity in architecture. The data point that 0 architects hold Congressional seats while lawyers occupy 31–47% of both chambers is the kind of concrete, shareable statistic that drives comment engagement on TikTok. Critically, this topic has NOT been covered in any recent video — his profession advocacy posts have focused on ACT-SO, pay equity, and NIA platform content. This is a fresh angle in a proven cluster. The personal_story format is his highest-performing style at 0.1144 avg engagement, and Tom has his own career story to anchor this to.",
+    "rec_title": "Architecture Is Finally Taking African History Seriously — And Black Architects Are Leading It",
+    "rec_reason": "Three converging signals make this the strongest recommendation available. (1) Cluster data: c_blkarch_history has the highest avg_engagement of all clusters at 0.1247, and the 'Appreciation for Black Architect Profiles' audience theme is the most commented conversation (55 comments) and is trending UP. (2) Audience demand: 'Make more Black architect profile videos' is the single most-requested content item with 9 requests — the highest count in the requests list. (3) External trend alignment: The African architecture institutionalization story (Pan-African Biennale in Nairobi, Sharjah Triennial archives, Brooklyn Museum Africa galleries) is a live, multi-source trend on ArchDaily today that directly extends Tom's existing content world. Critically, while Tom posted about Kéré's Goethe-Institut (4/23) and the Pan-African Biennale as a standalone note (4/27), he has NOT covered the Brooklyn Museum / Peterson Rich Office story, the Sharjah archive exhibition, or the broader 'institutional infrastructure for African architecture' frame — making this fresh territory. The personal_story format scores highest among all presentation styles at 0.1144 avg engagement, and this topic lends itself to Tom inserting his own perspective on what it means that Black and African architects are finally getting institutional platforms. The Brooklyn Museum angle (decolonization as architectural brief, gallery adjacency as spatial politics) also feeds the 'Diversity in Architecture' audience theme trending up with 30 comments.",
     "rec_confidence": 0.81,
     "talking_points": [
-      "Open with the raw statistic: the built environment generates $3.5 trillion annually and supports 20.4 million jobs in the US — and not a single architect sits in Congress. Lawyers hold 31% of the House and 47% of the Senate. Let that land.",
-      "Unpack the Fox/Hedgehog argument: architecture is fundamentally a generalist discipline sitting at the intersection of capital, politics, climate, engineering, art, and psychology — but the profession trained itself to speak only to other architects, surrendering scope to planners, engineers, and project managers.",
-      "Connect this to Tom's lived experience and audience reality: how does this authority gap show up in everyday practice? When an architect defers to a structural engineer, a cost consultant, or a zoning attorney — is that specialization or abdication?",
-      "Bring in the diversity and access angle his audience cares about: if architects lack political power systemically, what does that mean specifically for Black architects and underrepresented practitioners trying to enter and influence the profession?",
-      "End with a provocation: should architects be running for office? Should architecture schools be training civic leaders, not just designers? Invite comment responses — this is the kind of open question that drives discussion threads."
+      "The Brooklyn Museum just opened permanent Arts of Africa galleries designed by Peterson Rich Office (PRO) — and the key design move was deliberately connecting the Egyptian galleries to the broader African collection for the first time, making a spatial argument that North Africa belongs with the continent. Architecture doing ideological work.",
+      "At the same time, the Sharjah Architecture Triennial opened an exhibition focused on architectural archives from Baghdad, Damascus, and Tunis — documenting histories that have never had institutional homes. Ask your audience: whose architecture gets archived, and whose gets erased?",
+      "The inaugural Pan-African Architecture Biennale (PAB) is coming to Nairobi in September 2026, curated by Somali-Italian architect Omar Degan and representing all 54 African nations — this is a structural moment, not a moment, and it follows the same energy Tom's audience is already hungry for with Black architect profiles.",
+      "Connect to the NIA platform Tom is already building: the same gap that exists globally — African and Black architectural history underdocumented and under-institutionalized — is exactly what NIA is trying to address at the practitioner level. This is the macro version of what he's doing at the micro level.",
+      "Challenge the audience: we celebrate individual architects (Kéré, Adjaye, Kamara) but the infrastructure — the biennales, archives, museum galleries, and curatorial frameworks — is what makes a field. Ask: what would it take for Black American architectural history to get that same institutional treatment domestically?"
     ],
     "reference_urls": [
       {
-        "title": "What Has Gone Wrong With Architecture",
-        "url": "https://time.com/article/2026/04/28/what-has-gone-wrong-with-architecture/",
-        "source": "TIME Magazine"
+        "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
+        "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
+        "source": "ArchDaily"
+      },
+      {
+        "title": "Sharjah Architecture Triennial Presents 'A Journey into Architecture Archives' Focused on Baghdad, Damascus and Tunis",
+        "url": "https://www.archdaily.com/1040836/sharjah-architecture-triennial-presents-a-journey-into-architecture-archives-focused-on-baghdad-damascus-and-tunis",
+        "source": "ArchDaily"
+      },
+      {
+        "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
+        "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
+        "source": "The Architect's Newspaper"
       }
     ],
     "suggested_format": "personal_story",
@@ -25217,39 +25227,34 @@
   ],
   "external_trends": [
     {
-      "topic": "Architecture's authority crisis: the discipline lost influence by specializing itself into irrelevance",
-      "audience_resonance": 0.82,
-      "source": "TIME Magazine"
+      "topic": "Brutalist social housing is being erased under cover of 'residentialization' — and the field is fighting back",
+      "audience_resonance": 0.52,
+      "source": "ArchDaily"
     },
     {
-      "topic": "Zumthor's LACMA opens to critical ambivalence — the building works as art object but stumbles as public space",
-      "audience_resonance": 0.31,
+      "topic": "Kengo Kuma is everywhere — and his simultaneous ubiquity and critique of 'signature architecture' is the contradiction of the week",
+      "audience_resonance": 0.38,
       "source": "Dezeen"
     },
     {
-      "topic": "Trump is using architecture as political instrument — the White House ballroom story escalates again",
-      "audience_resonance": 0.48,
-      "source": "Dezeen / CNBC"
+      "topic": "Modernist office retrofit is being repositioned as 'preserving the soul' — SOM's Milan project sets a template",
+      "audience_resonance": 0.41,
+      "source": "Dezeen"
     },
     {
-      "topic": "Gender pay gap at UK architecture studios widens again — ZHA's gap more than doubles in a single year",
-      "audience_resonance": 0.67,
-      "source": "Dezeen / Architects' Journal"
+      "topic": "Museum expansion as curatorial politics: Brooklyn Museum's Africa galleries reframe decolonization as architectural brief",
+      "audience_resonance": 0.78,
+      "source": "ArchDaily / The Architect's Newspaper"
     },
     {
-      "topic": "Air, lightness, and pneumatic structures emerge as a distinct design research thread",
-      "audience_resonance": 0.22,
+      "topic": "Milan Design Week's 'brandification' reaches acknowledged peak — but the margins held signal",
+      "audience_resonance": 0.29,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "African architecture is gaining institutional infrastructure — biennale, museum, and archive investments converging in 2026",
+      "audience_resonance": 0.84,
       "source": "ArchDaily"
-    },
-    {
-      "topic": "UIA 2026 Barcelona Congress releases full program — 10,000 architects converging on 'Architectures for a Planet in Transition'",
-      "audience_resonance": 0.44,
-      "source": "ArchDaily"
-    },
-    {
-      "topic": "Adaptive reuse as civic/cultural institution-making: granaries, barns, and cemeteries become the new museum and community typology",
-      "audience_resonance": 0.38,
-      "source": "ArchDaily / Dezeen"
     }
   ]
 }
