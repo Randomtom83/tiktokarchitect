@@ -1,0 +1,157 @@
+{
+  "scan_date": "2026-05-01",
+  "sources_checked": [
+    "ArchDaily",
+    "Dezeen",
+    "Archinect",
+    "The Architect's Newspaper",
+    "Curbed",
+    "Architectural Digest",
+    "Designboom",
+    "Architect Magazine (AIA)",
+    "Failed Architecture",
+    "McMansion Hell",
+    "99% Invisible"
+  ],
+  "trends": [
+    {
+      "topic": "Brutalist social housing is being erased under cover of 'residentialization' — and the field is fighting back",
+      "synthesis": "The sharpest story breaking in the last 24 hours is ArchDaily's April 30 deep-dive into the threatened demolition of Renée Gailhoustet's Îlot 8 in Saint-Denis, France — arguably her most accomplished collective housing project, built 1975–1986 to deliberately keep workers in the urban center rather than the periphery. The proposed 'residentialization' plan, backed by France's NPNRU urban renewal program, would demolish significant structural elements of the original design, remove staircases, and convert the 100% social rental complex toward a 50/50 public-private model. Residents have organized (a Change.org petition is active), and preservation advocates argue the intervention would gut the building's defining spatial logic — its maze-like porosity, typological diversity, and mixed-use ground plane. The case echoes a recurring pattern: modernist social housing gets labeled 'dysfunctional,' undergoes 'security' improvements that strip its architectural and social DNA, and lands in private hands. With Gailhoustet having died in 2023 and her legacy recently reappraised via the 2022 Royal Academy Architecture Prize, this is a live test of whether that reappraisal has any preservation teeth.",
+      "sources": [
+        {
+          "title": "Saint-Denis' Brutalist Îlot 8 Housing Complex by Renée Gailhoustet Faces Controversial Redevelopment Plan",
+          "url": "https://www.archdaily.com/1041096/saint-denis-brutalist-ilot-8-housing-complex-by-renee-gailhoustet-faces-controversial-redevelopment-plan",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Renovating îlot 8 without betraying its architecture",
+          "url": "https://arcenreve.eu/en/explorations/comment-residentialiser-lilot-8-sans-trahir-son-architecture",
+          "source": "Arc en Rêve Centre d'Architecture (referenced context)"
+        }
+      ],
+      "so_what": "This is not a preservation-nostalgia story — it is a live political conflict about who social housing is for and what demolition is actually called when it's dressed up as renovation. Architecture content creators should frame it as such: Gailhoustet's work is being treated as a problem to manage, not a model to protect. The 'residentialization' euphemism deserves aggressive scrutiny. If you cover housing, this is the case study that crystallizes the gap between heritage reappraisal and heritage protection in practice."
+    },
+    {
+      "topic": "Kengo Kuma is everywhere — and his simultaneous ubiquity and critique of 'signature architecture' is the contradiction of the week",
+      "synthesis": "In the last 48 hours, Kengo Kuma has dominated Dezeen's front page with two substantial pieces published April 29: the completion and immediate controversy of his concrete entrance addition to the Gothic Angers Cathedral in France (French press called it a 'concrete UFO'), and a feature on his new book Substance, in which he argues for a radical shift away from large-scale concrete and steel megaprojects toward smaller, regionally material-specific architecture — explicitly criticizing the 'signature style' approach where a single material signals authorship. The irony is not lost: Kuma is simultaneously the architect whose studio recently won the National Gallery London extension competition, designed a skyscraper in Quito, and has installations on three continents. The Angers Cathedral controversy is the most newsworthy item — a completed project that the local press is already rejecting — but the book gives it theoretical framing. Kuma told Dezeen that 'architecture is similar to agriculture' and that using 'materials native to and cultivated in each specific region' should be the standard.",
+      "sources": [
+        {
+          "title": "Kengo Kuma adds arched entrance to Angers Cathedral in France",
+          "url": "https://www.dezeen.com/2026/04/29/kengo-kuma-angers-cathedral-entrance-2/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Kengo Kuma spotlights six projects from his book Substance",
+          "url": "https://www.dezeen.com/2026/04/29/kengo-kuma-substance-book/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "The Angers Cathedral controversy is a textbook contemporary-meets-heritage flashpoint — use it. The deeper content angle, though, is the tension between Kuma's stated philosophy (small, regional, anti-signature) and his actual practice (global, prolific, high-commission). That gap is a legitimate critical thread: does the 'humble materiality' brand survive at global scale, or does it become its own signature? Architecture creators covering sustainability and practice ethics should engage with this directly."
+    },
+    {
+      "topic": "Modernist office retrofit is being repositioned as 'preserving the soul' — SOM's Milan project sets a template",
+      "synthesis": "Dezeen published (April 29, live on the homepage today) SOM's completed renewal of Corso Italia 23 in Milan — a 46,500 sq meter 1960s office complex originally designed by Gio Ponti and Piero Portaluppi. SOM's framing is deliberate: they describe the project as preserving the 'soul' of the modernist building while converting its closed-off layout into a 'porous urban campus.' The key moves include transforming a central parking courtyard into a shared garden and creating new pedestrian routes and internal staircases. This is the exact opposite of demolish-and-replace, and it's being published as a successful model right as the Milan Design Week afterglow amplifies coverage of the city. The project fits a broader pattern visible across this week's ArchDaily digest: adaptive reuse strategies are being applied not just to industrial or residential buildings but to post-war commercial modernism — a typology that had previously been largely written off.",
+      "sources": [
+        {
+          "title": "SOM 'preserves the soul' of 1960s modernist office complex in Milan",
+          "url": "https://www.dezeen.com/2026/04/29/som-corso-italia-23-office-milan-architecture/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "The 'porous urban campus' retrofit of dead post-war office stock is becoming an identifiable project type. For architecture content creators, this is worth tracking as a typological shift: the vocabulary of adaptive reuse (porosity, courtyard activation, pedestrian connectivity) is migrating from industrial lofts into corporate modernism. SOM's framing of it as heritage stewardship — not just sustainability — is a communications move worth analyzing."
+    },
+    {
+      "topic": "Museum expansion as curatorial politics: Brooklyn Museum's Africa galleries reframe decolonization as architectural brief",
+      "synthesis": "While the Brooklyn Museum/Peterson Rich Office (PRO) announcement is several weeks old, it is still circulating actively in ArchDaily's feed and represents a significant signal: the $13 million project to create permanent Arts of Africa galleries deliberately connects the Egyptian galleries to the new African collection for the first time, making a spatial argument that North Africa belongs with the continent. This is a curatorial decision encoded into circulation paths and gallery adjacency — architecture doing ideological work. PRO (Miriam Peterson and Nathan Rich), founded in 2014, has built its practice around adaptive reuse in historic institutions, and they are simultaneously delivering a 12,000 sq ft gallery expansion for the Met in May 2026. That a small Brooklyn-based firm is now holding two simultaneous major New York museum commissions is also a notable practice story.",
+      "sources": [
+        {
+          "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
+          "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
+          "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
+          "source": "The Architect's Newspaper"
+        }
+      ],
+      "so_what": "Museum expansion briefs are increasingly written as decolonization arguments — and architecture firms are being selected for their ability to navigate that. PRO's rise signals a market for practices that specialize in culturally and historically sensitive adaptive work inside legacy institutions. For content creators, the spatial politics of gallery adjacency (literally: which art is next to what) is an underexplored angle that bridges architecture and curatorial discourse."
+    },
+    {
+      "topic": "Milan Design Week's 'brandification' reaches acknowledged peak — but the margins held signal",
+      "synthesis": "Dezeen's own post-Milan wrap-up (published within the last 48 hours) includes the candid editorial note that Milan Design Week 2026 'might have reached peak brandification' — with McDonald's making its Milan debut via a giant ball pit and corporate spectacles dominating Fuorisalone. ArchDaily's concurrent coverage notes design weeks 'increasingly function as curatorial frameworks for experimentation,' but the tension is clear: the experimental and the branded are competing for the same real estate. The signal items at the margins included Lina Ghotmeh's outdoor site-specific installation 'Metamorphosis in Motion' at Palazzo Litta (her first outdoor intervention in Italy, using her 'Archaeology of the Future' approach), and Snøhetta's 'Renaissance of the Real' collaboration with Annabelle Schneider for USM. The ArchDaily weekly review, published May 1, also highlights a wasl Tower project in Dubai, indicating global coverage continues to flow through the Milan lens.",
+      "sources": [
+        {
+          "title": "ArchDaily's Selection: 15 Installations and Exhibitions from Milan Design Week 2026",
+          "url": "https://www.archdaily.com/1040989/15-architectural-installations-and-exhibitions-at-the-2026-milan-design-week",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Milan Design Week 2026 Selection and Wasl Tower in Dubai — This Week's Review",
+          "url": "https://www.archdaily.com/1041100/milan-design-week-2026-selection-and-wasl-tower-in-dubai-this-weeks-review",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Seven architecture and design events in May from Dezeen Events Guide",
+          "url": "https://www.dezeen.com/2026/05/01/seven-architecture-design-events-may-dezeen-events-guide-2026/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "The 'peak brandification' label from Dezeen's own editors is a permission structure for critics and content creators to push back harder on design-week-as-marketing-vehicle. The real story is the growing gap between the sponsored spectacle and the architectural idea — and the Ghotmeh and Snøhetta interventions show what the latter looks like when it's still present. Content creators should pivot coverage from 'best installations' listicles toward 'what survived the brand takeover.'"
+    },
+    {
+      "topic": "African architecture is gaining institutional infrastructure — biennale, museum, and archive investments converging in 2026",
+      "synthesis": "Three distinct but converging stories published in the last week create a cluster that ArchDaily's May 1 digest is pulling together: the Sharjah Architecture Triennial's new exhibition (opening May 2) focused on architectural archives from Baghdad, Damascus, and Tunis; the inaugural Pan-African Architecture Biennale (PAB) scheduled for Nairobi in September 2026, curated by Somali-Italian architect Omar Degan and representing all 54 African nations; and the Brooklyn Museum's new Arts of Africa galleries. Together, these signal a structural shift in how African architectural history is being documented, exhibited, and institutionalized — not as a single monolith but through regional specificity. Kéré Architecture's recently announced healthcare complex in Burundi (Ineza Clinic) adds a practice-level datapoint: Francis Kéré distributing program across ten hillside pavilions using local materials and knowledge transfer.",
+      "sources": [
+        {
+          "title": "Sharjah Architecture Triennial Presents 'A Journey into Architecture Archives' Focused on Baghdad, Damascus and Tunis",
+          "url": "https://www.archdaily.com/1040836/sharjah-architecture-triennial-presents-a-journey-into-architecture-archives-focused-on-baghdad-damascus-and-tunis",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "ArchDaily Architecture News (Pan-African Biennale and Kéré Architecture coverage)",
+          "url": "https://www.archdaily.com/article_type/architecture-news",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "The institutional infrastructure for African architecture — archival, exhibitional, and critical — is being built in real time. For architects and content creators, 2026 is the inflection year to stop treating 'African architecture' as a niche and start covering it as a structurally expanding field with its own biennales, curators, and international platforms. Omar Degan and Francis Kéré are the practitioners to track most closely."
+    }
+  ],
+  "people": [
+    {
+      "name": "Renée Gailhoustet",
+      "role": "Architect (posthumous) / French social housing pioneer",
+      "why": "Her Brutalist Îlot 8 complex in Saint-Denis is at the center of a live demolition controversy, with France's urban renewal program proposing partial demolition and privatization of what is widely considered her most accomplished collective housing project. The conflict crystallizes the limits of posthumous reappraisal in the absence of legal protection."
+    },
+    {
+      "name": "Kengo Kuma",
+      "role": "Kengo Kuma and Associates",
+      "why": "Dominated Dezeen's front page on April 29–May 1 with two simultaneous stories: the completed (and immediately controversial) concrete entrance to Angers Cathedral — called a 'concrete UFO' by French press — and his new book Substance, in which he argues against signature-material architecture and for regionally sourced, small-scale building. The gap between his stated philosophy and global practice footprint is the critical story."
+    },
+    {
+      "name": "Lina Ghotmeh",
+      "role": "Lina Ghotmeh Architecture",
+      "why": "Her 'Metamorphosis in Motion' installation at Palazzo Litta during Milan Design Week — her first outdoor site-specific intervention in Italy — was cited in ArchDaily's post-Milan coverage as one of the standout works. Her 'Archaeology of the Future' conceptual framework continues to gain institutional traction."
+    },
+    {
+      "name": "Miriam Peterson & Nathan Rich",
+      "role": "Peterson Rich Office (PRO)",
+      "why": "The Brooklyn-based firm is holding two simultaneous major New York museum commissions — the Brooklyn Museum Arts of Africa galleries and the Met's new Condé M. Nast Galleries (unveiling May 2026) — positioning PRO as the leading small firm for culturally sensitive adaptive reuse inside historic institutions."
+    },
+    {
+      "name": "Omar Degan",
+      "role": "Curator, Pan-African Architecture Biennale",
+      "why": "As curator of the inaugural PAB in Nairobi (September 2026), Degan is the organizing intelligence behind what will be the first architecture biennale representing all 54 African nations. His stated goal — shifting the narrative from fragility to resilience — is an explicit curatorial and political position that will shape how African architecture is debated globally."
+    },
+    {
+      "name": "Francis Kéré",
+      "role": "Kéré Architecture",
+      "why": "His newly announced Ineza Clinic in Burundi — 10 hillside pavilions using local materials, traditional craftsmanship, and knowledge transfer — is circulating as a countermodel to the branded-spectacle design week discourse: architecture as healthcare infrastructure and community capacity-building in rural Africa."
+    },
+    {
+      "name": "George Arbid",
+      "role": "Curator, Sharjah Architecture Triennial",
+      "why": "Curating 'A Journey into Architecture Archives: Baghdad, Damascus, Tunis,' opening May 2 at the SAT — one of the few institutional efforts to document and safeguard architectural archives from the Arab world before they are lost to conflict, neglect, or institutional disinterest."
+    }
+  ]
+}
