@@ -21,11 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_pop_culture",
+    "verdict": "STRONG",
+    "rec_title": "Taco Pizza: Sophia Finally Gets to Try It (and Renders Her Verdict)",
+    "rec_reason": "This recommendation is grounded in three overlapping signals. First, the taco vs. pizza car ride debate generated an explicit, specific audience request — 'get Sophia a taco pizza to blow her mind' — with 2 counted asks, which is rare specificity for a personal account this size. Second, c_pop_culture and c_carride content consistently draws the two largest comment themes: affection for Sophia's personality (70 comments) and humor/relatability around toddler behavior (35 comments). Third, the car ride audience explicitly asks for MORE of this format (5 explicit requests, the highest of any request category). A food-reaction payoff video closes a loop viewers are already emotionally invested in — they remember the debate, they asked for the follow-up, and Sophia's unfiltered reaction is the exact kind of moment that earns shares from other parents. The walkthrough/car-or-kitchen format keeps it casual and authentic, consistent with what already performs. This has NOT been posted in the last 30 days and is not covered in any recent video title or description.",
+    "rec_confidence": 0.88,
+    "talking_points": [
+      "Open by reminding viewers of the original taco vs. pizza debate — quick callback so new viewers get context and loyal viewers feel the payoff arriving",
+      "Film Sophia's live, unfiltered reaction to tasting taco pizza for the first time — let the silence, the chewing, and the face do the work",
+      "Let Sophia deliver her official verdict: does taco pizza count as a taco, a pizza, both, or something else entirely? Let her reason it out in her own logic",
+      "Dad reacts to her verdict — agree, push back gently, or escalate the debate into a new sub-question (e.g., 'What about pizza tacos?')",
+      "Close with a direct call to viewers: 'Was she right? Drop your verdict in the comments' — this drives the comment engagement that already defines this account's best-performing moments"
+    ],
+    "reference_urls": [],
+    "suggested_format": "walkthrough",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
