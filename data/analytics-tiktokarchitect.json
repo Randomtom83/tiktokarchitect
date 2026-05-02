@@ -23,29 +23,24 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "STRONG",
-    "rec_title": "The Architecture of Decolonization: How a $13M Brooklyn Museum Expansion Is Making a Spatial Argument About Africa",
-    "rec_reason": "The Brooklyn Museum / Peterson Rich Office (PRO) Africa galleries story scores 0.78 audience resonance because it sits directly at the intersection of Tom's two highest-engagement audience themes: 'excitement and gratitude for Black architect history content' (55 comments, trending up) and 'concern about diversity, equity and access in the architecture profession' (25 comments, trending up). There are also 25 comments in the 'requests for more architect spotlights' bucket trending up. The c_blackarch_history cluster carries the highest avg_engagement on the account at 0.1252. Critically, Tom already posted about the Pan-African Architecture Biennale (April 27) and Diébédo Francis Kéré (April 23–24), signaling the audience is primed for African architecture institutional content right now — but PRO and the Brooklyn Museum angle is entirely uncovered. The adjacent African infrastructure trend (Sharjah Triennial archives, PAB Nairobi) provides supporting context without repeating recent posts. The 'spatial politics of gallery adjacency' angle — architecture encoding ideology into circulation paths — gives Tom a unique professional hook that goes beyond a profile video and lets him speak as a practicing architect commenting on how space makes arguments.",
-    "rec_confidence": 0.83,
+    "rec_title": "The Western Canon Was Never the Whole Story: Black & African Architects Who Were Building Modernism Before We Gave Them Credit",
+    "rec_reason": "ArchDaily's month-long May editorial focus on decentering the Western modernist canon (audience_resonance: 0.88) lands directly on top of Tom's two highest-engagement, fastest-growing audience signals. The Black Architect Profiles cluster has the highest avg_engagement of all clusters (0.1252) and the 'Excitement and gratitude for Black architect history content' comment theme is the largest audience conversation (55 comments, trending up). Requests to spotlight more Black architects rank second among all audience requests (5 explicit asks), and requests for specific figures like Louis A.S. Bellinger signal an appetite for lesser-known names — none of whom appear in recent video history. The ArchDaily editorial frame (Chandigarh, Brasília, Baghdad, Damascus, Tunis, Sharjah Triennial) gives Tom a legitimate news hook to make a broader argument: the global decolonization of architectural history is happening in mainstream press right now, and Black architects were always part of that suppressed parallel canon. The talking_head format has the highest avg_engagement of all formats (0.1105) and suits the synthesis + commentary structure this video requires. This topic has NOT been covered in the last 30 days in this framing — recent videos covered individual figures (John S. Chase, Harvey Gantt, Julian Abele, Harvey Gantt, Kunlé Adeyemi, Miriam Issoufou Kamara, Cap Wigington, McKissack & McKissack, Paul R. Williams) but none have made the meta-argument about the canon itself as a live news story tied to ArchDaily's editorial shift and the Pan-African Architecture Biennale Tom already teased on April 27.",
+    "rec_confidence": 0.87,
     "talking_points": [
-      "Explain the core design decision: PRO deliberately connected the Egyptian galleries to the new Arts of Africa collection for the first time, making a spatial argument that North Africa belongs with the continent — this is architecture doing ideological work through circulation paths and adjacency, not just aesthetics.",
-      "Spotlight Peterson Rich Office (Miriam Peterson and Nathan Rich) as a small Brooklyn-based firm now holding two simultaneous major New York museum commissions (Brooklyn Museum + a Met expansion in May 2026) — a practice story about how firms that specialize in culturally sensitive adaptive reuse are winning the most meaningful institutional briefs right now.",
-      "Connect this to the broader 2026 moment: the Pan-African Architecture Biennale in Nairobi, the Sharjah Triennial's focus on Baghdad/Damascus/Tunis archives, and Kéré's Ineza Clinic in Burundi — argue that the institutional infrastructure for African architecture is being built in real time and 2026 is the inflection year.",
-      "Ask viewers directly: when a museum decides which gallery is next to which, who gets to make that call — the curator, the architect, or the community? Frame it as a question about power and spatial storytelling that architects are uniquely positioned to understand.",
-      "Tie back to Tom's own platform: the audience that shows up to watch Black architect history content is the same audience that needs to know these institutions exist and that firms like PRO are examples of the kind of practice that's possible."
+      "ArchDaily just announced their entire May editorial focus is rewriting 20th-century architectural history to decenter the Western canon — here's why that matters and what it means for how we've been taught to see modernism",
+      "The architects who were innovating in West Africa, the Caribbean, and across the diaspora during the same decades as Le Corbusier and Mies weren't derivative — they were running a parallel conversation that mainstream history deliberately ignored, and figures like Diébédo Francis Kéré (already familiar to Tom's audience) are the visible tip of a much deeper lineage",
+      "Louis A.S. Bellinger and other lesser-known Black American architects were practicing and building during the height of American modernism with almost zero institutional recognition — the audience has explicitly requested this spotlight by name",
+      "The Pan-African Architecture Biennale (which Tom already flagged on April 27) and the Sharjah Architecture Triennial opening this month are the institutional infrastructure that makes this rewriting possible — these aren't academic arguments anymore, they're being built into the canon in real time",
+      "What does it mean for a Black architect practicing today that the history of the profession is finally being told correctly — and what responsibility does that create for who we spotlight, who we cite, and who we mentor into the field"
     ],
     "reference_urls": [
       {
-        "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
-        "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
+        "title": "20th Century Design in Flux: ArchDaily's May Editorial Focus",
+        "url": "https://www.archdaily.com/1041123/20th-century-design-in-flux-archdailys-may-editorial-focus",
         "source": "ArchDaily"
       },
       {
-        "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
-        "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
-        "source": "The Architect's Newspaper"
-      },
-      {
-        "title": "Sharjah Architecture Triennial Presents 'A Journey into Architecture Archives' Focused on Baghdad, Damascus and Tunis",
+        "title": "Sharjah Architecture Triennial Presents A Journey into Architecture Archives: Baghdad, Damascus, Tunis",
         "url": "https://www.archdaily.com/1040836/sharjah-architecture-triennial-presents-a-journey-into-architecture-archives-focused-on-baghdad-damascus-and-tunis",
         "source": "ArchDaily"
       }
@@ -25299,33 +25294,33 @@
   ],
   "external_trends": [
     {
-      "topic": "Brutalist social housing is being erased under cover of 'residentialization' — and the field is fighting back",
+      "topic": "Brutalist social housing is becoming a battleground: preservation vs. 'residentialization'",
       "audience_resonance": 0.62,
       "source": "ArchDaily"
     },
     {
-      "topic": "Kengo Kuma is everywhere — and his simultaneous ubiquity and critique of 'signature architecture' is the contradiction of the week",
-      "audience_resonance": 0.41,
+      "topic": "Wildfire-resilient residential architecture is maturing from niche to replicable typology",
+      "audience_resonance": 0.55,
       "source": "Dezeen"
     },
     {
-      "topic": "Modernist office retrofit is being repositioned as 'preserving the soul' — SOM's Milan project sets a template",
-      "audience_resonance": 0.45,
-      "source": "Dezeen"
-    },
-    {
-      "topic": "Museum expansion as curatorial politics: Brooklyn Museum's Africa galleries reframe decolonization as architectural brief",
-      "audience_resonance": 0.78,
-      "source": "ArchDaily"
-    },
-    {
-      "topic": "Milan Design Week's 'brandification' reaches acknowledged peak — but the margins held signal",
+      "topic": "Milan Design Week's 'brandification' triggers a sector-wide debate about who design weeks serve",
       "audience_resonance": 0.28,
       "source": "Dezeen"
     },
     {
-      "topic": "African architecture is gaining institutional infrastructure — biennale, museum, and archive investments converging in 2026",
-      "audience_resonance": 0.81,
+      "topic": "Adaptive reuse is being applied to iconic modernist buildings across multiple scales simultaneously",
+      "audience_resonance": 0.7,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Kengo Kuma is everywhere — and the ubiquity is itself becoming a critical question",
+      "audience_resonance": 0.38,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "ArchDaily's May editorial pivot: decentering the Western canon of 20th-century architecture history",
+      "audience_resonance": 0.88,
       "source": "ArchDaily"
     }
   ]

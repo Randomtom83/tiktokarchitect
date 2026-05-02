@@ -21,21 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_bluey",
+    "best_performing_cluster_id": "c_milestones",
     "verdict": "MEH",
-    "rec_title": "\"Sophia, would Bluey be a Disney Princess?\" — We Finally Settle This",
-    "rec_reason": "The Bluey cluster has the second-highest avg engagement on the account (0.0928), behind only Books/Faith/Community (0.0931), despite only 3 videos posted — suggesting high ceiling with low volume, meaning it's under-exploited. The single most-asked audience question across all clusters is 'Would Bluey characters qualify as Disney Princesses?' with 12 votes, dwarfing every other question. Bluey fan discussion has 15 comments steady. Critically, the last Bluey video was posted on 2026-02-01 — nearly 3 months ago — making this completely fresh territory. The format plays directly into Tom's strongest asset: asking Sophia a pop-culture question in the car and letting her answer. Audience comments trend heavily toward 'delight at Sophia's growing intelligence and personality' (40 comments, trending up) and 'affirmations of dad's parenting' (35 comments, trending up) — both of which this format reliably triggers. The car ride format (walkthrough) is the account's dominant production style (80 videos), keeping friction low.",
-    "rec_confidence": 0.87,
+    "rec_title": "Sophia Tries Taco Pizza for the First Time",
+    "rec_reason": "Two separate audience members have directly requested 'get Sophia a taco pizza to blow her mind' — a rare, specific, named audience request that signals genuine investment in Sophia's reactions. The milestones cluster (avg engagement 0.0855) outperforms the dominant car ride cluster (0.0651), and the two highest-trending comment themes are 'delight at Sophia's growing intelligence and personality' (40 comments, trending up) and 'watching Sophia grow up over time' (30 comments, trending up). Content that puts Sophia in a new, funny, first-time experience directly feeds both of those themes. The personal_story format has the highest avg engagement of all formats (0.0901), and a food reaction/first-taste moment is a natural personal story. This topic has NOT appeared in any recent video, fulfills a named audience request, and plays into the audience's core emotional investment in Sophia's reactions and personality.",
+    "rec_confidence": 0.81,
     "talking_points": [
-      "Ask Sophia directly: 'Is Bluey a Disney Princess?' and let her answer completely unscripted — her logic and reasoning IS the content",
-      "Follow up with the criteria Sophia thinks make someone a princess (does she have a castle? a prince? a sparkly dress?) — her preschool framework will be the payoff",
-      "Tom reacts to her answer and gently introduces the 'official' Disney Princess rules, letting her argue back — that tension is where the comments happen",
-      "End with Sophia's definitive verdict delivered with full confidence, mirroring the energy of the 'we have a very unfortunate definitive answer' Bluey video that worked before",
-      "Optional: if Sophia owns a Bluey toy or plush, have it visible in the shot — references the 'Where did you find that Bluey item?' audience question and could spark more comments"
+      "Set up the backstory: 'Someone in the comments told me I had to do this' — acknowledge the audience member who planted the idea, making them feel seen and creating community buy-in",
+      "Build Sophia's anticipation before she sees it — let her guess what taco pizza could possibly be, because her logic and reasoning process is exactly what the audience loves most",
+      "Capture the first bite reaction unfiltered — this is the moment the whole video is built around, and Sophia's genuine expressions are the content",
+      "Let Sophia deliver a verdict: would she eat it again? Would she recommend it to her friends? Her confident preschooler opinions drive the comment section",
+      "Optional closer: Tom's own reaction — is taco pizza actually good? Turns it into a shared dad-daughter food review moment rather than just a kid video"
     ],
     "reference_urls": [],
-    "suggested_format": "walkthrough",
-    "suggested_length": "45-75s"
+    "suggested_format": "personal_story",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
