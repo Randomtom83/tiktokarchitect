@@ -1,0 +1,152 @@
+{
+  "scan_date": "2026-05-02",
+  "sources_checked": [
+    "ArchDaily",
+    "Dezeen",
+    "Archinect",
+    "The Architect's Newspaper",
+    "Curbed",
+    "Architectural Digest",
+    "Designboom",
+    "Architect Magazine (AIA)",
+    "Failed Architecture",
+    "McMansion Hell",
+    "99% Invisible"
+  ],
+  "trends": [
+    {
+      "topic": "Brutalist social housing is becoming a battleground: preservation vs. 'residentialization'",
+      "synthesis": "ArchDaily published a significant piece (within the last 48 hours) on the threat facing Renée Gailhoustet's Îlot 8 housing complex in Saint-Denis, France — a Brutalist landmark built 1975–1986 that is now confronting a controversial partial-demolition plan euphemistically called 'residentialization.' The proposal, backed by the municipality and housing authority, would remove staircases, enclose public passages, and effectively privatize spaces originally designed for communal porosity and workers' housing. Residents have organized a legal challenge and petition while architects and historians have mobilized in support. The case crystallizes a live tension across European cities: aging social housing complexes designed with radical spatial ambition are being dismantled not because of structural failure but because of gentrification pressure and political rebranding of 'social mix.' Critically, the building is described as Gailhoustet's 'most accomplished collective housing project,' and its destruction would erase a rare surviving example of feminist, community-centered brutalism in a historic city center. ArchDaily's framing — foregrounding 'heritage,' 'debate,' and 'demolition' — signals this is now international discourse, not just local politics.",
+      "sources": [
+        {
+          "title": "Saint-Denis' Brutalist Îlot 8 Housing Complex by Renée Gailhoustet Faces Controversial Redevelopment Plan",
+          "url": "https://www.archdaily.com/1041096/saint-denis-brutalist-ilot-8-housing-complex-by-renee-gailhoustet-faces-controversial-redevelopment-plan",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "This is a signal story, not a gallery post. The Îlot 8 case is becoming the European counterpart to debates over American brutalist demolitions — but with an added class dimension (social housing, not a civic monument). Architecture content creators should position this as the defining preservation fight of 2026's first half: it asks who gets to decide what counts as heritage, and whose housing gets protected."
+    },
+    {
+      "topic": "Wildfire-resilient residential architecture is maturing from niche to replicable typology",
+      "synthesis": "Dezeen published Faulkner Architects' Pine Flat Residence in Healdsburg, Northern California — a project that directly replaces a home destroyed in the 2019 Kincade Fire and is built on roughly 90% of the original concrete foundation. The studio clad the structure in corrugated Corten steel, integrated ember screens, on-site fire suppression fed by spring-fed wells and a Pelton wheel hydroelectric system, and designed the entire program around passive survivability during power outages. What separates this from greenwash: it is the studio's third successive project explicitly designed around wildfire risk, making it a body of practice rather than a one-off. Faulkner explicitly stated 'as we continue to expand into wild landscapes through development, we must enhance construction systems and materials to withstand disasters' — a practitioner-level claim that fire resilience is now a design discipline. Dezeen paired this with its April round-up of houses using unconventional materials (glass blocks, rammed earth), suggesting residential architecture's material experimentation is increasingly driven by climate threat rather than aesthetics.",
+      "sources": [
+        {
+          "title": "Faulkner Architects designs California house around fire and water",
+          "url": "https://www.dezeen.com/2026/04/30/pine-flat-residence-faulkner-architects-california/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "Wildfire-resilient design is no longer a West Coast footnote — it's an emerging residential typology with its own material logic (Corten, concrete, ember screens, integrated water systems). Architects and content creators who treat climate-adapted housing as 'responsible design' rather than 'crisis response' will be ahead of both the regulatory and cultural curve."
+    },
+    {
+      "topic": "Milan Design Week's 'brandification' triggers a sector-wide debate about who design weeks serve",
+      "synthesis": "Dezeen's weekly podcast (published May 1) and accompanying grassroots-shows roundup (April 30) made the case that Milan Design Week 2026 may have reached 'peak brandification' — a tipping point where luxury fashion houses and corporate exhibitors dominate the Fuorisalone with spectacle, while independent designers are priced out by rising venue rents. Industry figures including design journalist Jasmin Jouhar and designer Sabine Marcelis publicly aired frustration on social media, and Dezeen's editors explicitly asked whether brand involvement had become structurally harmful to the event's cultural purpose. The counter-argument: Nike used its Milan presence to open a permanent Air Lab giving free access to thermoforming and pneumatic tools for local designers. ArchDaily's parallel coverage of the week described it as a 'curatorial framework for experimentation,' but Dezeen's more critical editorial line — asking 'what's so bad about brands taking over?' — signals a genuine editorial bifurcation between celebration and critique. The debate also exposed a geopolitical undercurrent: one exhibitor told Dezeen 2026 had been nicknamed 'the year of cancellations' due to the economic impacts of ongoing conflict.",
+      "sources": [
+        {
+          "title": "What's so bad about brands taking over Milan design week?",
+          "url": "https://www.dezeen.com/2026/05/01/milan-design-week-2026-dezeen-weekly-podcast/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Dezeen's pick of the best grassroots shows from Milan design week",
+          "url": "https://www.dezeen.com/2026/04/30/grassroots-shows-milan-design-week-2026/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "ArchDaily's Selection: 15 Installations and Exhibitions from Milan Design Week 2026",
+          "url": "https://www.archdaily.com/1040989/15-architectural-installations-and-exhibitions-at-the-2026-milan-design-week",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "The Milan 'brandification' debate is the loudest current conversation about who controls the agenda of the world's biggest design platform. For architecture content creators, this is a framing opportunity: the grassroots counter-programming (guerrilla door-knob shows, nomadic pop-ups) is emerging as the culturally credible layer, while corporate spectacle is losing legitimacy. Pick a side or document the contradiction — either is signal."
+    },
+    {
+      "topic": "Adaptive reuse is being applied to iconic modernist buildings across multiple scales simultaneously",
+      "synthesis": "Three separate stories published in the last 24–48 hours show adaptive reuse operating at very different scales but with a shared logic: the Minoru Yamasaki-designed Northwestern National Life Building in Minneapolis (vacant since 2023) is being converted to a hotel; Danish studio Cobe has been selected to transform a former IKEA warehouse in Älmhult into the Museum of Furniture Studies; and SOM has completed a retrofit of a 1960s modernist office complex in Milan (Corso Italia 23), described as 'preserving the soul' of the structure. The Cobe/IKEA project is particularly notable as a signal: a corporation with global reach commissioning a museum inside its own decommissioned infrastructure, with Cobe's founder explicitly articulating a 'precise transformation — working with what was already there rather than replacing it.' The Yamasaki project adds preservation stakes, rescuing a lesser-known but formally significant work by the architect best known for the World Trade Center. Taken together, these cases suggest adaptive reuse is no longer a sustainability argument — it is the primary architectural brief for institutional and commercial buildings at scale.",
+      "sources": [
+        {
+          "title": "IKEA unveils plans for Museum of Furniture Studies designed by Cobe",
+          "url": "https://www.dezeen.com/2026/05/01/cobe-warehouse-the-museum-of-furniture-studies-ikea/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Minoru Yamasaki's Northwestern National Life Building in Minneapolis to Be Converted into Hotel",
+          "url": "https://www.archdaily.com/1041070/minoru-yamasakis-northwestern-national-life-building-in-minneapolis-to-be-converted-into-hotel",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "When IKEA is commissioning a museum inside its own warehouse and a Yamasaki landmark is becoming a hotel, adaptive reuse has fully crossed from niche to dominant practice mode. Content creators should stop treating reuse projects as 'sustainable design' stories and start treating them as the mainstream brief — with all the complexity around original intent, material memory, and program mismatch that entails."
+    },
+    {
+      "topic": "Kengo Kuma is everywhere — and the ubiquity is itself becoming a critical question",
+      "synthesis": "Dezeen's weekly roundup (May 2) led with Kengo Kuma's new arched entrance to Angers Cathedral in France — a concrete intervention in an Angevin Gothic structure that immediately provoked a strong reader comment thread ('a beautiful face wearing a VR headset'). Simultaneously, Dezeen covered Kuma's new book Substance, his rug collaboration with Jaipur Rugs at Milan Design Week, his Earth|Tree installation at Copenhagen Contemporary, and his previously reported appointment to extend the National Gallery in London. The concentration of Kuma coverage across a single week is extraordinary and is itself generating meta-commentary. His stated position — anticipating 'an impending shift away from large-scale megaprojects in concrete and steel toward smaller, more environmentally sensitive projects' — sits in productive tension with the scale of commissions he is actually receiving (national gallery extensions, cathedral interventions). The reader backlash to the Angers Cathedral entrance is the sharpest critical signal: the comment thread suggests public tolerance for contemporary insertions into historic fabric is eroding, even from architects with Kuma's contextual credentials.",
+      "sources": [
+        {
+          "title": "This week Kengo Kuma added an arched entrance to Angers Cathedral",
+          "url": "https://www.dezeen.com/2026/05/02/kengo-kuma-arched-entrance-angers-cathedral/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Six projects that showcase Kengo Kuma's 'humane and beautiful' use of materials",
+          "url": "https://www.dezeen.com/2026/04/29/kengo-kuma-substance-book/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "Kuma's saturation across platforms this week is a case study in how starchitect ubiquity can shift from authority to overexposure. The Angers Cathedral reader backlash is worth tracking: if a contextual, material-sensitive architect is being criticized for inserting contemporary work into historic fabric, the window for that typology of intervention may be narrowing. Content creators should ask whether 'sensitive addition' still reads as humility or as another form of signature-making."
+    },
+    {
+      "topic": "ArchDaily's May editorial pivot: decentering the Western canon of 20th-century architecture history",
+      "synthesis": "ArchDaily launched its May editorial focus — titled '20th Century Design in Flux: A Global Reinterpretation of Architectural History' — arguing that the dominant modernist narrative is 'incomplete' rather than wrong, and that regional and non-Western architectures were 'sites of active reinterpretation' rather than derivative responses to Western movements. The coverage program includes a comparative reading of Chandigarh and Brasília, an examination of Southeast Asian satellite city models, and the Sharjah Architecture Triennial's new exhibition (opening May 2) on architectural archives from Baghdad, Damascus, and Tunis. This is an editorial strategy shift, not a one-off article: ArchDaily is explicitly repositioning its historiographical frame for an entire month, which will shape what gets commissioned, what gets linked, and what gets treated as reference. The Sharjah show — curated by George Arbid and featuring archival materials, models, and newly commissioned films — is the concrete institutional counterpart to this editorial turn.",
+      "sources": [
+        {
+          "title": "20th Century Design in Flux: ArchDaily's May Editorial Focus",
+          "url": "https://www.archdaily.com/1041123/20th-century-design-in-flux-archdailys-may-editorial-focus",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Sharjah Architecture Triennial Presents A Journey into Architecture Archives: Baghdad, Damascus, Tunis",
+          "url": "https://www.archdaily.com/1040836/sharjah-architecture-triennial-presents-a-journey-into-architecture-archives-focused-on-baghdad-damascus-and-tunis",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "ArchDaily's editorial frame sets the agenda for what thousands of architects globally read as 'current.' A month-long focus on non-Western modernism — timed with the Sharjah Triennial and the inaugural Pan-African Architecture Biennale later in 2026 — signals that the historiographical decolonization conversation is moving from academic journals into mainstream practice media. Content creators who are still centering Bauhaus-to-Venturi narratives will look dated by June."
+    }
+  ],
+  "people": [
+    {
+      "name": "Renée Gailhoustet",
+      "role": "French architect (1929–2023) / post-mortem legacy under threat",
+      "why": "Her Brutalist Îlot 8 housing complex in Saint-Denis is at the center of a live demolition controversy, with residents, architects, and historians mobilizing internationally to block 'residentialization' plans that would partially demolish her most celebrated collective housing project."
+    },
+    {
+      "name": "Kengo Kuma",
+      "role": "Kengo Kuma and Associates / Tokyo",
+      "why": "Dominated Dezeen coverage this week with simultaneous stories across five distinct projects/publications: the Angers Cathedral entrance (triggering a reader backlash), the Substance book, the Jaipur Rugs collaboration, the Earth|Tree Copenhagen installation, and the National Gallery London commission. His stated philosophy — 'small,' locally-material-sensitive architecture — is generating friction with his actual commission scale."
+    },
+    {
+      "name": "Dan Stubbergaard",
+      "role": "Founder, Cobe / Copenhagen",
+      "why": "Led the IKEA Museum of Furniture Studies commission, articulating a 'precise transformation' methodology that is becoming one of the clearest practitioner statements on adaptive reuse philosophy in current discourse."
+    },
+    {
+      "name": "George Arbid",
+      "role": "Curator, Sharjah Architecture Triennial / Arab Center for Architecture",
+      "why": "Curated 'A Journey into Architecture Archives: Baghdad, Damascus, Tunis,' opening May 2 at the Sharjah Triennial — the most concrete institutional move aligned with ArchDaily's May editorial decolonization pivot."
+    },
+    {
+      "name": "Greg Faulkner",
+      "role": "Principal, Faulkner Architects / California & Colorado",
+      "why": "Published the Pine Flat Residence, his studio's third successive wildfire-resilient project, with an explicit practitioner argument that fire resilience must become a standard design discipline as development expands into fire-prone landscapes."
+    },
+    {
+      "name": "Lina Ghotmeh",
+      "role": "Lina Ghotmeh Architecture / Paris",
+      "why": "Her 'Metamorphosis in Motion' installation at Palazzo Litta (Milan Design Week 2026) was one of the most cited architectural interventions of the week, applying her 'Archaeology of the Future' approach to a Baroque courtyard — positioning her as a leading voice in the post-Milan conversation about what non-branded design week architecture looks like."
+    },
+    {
+      "name": "Sabine Marcelis",
+      "role": "Designer / Rotterdam",
+      "why": "Publicly voiced criticism of Milan Design Week's 'brandification' on social media, lending credibility to the grassroots pushback narrative and being cited by Dezeen as a key voice in the backlash."
+    }
+  ]
+}
