@@ -21,11 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_bluey",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "\"Sophia, would Bluey be a Disney Princess?\" — We Finally Settle This",
+    "rec_reason": "The Bluey cluster has the second-highest avg engagement on the account (0.0928), behind only Books/Faith/Community (0.0931), despite only 3 videos posted — suggesting high ceiling with low volume, meaning it's under-exploited. The single most-asked audience question across all clusters is 'Would Bluey characters qualify as Disney Princesses?' with 12 votes, dwarfing every other question. Bluey fan discussion has 15 comments steady. Critically, the last Bluey video was posted on 2026-02-01 — nearly 3 months ago — making this completely fresh territory. The format plays directly into Tom's strongest asset: asking Sophia a pop-culture question in the car and letting her answer. Audience comments trend heavily toward 'delight at Sophia's growing intelligence and personality' (40 comments, trending up) and 'affirmations of dad's parenting' (35 comments, trending up) — both of which this format reliably triggers. The car ride format (walkthrough) is the account's dominant production style (80 videos), keeping friction low.",
+    "rec_confidence": 0.87,
+    "talking_points": [
+      "Ask Sophia directly: 'Is Bluey a Disney Princess?' and let her answer completely unscripted — her logic and reasoning IS the content",
+      "Follow up with the criteria Sophia thinks make someone a princess (does she have a castle? a prince? a sparkly dress?) — her preschool framework will be the payoff",
+      "Tom reacts to her answer and gently introduces the 'official' Disney Princess rules, letting her argue back — that tension is where the comments happen",
+      "End with Sophia's definitive verdict delivered with full confidence, mirroring the energy of the 'we have a very unfortunate definitive answer' Bluey video that worked before",
+      "Optional: if Sophia owns a Bluey toy or plush, have it visible in the shot — references the 'Where did you find that Bluey item?' audience question and could spark more comments"
+    ],
+    "reference_urls": [],
+    "suggested_format": "walkthrough",
+    "suggested_length": "45-75s"
   },
   "videos": [
     {
