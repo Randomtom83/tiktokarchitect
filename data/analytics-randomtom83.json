@@ -21,11 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_bluey_pop",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "\"Is Bluey Actually a Disney Princess? Sophia Weighs In\" — car ride debate with a 5-year-old",
+    "rec_reason": "The Bluey cluster is Tom's highest-engagement cluster at 0.1022 avg engagement, outperforming car rides (0.0664) and pets (0.0914). More importantly, the single most-asked audience question on the entire account — asked 12 times — is 'Do you think Bluey is a Disney princess?' This is direct, unambiguous audience demand that has never been addressed on camera. Pairing it with the car ride format (75 videos of established audience habit) and Sophia as co-star (top comment theme: her curiosity and personality) creates a natural triple-threat video. No version of this specific question has appeared in any recent video title or description. Audience comment themes show Bluey as 'culturally resonant for parents' (15 comments, steady trend) and Sophia's personality drawing admiration (30 comments, trending up) — both fire simultaneously here.",
+    "rec_confidence": 0.87,
+    "talking_points": [
+      "Pose the question cold in the car: 'Sophia, is Bluey a Disney princess?' — let her answer unscripted and uninterrupted first",
+      "Follow her reasoning: does she think you have to live in a castle? Wear a dress? Have a tiara? Let her define what a princess IS — this is where her curiosity shines",
+      "Tom reacts: share your own take as a dad — does it matter? What does calling something a 'princess' even mean to a 5-year-old vs. what Disney has trained us to expect?",
+      "Land on a conclusion together — even if it's gloriously wrong or inconclusive — and let Sophia have the final word",
+      "Optional closer: 'The internet has been asking us this for months. Sophia has spoken. Case closed.' — this directly acknowledges the audience and rewards the 12 people who asked"
+    ],
+    "reference_urls": [],
+    "suggested_format": "walkthrough",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {

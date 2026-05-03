@@ -21,11 +21,32 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_blk_arch_history",
+    "verdict": "STRONG",
+    "rec_title": "The Western canon was never the whole story — here's what ArchDaily just admitted (and what NIA has been saying all along)",
+    "rec_reason": "ArchDaily's May editorial pivot to non-Western 20th-century architectural history (audience_resonance: 0.78) lands directly on Tom's two strongest audience signals: the Black Architects & History cluster has the highest avg_engagement of any cluster (0.1204), and 'Excitement and gratitude for Black architect history being shared' is the #1 audience conversation theme with 50 comments trending up. The editorial frames non-Western and regional architectures as 'sites of active reinterpretation' — not derivative — which maps precisely to the Pan African Architecture Biennale video Tom already posted (April 27), proving his audience is primed for exactly this conversation. Crucially, Tom has NOT covered the ArchDaily editorial itself, the Sharjah Architecture Triennial's Baghdad/Damascus/Tunis archives show, or the historiographical argument it makes. This also gives Tom a direct platform to position NIA (20 comments trending up asking about the platform) as a living counterpart to what mainstream architecture media is only now catching up to — a personal_story framing that historically outperforms his other formats (avg_engagement 0.1129). The audience request to 'feature more Black architects in history profiles' (7 requests, highest non-series count) provides a natural call-to-action hook. Architects from the MENA/African diaspora featured in the Sharjah show — none of whom appear in Tom's recent video history — give him fresh profile subjects that extend the series without repetition.",
+    "rec_confidence": 0.84,
+    "talking_points": [
+      "ArchDaily just announced a full month dedicated to rewriting 20th-century architectural history beyond the Western canon — and Tom's reaction: NIA and this community have been doing this work for years without waiting for permission from mainstream media.",
+      "The Sharjah Architecture Triennial is opening an exhibition right now on architectural archives from Baghdad, Damascus, and Tunis — these are cities with deep modernist traditions that almost no one in the West is taught. Name one architect from mid-century Iraq. Exactly.",
+      "The historiographical argument: the dominant modernist narrative isn't wrong, it's incomplete — and that incompleteness has real consequences for who gets cited in studios, who gets hired, and whose buildings get preserved versus demolished.",
+      "Direct bridge to NIA: mainstream outlets publishing month-long editorial pivots is validation, but the platform Tom has already built is where this history lives year-round — share the link, make the case for why it exists.",
+      "Call-to-action: audience has already requested Louis A.S. Bellinger, Norma Merrick Sklarek, Paul R. Williams, and Clarence Wigington profiles — use this moment to announce which non-Western or diaspora architect is coming next in the series, explicitly tying it to the broader historiographical shift underway."
+    ],
+    "reference_urls": [
+      {
+        "title": "20th Century Design in Flux: ArchDaily's May Editorial Focus",
+        "url": "https://www.archdaily.com/1041123/20th-century-design-in-flux-archdailys-may-editorial-focus",
+        "source": "ArchDaily"
+      },
+      {
+        "title": "Sharjah Architecture Triennial Presents A Journey into Architecture Archives: Baghdad, Damascus, Tunis",
+        "url": "https://www.archdaily.com/1040836/sharjah-architecture-triennial-presents-a-journey-into-architecture-archives-focused-on-baghdad-damascus-and-tunis",
+        "source": "ArchDaily"
+      }
+    ],
+    "suggested_format": "personal_story",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
@@ -25242,5 +25263,36 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "Brutalist social housing is becoming a battleground: preservation vs. 'residentialization'",
+      "audience_resonance": 0.62,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Wildfire-resilient residential architecture is maturing from niche to replicable typology",
+      "audience_resonance": 0.55,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Milan Design Week's 'brandification' triggers a sector-wide debate about who design weeks serve",
+      "audience_resonance": 0.28,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Adaptive reuse is being applied to iconic modernist buildings across multiple scales simultaneously",
+      "audience_resonance": 0.58,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Kengo Kuma is everywhere — and the ubiquity is itself becoming a critical question",
+      "audience_resonance": 0.31,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "ArchDaily's May editorial pivot: decentering the Western canon of 20th-century architecture history",
+      "audience_resonance": 0.78,
+      "source": "ArchDaily"
+    }
+  ]
 }
