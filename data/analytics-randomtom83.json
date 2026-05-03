@@ -4,38 +4,28 @@
     "display_name": "Tom Reynolds",
     "followers": 0,
     "following": 0,
-    "updated_at": "2026-05-02T09:07:47.383649"
+    "updated_at": "2026-05-03T09:25:24.976296"
   },
   "overview": {
     "date_range": {
       "start": "2019-10-07",
-      "end": "2026-04-29"
+      "end": "2026-05-02"
     },
-    "videos": 504,
-    "views": 280683,
-    "likes": 16421,
-    "comments": 1535,
+    "videos": 506,
+    "views": 280948,
+    "likes": 16432,
+    "comments": 1537,
     "shares": 294,
     "engagement_rate": 0.065,
     "new_followers": 0,
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_milestones",
+    "best_performing_cluster_id": null,
     "verdict": "MEH",
-    "rec_title": "Sophia Tries Taco Pizza for the First Time",
-    "rec_reason": "Two separate audience members have directly requested 'get Sophia a taco pizza to blow her mind' — a rare, specific, named audience request that signals genuine investment in Sophia's reactions. The milestones cluster (avg engagement 0.0855) outperforms the dominant car ride cluster (0.0651), and the two highest-trending comment themes are 'delight at Sophia's growing intelligence and personality' (40 comments, trending up) and 'watching Sophia grow up over time' (30 comments, trending up). Content that puts Sophia in a new, funny, first-time experience directly feeds both of those themes. The personal_story format has the highest avg engagement of all formats (0.0901), and a food reaction/first-taste moment is a natural personal story. This topic has NOT appeared in any recent video, fulfills a named audience request, and plays into the audience's core emotional investment in Sophia's reactions and personality.",
-    "rec_confidence": 0.81,
-    "talking_points": [
-      "Set up the backstory: 'Someone in the comments told me I had to do this' — acknowledge the audience member who planted the idea, making them feel seen and creating community buy-in",
-      "Build Sophia's anticipation before she sees it — let her guess what taco pizza could possibly be, because her logic and reasoning process is exactly what the audience loves most",
-      "Capture the first bite reaction unfiltered — this is the moment the whole video is built around, and Sophia's genuine expressions are the content",
-      "Let Sophia deliver a verdict: would she eat it again? Would she recommend it to her friends? Her confident preschooler opinions drive the comment section",
-      "Optional closer: Tom's own reaction — is taco pizza actually good? Turns it into a shared dad-daughter food review moment rather than just a kid video"
-    ],
-    "reference_urls": [],
-    "suggested_format": "personal_story",
-    "suggested_length": "60-90s"
+    "rec_title": "",
+    "rec_reason": "",
+    "rec_confidence": 0
   },
   "videos": [
     {
@@ -44,11 +34,11 @@
       "description": "wouldn't that be fun ",
       "date": "2026-04-20",
       "duration": 53,
-      "views": 102,
+      "views": 103,
       "likes": 2,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0196,
+      "engagement_rate": 0.0194,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -56,7 +46,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7630984828581612830",
       "has_transcript": false,
-      "cluster": "c_community",
+      "cluster": "c_carride",
       "style": null,
       "watch_through": null,
       "follower_conversion": null
@@ -67,11 +57,11 @@
       "description": "\"Mismo Lucha, Mismo Grito\" created using @Suno and @VidMuse AI  still trying to capture the anger and pain of history repeating",
       "date": "2026-04-18",
       "duration": 192,
-      "views": 131,
+      "views": 133,
       "likes": 8,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0611,
+      "engagement_rate": 0.0602,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -79,7 +69,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7630130776427777311",
       "has_transcript": false,
-      "cluster": "c_activism",
+      "cluster": "c_social_political",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -90,11 +80,11 @@
       "description": "she woke up, way too early #girldad #preschoolersoftiktok ",
       "date": "2026-04-18",
       "duration": 286,
-      "views": 131,
+      "views": 133,
       "likes": 2,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0153,
+      "engagement_rate": 0.015,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -113,11 +103,11 @@
       "description": "a song for the moment combined @Suno and @OpenArt to make \"Mismo Lucha, Mismo Grito\" ",
       "date": "2026-04-17",
       "duration": 194,
-      "views": 51,
+      "views": 53,
       "likes": 1,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0196,
+      "engagement_rate": 0.0189,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -125,7 +115,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7629696580789996830",
       "has_transcript": false,
-      "cluster": "c_activism",
+      "cluster": "c_social_political",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -136,11 +126,11 @@
       "description": "Sophia's first day on her big girl bike (with training wheels) #girldad #preschoolersoftiktok ",
       "date": "2026-04-16",
       "duration": 20,
-      "views": 129,
+      "views": 133,
       "likes": 9,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0853,
+      "engagement_rate": 0.0827,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -148,7 +138,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7629508674003717390",
       "has_transcript": false,
-      "cluster": "c_milestones",
+      "cluster": "c_holiday_family",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -159,7 +149,7 @@
       "description": "a song for the moment ",
       "date": "2026-04-16",
       "duration": 193,
-      "views": 102,
+      "views": 105,
       "likes": 0,
       "comments": 0,
       "shares": 0,
@@ -171,7 +161,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7629506378402401566",
       "has_transcript": false,
-      "cluster": "c_activism",
+      "cluster": "c_social_political",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -182,11 +172,11 @@
       "description": "this has been sitting in my drafts",
       "date": "2026-04-14",
       "duration": 180,
-      "views": 163,
+      "views": 166,
       "likes": 7,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0429,
+      "engagement_rate": 0.0422,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -194,8 +184,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7628426006855961886",
       "has_transcript": false,
-      "cluster": "c_activism",
-      "style": "personal_story",
+      "cluster": "c_social_political",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -205,11 +195,11 @@
       "description": "\"Mismo Lucha, Mismo Grito\" an anthem to the moment",
       "date": "2026-04-08",
       "duration": 192,
-      "views": 113,
+      "views": 115,
       "likes": 1,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0088,
+      "engagement_rate": 0.0087,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -217,7 +207,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7626254978075643149",
       "has_transcript": false,
-      "cluster": "c_activism",
+      "cluster": "c_social_political",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -228,11 +218,11 @@
       "description": "get the kids back in class immediately lol #girldad #preschoolersoftiktok #carrideconversations ",
       "date": "2026-04-07",
       "duration": 180,
-      "views": 245,
+      "views": 246,
       "likes": 6,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0245,
+      "engagement_rate": 0.0244,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -424,7 +414,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7612671094977269022",
       "has_transcript": false,
-      "cluster": "c_milestones",
+      "cluster": "c_carride",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -435,11 +425,11 @@
       "description": "we have a very unfortunate definitive answer. #girldad #bluey #blueyadults #blueytok #5yearsoldkid ",
       "date": "2026-02-01",
       "duration": 119,
-      "views": 194,
+      "views": 195,
       "likes": 17,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.0928,
+      "engagement_rate": 0.0923,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -447,7 +437,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7601931454716661022",
       "has_transcript": false,
-      "cluster": "c_bluey",
+      "cluster": "c_bluey_pop",
       "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
@@ -458,11 +448,11 @@
       "description": "i need to know #girldad #bluey #blueyadults #blueytok ",
       "date": "2026-01-30",
       "duration": 8,
-      "views": 911,
+      "views": 912,
       "likes": 86,
       "comments": 14,
       "shares": 22,
-      "engagement_rate": 0.1339,
+      "engagement_rate": 0.1338,
       "sentiment": {
         "positive": 0.17,
         "neutral": 0.83,
@@ -470,8 +460,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7601172861633449247",
       "has_transcript": false,
-      "cluster": "c_bluey",
-      "style": "talking_head",
+      "cluster": "c_bluey_pop",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -481,11 +471,11 @@
       "description": "another day, another drive #carrideconversations #preschoolersoftiktok #5yearsoldkid #snowday",
       "date": "2026-01-27",
       "duration": 555,
-      "views": 159,
+      "views": 160,
       "likes": 11,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0818,
+      "engagement_rate": 0.0813,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -504,11 +494,11 @@
       "description": "forgot to post yesterday #carrideconversations #preschoolersoftiktok #5yearsoldkid ",
       "date": "2026-01-21",
       "duration": 364,
-      "views": 241,
+      "views": 242,
       "likes": 11,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0456,
+      "engagement_rate": 0.0455,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -562,7 +552,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7587641520862285086",
       "has_transcript": false,
-      "cluster": "c_grief",
+      "cluster": "c_holiday_family",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -632,7 +622,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7579264973084380446",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": null,
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -642,11 +632,11 @@
       "description": "I'm sending up the batsignal... #treetok help #japaneseredmaple #japanesemaple ",
       "date": "2025-11-25",
       "duration": 180,
-      "views": 440,
+      "views": 441,
       "likes": 18,
       "comments": 7,
       "shares": 1,
-      "engagement_rate": 0.0591,
+      "engagement_rate": 0.059,
       "sentiment": {
         "positive": 0.67,
         "neutral": 0.33,
@@ -654,8 +644,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7576669628294810911",
       "has_transcript": false,
-      "cluster": "c_community",
-      "style": "tutorial",
+      "cluster": "c_home_garden",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -677,7 +667,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7574482962381638943",
       "has_transcript": false,
-      "cluster": "c_petdog",
+      "cluster": "c_pets",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -701,7 +691,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7574481780028312863",
       "has_transcript": false,
       "cluster": null,
-      "style": null,
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -723,7 +713,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7571892085922549022",
       "has_transcript": false,
-      "cluster": "c_petdog",
+      "cluster": "c_pets",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -746,7 +736,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7571841112135060766",
       "has_transcript": false,
-      "cluster": "c_carride",
+      "cluster": null,
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -769,7 +759,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7571593398608563487",
       "has_transcript": false,
-      "cluster": "c_petdog",
+      "cluster": "c_pets",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -792,7 +782,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7569268455598279966",
       "has_transcript": false,
-      "cluster": "c_carride",
+      "cluster": null,
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -815,7 +805,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7569266893773622559",
       "has_transcript": false,
-      "cluster": "c_petdog",
+      "cluster": "c_pets",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -838,7 +828,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7569239800083975454",
       "has_transcript": false,
-      "cluster": "c_carride",
+      "cluster": null,
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -861,7 +851,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7565154318974831903",
       "has_transcript": false,
-      "cluster": "c_grief",
+      "cluster": "c_grief_personal",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -884,8 +874,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7564887896663149855",
       "has_transcript": false,
-      "cluster": "c_milestones",
-      "style": null,
+      "cluster": "c_carride",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -953,7 +943,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7551005610662235423",
       "has_transcript": false,
-      "cluster": "c_milestones",
+      "cluster": "c_carride",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -999,7 +989,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7541211052650810655",
       "has_transcript": false,
-      "cluster": "c_petdog",
+      "cluster": "c_carride",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1022,8 +1012,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7535461972251315486",
       "has_transcript": false,
-      "cluster": "c_milestones",
-      "style": "walkthrough",
+      "cluster": "c_carride",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1183,7 +1173,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7528813535338450207",
       "has_transcript": false,
-      "cluster": "c_activism",
+      "cluster": "c_social_political",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1436,7 +1426,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7498705649514089759",
       "has_transcript": false,
-      "cluster": null,
+      "cluster": "c_bluey_pop",
       "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
@@ -1493,7 +1483,7 @@
       "description": "eff Summit Health (VillageMD)",
       "date": "2025-04-17",
       "duration": 310,
-      "views": 2180,
+      "views": 2182,
       "likes": 43,
       "comments": 11,
       "shares": 7,
@@ -1505,7 +1495,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7494407816011123998",
       "has_transcript": false,
-      "cluster": "c_activism",
+      "cluster": "c_grief_personal",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -1690,7 +1680,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7473905196268047647",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "walkthrough",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1712,7 +1702,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7466844964295576862",
       "has_transcript": false,
-      "cluster": "c_activism",
+      "cluster": "c_social_political",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -1827,7 +1817,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7462380186676301086",
       "has_transcript": false,
-      "cluster": "c_petdog",
+      "cluster": "c_carride",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1850,7 +1840,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7461381471094279454",
       "has_transcript": false,
-      "cluster": "c_milestones",
+      "cluster": "c_carride",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1874,7 +1864,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7449933118770826526",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "walkthrough",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1897,7 +1887,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7445257408915459358",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "walkthrough",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1919,7 +1909,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7443510998515993898",
       "has_transcript": false,
-      "cluster": "c_community",
+      "cluster": "c_bluey_pop",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1988,7 +1978,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7421904745062796587",
       "has_transcript": false,
-      "cluster": "c_milestones",
+      "cluster": "c_carride",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -2058,7 +2048,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7418573988424666411",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "walkthrough",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2149,7 +2139,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7406471947581771051",
       "has_transcript": false,
-      "cluster": "c_bluey",
+      "cluster": "c_bluey_pop",
       "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
@@ -3316,9 +3306,9 @@
       "shares": 0,
       "engagement_rate": 0.0821,
       "sentiment": {
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
+        "positive": 0.0,
+        "neutral": 1.0,
+        "negative": 0.0
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7284616979984469279",
       "has_transcript": false,
@@ -5012,11 +5002,11 @@
       "description": "clean nachos",
       "date": "2023-02-11",
       "duration": 41,
-      "views": 2155,
+      "views": 2157,
       "likes": 236,
       "comments": 26,
       "shares": 15,
-      "engagement_rate": 0.1285,
+      "engagement_rate": 0.1284,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -6438,7 +6428,7 @@
       "description": "she was determined to get at me #girldad #babiesoftiktok #dadsoftiktok #babyville",
       "date": "2022-02-22",
       "duration": 15,
-      "views": 6430,
+      "views": 6431,
       "likes": 35,
       "comments": 2,
       "shares": 0,
@@ -6461,7 +6451,7 @@
       "description": "#drsuess has minor characters who have a whole life",
       "date": "2022-02-20",
       "duration": 168,
-      "views": 1296,
+      "views": 1297,
       "likes": 43,
       "comments": 5,
       "shares": 1,
@@ -7979,11 +7969,11 @@
       "description": "#howto dress a #babygirl #babiesoftiktok",
       "date": "2021-04-12",
       "duration": 15,
-      "views": 305,
+      "views": 306,
       "likes": 15,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0492,
+      "engagement_rate": 0.049,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -9589,11 +9579,11 @@
       "description": "the #architecturelife #architect #constructionsite #architecture",
       "date": "2020-05-13",
       "duration": 15,
-      "views": 152,
+      "views": 153,
       "likes": 10,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.0724,
+      "engagement_rate": 0.0719,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11015,11 +11005,11 @@
       "description": "#doggo #mydog #dogsoftiktok #LastChristmasMovie #fyp #louisianacatahoulaleoparddog",
       "date": "2019-11-08",
       "duration": 19,
-      "views": 278,
+      "views": 279,
       "likes": 36,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.1295,
+      "engagement_rate": 0.129,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11521,11 +11511,11 @@
       "description": "a very emotional experience #carrideconversations #girldad #preschoolersoftiktok ",
       "date": "2026-04-27",
       "duration": 513,
-      "views": 200,
+      "views": 201,
       "likes": 11,
       "comments": 2,
       "shares": 1,
-      "engagement_rate": 0.07,
+      "engagement_rate": 0.0697,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11544,11 +11534,11 @@
       "description": "we have a plan #preschoolersoftiktok #girldad ",
       "date": "2026-04-27",
       "duration": 103,
-      "views": 130,
+      "views": 133,
       "likes": 9,
-      "comments": 3,
+      "comments": 4,
       "shares": 1,
-      "engagement_rate": 0.1,
+      "engagement_rate": 0.1053,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11567,11 +11557,11 @@
       "description": "the Statik phone mount. not bad",
       "date": "2026-04-28",
       "duration": 202,
-      "views": 101,
+      "views": 108,
       "likes": 2,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0396,
+      "engagement_rate": 0.037,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11590,11 +11580,11 @@
       "description": "Mickey Boat - reminiscing about the @disneycruiselineofficial ",
       "date": "2026-04-28",
       "duration": 180,
-      "views": 109,
+      "views": 111,
       "likes": 3,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0275,
+      "engagement_rate": 0.027,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11613,17 +11603,63 @@
       "description": "day 1966 robo puppy (thanks @Star ) #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-04-29",
       "duration": 600,
-      "views": 97,
+      "views": 102,
       "likes": 1,
       "comments": 0,
       "shares": 2,
-      "engagement_rate": 0.0309,
+      "engagement_rate": 0.0294,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
         "negative": 0
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7634168199965150495",
+      "has_transcript": false,
+      "cluster": null,
+      "style": null,
+      "watch_through": null,
+      "follower_conversion": null
+    },
+    {
+      "id": "7635298630546558238",
+      "title": "🥺💝😭😭 #girldad #preschoolersoftiktok ",
+      "description": "🥺💝😭😭 #girldad #preschoolersoftiktok ",
+      "date": "2026-05-02",
+      "duration": 23,
+      "views": 130,
+      "likes": 7,
+      "comments": 0,
+      "shares": 0,
+      "engagement_rate": 0.0538,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      "url": "https://www.tiktok.com/@randomtom83/video/7635298630546558238",
+      "has_transcript": false,
+      "cluster": null,
+      "style": null,
+      "watch_through": null,
+      "follower_conversion": null
+    },
+    {
+      "id": "7635287429448076575",
+      "title": "time for the @The Home Depot build #carrideconversations #preschooler...",
+      "description": "time for the @The Home Depot build #carrideconversations #preschoolersoftiktok #girldad ",
+      "date": "2026-05-02",
+      "duration": 509,
+      "views": 83,
+      "likes": 4,
+      "comments": 1,
+      "shares": 0,
+      "engagement_rate": 0.0602,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      "url": "https://www.tiktok.com/@randomtom83/video/7635287429448076575",
       "has_transcript": false,
       "cluster": null,
       "style": null,
@@ -11643,7 +11679,7 @@
     {
       "month": "2019-11",
       "videos": 21,
-      "views": 5596,
+      "views": 5597,
       "likes": 347,
       "comments": 31,
       "new_followers": 0
@@ -11691,7 +11727,7 @@
     {
       "month": "2020-05",
       "videos": 8,
-      "views": 3676,
+      "views": 3677,
       "likes": 170,
       "comments": 20,
       "new_followers": 0
@@ -11771,7 +11807,7 @@
     {
       "month": "2021-04",
       "videos": 24,
-      "views": 4640,
+      "views": 4641,
       "likes": 238,
       "comments": 19,
       "new_followers": 0
@@ -11851,7 +11887,7 @@
     {
       "month": "2022-02",
       "videos": 29,
-      "views": 23346,
+      "views": 23348,
       "likes": 1281,
       "comments": 121,
       "new_followers": 0
@@ -11947,7 +11983,7 @@
     {
       "month": "2023-02",
       "videos": 2,
-      "views": 2305,
+      "views": 2307,
       "likes": 248,
       "comments": 27,
       "new_followers": 0
@@ -12147,7 +12183,7 @@
     {
       "month": "2025-04",
       "videos": 6,
-      "views": 3649,
+      "views": 3651,
       "likes": 131,
       "comments": 21,
       "new_followers": 0
@@ -12203,7 +12239,7 @@
     {
       "month": "2025-11",
       "videos": 9,
-      "views": 2586,
+      "views": 2587,
       "likes": 217,
       "comments": 21,
       "new_followers": 0
@@ -12219,7 +12255,7 @@
     {
       "month": "2026-01",
       "videos": 4,
-      "views": 1538,
+      "views": 1541,
       "likes": 118,
       "comments": 18,
       "new_followers": 0
@@ -12227,7 +12263,7 @@
     {
       "month": "2026-02",
       "videos": 1,
-      "views": 194,
+      "views": 195,
       "likes": 17,
       "comments": 1,
       "new_followers": 0
@@ -12243,9 +12279,17 @@
     {
       "month": "2026-04",
       "videos": 14,
-      "views": 1804,
+      "views": 1842,
       "likes": 62,
-      "comments": 9,
+      "comments": 10,
+      "new_followers": 0
+    },
+    {
+      "month": "2026-05",
+      "videos": 2,
+      "views": 213,
+      "likes": 11,
+      "comments": 1,
       "new_followers": 0
     }
   ],
@@ -12259,9 +12303,9 @@
     },
     {
       "bucket": "15-30s",
-      "count": 46,
-      "avg_views": 441,
-      "avg_engagement": 0.09,
+      "count": 47,
+      "avg_views": 435,
+      "avg_engagement": 0.0892,
       "avg_watch_through": null
     },
     {
@@ -12281,15 +12325,15 @@
     {
       "bucket": "90-120s",
       "count": 20,
-      "avg_views": 875,
-      "avg_engagement": 0.0863,
+      "avg_views": 876,
+      "avg_engagement": 0.0866,
       "avg_watch_through": null
     },
     {
       "bucket": "120s+",
-      "count": 142,
-      "avg_views": 388,
-      "avg_engagement": 0.0731,
+      "count": 143,
+      "avg_views": 387,
+      "avg_engagement": 0.0729,
       "avg_watch_through": null
     }
   ],
@@ -12303,24 +12347,19 @@
     "lurker_to_fan": {},
     "questions": [
       {
-        "text": "What hardwood/climate zone are you in before I give pruning advice?",
+        "text": "What hardcover zone are you in? (re: Japanese maple pruning advice)",
         "count": 1,
-        "cluster_id": "c_community"
+        "cluster_id": "c_home_garden"
       },
       {
-        "text": "Is the book still there at the church?",
-        "count": 2,
-        "cluster_id": "c_community"
-      },
-      {
-        "text": "Where did you find that Bluey item?",
-        "count": 1,
-        "cluster_id": "c_bluey"
+        "text": "Is the book still at the store / in stock?",
+        "count": 3,
+        "cluster_id": "c_bluey_pop"
       },
       {
         "text": "Are you talking about Summit Medical Group specifically?",
         "count": 1,
-        "cluster_id": "c_activism"
+        "cluster_id": "c_grief_personal"
       },
       {
         "text": "How long was the car ride?",
@@ -12328,44 +12367,40 @@
         "cluster_id": "c_carride"
       },
       {
-        "text": "Would Bluey characters qualify as Disney Princesses?",
+        "text": "Where did you find that Bluey item?",
+        "count": 1,
+        "cluster_id": "c_bluey_pop"
+      },
+      {
+        "text": "Do you think Bluey is a Disney princess?",
         "count": 12,
-        "cluster_id": "c_bluey"
+        "cluster_id": "c_bluey_pop"
       },
       {
-        "text": "Did you see that Homan is upset some immigrants know their rights?",
-        "count": 1,
-        "cluster_id": "c_activism"
-      },
-      {
-        "text": "Isn't the Earth's orbit actually elliptical, not circular?",
-        "count": 1,
-        "cluster_id": "c_carride"
+        "text": "Where did you find the Bible referenced in the book video?",
+        "count": 2,
+        "cluster_id": "c_bluey_pop"
       }
     ],
     "requests": [
       {
-        "text": "More car ride conversations content",
+        "text": "More car ride conversation videos with Sophia",
         "count": 5
       },
       {
-        "text": "More videos featuring Bambi the dog",
+        "text": "More videos featuring Bambi the rescue dog",
         "count": 3
-      },
-      {
-        "text": "More morning routine content with Sophia",
-        "count": 2
       },
       {
         "text": "Get Sophia a taco pizza to blow her mind",
         "count": 2
       },
       {
-        "text": "More content about distributing know-your-rights cards",
-        "count": 1
+        "text": "More morning routine / wake-up videos",
+        "count": 2
       },
       {
-        "text": "More father-daughter milestone documentation",
+        "text": "More content about raising a curious, strong daughter",
         "count": 2
       }
     ]
@@ -12497,6 +12532,11 @@
       "sentiment": 0.7
     },
     {
+      "handle": "@maby_baby314",
+      "comments": 2,
+      "sentiment": 0.7
+    },
+    {
       "handle": "@firesphotography",
       "comments": 2,
       "sentiment": 0.7
@@ -12515,205 +12555,188 @@
       "handle": "@michelekocotos",
       "comments": 2,
       "sentiment": 0.7
-    },
-    {
-      "handle": "@candygreycobb",
-      "comments": 2,
-      "sentiment": 0.7
     }
   ],
   "content_clusters": [
     {
       "id": "c_carride",
-      "label": "Dad-Daughter Car Ride Conversations",
-      "video_count": 69,
-      "share_of_views": 0.09,
+      "label": "Car Ride Conversations with Daughter (Sophia)",
+      "video_count": 75,
+      "share_of_views": 0.1,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0651,
+      "avg_engagement": 0.0664,
       "trend": "down",
       "verdict": "NOISE"
     },
     {
-      "id": "c_petdog",
-      "label": "Family Dog (Bambi the Rescue Dog)",
-      "video_count": 6,
-      "share_of_views": 0.01,
+      "id": "c_grief_personal",
+      "label": "Personal Vulnerability, Grief and Health Struggles",
+      "video_count": 2,
+      "share_of_views": 0.03,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0849,
-      "trend": "steady",
-      "verdict": "MEH"
-    },
-    {
-      "id": "c_activism",
-      "label": "Social & Political Commentary / Activism",
-      "video_count": 8,
-      "share_of_views": 0.01,
-      "avg_follower_conversion": 0,
-      "avg_engagement": 0.0458,
+      "avg_engagement": 0.0507,
       "trend": "steady",
       "verdict": "NOISE"
     },
     {
-      "id": "c_grief",
-      "label": "Personal Loss and Grief",
-      "video_count": 2,
-      "share_of_views": 0.02,
-      "avg_follower_conversion": 0,
-      "avg_engagement": 0.0743,
-      "trend": "steady",
-      "verdict": "MEH"
-    },
-    {
-      "id": "c_bluey",
-      "label": "Bluey Fandom and Pop Culture",
-      "video_count": 3,
-      "share_of_views": 0.01,
-      "avg_follower_conversion": 0,
-      "avg_engagement": 0.0928,
-      "trend": "steady",
-      "verdict": "MEH"
-    },
-    {
-      "id": "c_community",
-      "label": "Books, Faith, and Community Moments",
-      "video_count": 3,
-      "share_of_views": 0.04,
-      "avg_follower_conversion": 0,
-      "avg_engagement": 0.0931,
-      "trend": "steady",
-      "verdict": "MEH"
-    },
-    {
-      "id": "c_milestones",
-      "label": "Daughter's Milestones and Firsts",
+      "id": "c_social_political",
+      "label": "Social Justice, Political Commentary and Activism",
       "video_count": 7,
       "share_of_views": 0.01,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0855,
+      "avg_engagement": 0.048,
+      "trend": "steady",
+      "verdict": "NOISE"
+    },
+    {
+      "id": "c_pets",
+      "label": "Rescue Dog Bambi and Pet Life",
+      "video_count": 4,
+      "share_of_views": 0.01,
+      "avg_follower_conversion": 0,
+      "avg_engagement": 0.0914,
+      "trend": "steady",
+      "verdict": "MEH"
+    },
+    {
+      "id": "c_bluey_pop",
+      "label": "Bluey, Kids' Media and Pop Culture Reactions",
+      "video_count": 5,
+      "share_of_views": 0.04,
+      "avg_follower_conversion": 0,
+      "avg_engagement": 0.1022,
+      "trend": "steady",
+      "verdict": "MEH"
+    },
+    {
+      "id": "c_home_garden",
+      "label": "Home, Garden and Outdoor Projects",
+      "video_count": 1,
+      "share_of_views": 0.0,
+      "avg_follower_conversion": 0,
+      "avg_engagement": 0.059,
+      "trend": "steady",
+      "verdict": "NOISE"
+    },
+    {
+      "id": "c_holiday_family",
+      "label": "Holiday Moments and Family Milestones",
+      "video_count": 2,
+      "share_of_views": 0.0,
+      "avg_follower_conversion": 0,
+      "avg_engagement": 0.079,
       "trend": "steady",
       "verdict": "MEH"
     }
   ],
   "topic_engagement_matrix": [
     {
-      "topic": "Dad-Daughter Car Ride Conversations",
-      "views_idx": 0.63,
-      "likes_idx": 0.61,
-      "comments_idx": 0.67
+      "topic": "Car Ride Conversations with Daughter (Sophia)",
+      "views_idx": 0.64,
+      "likes_idx": 0.64,
+      "comments_idx": 0.7
     },
     {
-      "topic": "Family Dog (Bambi the Rescue Dog)",
+      "topic": "Personal Vulnerability, Grief and Health Struggles",
+      "views_idx": 7.09,
+      "likes_idx": 6.31,
+      "comments_idx": 8.56
+    },
+    {
+      "topic": "Social Justice, Political Commentary and Activism",
+      "views_idx": 0.45,
+      "likes_idx": 0.54,
+      "comments_idx": 0.52
+    },
+    {
+      "topic": "Rescue Dog Bambi and Pet Life",
       "views_idx": 0.65,
-      "likes_idx": 1.03,
+      "likes_idx": 1.2,
       "comments_idx": 0.99
     },
     {
-      "topic": "Social & Political Commentary / Activism",
-      "views_idx": 0.88,
-      "likes_idx": 0.64,
-      "comments_idx": 0.9
+      "topic": "Bluey, Kids' Media and Pop Culture Reactions",
+      "views_idx": 4.54,
+      "likes_idx": 12.04,
+      "comments_idx": 11.52
     },
     {
-      "topic": "Personal Loss and Grief",
-      "views_idx": 5.38,
-      "likes_idx": 5.94,
-      "comments_idx": 7.22
+      "topic": "Home, Garden and Outdoor Projects",
+      "views_idx": 0.79,
+      "likes_idx": 0.55,
+      "comments_idx": 2.3
     },
     {
-      "topic": "Bluey Fandom and Pop Culture",
-      "views_idx": 1.45,
-      "likes_idx": 1.57,
-      "comments_idx": 2.41
-    },
-    {
-      "topic": "Books, Faith, and Community Moments",
-      "views_idx": 6.23,
-      "likes_idx": 18.56,
-      "comments_idx": 17.29
-    },
-    {
-      "topic": "Daughter's Milestones and Firsts",
-      "views_idx": 0.56,
-      "likes_idx": 0.75,
-      "comments_idx": 0.8
+      "topic": "Holiday Moments and Family Milestones",
+      "views_idx": 0.39,
+      "likes_idx": 0.45,
+      "comments_idx": 0.82
     }
   ],
   "presentation_styles": [
     {
       "style": "personal_story",
-      "video_count": 5,
-      "avg_engagement": 0.0901,
+      "video_count": 8,
+      "avg_engagement": 0.0813,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     },
     {
       "style": "walkthrough",
-      "video_count": 80,
-      "avg_engagement": 0.0686,
+      "video_count": 77,
+      "avg_engagement": 0.0703,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     },
     {
       "style": "talking_head",
-      "video_count": 7,
-      "avg_engagement": 0.0485,
+      "video_count": 8,
+      "avg_engagement": 0.0386,
       "avg_follower_conversion": 0,
       "verdict": "NOISE"
     },
     {
       "style": "reaction",
-      "video_count": 3,
-      "avg_engagement": 0.0589,
+      "video_count": 6,
+      "avg_engagement": 0.0627,
       "avg_follower_conversion": 0,
-      "verdict": "NOISE"
-    },
-    {
-      "style": "tutorial",
-      "video_count": 1,
-      "avg_engagement": 0.0591,
-      "avg_follower_conversion": 0,
-      "verdict": "NOISE"
+      "verdict": "MEH"
     }
   ],
   "audience_conversation_themes": [
     {
-      "theme": "Affirmations of dad's parenting style and patience",
+      "theme": "Affirmation of the father-daughter relationship and parenting style",
+      "comment_count": 45,
+      "trend": "up"
+    },
+    {
+      "theme": "Watching Sophia grow up over time — nostalgia and milestone recognition",
       "comment_count": 35,
-      "trend": "up"
-    },
-    {
-      "theme": "Delight at Sophia's growing intelligence and personality",
-      "comment_count": 40,
-      "trend": "up"
-    },
-    {
-      "theme": "Grief, condolence, and shared loss",
-      "comment_count": 10,
       "trend": "steady"
     },
     {
-      "theme": "Shared frustration with healthcare systems",
-      "comment_count": 5,
-      "trend": "steady"
-    },
-    {
-      "theme": "Bluey fan discussion and relatability",
-      "comment_count": 15,
-      "trend": "steady"
-    },
-    {
-      "theme": "Book donation and faith community reactions",
-      "comment_count": 5,
-      "trend": "up"
-    },
-    {
-      "theme": "Watching Sophia grow up over time",
+      "theme": "Sophia's curiosity, intelligence and personality drawing admiration",
       "comment_count": 30,
       "trend": "up"
     },
     {
-      "theme": "Dog content enthusiasm and pet relatability",
+      "theme": "Community grief support and personal loss solidarity",
       "comment_count": 10,
+      "trend": "steady"
+    },
+    {
+      "theme": "Frustration with healthcare system failures",
+      "comment_count": 5,
+      "trend": "steady"
+    },
+    {
+      "theme": "Bluey as a culturally resonant show for parents",
+      "comment_count": 15,
+      "trend": "steady"
+    },
+    {
+      "theme": "Engaging with Sophia's spontaneous songs and creative expression",
+      "comment_count": 15,
       "trend": "up"
     }
   ],
