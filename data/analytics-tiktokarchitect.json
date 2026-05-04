@@ -23,15 +23,15 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_black_arch_history",
     "verdict": "STRONG",
-    "rec_title": "The architects ArchDaily just admitted history left out — and the Black designers who prove it",
-    "rec_reason": "ArchDaily's entire May editorial frame is explicitly decentering the Western canon of 20th-century architectural history — the highest audience_resonance score (0.87) of any trend this week. This maps directly onto Tom's strongest engagement cluster (c_black_arch_history, avg_engagement 0.1253, the highest of all clusters) and the two fastest-growing audience conversation themes: 'Excitement and appreciation for Black architect history profiles' (55 comments, trending up) and 'Requests for more Black architect names and historical figures' (25 comments, trending up). Audience requests data shows 6 explicit asks for more Black architect profiles with specific names — Louis Bellinger, Norma Merrick Sklarek, Paul R. Williams, and Clarence Wigington — none of whom have appeared in the recent 30-day video log (Wigington appeared on 2026-04-17, Paul R. Williams on 2026-04-18, so Norma Merrick Sklarek and Louis Bellinger remain uncovered and are safe picks). The ArchDaily editorial pivot also provides an external legitimizing hook — a major platform just declared this historiographical correction is now mainstream discourse — giving Tom a news peg that elevates his existing content mission rather than requiring a pivot. The personal_story format has the highest avg_engagement of any presentation style (0.1182) and pairs naturally with the 'this is why I do these profiles' framing that a news-hook video would require.",
-    "rec_confidence": 0.88,
+    "rec_title": "The Pan-African Architecture Biennale is coming to Nairobi — and it's the biggest thing to happen to African architecture in a generation",
+    "rec_reason": "Three signals converge here with unusually clean alignment. (1) The c_black_arch_history cluster carries the highest avg_engagement in the entire dataset at 0.1253, and its audience conversation theme — 'Excitement and appreciation for Black architect history profiles' — is the top comment driver with 55 comments and an upward trend. (2) Audience requests explicitly ask for more Black architect profiles, with 6 separate requests naming specific figures, and 25 additional comments specifically requesting more names and historical figures — both trending up. (3) The ArchDaily May editorial focus on decolonizing the global architectural canon, combined with the confirmed inaugural Pan-African Architecture Biennale in Nairobi (September 2026, curated by Somali-Italian architect Omar Degan, all 54 African nations represented) and the Brooklyn Museum's new Arts of Africa galleries by Peterson Rich Office, creates a rare moment where Tom's core identity content is directly amplified by the dominant institutional narrative of the month. Critically, Tom posted about the Pan-African Architecture Biennale on 2026-04-27, but that video appears to have been a brief mention (#blackarchitect hashtag only, no description depth) — this recommendation is to produce a substantive dedicated deep-dive with historical framing and architect spotlights that the April 27 post did not deliver. The decolonization angle also threads directly into the 'Diversity, equity and access in the architecture profession' comment theme (30 comments, trending up) and the audience's ongoing 'Requests for more Black architect names and historical figures.' The White House ballroom story (0.55 resonance) was considered but ranks lower because Tom's audience engages with Black architect identity content at measurably higher rates than institutional/political architecture critique, and that topic has no direct tie to his construction or history clusters.",
+    "rec_confidence": 0.84,
     "talking_points": [
-      "ArchDaily just announced their entire May editorial focus is rewriting the Western-dominated canon of 20th-century architecture — open with that headline and ask: so where are the Black architects in that rewrite?",
-      "Profile Norma Merrick Sklarek — the first Black woman licensed as an architect in the US (New York, 1954; California, 1962), the first Black woman elected to the AIA College of Fellows — she is one of the most-requested names in Tom's comment section and has not appeared in any recent video.",
-      "Connect Sklarek's erasure from standard history to the exact argument ArchDaily is now making: the canonical narrative wasn't just incomplete by accident — it required active exclusion, and the NIA database exists precisely to correct that record.",
-      "Use this as a NIA database promotion moment: direct viewers to search Sklarek (and Louis Bellinger) on NIA — audience data shows 15 comments of NIA curiosity trending up, and 3 explicit requests to share the NIA link more widely.",
-      "Close with the meta-point: when ArchDaily spends a whole month 'reinterpreting' history, that's validation — but the Black architecture community has been doing this work for years. Tom's channel and the NIA are the infrastructure for that correction."
+      "Introduce the Pan-African Architecture Biennale: what it is, why Nairobi, why September 2026 matters — and why this is historic as the first biennale representing all 54 African nations simultaneously",
+      "Spotlight Omar Degan (Somali-Italian curator) and connect his curatorial vision to the broader ArchDaily May thesis: that African and non-Western modernisms were never derivative — they were sites of active, original reinterpretation filtered through local climate, materials, and culture",
+      "Bridge to Tom's own NIA database work: position the Biennale as institutional validation of exactly the kind of architectural memory preservation the NIA is built to do — creating a natural moment to share the NIA link (per the 3 audience requests to promote it and the rising NIA curiosity comment theme)",
+      "Name 2-3 architects from the African diaspora whose work will be or should be represented — drawing directly from the 6 audience requests for specific profiles (Louis Bellinger, Norma Merrick Sklarek, Paul R. Williams, Clarence Wigington already covered; pivot to figures with African continent connections not yet featured)",
+      "End with a direct call to action: ask the audience which African or African diaspora architect they want profiled next, explicitly feeding the comment section dynamic that already drives this cluster's engagement"
     ],
     "reference_urls": [
       {
@@ -46,7 +46,7 @@
       }
     ],
     "suggested_format": "personal_story",
-    "suggested_length": "60-90s"
+    "suggested_length": "90-120s"
   },
   "videos": [
     {
@@ -25285,34 +25285,34 @@
   ],
   "external_trends": [
     {
-      "topic": "Brutalist social housing is becoming a battleground: preservation vs. 'residentialization'",
-      "audience_resonance": 0.52,
-      "source": "ArchDaily"
+      "topic": "Kengo Kuma's cathedral intervention proves that 'contextual dialogue' is now a flashpoint — not a consensus — in heritage architecture",
+      "audience_resonance": 0.42,
+      "source": "Dezeen / Designboom"
     },
     {
-      "topic": "Wildfire-resilient residential architecture is maturing from niche to replicable typology",
-      "audience_resonance": 0.41,
-      "source": "Dezeen"
-    },
-    {
-      "topic": "Milan Design Week's 'brandification' triggers a sector-wide debate about who design weeks serve",
-      "audience_resonance": 0.22,
-      "source": "Dezeen"
-    },
-    {
-      "topic": "Adaptive reuse is being applied to iconic modernist buildings across multiple scales simultaneously",
-      "audience_resonance": 0.58,
+      "topic": "Milan Design Week's 'brandification' crisis is forcing a reckoning about what design festivals are actually for",
+      "audience_resonance": 0.31,
       "source": "Dezeen / ArchDaily"
     },
     {
-      "topic": "Kengo Kuma is everywhere — and the ubiquity is itself becoming a critical question",
-      "audience_resonance": 0.31,
-      "source": "Dezeen"
+      "topic": "Embodied carbon is no longer just a value — it's a competitive technical differentiator embedded in project permits and software pipelines",
+      "audience_resonance": 0.48,
+      "source": "ArchDaily"
     },
     {
-      "topic": "ArchDaily's May editorial pivot: decentering the Western canon of 20th-century architecture history",
-      "audience_resonance": 0.87,
+      "topic": "The White House ballroom saga has become architecture's ongoing test case for political authority vs. institutional design review",
+      "audience_resonance": 0.55,
+      "source": "Dezeen / Architectural Record"
+    },
+    {
+      "topic": "Global architectural canon is being actively decolonized — and ArchDaily is making it the editorial spine of May",
+      "audience_resonance": 0.88,
       "source": "ArchDaily"
+    },
+    {
+      "topic": "IKEA repurposing its own warehouse as a furniture museum (via Cobe) signals a new typology: the brand-heritage institution as adaptive reuse project",
+      "audience_resonance": 0.29,
+      "source": "Dezeen"
     }
   ]
 }

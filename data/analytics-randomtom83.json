@@ -23,18 +23,18 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_social_political",
     "verdict": "MEH",
-    "rec_title": "Explaining Something Big to Sophia in the Car — Where Does Food Come From? (Farms, Bees, All of It)",
-    "rec_reason": "The single strongest unmet audience demand is 'more explanations of real-world topics to Sophia (science, social issues)' — 4 explicit requests, the highest count of any request. The conversation theme 'reactions to explaining social/civic concepts to a child' has 15 comments and is trending UP. The c_social_political cluster punches well above its video count with 0.103 engagement (highest on the account) despite only 2 videos, suggesting the format of Tom-explains-the-world-to-Sophia resonates sharply when it appears. A nature/food/science angle ties in the gardening audience (questions about hardiness zones, 5 gardening comments) without requiring a separate video, and keeps it squarely in the car ride format that is Tom's most-posted content. This topic has NOT appeared in any recent video titles or descriptions. It also sets up a natural follow-up: a garden video where Sophia 'checks on' where food actually comes from.",
+    "rec_title": "Sophia Asks Where Babies Come From (and the Car Ride Goes Sideways)",
+    "rec_reason": "The 'social/civic concepts explained to a child' audience comment theme is trending UP with 15 comments and is one of the highest-engagement clusters (0.103 avg engagement — the highest of any cluster in the data). Audience demand for 'more explanations of real-world topics to Sophia' is the single most-requested content type (4 requests). The car ride format is Tom's most practiced and natural style. Crucially, none of the last 30 days of content touches this specific subject. The combination of Sophia's personality (comment theme trending up, 35 comments), dad's patient explanation style (40 comments praising it), and a universally relatable awkward parenting moment creates a high-probability engagement spike. The 'personal_story' format scores the highest avg engagement (0.0741) among all presentation styles. This is a topic every parent has either dreaded or laughed through — making it highly shareable.",
     "rec_confidence": 0.81,
     "talking_points": [
-      "Sophia asks (or Tom prompts): 'Where does the food in our fridge actually come from?' — let her initial answer be the hook, because her answers are what drives engagement (35 comments on her personality/humor)",
-      "Walk through the chain together in kid terms: seeds → farmers → trucks → store → your plate — pause and let Sophia react to each step with her natural confusion or delight",
-      "Bring in something personal and grounding: 'You know how we have stuff growing in our garden? That's kind of the same thing' — connects to the home/garden cluster and the audience asking about pruning/gardening",
-      "Ask Sophia what SHE thinks bees do, then gently correct or be amazed — this mirrors the civic/science explanation format that already generates 15+ comments and is trending up",
-      "End with a dad reflection moment (personal_story beat): something small like 'I love that she still thinks everything just appears by magic — I'm not ready to fully ruin that yet'"
+      "The question comes up naturally — let Sophia's curiosity drive it, don't script her; the unscripted chaos is what the audience loves most",
+      "Tom's gentle, age-appropriate deflection or honest attempt to explain is the emotional core — viewers are there for HIS reaction as much as Sophia's",
+      "Tie it to something concrete she already understands — maybe Bambi, maybe a story she's heard — to show how Tom meets her at her level (this is what drives the 'praise for dad's parenting style' comment thread)",
+      "Leave space for the moment to be funny AND a little tender — the audience engages most when both emotions are present in the same video",
+      "End with Sophia's verdict or follow-up question — her conclusions are consistently called out as delightful in comments (35-comment theme)"
     ],
     "reference_urls": [],
-    "suggested_format": "walkthrough",
+    "suggested_format": "personal_story",
     "suggested_length": "60-90s"
   },
   "videos": [
