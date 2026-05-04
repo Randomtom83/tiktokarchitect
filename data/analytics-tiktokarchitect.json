@@ -21,11 +21,32 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_black_arch_history",
+    "verdict": "STRONG",
+    "rec_title": "The architects ArchDaily just admitted history left out — and the Black designers who prove it",
+    "rec_reason": "ArchDaily's entire May editorial frame is explicitly decentering the Western canon of 20th-century architectural history — the highest audience_resonance score (0.87) of any trend this week. This maps directly onto Tom's strongest engagement cluster (c_black_arch_history, avg_engagement 0.1253, the highest of all clusters) and the two fastest-growing audience conversation themes: 'Excitement and appreciation for Black architect history profiles' (55 comments, trending up) and 'Requests for more Black architect names and historical figures' (25 comments, trending up). Audience requests data shows 6 explicit asks for more Black architect profiles with specific names — Louis Bellinger, Norma Merrick Sklarek, Paul R. Williams, and Clarence Wigington — none of whom have appeared in the recent 30-day video log (Wigington appeared on 2026-04-17, Paul R. Williams on 2026-04-18, so Norma Merrick Sklarek and Louis Bellinger remain uncovered and are safe picks). The ArchDaily editorial pivot also provides an external legitimizing hook — a major platform just declared this historiographical correction is now mainstream discourse — giving Tom a news peg that elevates his existing content mission rather than requiring a pivot. The personal_story format has the highest avg_engagement of any presentation style (0.1182) and pairs naturally with the 'this is why I do these profiles' framing that a news-hook video would require.",
+    "rec_confidence": 0.88,
+    "talking_points": [
+      "ArchDaily just announced their entire May editorial focus is rewriting the Western-dominated canon of 20th-century architecture — open with that headline and ask: so where are the Black architects in that rewrite?",
+      "Profile Norma Merrick Sklarek — the first Black woman licensed as an architect in the US (New York, 1954; California, 1962), the first Black woman elected to the AIA College of Fellows — she is one of the most-requested names in Tom's comment section and has not appeared in any recent video.",
+      "Connect Sklarek's erasure from standard history to the exact argument ArchDaily is now making: the canonical narrative wasn't just incomplete by accident — it required active exclusion, and the NIA database exists precisely to correct that record.",
+      "Use this as a NIA database promotion moment: direct viewers to search Sklarek (and Louis Bellinger) on NIA — audience data shows 15 comments of NIA curiosity trending up, and 3 explicit requests to share the NIA link more widely.",
+      "Close with the meta-point: when ArchDaily spends a whole month 'reinterpreting' history, that's validation — but the Black architecture community has been doing this work for years. Tom's channel and the NIA are the infrastructure for that correction."
+    ],
+    "reference_urls": [
+      {
+        "title": "20th Century Design in Flux: ArchDaily's May Editorial Focus",
+        "url": "https://www.archdaily.com/1041123/20th-century-design-in-flux-archdailys-may-editorial-focus",
+        "source": "ArchDaily"
+      },
+      {
+        "title": "Sharjah Architecture Triennial Presents A Journey into Architecture Archives: Baghdad, Damascus, Tunis",
+        "url": "https://www.archdaily.com/1040836/sharjah-architecture-triennial-presents-a-journey-into-architecture-archives-focused-on-baghdad-damascus-and-tunis",
+        "source": "ArchDaily"
+      }
+    ],
+    "suggested_format": "personal_story",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
@@ -25262,5 +25283,36 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "Brutalist social housing is becoming a battleground: preservation vs. 'residentialization'",
+      "audience_resonance": 0.52,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Wildfire-resilient residential architecture is maturing from niche to replicable typology",
+      "audience_resonance": 0.41,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Milan Design Week's 'brandification' triggers a sector-wide debate about who design weeks serve",
+      "audience_resonance": 0.22,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Adaptive reuse is being applied to iconic modernist buildings across multiple scales simultaneously",
+      "audience_resonance": 0.58,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Kengo Kuma is everywhere — and the ubiquity is itself becoming a critical question",
+      "audience_resonance": 0.31,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "ArchDaily's May editorial pivot: decentering the Western canon of 20th-century architecture history",
+      "audience_resonance": 0.87,
+      "source": "ArchDaily"
+    }
+  ]
 }
