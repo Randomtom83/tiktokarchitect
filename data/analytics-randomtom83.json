@@ -21,11 +21,37 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_bluey_kids_media",
+    "verdict": "STRONG",
+    "rec_title": "Sophia settles the debate: Are Bluey characters Disney princesses? (we do the research together)",
+    "rec_reason": "The single highest-volume audience question on this account — with 8 instances — is 'Are Bluey characters Disney princesses?' It maps directly to c_bluey_kids_media, which is the highest-engagement cluster at 0.1196 avg engagement, nearly double the car ride cluster (0.0653). The 'Engagement with children's media and pop culture references' comment theme is trending UP with 15 comments. The Bluey videos posted in late January/early February 2026 are well outside the 30-day window, and no Bluey content appears in the recent video list. Audience requests also call for more content showing Sophia's language development and curious questions — this format delivers both. The personal_story format scores 0.0846 engagement, and blending it with a reaction element (Sophia reacting to evidence) mirrors the tutorial format (0.0849) — both outperform the standard walkthrough Tom defaults to.",
+    "rec_confidence": 0.88,
+    "talking_points": [
+      "Open with the audience question directly — 'Eight of you asked me this and I cannot let it go unanswered' — making the community feel seen and looping in new viewers on the stakes",
+      "Walk through the actual Disney princess criteria with Sophia (she has to be royal OR recognized as a princess, featured in a Disney property, be a central character) and let her weigh in on each Bluey character one by one — Bluey, Bingo, Mum, Chilli",
+      "Land on the emotional core: even if they don't technically qualify by Disney's rules, Sophia explains in her own words why Bluey IS a princess to her — let her define it herself, which mirrors the 'challenging generational expectations' tone that resonates most in comments",
+      "Tease the follow-up question Sophia will inevitably ask — 'Can Bambi be a princess too?' — to bridge into potential Bambi content and fulfill the audience request for Bambi + Sophia together",
+      "Close with a direct CTA to the 8 people who asked: 'This one's for you — did we get it right?'"
+    ],
+    "reference_urls": [
+      {
+        "title": "No external article needed — this is audience-generated content",
+        "url": "https://www.tiktok.com/tag/blueyadults",
+        "source": "TikTok #blueyadults community"
+      },
+      {
+        "title": "Disney Princess franchise official lineup (for on-camera reference)",
+        "url": "https://princess.disney.com",
+        "source": "Disney"
+      },
+      {
+        "title": "Bluey official character guide (for on-camera fact-checking with Sophia)",
+        "url": "https://www.bluey.tv/characters/",
+        "source": "Bluey Official"
+      }
+    ],
+    "suggested_format": "reaction",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {

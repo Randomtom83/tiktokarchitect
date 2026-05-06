@@ -21,11 +21,32 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_blackarch_history",
+    "verdict": "STRONG",
+    "rec_title": "The Pan-African Architecture Biennale is Coming — Here's Why It Changes Everything for Black Architects",
+    "rec_reason": "The ArchDaily May editorial focus on decolonizing the global architectural canon scores the highest audience resonance (0.91) because it maps directly onto Tom's two strongest audience signals: the 'Appreciation for Black architectural history and underrepresented figures' comment theme (55 comments, trending UP) and the 'Diversity, equity and access in the architecture profession' theme (35 comments, trending UP). The inaugural Pan-African Architecture Biennale — confirmed for Nairobi in September 2026, curated by Somali-Italian architect Omar Degan, representing all 54 African nations — is a concrete, timely news peg that Tom has NOT yet covered in his recent videos (he posted about the Biennale on 2026-04-27 using only a title mention with no description, suggesting a brief reference rather than a dedicated explainer). However, the deeper ArchDaily editorial framing — that 20th-century non-Western architectures were not derivative of European modernism but active sites of reinterpretation — is a fresh intellectual angle Tom has not explored as a dedicated talking-head piece. The audience request for 'Do a profile on Louis A. S. Bellinger / other lesser-known Black architects not yet covered' (4 requests) further validates demand for exactly this expanded-canon content. The c_blackarch_history cluster has the highest avg_engagement of all clusters (0.1192) and a steady trend, while the talking_head format also posts the second-highest avg_engagement (0.1132) and is his most-used format — making this a high-confidence pairing. The NIA platform (c_nia_platform) can be organically woven in as the tool that surfaces these underrepresented figures, answering the 2 standing 'What is the NIA website link?' questions simultaneously.",
+    "rec_confidence": 0.87,
+    "talking_points": [
+      "ArchDaily has declared May the month of 'decolonizing architectural history' — explain what that actually means in plain language: the canon we were all taught (Bauhaus, Le Corbusier, Mies) was never the whole story, and institutions are finally making structural — not just rhetorical — commitments to fix that.",
+      "The inaugural Pan-African Architecture Biennale in Nairobi (September 2026), curated by Omar Degan and representing all 54 African nations, is the most significant institutional signal yet that African architecture is no longer being framed as peripheral — and explain why this matters specifically for Black architects practicing in the US right now.",
+      "Connect this to Tom's own NIA platform: the Biennale and ArchDaily's editorial pivot are exactly why a database of Black architects exists — because the archive has always been there, it just wasn't being amplified. Drop the NIA link and explain how viewers can use it to go deeper.",
+      "Name-check at least one architect from this emerging pan-African moment who hasn't appeared in Tom's recent videos — for example, Mariam Kamara was already covered on 2026-04-27, so pivot to a figure like Olalekan Jeyifous, Lesley Lokko, or another architect central to the Biennale's curatorial framework.",
+      "End with the provocation ArchDaily itself is raising: if you learned 'modernism' without learning its African, Latin American, or Middle Eastern expressions, your architectural education was incomplete — what does that mean for how we teach, hire, and credit in the profession today?"
+    ],
+    "reference_urls": [
+      {
+        "title": "20th Century Design in Flux: ArchDaily's May Editorial Focus",
+        "url": "https://www.archdaily.com/1041123/20th-century-design-in-flux-archdailys-may-editorial-focus",
+        "source": "ArchDaily"
+      },
+      {
+        "title": "Sharjah Architecture Triennial Presents A Journey into Architecture Archives: Baghdad, Damascus, Tunis",
+        "url": "https://www.archdaily.com/1040836/sharjah-architecture-triennial-presents-a-journey-into-architecture-archives-focused-on-baghdad-damascus-and-tunis",
+        "source": "ArchDaily"
+      }
+    ],
+    "suggested_format": "talking_head",
+    "suggested_length": "90-120s"
   },
   "videos": [
     {
@@ -25285,5 +25306,36 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "Kengo Kuma's cathedral intervention proves that 'contextual dialogue' is now a flashpoint — not a consensus — in heritage architecture",
+      "audience_resonance": 0.41,
+      "source": "Dezeen / Designboom"
+    },
+    {
+      "topic": "Milan Design Week's 'brandification' crisis is forcing a reckoning about what design festivals are actually for",
+      "audience_resonance": 0.28,
+      "source": "Dezeen / ArchDaily"
+    },
+    {
+      "topic": "Embodied carbon is no longer just a value — it's a competitive technical differentiator embedded in project permits and software pipelines",
+      "audience_resonance": 0.38,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "The White House ballroom saga has become architecture's ongoing test case for political authority vs. institutional design review",
+      "audience_resonance": 0.52,
+      "source": "Dezeen / Architectural Record"
+    },
+    {
+      "topic": "Global architectural canon is being actively decolonized — and ArchDaily is making it the editorial spine of May",
+      "audience_resonance": 0.91,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "IKEA repurposing its own warehouse as a furniture museum (via Cobe) signals a new typology: the brand-heritage institution as adaptive reuse project",
+      "audience_resonance": 0.29,
+      "source": "Dezeen"
+    }
+  ]
 }
