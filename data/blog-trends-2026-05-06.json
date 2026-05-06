@@ -1,0 +1,125 @@
+{
+  "scan_date": "2026-05-06",
+  "sources_checked": [
+    "ArchDaily",
+    "Dezeen",
+    "Archinect",
+    "The Architect's Newspaper",
+    "Curbed",
+    "Architectural Digest",
+    "Designboom",
+    "Architect Magazine (AIA)",
+    "Failed Architecture",
+    "McMansion Hell",
+    "99% Invisible"
+  ],
+  "trends": [
+    {
+      "topic": "Parametricism gets a critical reckoning: Dezeen launches a dedicated series framing it as the architecture of neoliberalism",
+      "synthesis": "Dezeen launched a multi-part editorial series on parametricism yesterday — the first installment authored by critic Owen Hopkins argues that the style, billed by Patrik Schumacher as 'the defining architecture style of the 21st century,' is in fact structurally suited to control and predictability rather than social complexity. Hopkins frames it as well-suited to airports and Silicon Valley campuses but 'next to useless when things get messy,' and a second piece published the same day uses the Heydar Aliyev Centre in Azerbaijan as the canonical case study, noting that Schumacher's posture of 'political indifference' sits in direct tension with the building's overtly authoritarian commission context. This is not routine coverage — Dezeen explicitly characterizes parametricism as 'the architecture of neoliberalism itself,' and the timing of a dedicated series suggests the publication sees a critical reassessment moment in the field.",
+      "sources": [
+        {
+          "title": "Parametricism is the architecture 'of neoliberalism itself'",
+          "url": "https://www.dezeen.com/2026/05/05/parametricism-introduction-owen-hopkins/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Heydar Aliyev Centre is the ultimate expression of parametricism's 'seamless fluidity'",
+          "url": "https://www.dezeen.com/2026/05/05/heydar-aliyev-centre-zaha-hadid-parametricism-case-study/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "This is a rare moment when a major publication commits to sustained critical theory coverage. For architecture content creators, this series is an opening to produce contrarian or contextualizing content around parametricism — its politics, its legacy after Zaha Hadid's death, and what Schumacher's continued stewardship of ZHA means. The 'neoliberalism' framing will provoke strong responses from practitioners and is likely to drive comment-section signal for weeks."
+    },
+    {
+      "topic": "Abandoned retail infrastructure becomes the new prestige adaptive reuse typology — malls into campuses",
+      "synthesis": "KPF and Saraiva+Associados completed the Oriente Green Campus in Lisbon, converting a block-sized derelict shopping mall that halted construction in 2012 into a 42,000 sq metre workspace and university campus. The project — featured prominently on Dezeen today — recarved the mall's central 'donut hole' into open courtyards, introduced nearly 6,900 square meters of planted green roofs and terraces with native species, and achieved natural ventilation for approximately 35% of working days per year. KPF principal John Bushell described it as an 'ultimate reuse of embodied carbon,' a phrase that signals how the firm is positioning adaptive reuse not merely as a design strategy but as a carbon accounting argument. This follows COBE's announcement this week of converting a former IKEA warehouse in Älmhult, Sweden into the new Museum of Furniture Studies — a second dead-retail-to-cultural-institution transformation in the same news cycle. The convergence of both projects in the same week, from very different geographies and briefs, suggests this is now a mature and competitive project typology, not an emerging one.",
+      "sources": [
+        {
+          "title": "Unfinished Lisbon mall 'hulk' turned into Oriente Green Campus",
+          "url": "https://www.dezeen.com/2026/05/05/oriente-green-campus-portugal-kpf-saraivaassociados/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "COBE to Transform Former IKEA Warehouse into a New Site for the Museum of Furniture Studies in Älmhult, Sweden",
+          "url": "https://www.archdaily.com/1041166/cobe-to-transform-former-ikea-warehouse-into-a-new-site-for-the-museum-of-furniture-studies-in-almhult-sweden",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "The mall-to-campus and warehouse-to-museum pipeline is now producing high-profile completed works — not just competition schemes. Content creators should be shifting coverage from 'adaptive reuse as vision' to 'adaptive reuse as delivered product,' interrogating what actually broke during construction, what embodied carbon accounting methodologies were used, and which structural interventions were non-negotiable. The 'forensic curiosity' framing KPF uses internally is the story, not the renderings."
+    },
+    {
+      "topic": "Smiljan Radić's Pritzker lecture reframes architectural knowledge as distraction and lived experience — a direct challenge to formal education orthodoxy",
+      "synthesis": "ArchDaily published today — hours ago — the announcement of Smiljan Radić's upcoming Pritzker Laureate Lecture and Panel at UNAM in Mexico City on May 12, themed 'Architecture: Distraction and Knowledge.' The Chilean 2026 Pritzker Prize winner will argue that architecture is shaped not only by formal knowledge but by accumulated lived experiences — travel, incidental moments, individual perception. The event is framed explicitly as 'not a conventional discourse' but an invitation to engage architecture as a personal and reflective pursuit. This is the first major public intellectual statement from Radić since his prize was announced in March (itself delayed due to the Tom Pritzker-Epstein ties controversy). The lecture is free, open to the public, and available via livestream — meaning it will function as a global media event, not just an academic one. The framing positions Radić in sharp contrast to the data-driven, systems-optimization mode that currently dominates professional discourse.",
+      "sources": [
+        {
+          "title": "Smiljan Radić to Lead 2026 Pritzker Laureate Lecture and Panel on 'Architecture: Distraction and Knowledge'",
+          "url": "https://www.archdaily.com/1041221/smiljan-radic-to-lead-2026-pritzker-laureate-lecture-and-panel-on-architecture-distraction-and-knowledge",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "The livestream on May 12 is a must-watch for any architecture content creator. Radić's anti-canonical positioning — fragility over certainty, experiential knowledge over formal systems — is exactly the kind of philosophical counterpoint to AI-optimized workflows that will resonate right now. Pre-coverage before the lecture and reaction content after it will both perform well. The UNAM setting also centers Latin American architectural discourse, which is underrepresented in English-language media."
+    },
+    {
+      "topic": "Museum architecture commissions are going to small, culturally specific practices — not to brand-name starchitects",
+      "synthesis": "The Brooklyn Museum's new Arts of Africa galleries — a $13 million, 6,400 sq ft project currently in pre-construction — were designed by Brooklyn-based Peterson Rich Office (PRO), a firm founded in 2014. PRO is simultaneously designing the new 12,000 sq ft Condé M. Nast Galleries at the Metropolitan Museum of Art. Their approach at Brooklyn Museum exposes contemporary infrastructure — lighting, climate control — as a visible new layer rather than concealing it, explicitly distinguishing new from historical fabric and treating the museum's continued evolution as an honest architectural statement. This is not renovation-as-erasure; it is renovation-as-historiography. The pattern of a small, mid-career firm landing two simultaneous major New York museum commissions in the same season is a meaningful signal about how cultural institutions are selecting architects — away from starchitect brand value and toward demonstrated contextual intelligence.",
+      "sources": [
+        {
+          "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
+          "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
+          "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
+          "source": "The Architect's Newspaper"
+        }
+      ],
+      "so_what": "Content creators covering cultural architecture should watch PRO closely — they are becoming the model for how a small firm builds institutional credibility through contextual rigor rather than formal spectacle. The 'exposed infrastructure as historical honesty' design philosophy they are deploying is a genuine critical position worth unpacking, and the question of how small firms get these commissions (what the selection process looked like, what DVDL as a strategic consultant actually does) is a story that almost no one has told."
+    },
+    {
+      "topic": "Biobased, carbon-negative housing prototypes are being delivered at neighborhood scale in Europe — not just exhibited",
+      "synthesis": "ORGA, a Netherlands-based practice, has completed a 12-unit carbon-negative affordable rental neighborhood in Marknesse, Flevoland, built with a high percentage of biobased materials for housing association Mercatus. The project targets first-time buyers and low-income households and reinterprets the traditional Dutch 'Delft Red' brick typology while introducing wooden chimneys that double as bat habitats — an unusual move that integrates biodiversity directly into the building envelope. The stated goal is to develop scalable housing solutions that minimize CO₂ emissions and reduce reliance on fossil resources. What distinguishes this from concept work is that the prototype was built and occupied in the first half of 2025 — this is post-occupancy reporting, not a proposal.",
+      "sources": [
+        {
+          "title": "ORGA Completes Carbon-Negative Neighborhood in the Netherlands",
+          "url": "https://www.archdaily.com/architecture-news",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "The scalable affordable biobased housing prototype is moving from pilot to replicable model — ORGA's Marknesse project is the kind of 'we shipped this and here's what we learned' story that architecture media systematically undercovers. The bat habitat chimney detail alone is a content hook. Content creators should be asking: what did the occupants actually experience? What broke? What would ORGA do differently at 120 units?"
+    }
+  ],
+  "people": [
+    {
+      "name": "Smiljan Radić Clarke",
+      "role": "Principal, independent practice, Santiago, Chile / 2026 Pritzker Prize Laureate",
+      "why": "Announced today as the keynote for the May 12 Pritzker Laureate Lecture at UNAM, themed 'Architecture: Distraction and Knowledge.' His framing of architectural knowledge as experiential and anti-canonical — explicitly not data-driven or formally systematic — is the most substantive intellectual position from the architecture world's highest-profile figure right now."
+    },
+    {
+      "name": "Owen Hopkins",
+      "role": "Architecture critic and curator",
+      "why": "Authored Dezeen's lead essay in its new parametricism series, published May 5, characterizing parametricism as structurally aligned with neoliberal ideology and unsuited to social complexity. This is the most pointed critical reframing of parametricism in major media in recent memory and will likely define the terms of debate around Patrik Schumacher's legacy for months."
+    },
+    {
+      "name": "Patrik Schumacher",
+      "role": "Principal, Zaha Hadid Architects",
+      "why": "Not speaking today, but the subject of Dezeen's new critical series — his theory of parametricism is being interrogated for its political and ideological underpinnings, not just its formal qualities. His position that 'architecture has no capacity to resolve political controversy' is being directly challenged by the series' framing."
+    },
+    {
+      "name": "Miriam Peterson & Nathan Rich",
+      "role": "Principals, Peterson Rich Office (PRO), Brooklyn, NY",
+      "why": "Simultaneously holding commissions at the Brooklyn Museum and the Metropolitan Museum of Art — two of New York's most significant cultural institutions — while operating as a relatively small firm founded in 2014. Their exposed-infrastructure-as-historical-layer approach is a coherent and deployable design philosophy drawing significant attention."
+    },
+    {
+      "name": "John Bushell",
+      "role": "Principal, KPF",
+      "why": "Led the Oriente Green Campus project in Lisbon, the most prominent adaptive reuse completion of the week. His characterization of the project as an 'ultimate reuse of embodied carbon' signals that KPF is actively repositioning adaptive reuse as a carbon strategy, not merely a preservation or economic one."
+    },
+    {
+      "name": "David Gianotten",
+      "role": "Managing Partner, OMA",
+      "why": "Interviewed by ArchDaily editors at Salone del Mobile 2026 about 'Salone Contract,' a long-term initiative he developed with Rem Koolhaas — framing a shift in design practice from object-based production toward integrated systems and collaborative frameworks. A rare instance of a major firm principal articulating a practice theory publicly at a design fair."
+    }
+  ]
+}
