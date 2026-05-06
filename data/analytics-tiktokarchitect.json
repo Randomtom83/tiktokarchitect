@@ -23,30 +23,30 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "STRONG",
-    "rec_title": "The Pan-African Architecture Biennale is Coming — Here's Why It Changes Everything for Black Architects",
-    "rec_reason": "The ArchDaily May editorial focus on decolonizing the global architectural canon scores the highest audience resonance (0.91) because it maps directly onto Tom's two strongest audience signals: the 'Appreciation for Black architectural history and underrepresented figures' comment theme (55 comments, trending UP) and the 'Diversity, equity and access in the architecture profession' theme (35 comments, trending UP). The inaugural Pan-African Architecture Biennale — confirmed for Nairobi in September 2026, curated by Somali-Italian architect Omar Degan, representing all 54 African nations — is a concrete, timely news peg that Tom has NOT yet covered in his recent videos (he posted about the Biennale on 2026-04-27 using only a title mention with no description, suggesting a brief reference rather than a dedicated explainer). However, the deeper ArchDaily editorial framing — that 20th-century non-Western architectures were not derivative of European modernism but active sites of reinterpretation — is a fresh intellectual angle Tom has not explored as a dedicated talking-head piece. The audience request for 'Do a profile on Louis A. S. Bellinger / other lesser-known Black architects not yet covered' (4 requests) further validates demand for exactly this expanded-canon content. The c_blackarch_history cluster has the highest avg_engagement of all clusters (0.1192) and a steady trend, while the talking_head format also posts the second-highest avg_engagement (0.1132) and is his most-used format — making this a high-confidence pairing. The NIA platform (c_nia_platform) can be organically woven in as the tool that surfaces these underrepresented figures, answering the 2 standing 'What is the NIA website link?' questions simultaneously.",
-    "rec_confidence": 0.87,
+    "rec_title": "A Small Black-Owned Firm Just Landed Two Major NYC Museum Commissions at Once — Here's What That Actually Means",
+    "rec_reason": "Peterson Rich Office (PRO) — a Brooklyn-based firm founded in 2014 — is simultaneously designing the Brooklyn Museum's Arts of Africa galleries ($13M, 6,400 sq ft) and the new Condé M. Nast Galleries at the Metropolitan Museum of Art. This has not appeared in any of Tom's recent videos or titles. It maps directly to his two highest-comment audience themes: appreciation for underrepresented figures in architecture (55 comments, trending up) and diversity, equity and access in the profession (35 comments, trending up). The 'c_blackarch_history' cluster carries his second-highest avg engagement at 0.1192 and is steady. The PRO story also threads into 'c_profession_industry' (trending up, 0.095 engagement) because it speaks to how small firms build institutional credibility — a career-relevant framing his audience actively discusses (25 comments on scope/licensure/professional pathways). The 'talking_head' format is his most-used (28 videos) and tied for highest avg engagement at 0.1132. An audience request for profiles on lesser-known Black architects (4 requests) and content on diversity/access in the profession reinforces this angle. The Brooklyn Museum's Arts of Africa framing also creates a natural connection to Tom's NIA platform content and Pan-African architecture coverage without repeating the Biennale recommendation already flagged as off-limits.",
+    "rec_confidence": 0.81,
     "talking_points": [
-      "ArchDaily has declared May the month of 'decolonizing architectural history' — explain what that actually means in plain language: the canon we were all taught (Bauhaus, Le Corbusier, Mies) was never the whole story, and institutions are finally making structural — not just rhetorical — commitments to fix that.",
-      "The inaugural Pan-African Architecture Biennale in Nairobi (September 2026), curated by Omar Degan and representing all 54 African nations, is the most significant institutional signal yet that African architecture is no longer being framed as peripheral — and explain why this matters specifically for Black architects practicing in the US right now.",
-      "Connect this to Tom's own NIA platform: the Biennale and ArchDaily's editorial pivot are exactly why a database of Black architects exists — because the archive has always been there, it just wasn't being amplified. Drop the NIA link and explain how viewers can use it to go deeper.",
-      "Name-check at least one architect from this emerging pan-African moment who hasn't appeared in Tom's recent videos — for example, Mariam Kamara was already covered on 2026-04-27, so pivot to a figure like Olalekan Jeyifous, Lesley Lokko, or another architect central to the Biennale's curatorial framework.",
-      "End with the provocation ArchDaily itself is raising: if you learned 'modernism' without learning its African, Latin American, or Middle Eastern expressions, your architectural education was incomplete — what does that mean for how we teach, hire, and credit in the profession today?"
+      "Introduce Peterson Rich Office (PRO): who they are, when they were founded, and what it means for a 10-year-old Brooklyn firm to land two simultaneous commissions at the Brooklyn Museum and the Met — without starchitect brand power",
+      "Break down PRO's design philosophy at the Brooklyn Museum's Arts of Africa galleries: exposing contemporary infrastructure (lighting, climate control) as a visible new layer rather than hiding it — treating the museum's evolution as an honest architectural statement, not erasure",
+      "Connect this to the broader pattern Tom's audience cares about: cultural institutions are now selecting architects based on demonstrated contextual intelligence over name recognition — what does that mean for smaller, diverse, and emerging practices trying to break in?",
+      "Tie it to the NIA platform angle: PRO is exactly the kind of firm the database exists to spotlight — how do Black architects and small culturally specific practices get in front of institutional clients, and what does the selection process actually look like?",
+      "Pose the open question to the audience: Is this a shift in how museums hire architects, or is PRO an outlier? Invite viewers to share examples of other small or minority-owned firms landing major cultural commissions — drives comments and community signal"
     ],
     "reference_urls": [
       {
-        "title": "20th Century Design in Flux: ArchDaily's May Editorial Focus",
-        "url": "https://www.archdaily.com/1041123/20th-century-design-in-flux-archdailys-may-editorial-focus",
+        "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
+        "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
         "source": "ArchDaily"
       },
       {
-        "title": "Sharjah Architecture Triennial Presents A Journey into Architecture Archives: Baghdad, Damascus, Tunis",
-        "url": "https://www.archdaily.com/1040836/sharjah-architecture-triennial-presents-a-journey-into-architecture-archives-focused-on-baghdad-damascus-and-tunis",
-        "source": "ArchDaily"
+        "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
+        "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
+        "source": "The Architect's Newspaper"
       }
     ],
     "suggested_format": "talking_head",
-    "suggested_length": "90-120s"
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
@@ -25308,34 +25308,29 @@
   ],
   "external_trends": [
     {
-      "topic": "Kengo Kuma's cathedral intervention proves that 'contextual dialogue' is now a flashpoint — not a consensus — in heritage architecture",
-      "audience_resonance": 0.41,
-      "source": "Dezeen / Designboom"
+      "topic": "Parametricism gets a critical reckoning: Dezeen launches a dedicated series framing it as the architecture of neoliberalism",
+      "audience_resonance": 0.42,
+      "source": "Dezeen"
     },
     {
-      "topic": "Milan Design Week's 'brandification' crisis is forcing a reckoning about what design festivals are actually for",
-      "audience_resonance": 0.28,
+      "topic": "Abandoned retail infrastructure becomes the new prestige adaptive reuse typology — malls into campuses",
+      "audience_resonance": 0.55,
       "source": "Dezeen / ArchDaily"
     },
     {
-      "topic": "Embodied carbon is no longer just a value — it's a competitive technical differentiator embedded in project permits and software pipelines",
-      "audience_resonance": 0.38,
+      "topic": "Smiljan Radić's Pritzker lecture reframes architectural knowledge as distraction and lived experience — a direct challenge to formal education orthodoxy",
+      "audience_resonance": 0.61,
       "source": "ArchDaily"
     },
     {
-      "topic": "The White House ballroom saga has become architecture's ongoing test case for political authority vs. institutional design review",
+      "topic": "Museum architecture commissions are going to small, culturally specific practices — not to brand-name starchitects",
+      "audience_resonance": 0.78,
+      "source": "ArchDaily / The Architect's Newspaper"
+    },
+    {
+      "topic": "Biobased, carbon-negative housing prototypes are being delivered at neighborhood scale in Europe — not just exhibited",
       "audience_resonance": 0.52,
-      "source": "Dezeen / Architectural Record"
-    },
-    {
-      "topic": "Global architectural canon is being actively decolonized — and ArchDaily is making it the editorial spine of May",
-      "audience_resonance": 0.91,
-      "source": "ArchDaily / Dezeen"
-    },
-    {
-      "topic": "IKEA repurposing its own warehouse as a furniture museum (via Cobe) signals a new typology: the brand-heritage institution as adaptive reuse project",
-      "audience_resonance": 0.29,
-      "source": "Dezeen"
+      "source": "ArchDaily"
     }
   ]
 }

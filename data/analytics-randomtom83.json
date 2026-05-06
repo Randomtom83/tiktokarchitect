@@ -23,34 +23,18 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_bluey_kids_media",
     "verdict": "STRONG",
-    "rec_title": "Sophia settles the debate: Are Bluey characters Disney princesses? (we do the research together)",
-    "rec_reason": "The single highest-volume audience question on this account — with 8 instances — is 'Are Bluey characters Disney princesses?' It maps directly to c_bluey_kids_media, which is the highest-engagement cluster at 0.1196 avg engagement, nearly double the car ride cluster (0.0653). The 'Engagement with children's media and pop culture references' comment theme is trending UP with 15 comments. The Bluey videos posted in late January/early February 2026 are well outside the 30-day window, and no Bluey content appears in the recent video list. Audience requests also call for more content showing Sophia's language development and curious questions — this format delivers both. The personal_story format scores 0.0846 engagement, and blending it with a reaction element (Sophia reacting to evidence) mirrors the tutorial format (0.0849) — both outperform the standard walkthrough Tom defaults to.",
-    "rec_confidence": 0.88,
+    "rec_title": "Sophia explains what happens when you die — and somehow she's not wrong",
+    "rec_reason": "This recommendation fuses three of the strongest signals on the account. The c_bluey_kids_media cluster has the highest avg_engagement of any cluster (0.1196), and the top two audience conversation themes are both centered on the father-daughter relationship (45 comments, trending UP) and Sophia's personality and development (40 comments, steady). Separately, the c_grief_personal cluster — though tiny (2 videos) — generated active community grief support (5 comments) and a follow-up request from 2 audience members. A video where Tom asks Sophia what she thinks happens when people die blends all three: it showcases Sophia's curious mind and language development (what viewers explicitly request more of), it gives Tom a natural opening to weave in personal grief or family memory context (which the audience has shown emotional investment in), and it mirrors the high-engagement pattern of the Bluey content — big, emotionally resonant topics filtered through a child's innocent and often surprising perspective. This topic has NOT appeared in any recent video. The 'generational trauma' video (May 6) touched emotional territory but from Tom's POV; this flips it to Sophia's voice, which is where the audience engagement lives.",
+    "rec_confidence": 0.81,
     "talking_points": [
-      "Open with the audience question directly — 'Eight of you asked me this and I cannot let it go unanswered' — making the community feel seen and looping in new viewers on the stakes",
-      "Walk through the actual Disney princess criteria with Sophia (she has to be royal OR recognized as a princess, featured in a Disney property, be a central character) and let her weigh in on each Bluey character one by one — Bluey, Bingo, Mum, Chilli",
-      "Land on the emotional core: even if they don't technically qualify by Disney's rules, Sophia explains in her own words why Bluey IS a princess to her — let her define it herself, which mirrors the 'challenging generational expectations' tone that resonates most in comments",
-      "Tease the follow-up question Sophia will inevitably ask — 'Can Bambi be a princess too?' — to bridge into potential Bambi content and fulfill the audience request for Bambi + Sophia together",
-      "Close with a direct CTA to the 8 people who asked: 'This one's for you — did we get it right?'"
+      "Ask Sophia directly and openly: 'What do you think happens when someone dies?' — let her answer fully without steering, capturing the unfiltered preschooler logic that drives the account's highest engagement",
+      "Follow her lead into wherever she goes — heaven, sleeping, turning into animals, stars — and react genuinely rather than correcting, which is where the emotional and funny moments tend to land",
+      "If it feels natural in the moment, gently connect it to a real family memory (a grandparent, a relative she's heard about) to give the video emotional weight beyond just 'cute kid quote' — this is what separates the account's personal story content from generic dad content",
+      "Let the ending breathe — don't rush to wrap it up with a joke or a lesson. The audience conversation data shows they stay for the emotional sincerity, not the punchline",
+      "Optional: frame it in the title or caption as something Sophia brought up herself rather than a prompted question — audience comment patterns show they engage more when Sophia appears to be driving the conversation"
     ],
-    "reference_urls": [
-      {
-        "title": "No external article needed — this is audience-generated content",
-        "url": "https://www.tiktok.com/tag/blueyadults",
-        "source": "TikTok #blueyadults community"
-      },
-      {
-        "title": "Disney Princess franchise official lineup (for on-camera reference)",
-        "url": "https://princess.disney.com",
-        "source": "Disney"
-      },
-      {
-        "title": "Bluey official character guide (for on-camera fact-checking with Sophia)",
-        "url": "https://www.bluey.tv/characters/",
-        "source": "Bluey Official"
-      }
-    ],
-    "suggested_format": "reaction",
+    "reference_urls": [],
+    "suggested_format": "personal_story",
     "suggested_length": "60-90s"
   },
   "videos": [
