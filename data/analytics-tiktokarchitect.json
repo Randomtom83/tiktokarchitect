@@ -21,28 +21,33 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_black_arch_history",
+    "best_performing_cluster_id": "c_arch_profession",
     "verdict": "STRONG",
-    "rec_title": "How a Small Black-Owned Firm Just Landed Two Major NYC Museum Commissions — And What That Actually Means for Architecture",
-    "rec_reason": "Peterson Rich Office (PRO) — a Brooklyn-based firm founded in 2014 — has simultaneously landed the Brooklyn Museum's Arts of Africa galleries ($13M, 6,400 sq ft) and the new Condé M. Nast Galleries at the Metropolitan Museum of Art. This has NOT been covered in any recent video. The Brooklyn Museum commission is directly tied to African art representation, which sits squarely in Tom's highest-engagement cluster (c_black_arch_history, avg_engagement 0.1208) and maps to the #1 rising audience conversation theme: 'Appreciation for Black architect history and representation in the profession' (55 comments, trend up). The 'small culturally specific firm over starchitect' angle also feeds the diversity/equity theme (30 comments, trend up) and the profession commentary cluster (c_arch_profession). The 'exposed infrastructure as historical honesty' design philosophy gives Tom a concrete architectural detail to unpack in his characteristic walkthrough-meets-personal-commentary style, and the question of how small firms win institutional commissions directly mirrors Tom's own practice positioning. Audience request data also shows demand for architecture profession commentary and personal practice insight, making this a natural bridge between external news and Tom's lived experience.",
+    "rec_title": "The Government Just Cut Architecture's Student Loan Limit in Half — Here's What That Actually Means",
+    "rec_reason": "The federal de-professionalization story scores the highest audience resonance (0.82) of any trending topic because it directly collides with three of Tom's strongest existing signals: (1) the 'Diversity, equity and barriers to entry in the architecture profession' audience conversation theme is trending UP with 30 comments — and this policy mechanically raises the financial barrier to entry; (2) the 'Architecture Profession, Industry Commentary & Personal Practice' cluster (c_arch_profession) is his most personally credible content zone, with steady engagement at 0.0926; (3) audience requests for 'how to get into architecture or the ARE licensing process' (3 requests) and 'what architects are legally allowed to do across different states' (2 requests) show genuine appetite for profession-access content. The Pritzker angle (Radić's anti-institutional thesis) provides a sharp rhetorical counterpoint that makes this more than a policy explainer — it becomes a genuine tension piece. Critically, Tom has covered the Pan-African Architecture Biennale and profession commentary recently, but has posted nothing touching the AIA loan ruling or ARE access barriers in the last 30 days. This is also the highest-stakes story in architecture right now and is dramatically under-covered relative to its impact, making early coverage advantageous for discovery.",
     "rec_confidence": 0.81,
     "talking_points": [
-      "Peterson Rich Office is a 10-year-old Brooklyn firm — not a starchitect shop — and they just landed two simultaneous New York museum commissions in the same season. What does that tell us about how cultural institutions are actually selecting architects right now?",
-      "Their design philosophy at the Brooklyn Museum deliberately exposes new infrastructure — lighting, climate control — as a visible layer rather than hiding it, treating the building's evolution as an honest statement. Break down why that's a genuine critical position, not just an aesthetic choice.",
-      "The Brooklyn Museum commission is specifically for the Arts of Africa galleries — connect this to the broader conversation Tom's audience is already having about representation, who gets to design spaces that hold Black and African cultural heritage, and whether that matters.",
-      "Zoom out to the pattern: cultural institutions are consistently moving away from brand-name starchitects toward smaller firms with demonstrated contextual intelligence. What does that mean for mid-career Black architects trying to break into institutional work?",
-      "Make it personal — as a practicing Black architect, what would it take for a firm like Tom's to be in that conversation? What does the commission pipeline actually look like, and what role does community trust play versus portfolio prestige?"
+      "Break down the concrete change: starting July 1, 2026, M.Arch and D.Arch graduates are capped at $20,500/year in federal loans — less than half the $50,000 available to students in federally designated 'professional' programs like law and medicine — and explain what that math means for a 3-year M.Arch program in real dollars.",
+      "Connect this directly to who gets filtered out: students without family wealth or generational access to capital, which disproportionately affects the exact pipeline of Black and first-generation architects that Tom's platform exists to support — this is not an abstract policy story.",
+      "Surface the live schism inside the profession: the AIA president calls it a 'policy failure,' but professors Dietz and Deamer called the ruling 'devastating, and also welcome' — meaning some architects think the credential structure itself has failed and this forces a reckoning. Tom should take a position.",
+      "Bring in the Pritzker counterpoint: the 2026 Pritzker winner Smiljan Radić just argued that architecture is learned through lived experience, not institutions — so in the same week the government is slashing access to architecture schools, the field's top prize went to someone who argues formal training isn't the point. What does that contradiction mean for someone trying to get into the profession right now?",
+      "Close with a practical call to action: what should students, parents, and pre-architecture undergrads actually do before July 1 — including what the AIA is asking members to do — and where Tom's own NIA platform fits into building access pathways outside traditional credentialing."
     ],
     "reference_urls": [
       {
-        "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
-        "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
-        "source": "ArchDaily"
+        "title": "AIA says deprofessionalization may push students from architecture",
+        "url": "https://www.dezeen.com/2026/05/06/aia-architecture-degress-professional-degree/",
+        "source": "Dezeen"
       },
       {
-        "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
-        "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
-        "source": "The Architect's Newspaper"
+        "title": "Federal 'Professional Degree' Definition Excludes Architecture — Member Briefing",
+        "url": "https://www.aia.org/resource-center/federal-professional-degree-definition-excludes-architecture-member-briefing",
+        "source": "AIA (Architect Magazine)"
+      },
+      {
+        "title": "Smiljan Radić to Lead 2026 Pritzker Laureate Lecture and Panel on 'Architecture: Distraction and Knowledge'",
+        "url": "https://www.archdaily.com/1041221/smiljan-radic-to-lead-2026-pritzker-laureate-lecture-and-panel-on-architecture-distraction-and-knowledge",
+        "source": "ArchDaily"
       }
     ],
     "suggested_format": "personal_story",
@@ -25278,29 +25283,34 @@
   ],
   "external_trends": [
     {
-      "topic": "Parametricism gets a critical reckoning: Dezeen launches a dedicated series framing it as the architecture of neoliberalism",
-      "audience_resonance": 0.35,
+      "topic": "Parametricism is back on trial — Dezeen launches a multi-part critical series as Patrik Schumacher admits he's 'not happy' with adoption speed",
+      "audience_resonance": 0.38,
       "source": "Dezeen"
     },
     {
-      "topic": "Abandoned retail infrastructure becomes the new prestige adaptive reuse typology — malls into campuses",
-      "audience_resonance": 0.52,
-      "source": "Dezeen / ArchDaily"
+      "topic": "The federal de-professionalization of architecture degrees is now live policy — the AIA escalates its public fight",
+      "audience_resonance": 0.82,
+      "source": "Dezeen / AIA"
     },
     {
-      "topic": "Smiljan Radić's Pritzker lecture reframes architectural knowledge as distraction and lived experience — a direct challenge to formal education orthodoxy",
-      "audience_resonance": 0.48,
-      "source": "ArchDaily"
+      "topic": "Cultural institutions are choosing small, context-literate firms for adaptive gallery interventions inside landmark buildings",
+      "audience_resonance": 0.51,
+      "source": "Dezeen / ArchDaily / The Architect's Newspaper"
     },
     {
-      "topic": "Museum architecture commissions are going to small, culturally specific practices — not to brand-name starchitects",
+      "topic": "Gensler's Trump Tower Tbilisi commission signals high-profile Western firms entering authoritarian-adjacent emerging markets despite reputational risk",
+      "audience_resonance": 0.29,
+      "source": "Dezeen / The Architect's Newspaper"
+    },
+    {
+      "topic": "Pritzker Prize 2026 frames architecture as experiential knowledge over formal training — a direct counterpoint to the de-professionalization debate",
       "audience_resonance": 0.71,
-      "source": "ArchDaily / The Architect's Newspaper"
+      "source": "ArchDaily"
     },
     {
-      "topic": "Biobased, carbon-negative housing prototypes are being delivered at neighborhood scale in Europe — not just exhibited",
-      "audience_resonance": 0.44,
-      "source": "ArchDaily"
+      "topic": "Africa is consolidating as a site of architectural legitimacy — two major institutional moves in the same week",
+      "audience_resonance": 0.62,
+      "source": "ArchDaily / The Architect's Newspaper"
     }
   ]
 }
