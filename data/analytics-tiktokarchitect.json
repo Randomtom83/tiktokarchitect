@@ -4,7 +4,7 @@
     "display_name": "Tom Reynolds",
     "followers": 0,
     "following": 0,
-    "updated_at": "2026-05-06T10:18:30.454459"
+    "updated_at": "2026-05-07T10:23:12.181397"
   },
   "overview": {
     "date_range": {
@@ -12,41 +12,20 @@
       "end": "2026-05-01"
     },
     "videos": 1051,
-    "views": 3570690,
-    "likes": 331030,
-    "comments": 16722,
-    "shares": 6596,
+    "views": 3570987,
+    "likes": 331050,
+    "comments": 16560,
+    "shares": 6597,
     "engagement_rate": 0.0992,
     "new_followers": 0,
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_blackarch_history",
-    "verdict": "STRONG",
-    "rec_title": "A Small Black-Owned Firm Just Landed Two Major NYC Museum Commissions at Once — Here's What That Actually Means",
-    "rec_reason": "Peterson Rich Office (PRO) — a Brooklyn-based firm founded in 2014 — is simultaneously designing the Brooklyn Museum's Arts of Africa galleries ($13M, 6,400 sq ft) and the new Condé M. Nast Galleries at the Metropolitan Museum of Art. This has not appeared in any of Tom's recent videos or titles. It maps directly to his two highest-comment audience themes: appreciation for underrepresented figures in architecture (55 comments, trending up) and diversity, equity and access in the profession (35 comments, trending up). The 'c_blackarch_history' cluster carries his second-highest avg engagement at 0.1192 and is steady. The PRO story also threads into 'c_profession_industry' (trending up, 0.095 engagement) because it speaks to how small firms build institutional credibility — a career-relevant framing his audience actively discusses (25 comments on scope/licensure/professional pathways). The 'talking_head' format is his most-used (28 videos) and tied for highest avg engagement at 0.1132. An audience request for profiles on lesser-known Black architects (4 requests) and content on diversity/access in the profession reinforces this angle. The Brooklyn Museum's Arts of Africa framing also creates a natural connection to Tom's NIA platform content and Pan-African architecture coverage without repeating the Biennale recommendation already flagged as off-limits.",
-    "rec_confidence": 0.81,
-    "talking_points": [
-      "Introduce Peterson Rich Office (PRO): who they are, when they were founded, and what it means for a 10-year-old Brooklyn firm to land two simultaneous commissions at the Brooklyn Museum and the Met — without starchitect brand power",
-      "Break down PRO's design philosophy at the Brooklyn Museum's Arts of Africa galleries: exposing contemporary infrastructure (lighting, climate control) as a visible new layer rather than hiding it — treating the museum's evolution as an honest architectural statement, not erasure",
-      "Connect this to the broader pattern Tom's audience cares about: cultural institutions are now selecting architects based on demonstrated contextual intelligence over name recognition — what does that mean for smaller, diverse, and emerging practices trying to break in?",
-      "Tie it to the NIA platform angle: PRO is exactly the kind of firm the database exists to spotlight — how do Black architects and small culturally specific practices get in front of institutional clients, and what does the selection process actually look like?",
-      "Pose the open question to the audience: Is this a shift in how museums hire architects, or is PRO an outlier? Invite viewers to share examples of other small or minority-owned firms landing major cultural commissions — drives comments and community signal"
-    ],
-    "reference_urls": [
-      {
-        "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
-        "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
-        "source": "ArchDaily"
-      },
-      {
-        "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
-        "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
-        "source": "The Architect's Newspaper"
-      }
-    ],
-    "suggested_format": "talking_head",
-    "suggested_length": "60-90s"
+    "best_performing_cluster_id": null,
+    "verdict": "MEH",
+    "rec_title": "",
+    "rec_reason": "",
+    "rec_confidence": 0
   },
   "videos": [
     {
@@ -55,11 +34,11 @@
       "description": "Architect the Game got an update #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-26",
       "duration": 306,
-      "views": 286,
+      "views": 287,
       "likes": 22,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0839,
+      "engagement_rate": 0.0836,
       "sentiment": {
         "positive": 1.0,
         "neutral": 0.0,
@@ -67,8 +46,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7632913466541526302",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
-      "style": null,
+      "cluster": "c_nia_game_education",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -78,11 +57,11 @@
       "description": "Replying to @lightfoot_ about the NAACP's ACT-SO competition",
       "date": "2026-04-25",
       "duration": 274,
-      "views": 259,
-      "likes": 19,
+      "views": 266,
+      "likes": 20,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.0772,
+      "engagement_rate": 0.0789,
       "sentiment": {
         "positive": 1.0,
         "neutral": 0.0,
@@ -90,8 +69,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7632727199937809695",
       "has_transcript": false,
-      "cluster": "c_profession_industry",
-      "style": "reaction",
+      "cluster": "c_nia_game_education",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -101,11 +80,11 @@
       "description": "so excited about the talent coming out of the New Jersey NAACPs ACT-SO competition in architecture",
       "date": "2026-04-25",
       "duration": 60,
-      "views": 369,
+      "views": 374,
       "likes": 35,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.0976,
+      "engagement_rate": 0.0963,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -113,7 +92,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7632717698010451230",
       "has_transcript": false,
-      "cluster": "c_profession_industry",
+      "cluster": "c_nia_game_education",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -124,11 +103,11 @@
       "description": "fun fact, i completed in this competition at the state and national level many many years ago @Naacppodcasts @NAACP Image Awards @Youth and College Di ",
       "date": "2026-04-25",
       "duration": 31,
-      "views": 630,
+      "views": 632,
       "likes": 84,
       "comments": 3,
       "shares": 0,
-      "engagement_rate": 0.1381,
+      "engagement_rate": 0.1377,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -136,8 +115,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7632677249409420575",
       "has_transcript": false,
-      "cluster": "c_profession_industry",
-      "style": "talking_head",
+      "cluster": "c_nia_game_education",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -147,11 +126,11 @@
       "description": "Wheel Of Code!  #CodeQuestions #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-25",
       "duration": 294,
-      "views": 189,
+      "views": 192,
       "likes": 11,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0688,
+      "engagement_rate": 0.0677,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -170,11 +149,11 @@
       "description": "time for another #CodeQuestions  #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-24",
       "duration": 561,
-      "views": 321,
+      "views": 325,
       "likes": 29,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0966,
+      "engagement_rate": 0.0954,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -205,8 +184,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7632458611557518622",
       "has_transcript": false,
-      "cluster": "c_profession_industry",
-      "style": "personal_story",
+      "cluster": "c_arch_profession",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -228,8 +207,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7632012341219052830",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": null,
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -239,11 +218,11 @@
       "description": "i really need to figure out the collapse of my supports.  the face didn't print right",
       "date": "2026-04-23",
       "duration": 36,
-      "views": 445,
+      "views": 448,
       "likes": 31,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0742,
+      "engagement_rate": 0.0737,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -251,8 +230,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7631983056613625118",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -274,7 +253,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7631772624896544030",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
+      "cluster": "c_black_arch_history",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -285,11 +264,11 @@
       "description": "code questions: accessory dwelling units #adu #blackarchitect #blackarchitecturetiktok #CodeQuestions ",
       "date": "2026-04-22",
       "duration": 199,
-      "views": 294,
-      "likes": 21,
+      "views": 297,
+      "likes": 22,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.0748,
+      "engagement_rate": 0.0774,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -320,8 +299,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7631303104721358110",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": null,
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -331,11 +310,11 @@
       "description": "John S Chase, #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-21",
       "duration": 120,
-      "views": 891,
-      "likes": 141,
+      "views": 899,
+      "likes": 142,
       "comments": 6,
       "shares": 4,
-      "engagement_rate": 0.1695,
+      "engagement_rate": 0.1691,
       "sentiment": {
         "positive": 0.67,
         "neutral": 0.33,
@@ -343,8 +322,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7631244864696356127",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -354,11 +333,11 @@
       "description": "wouldn't that be fun? ",
       "date": "2026-04-20",
       "duration": 53,
-      "views": 293,
+      "views": 294,
       "likes": 16,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.058,
+      "engagement_rate": 0.0578,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -366,8 +345,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7630982443608116511",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
-      "style": "reaction",
+      "cluster": null,
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -377,11 +356,11 @@
       "description": "Harvey Bernard Gantt #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-20",
       "duration": 48,
-      "views": 447,
-      "likes": 64,
+      "views": 451,
+      "likes": 65,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.1477,
+      "engagement_rate": 0.1486,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -389,8 +368,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7630859745800326431",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -400,11 +379,11 @@
       "description": "what do we do with Sir David Frank Adjaye? #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-18",
       "duration": 276,
-      "views": 188,
+      "views": 189,
       "likes": 16,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0851,
+      "engagement_rate": 0.0847,
       "sentiment": {
         "positive": 1.0,
         "neutral": 0.0,
@@ -412,8 +391,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7630148051214011678",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -423,11 +402,11 @@
       "description": "thank you for today's rabbit hole. see you on the next one #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-18",
       "duration": 148,
-      "views": 422,
+      "views": 424,
       "likes": 34,
       "comments": 6,
       "shares": 0,
-      "engagement_rate": 0.0948,
+      "engagement_rate": 0.0943,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -435,8 +414,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7630133395774819615",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": null,
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -458,8 +437,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7630062571168517406",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": null,
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -469,11 +448,11 @@
       "description": "#blackarchitect Clarence Wesley \"Cap\" Wigington. #blackarchitecturetiktok  learn more on NIA, link in the bio . . Taylor, D. V., & Larson, P. C. (2001). Cap Wigington: An architectural legacy in ice a",
       "date": "2026-04-17",
       "duration": 61,
-      "views": 678,
+      "views": 680,
       "likes": 85,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.1283,
+      "engagement_rate": 0.1279,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -481,8 +460,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7629853217257426207",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -504,8 +483,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7629844871334890783",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_arch_profession",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -538,11 +517,11 @@
       "description": "Replying to @mymichellle #3dprinting #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-15",
       "duration": 60,
-      "views": 468,
+      "views": 469,
       "likes": 47,
       "comments": 5,
       "shares": 0,
-      "engagement_rate": 0.1111,
+      "engagement_rate": 0.1109,
       "sentiment": {
         "positive": 0.5,
         "neutral": 0.5,
@@ -550,8 +529,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7629124040212352286",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -561,11 +540,11 @@
       "description": "#blackarchitect Julian Abele #blackarchitecturetiktok ",
       "date": "2026-04-15",
       "duration": 68,
-      "views": 799,
+      "views": 801,
       "likes": 123,
       "comments": 3,
       "shares": 10,
-      "engagement_rate": 0.1702,
+      "engagement_rate": 0.1698,
       "sentiment": {
         "positive": 0.67,
         "neutral": 0.33,
@@ -573,8 +552,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7628965151894441247",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -642,8 +621,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7627967855794949406",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -665,8 +644,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7626832905133624606",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -676,11 +655,11 @@
       "description": "this has been one of the best AI notetakers I've used @FieldyAi #ai #ainotetaker #projectmanagement #blackarchitecturetiktok #blackarchitect ",
       "date": "2026-04-08",
       "duration": 201,
-      "views": 575,
+      "views": 578,
       "likes": 44,
       "comments": 5,
       "shares": 3,
-      "engagement_rate": 0.0904,
+      "engagement_rate": 0.09,
       "sentiment": {
         "positive": 1.0,
         "neutral": 0.0,
@@ -688,8 +667,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7626486943286709534",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_arch_profession",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -699,11 +678,11 @@
       "description": "\"Mismo Lucha, Mismo Grito\" a song for the moment",
       "date": "2026-04-08",
       "duration": 192,
-      "views": 276,
+      "views": 277,
       "likes": 9,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0326,
+      "engagement_rate": 0.0325,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -711,7 +690,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7626259751952862495",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
+      "cluster": null,
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -722,11 +701,11 @@
       "description": "I'm doing silly things. so check out Architect the Game for Android #architecturelovers #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-07",
       "duration": 99,
-      "views": 564,
+      "views": 565,
       "likes": 50,
       "comments": 11,
       "shares": 1,
-      "engagement_rate": 0.1099,
+      "engagement_rate": 0.1097,
       "sentiment": {
         "positive": 0.25,
         "neutral": 0.75,
@@ -734,8 +713,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7626102631819201822",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
-      "style": "personal_story",
+      "cluster": "c_nia_game_education",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -757,8 +736,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7625669147015253278",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -780,8 +759,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7625044967823527198",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -804,7 +783,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7625017352714767647",
       "has_transcript": false,
       "cluster": "c_building_codes",
-      "style": "talking_head",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -826,8 +805,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7624291775246535966",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -837,11 +816,11 @@
       "description": "#constructionupdate i can see the finish line #blackarchitect #blackarchitecturetiktok #architecturelovers ",
       "date": "2026-04-01",
       "duration": 134,
-      "views": 413,
+      "views": 415,
       "likes": 40,
       "comments": 5,
       "shares": 0,
-      "engagement_rate": 0.109,
+      "engagement_rate": 0.1084,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -872,7 +851,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7623145487348108575",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
+      "cluster": "c_3d_printing_tools",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -895,8 +874,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7623079649786072351",
       "has_transcript": false,
-      "cluster": "c_nia_platform",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -918,8 +897,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7623067789871336734",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -941,8 +920,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7623048776130891039",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -952,11 +931,11 @@
       "description": "more updates to NIA #architecturalhistory #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-03-29",
       "duration": 38,
-      "views": 742,
+      "views": 743,
       "likes": 96,
       "comments": 7,
       "shares": 2,
-      "engagement_rate": 0.1415,
+      "engagement_rate": 0.1413,
       "sentiment": {
         "positive": 0.2,
         "neutral": 0.8,
@@ -964,7 +943,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7622674658097253663",
       "has_transcript": false,
-      "cluster": "c_nia_platform",
+      "cluster": "c_nia_game_education",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -987,8 +966,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7622479064871324959",
       "has_transcript": false,
-      "cluster": "c_nia_platform",
-      "style": "personal_story",
+      "cluster": "c_nia_game_education",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1010,7 +989,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7622320646231575838",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
+      "cluster": "c_black_arch_history",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -1033,8 +1012,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7622125132475125023",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1056,8 +1035,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7621976644969909535",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1079,8 +1058,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7621713441048251678",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1102,8 +1081,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7621649833367047454",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1125,8 +1104,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7621236313378868510",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1171,8 +1150,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7620507060119112990",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1182,11 +1161,11 @@
       "description": "making something new 😀 welcome NIA #blackarchitecturetiktok #blackarchitect ",
       "date": "2026-03-23",
       "duration": 99,
-      "views": 1152,
+      "views": 1153,
       "likes": 126,
       "comments": 28,
       "shares": 0,
-      "engagement_rate": 0.1337,
+      "engagement_rate": 0.1336,
       "sentiment": {
         "positive": 0.4,
         "neutral": 0.6,
@@ -1194,7 +1173,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7620428002148519199",
       "has_transcript": false,
-      "cluster": "c_nia_platform",
+      "cluster": "c_nia_game_education",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -1228,11 +1207,11 @@
       "description": "it's looking like a building! #blackarchitecturetiktok #blackarchitect #architecturelovers #constructionprogress  @Dacia making her guest appearance again",
       "date": "2026-02-11",
       "duration": 594,
-      "views": 1014,
+      "views": 1016,
       "likes": 102,
       "comments": 5,
       "shares": 0,
-      "engagement_rate": 0.1055,
+      "engagement_rate": 0.1053,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -1264,7 +1243,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7602248833594166559",
       "has_transcript": false,
       "cluster": "c_building_codes",
-      "style": "tutorial",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1286,8 +1265,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7595610302025043230",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1309,8 +1288,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7580739090648190239",
       "has_transcript": false,
-      "cluster": "c_building_codes",
-      "style": "talking_head",
+      "cluster": "c_arch_profession",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1320,11 +1299,11 @@
       "description": "break things that are broken",
       "date": "2025-11-24",
       "duration": 252,
-      "views": 1079,
+      "views": 1076,
       "likes": 80,
       "comments": 5,
       "shares": 1,
-      "engagement_rate": 0.0797,
+      "engagement_rate": 0.0799,
       "sentiment": {
         "positive": 0.0,
         "neutral": 0.8,
@@ -1332,7 +1311,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7576400505157586206",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
+      "cluster": "c_arch_profession",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1355,7 +1334,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7570190052626648351",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
+      "cluster": "c_black_arch_history",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1366,11 +1345,11 @@
       "description": "@Dacia second appearance  #blackarchitecturetiktok #blackarchitect #architecturelovers #constructionprogress x",
       "date": "2025-11-05",
       "duration": 451,
-      "views": 1723,
+      "views": 1722,
       "likes": 154,
       "comments": 5,
       "shares": 2,
-      "engagement_rate": 0.0934,
+      "engagement_rate": 0.0935,
       "sentiment": {
         "positive": 0.5,
         "neutral": 0.5,
@@ -1389,11 +1368,11 @@
       "description": "#blackarchitecturetiktok #blackarchitect #architecturelovers #zoning ",
       "date": "2025-11-04",
       "duration": 428,
-      "views": 829,
+      "views": 828,
       "likes": 43,
       "comments": 7,
       "shares": 1,
-      "engagement_rate": 0.0615,
+      "engagement_rate": 0.0616,
       "sentiment": {
         "positive": 0.17,
         "neutral": 0.83,
@@ -1402,7 +1381,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7568931096151280927",
       "has_transcript": false,
       "cluster": "c_building_codes",
-      "style": "tutorial",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1424,7 +1403,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7566920717791464734",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
+      "cluster": null,
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1447,8 +1426,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7566744773424467231",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1493,8 +1472,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7565909374636444959",
       "has_transcript": false,
-      "cluster": "c_building_codes",
-      "style": "tutorial",
+      "cluster": "c_arch_profession",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1516,7 +1495,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7565913722917604639",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
+      "cluster": "c_arch_profession",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1562,8 +1541,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7565709175087467807",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": null,
+      "cluster": "c_3d_printing_tools",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1585,7 +1564,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7565361398126038302",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
+      "cluster": "c_3d_printing_tools",
       "style": null,
       "watch_through": null,
       "follower_conversion": null
@@ -1608,8 +1587,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564833972258131230",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1631,7 +1610,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564811909950639390",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
+      "cluster": "c_3d_printing_tools",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1654,8 +1633,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564762497052396831",
       "has_transcript": false,
-      "cluster": "c_profession_industry",
-      "style": "talking_head",
+      "cluster": "c_arch_profession",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1677,8 +1656,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564664891433372958",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1700,7 +1679,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564627111475039519",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
+      "cluster": "c_3d_printing_tools",
       "style": null,
       "watch_through": null,
       "follower_conversion": null
@@ -1723,7 +1702,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564408139135651102",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
+      "cluster": "c_arch_profession",
       "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
@@ -1746,8 +1725,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564344799592025375",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
-      "style": "tutorial",
+      "cluster": "c_arch_profession",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1769,7 +1748,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7564088547905522975",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
+      "cluster": "c_3d_printing_tools",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1792,7 +1771,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7560365427474418975",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
+      "cluster": "c_3d_printing_tools",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1803,11 +1782,11 @@
       "description": "forgot to ask the question. does anyone still drink from the fountain? ",
       "date": "2025-10-05",
       "duration": 72,
-      "views": 1850,
+      "views": 1852,
       "likes": 63,
       "comments": 5,
       "shares": 0,
-      "engagement_rate": 0.0368,
+      "engagement_rate": 0.0367,
       "sentiment": {
         "positive": 0.2,
         "neutral": 0.8,
@@ -1816,7 +1795,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7557849805205032223",
       "has_transcript": false,
       "cluster": "c_building_codes",
-      "style": "personal_story",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1838,8 +1817,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7557709890676903198",
       "has_transcript": false,
-      "cluster": "c_profession_industry",
-      "style": "talking_head",
+      "cluster": "c_arch_profession",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1861,8 +1840,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7557418707039816990",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1874,9 +1853,9 @@
       "duration": 383,
       "views": 891,
       "likes": 81,
-      "comments": 19,
+      "comments": 17,
       "shares": 0,
-      "engagement_rate": 0.1122,
+      "engagement_rate": 0.11,
       "sentiment": {
         "positive": 0.5,
         "neutral": 0.5,
@@ -1884,8 +1863,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7557030969358781726",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1895,11 +1874,11 @@
       "description": "getting into #3dprinting ",
       "date": "2025-09-29",
       "duration": 501,
-      "views": 847,
+      "views": 845,
       "likes": 77,
       "comments": 10,
       "shares": 0,
-      "engagement_rate": 0.1027,
+      "engagement_rate": 0.103,
       "sentiment": {
         "positive": 0.5,
         "neutral": 0.5,
@@ -1907,8 +1886,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7555562958558907678",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_3d_printing_tools",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1918,11 +1897,11 @@
       "description": "#constructionprogress #architecturelovers #blackarchitecturetiktok #blackarchitect #blackarchitecturetiktok ",
       "date": "2025-09-05",
       "duration": 180,
-      "views": 1214,
+      "views": 1213,
       "likes": 116,
       "comments": 6,
       "shares": 0,
-      "engagement_rate": 0.1005,
+      "engagement_rate": 0.1006,
       "sentiment": {
         "positive": 0.33,
         "neutral": 0.67,
@@ -1954,7 +1933,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7545590216975813918",
       "has_transcript": false,
       "cluster": "c_construction_progress",
-      "style": "talking_head",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1966,9 +1945,9 @@
       "duration": 166,
       "views": 1691,
       "likes": 172,
-      "comments": 21,
+      "comments": 20,
       "shares": 5,
-      "engagement_rate": 0.1171,
+      "engagement_rate": 0.1165,
       "sentiment": {
         "positive": 0.5,
         "neutral": 0.5,
@@ -2079,11 +2058,11 @@
       "description": "#steel erection #architecturelovers #blackarchitect #blackarchitecturetiktok #constructionprogress ",
       "date": "2025-05-21",
       "duration": 137,
-      "views": 1563,
+      "views": 1562,
       "likes": 138,
       "comments": 9,
       "shares": 0,
-      "engagement_rate": 0.094,
+      "engagement_rate": 0.0941,
       "sentiment": {
         "positive": 0.12,
         "neutral": 0.88,
@@ -2114,8 +2093,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7494316476782873887",
       "has_transcript": false,
-      "cluster": "c_profession_industry",
-      "style": "personal_story",
+      "cluster": "c_arch_profession",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2137,8 +2116,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7493903542093188382",
       "has_transcript": false,
-      "cluster": "c_profession_industry",
-      "style": "walkthrough",
+      "cluster": "c_arch_profession",
+      "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2183,7 +2162,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7492435364188146974",
       "has_transcript": false,
-      "cluster": "c_personal_creative",
+      "cluster": null,
       "style": null,
       "watch_through": null,
       "follower_conversion": null
@@ -2207,7 +2186,7 @@
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7491330745802263838",
       "has_transcript": false,
       "cluster": "c_building_codes",
-      "style": "talking_head",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2252,8 +2231,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7490994952516734239",
       "has_transcript": false,
-      "cluster": "c_blackarch_history",
-      "style": "talking_head",
+      "cluster": "c_black_arch_history",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2275,8 +2254,8 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7490721081234427167",
       "has_transcript": false,
-      "cluster": "c_3dprinting_tools",
-      "style": "personal_story",
+      "cluster": "c_arch_profession",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2298,7 +2277,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7489474046304832798",
       "has_transcript": false,
-      "cluster": "c_profession_industry",
+      "cluster": "c_building_codes",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -2321,7 +2300,7 @@
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7489465497830886687",
       "has_transcript": false,
-      "cluster": "c_profession_industry",
+      "cluster": "c_arch_profession",
       "style": "tutorial",
       "watch_through": null,
       "follower_conversion": null
@@ -2631,11 +2610,11 @@
       "description": "this one isn't easy... \"empty\" party 1",
       "date": "2025-02-05",
       "duration": 589,
-      "views": 1143,
+      "views": 1144,
       "likes": 141,
       "comments": 19,
       "shares": 0,
-      "engagement_rate": 0.14,
+      "engagement_rate": 0.1399,
       "sentiment": {
         "positive": 0.33,
         "neutral": 0.67,
@@ -2815,7 +2794,7 @@
       "description": "priming the trap #architecturelovers #architecture #blackarchitect #blackarchitecturetiktok ",
       "date": "2025-01-28",
       "duration": 119,
-      "views": 5400,
+      "views": 5402,
       "likes": 218,
       "comments": 38,
       "shares": 7,
@@ -2909,9 +2888,9 @@
       "duration": 538,
       "views": 1042,
       "likes": 103,
-      "comments": 8,
+      "comments": 9,
       "shares": 2,
-      "engagement_rate": 0.1084,
+      "engagement_rate": 0.1094,
       "sentiment": {
         "positive": 0.4,
         "neutral": 0.6,
@@ -3047,9 +3026,9 @@
       "duration": 495,
       "views": 1452,
       "likes": 120,
-      "comments": 5,
+      "comments": 7,
       "shares": 4,
-      "engagement_rate": 0.0888,
+      "engagement_rate": 0.0902,
       "sentiment": {
         "positive": 0.0,
         "neutral": 0.83,
@@ -3162,9 +3141,9 @@
       "duration": 131,
       "views": 606,
       "likes": 18,
-      "comments": 3,
+      "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.0347,
+      "engagement_rate": 0.0314,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -4034,7 +4013,7 @@
       "description": "Replying to @k_alae utilizing the ADS Stormtech tanks",
       "date": "2023-07-18",
       "duration": 120,
-      "views": 3524,
+      "views": 3530,
       "likes": 26,
       "comments": 2,
       "shares": 4,
@@ -4105,9 +4084,9 @@
       "duration": 126,
       "views": 3229,
       "likes": 314,
-      "comments": 15,
+      "comments": 13,
       "shares": 3,
-      "engagement_rate": 0.1028,
+      "engagement_rate": 0.1022,
       "sentiment": {
         "positive": 0.33,
         "neutral": 0.67,
@@ -4473,9 +4452,9 @@
       "duration": 179,
       "views": 412,
       "likes": 37,
-      "comments": 1,
+      "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0922,
+      "engagement_rate": 0.0898,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -5347,9 +5326,9 @@
       "duration": 103,
       "views": 4739,
       "likes": 511,
-      "comments": 36,
+      "comments": 35,
       "shares": 6,
-      "engagement_rate": 0.1167,
+      "engagement_rate": 0.1165,
       "sentiment": {
         "positive": 0.24,
         "neutral": 0.59,
@@ -6083,9 +6062,9 @@
       "duration": 176,
       "views": 9340,
       "likes": 696,
-      "comments": 70,
+      "comments": 68,
       "shares": 7,
-      "engagement_rate": 0.0828,
+      "engagement_rate": 0.0825,
       "sentiment": {
         "positive": 0.21,
         "neutral": 0.74,
@@ -6474,9 +6453,9 @@
       "duration": 74,
       "views": 6125,
       "likes": 672,
-      "comments": 27,
+      "comments": 23,
       "shares": 1,
-      "engagement_rate": 0.1143,
+      "engagement_rate": 0.1136,
       "sentiment": {
         "positive": 0.14,
         "neutral": 0.79,
@@ -6704,9 +6683,9 @@
       "duration": 34,
       "views": 5968,
       "likes": 544,
-      "comments": 75,
+      "comments": 73,
       "shares": 2,
-      "engagement_rate": 0.1041,
+      "engagement_rate": 0.1037,
       "sentiment": {
         "positive": 0.16,
         "neutral": 0.84,
@@ -7003,9 +6982,9 @@
       "duration": 15,
       "views": 2864,
       "likes": 365,
-      "comments": 5,
+      "comments": 2,
       "shares": 2,
-      "engagement_rate": 0.1299,
+      "engagement_rate": 0.1288,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -7026,9 +7005,9 @@
       "duration": 45,
       "views": 13000,
       "likes": 692,
-      "comments": 44,
+      "comments": 42,
       "shares": 40,
-      "engagement_rate": 0.0597,
+      "engagement_rate": 0.0595,
       "sentiment": {
         "positive": 0.29,
         "neutral": 0.71,
@@ -7141,9 +7120,9 @@
       "duration": 26,
       "views": 2470,
       "likes": 301,
-      "comments": 21,
+      "comments": 20,
       "shares": 10,
-      "engagement_rate": 0.1344,
+      "engagement_rate": 0.134,
       "sentiment": {
         "positive": 0.17,
         "neutral": 0.83,
@@ -7277,7 +7256,7 @@
       "description": "an alternative masonry for a wood fireplace #blackarchitect #constructionprogress",
       "date": "2022-05-16",
       "duration": 144,
-      "views": 2605,
+      "views": 2606,
       "likes": 240,
       "comments": 18,
       "shares": 2,
@@ -7306,9 +7285,9 @@
       "shares": 0,
       "engagement_rate": 0.0902,
       "sentiment": {
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
+        "positive": 0.0,
+        "neutral": 1.0,
+        "negative": 0.0
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7098099999187143978",
       "has_transcript": false,
@@ -7329,9 +7308,9 @@
       "shares": 2,
       "engagement_rate": 0.0747,
       "sentiment": {
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
+        "positive": 0.0,
+        "neutral": 1.0,
+        "negative": 0.0
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7097314392244571434",
       "has_transcript": false,
@@ -7352,9 +7331,9 @@
       "shares": 2,
       "engagement_rate": 0.0823,
       "sentiment": {
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
+        "positive": 0.0,
+        "neutral": 1.0,
+        "negative": 0.0
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7096480136274464046",
       "has_transcript": false,
@@ -7375,9 +7354,9 @@
       "shares": 1,
       "engagement_rate": 0.0366,
       "sentiment": {
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
+        "positive": 0.15,
+        "neutral": 0.85,
+        "negative": 0.0
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7095904075312844078",
       "has_transcript": false,
@@ -7398,9 +7377,9 @@
       "shares": 7,
       "engagement_rate": 0.1172,
       "sentiment": {
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
+        "positive": 0.19,
+        "neutral": 0.75,
+        "negative": 0.06
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7095855383042067758",
       "has_transcript": false,
@@ -7421,9 +7400,9 @@
       "shares": 0,
       "engagement_rate": 0.0722,
       "sentiment": {
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
+        "positive": 0.75,
+        "neutral": 0.25,
+        "negative": 0.0
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7094362663509298478",
       "has_transcript": false,
@@ -7444,9 +7423,9 @@
       "shares": 2,
       "engagement_rate": 0.0698,
       "sentiment": {
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
+        "positive": 0.43,
+        "neutral": 0.43,
+        "negative": 0.14
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7094268650999385387",
       "has_transcript": false,
@@ -7463,13 +7442,13 @@
       "duration": 180,
       "views": 2044,
       "likes": 230,
-      "comments": 33,
+      "comments": 32,
       "shares": 1,
-      "engagement_rate": 0.1292,
+      "engagement_rate": 0.1287,
       "sentiment": {
-        "positive": 0,
-        "neutral": 0,
-        "negative": 0
+        "positive": 0.04,
+        "neutral": 0.96,
+        "negative": 0.0
       },
       "url": "https://www.tiktok.com/@tiktokarchitect/video/7094214978533805358",
       "has_transcript": false,
@@ -7555,9 +7534,9 @@
       "duration": 57,
       "views": 18400,
       "likes": 1252,
-      "comments": 78,
+      "comments": 76,
       "shares": 9,
-      "engagement_rate": 0.0728,
+      "engagement_rate": 0.0727,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -7946,9 +7925,9 @@
       "duration": 46,
       "views": 3622,
       "likes": 384,
-      "comments": 42,
+      "comments": 43,
       "shares": 1,
-      "engagement_rate": 0.1179,
+      "engagement_rate": 0.1182,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -8314,9 +8293,9 @@
       "duration": 49,
       "views": 17400,
       "likes": 3120,
-      "comments": 179,
+      "comments": 176,
       "shares": 15,
-      "engagement_rate": 0.1905,
+      "engagement_rate": 0.1903,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -8475,9 +8454,9 @@
       "duration": 41,
       "views": 4740,
       "likes": 771,
-      "comments": 19,
+      "comments": 14,
       "shares": 3,
-      "engagement_rate": 0.1673,
+      "engagement_rate": 0.1662,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -8544,9 +8523,9 @@
       "duration": 152,
       "views": 2141,
       "likes": 229,
-      "comments": 24,
+      "comments": 22,
       "shares": 3,
-      "engagement_rate": 0.1196,
+      "engagement_rate": 0.1186,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -8611,11 +8590,11 @@
       "description": "things in working on",
       "date": "2022-03-18",
       "duration": 176,
-      "views": 625,
+      "views": 626,
       "likes": 20,
       "comments": 7,
       "shares": 0,
-      "engagement_rate": 0.0432,
+      "engagement_rate": 0.0431,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -8705,9 +8684,9 @@
       "duration": 59,
       "views": 3318,
       "likes": 353,
-      "comments": 24,
+      "comments": 22,
       "shares": 1,
-      "engagement_rate": 0.1139,
+      "engagement_rate": 0.1133,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -9027,9 +9006,9 @@
       "duration": 154,
       "views": 11200,
       "likes": 1021,
-      "comments": 73,
+      "comments": 72,
       "shares": 9,
-      "engagement_rate": 0.0985,
+      "engagement_rate": 0.0984,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -9142,9 +9121,9 @@
       "duration": 30,
       "views": 4632,
       "likes": 313,
-      "comments": 63,
+      "comments": 62,
       "shares": 0,
-      "engagement_rate": 0.0812,
+      "engagement_rate": 0.081,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -9165,7 +9144,7 @@
       "duration": 180,
       "views": 22200,
       "likes": 1809,
-      "comments": 113,
+      "comments": 112,
       "shares": 14,
       "engagement_rate": 0.0872,
       "sentiment": {
@@ -9280,7 +9259,7 @@
       "duration": 180,
       "views": 48200,
       "likes": 4368,
-      "comments": 281,
+      "comments": 279,
       "shares": 32,
       "engagement_rate": 0.0971,
       "sentiment": {
@@ -9303,9 +9282,9 @@
       "duration": 63,
       "views": 408000,
       "likes": 29100,
-      "comments": 642,
+      "comments": 637,
       "shares": 637,
-      "engagement_rate": 0.0745,
+      "engagement_rate": 0.0744,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -9947,9 +9926,9 @@
       "duration": 59,
       "views": 2028,
       "likes": 166,
-      "comments": 16,
+      "comments": 15,
       "shares": 0,
-      "engagement_rate": 0.0897,
+      "engagement_rate": 0.0893,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -9970,9 +9949,9 @@
       "duration": 59,
       "views": 4597,
       "likes": 360,
-      "comments": 17,
+      "comments": 16,
       "shares": 4,
-      "engagement_rate": 0.0829,
+      "engagement_rate": 0.0827,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -10108,9 +10087,9 @@
       "duration": 180,
       "views": 2162,
       "likes": 173,
-      "comments": 15,
+      "comments": 14,
       "shares": 0,
-      "engagement_rate": 0.087,
+      "engagement_rate": 0.0865,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -10405,7 +10384,7 @@
       "description": "Reply to @louisdanlorenzo big ol closet",
       "date": "2021-12-18",
       "duration": 179,
-      "views": 1439,
+      "views": 1440,
       "likes": 38,
       "comments": 6,
       "shares": 0,
@@ -10453,9 +10432,9 @@
       "duration": 180,
       "views": 12400,
       "likes": 193,
-      "comments": 69,
+      "comments": 65,
       "shares": 2,
-      "engagement_rate": 0.0213,
+      "engagement_rate": 0.021,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -10660,9 +10639,9 @@
       "duration": 59,
       "views": 917,
       "likes": 82,
-      "comments": 6,
+      "comments": 2,
       "shares": 1,
-      "engagement_rate": 0.0971,
+      "engagement_rate": 0.0927,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -10729,9 +10708,9 @@
       "duration": 59,
       "views": 12900,
       "likes": 966,
-      "comments": 57,
+      "comments": 54,
       "shares": 20,
-      "engagement_rate": 0.0809,
+      "engagement_rate": 0.0806,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -10798,9 +10777,9 @@
       "duration": 59,
       "views": 8851,
       "likes": 1433,
-      "comments": 44,
+      "comments": 43,
       "shares": 25,
-      "engagement_rate": 0.1697,
+      "engagement_rate": 0.1696,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -10911,7 +10890,7 @@
       "description": "i am not even willing to participate today #architectlife #blackarchitect",
       "date": "2021-11-17",
       "duration": 49,
-      "views": 3556,
+      "views": 3557,
       "likes": 177,
       "comments": 21,
       "shares": 2,
@@ -11097,9 +11076,9 @@
       "duration": 180,
       "views": 1340,
       "likes": 137,
-      "comments": 15,
+      "comments": 14,
       "shares": 1,
-      "engagement_rate": 0.1142,
+      "engagement_rate": 0.1134,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11327,9 +11306,9 @@
       "duration": 130,
       "views": 1371,
       "likes": 73,
-      "comments": 24,
+      "comments": 26,
       "shares": 0,
-      "engagement_rate": 0.0708,
+      "engagement_rate": 0.0722,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11465,9 +11444,9 @@
       "duration": 181,
       "views": 540,
       "likes": 17,
-      "comments": 1,
+      "comments": 0,
       "shares": 1,
-      "engagement_rate": 0.0352,
+      "engagement_rate": 0.0333,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11488,9 +11467,9 @@
       "duration": 59,
       "views": 1514,
       "likes": 139,
-      "comments": 4,
+      "comments": 3,
       "shares": 0,
-      "engagement_rate": 0.0945,
+      "engagement_rate": 0.0938,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11741,9 +11720,9 @@
       "duration": 59,
       "views": 45600,
       "likes": 2524,
-      "comments": 119,
+      "comments": 115,
       "shares": 30,
-      "engagement_rate": 0.0586,
+      "engagement_rate": 0.0585,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11785,11 +11764,11 @@
       "description": "simplest version of #howto make a house #blackarchitect #architecture #framing #newconstruction",
       "date": "2021-10-19",
       "duration": 59,
-      "views": 2912,
+      "views": 2913,
       "likes": 254,
-      "comments": 23,
+      "comments": 22,
       "shares": 6,
-      "engagement_rate": 0.0972,
+      "engagement_rate": 0.0968,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -12109,7 +12088,7 @@
       "duration": 56,
       "views": 20800,
       "likes": 1530,
-      "comments": 55,
+      "comments": 54,
       "shares": 1,
       "engagement_rate": 0.0762,
       "sentiment": {
@@ -12132,9 +12111,9 @@
       "duration": 58,
       "views": 144800,
       "likes": 6817,
-      "comments": 280,
+      "comments": 269,
       "shares": 45,
-      "engagement_rate": 0.0493,
+      "engagement_rate": 0.0492,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -12155,9 +12134,9 @@
       "duration": 59,
       "views": 8129,
       "likes": 655,
-      "comments": 45,
+      "comments": 43,
       "shares": 4,
-      "engagement_rate": 0.0866,
+      "engagement_rate": 0.0864,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -12178,9 +12157,9 @@
       "duration": 60,
       "views": 23800,
       "likes": 1432,
-      "comments": 38,
+      "comments": 34,
       "shares": 10,
-      "engagement_rate": 0.0622,
+      "engagement_rate": 0.062,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -12201,9 +12180,9 @@
       "duration": 15,
       "views": 143200,
       "likes": 1184,
-      "comments": 62,
+      "comments": 64,
       "shares": 5,
-      "engagement_rate": 0.0087,
+      "engagement_rate": 0.0088,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -12247,9 +12226,9 @@
       "duration": 63,
       "views": 14400,
       "likes": 611,
-      "comments": 91,
+      "comments": 89,
       "shares": 9,
-      "engagement_rate": 0.0494,
+      "engagement_rate": 0.0492,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -12475,7 +12454,7 @@
       "description": "lemme upgrade ya! @brondell #swashbidet",
       "date": "2021-09-16",
       "duration": 132,
-      "views": 2628,
+      "views": 2630,
       "likes": 37,
       "comments": 7,
       "shares": 2,
@@ -12684,9 +12663,9 @@
       "duration": 10,
       "views": 1930,
       "likes": 99,
-      "comments": 26,
+      "comments": 22,
       "shares": 0,
-      "engagement_rate": 0.0648,
+      "engagement_rate": 0.0627,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -12845,9 +12824,9 @@
       "duration": 54,
       "views": 654,
       "likes": 70,
-      "comments": 9,
+      "comments": 6,
       "shares": 0,
-      "engagement_rate": 0.1208,
+      "engagement_rate": 0.1162,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -13029,9 +13008,9 @@
       "duration": 30,
       "views": 7328,
       "likes": 981,
-      "comments": 96,
+      "comments": 93,
       "shares": 8,
-      "engagement_rate": 0.1481,
+      "engagement_rate": 0.1477,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -13282,9 +13261,9 @@
       "duration": 59,
       "views": 2900,
       "likes": 369,
-      "comments": 8,
+      "comments": 7,
       "shares": 2,
-      "engagement_rate": 0.1307,
+      "engagement_rate": 0.1303,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -13303,11 +13282,11 @@
       "description": "Reply to @freshsamn #robertventuri #architect #vannaventurihouse",
       "date": "2021-08-11",
       "duration": 59,
-      "views": 1124,
+      "views": 1125,
       "likes": 34,
       "comments": 3,
       "shares": 5,
-      "engagement_rate": 0.0374,
+      "engagement_rate": 0.0373,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -13372,11 +13351,11 @@
       "description": "Robert Venturi and #icecream",
       "date": "2021-08-10",
       "duration": 57,
-      "views": 755,
+      "views": 756,
       "likes": 121,
       "comments": 19,
       "shares": 2,
-      "engagement_rate": 0.1881,
+      "engagement_rate": 0.1878,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -13420,7 +13399,7 @@
       "duration": 58,
       "views": 27300,
       "likes": 4539,
-      "comments": 200,
+      "comments": 198,
       "shares": 64,
       "engagement_rate": 0.1759,
       "sentiment": {
@@ -13834,9 +13813,9 @@
       "duration": 15,
       "views": 2543,
       "likes": 343,
-      "comments": 33,
+      "comments": 32,
       "shares": 1,
-      "engagement_rate": 0.1483,
+      "engagement_rate": 0.1479,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -14639,9 +14618,9 @@
       "duration": 165,
       "views": 896,
       "likes": 133,
-      "comments": 21,
+      "comments": 20,
       "shares": 1,
-      "engagement_rate": 0.173,
+      "engagement_rate": 0.1719,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -14890,7 +14869,7 @@
       "description": "Thomas Edison's West Orange house",
       "date": "2021-05-27",
       "duration": 38,
-      "views": 2425,
+      "views": 2426,
       "likes": 218,
       "comments": 11,
       "shares": 0,
@@ -14961,9 +14940,9 @@
       "duration": 33,
       "views": 3364,
       "likes": 633,
-      "comments": 31,
+      "comments": 28,
       "shares": 4,
-      "engagement_rate": 0.1986,
+      "engagement_rate": 0.1977,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -15237,9 +15216,9 @@
       "duration": 25,
       "views": 3587,
       "likes": 325,
-      "comments": 21,
+      "comments": 19,
       "shares": 0,
-      "engagement_rate": 0.0965,
+      "engagement_rate": 0.0959,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -15260,9 +15239,9 @@
       "duration": 59,
       "views": 1398,
       "likes": 214,
-      "comments": 22,
+      "comments": 20,
       "shares": 2,
-      "engagement_rate": 0.1702,
+      "engagement_rate": 0.1688,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -15327,11 +15306,11 @@
       "description": "Reply to @symonelove92 #hpplotter",
       "date": "2021-05-14",
       "duration": 54,
-      "views": 1382,
+      "views": 1384,
       "likes": 84,
       "comments": 22,
       "shares": 1,
-      "engagement_rate": 0.0774,
+      "engagement_rate": 0.0773,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -15352,9 +15331,9 @@
       "duration": 59,
       "views": 610,
       "likes": 87,
-      "comments": 20,
+      "comments": 18,
       "shares": 1,
-      "engagement_rate": 0.177,
+      "engagement_rate": 0.1738,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -15605,9 +15584,9 @@
       "duration": 59,
       "views": 3265,
       "likes": 587,
-      "comments": 8,
+      "comments": 9,
       "shares": 5,
-      "engagement_rate": 0.1838,
+      "engagement_rate": 0.1841,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -15626,11 +15605,11 @@
       "description": "Reply to @ohnoitsface look into having the Amish build it up there. there are some intermediaries on Facebook",
       "date": "2021-05-07",
       "duration": 15,
-      "views": 2472,
+      "views": 2474,
       "likes": 135,
       "comments": 9,
       "shares": 0,
-      "engagement_rate": 0.0583,
+      "engagement_rate": 0.0582,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -15789,9 +15768,9 @@
       "duration": 60,
       "views": 39800,
       "likes": 4369,
-      "comments": 173,
+      "comments": 170,
       "shares": 16,
-      "engagement_rate": 0.1145,
+      "engagement_rate": 0.1144,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -15973,9 +15952,9 @@
       "duration": 57,
       "views": 1040,
       "likes": 128,
-      "comments": 8,
+      "comments": 7,
       "shares": 0,
-      "engagement_rate": 0.1308,
+      "engagement_rate": 0.1298,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -15996,9 +15975,9 @@
       "duration": 47,
       "views": 1273,
       "likes": 104,
-      "comments": 9,
+      "comments": 8,
       "shares": 0,
-      "engagement_rate": 0.0888,
+      "engagement_rate": 0.088,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -16362,11 +16341,11 @@
       "description": "#stitch with @louisatalksbuildings thanks @tiotin_ for the l'arbre blanc into #architectsthoughts",
       "date": "2021-04-14",
       "duration": 15,
-      "views": 4838,
+      "views": 4839,
       "likes": 522,
       "comments": 20,
       "shares": 5,
-      "engagement_rate": 0.1131,
+      "engagement_rate": 0.113,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -16548,9 +16527,9 @@
       "duration": 29,
       "views": 538,
       "likes": 94,
-      "comments": 6,
+      "comments": 5,
       "shares": 0,
-      "engagement_rate": 0.1859,
+      "engagement_rate": 0.184,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -16686,9 +16665,9 @@
       "duration": 15,
       "views": 5590,
       "likes": 303,
-      "comments": 11,
+      "comments": 9,
       "shares": 5,
-      "engagement_rate": 0.0571,
+      "engagement_rate": 0.0567,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -16778,9 +16757,9 @@
       "duration": 60,
       "views": 555,
       "likes": 85,
-      "comments": 1,
+      "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.155,
+      "engagement_rate": 0.1532,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -16962,9 +16941,9 @@
       "duration": 52,
       "views": 619,
       "likes": 74,
-      "comments": 12,
+      "comments": 10,
       "shares": 2,
-      "engagement_rate": 0.1422,
+      "engagement_rate": 0.1389,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -17330,9 +17309,9 @@
       "duration": 15,
       "views": 977,
       "likes": 182,
-      "comments": 18,
+      "comments": 16,
       "shares": 0,
-      "engagement_rate": 0.2047,
+      "engagement_rate": 0.2027,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -17491,9 +17470,9 @@
       "duration": 15,
       "views": 1937,
       "likes": 324,
-      "comments": 37,
+      "comments": 36,
       "shares": 6,
-      "engagement_rate": 0.1895,
+      "engagement_rate": 0.189,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -17813,9 +17792,9 @@
       "duration": 41,
       "views": 1041,
       "likes": 150,
-      "comments": 10,
+      "comments": 8,
       "shares": 3,
-      "engagement_rate": 0.1566,
+      "engagement_rate": 0.1547,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -17928,9 +17907,9 @@
       "duration": 62,
       "views": 1641,
       "likes": 356,
-      "comments": 7,
+      "comments": 8,
       "shares": 5,
-      "engagement_rate": 0.2243,
+      "engagement_rate": 0.2249,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -17997,9 +17976,9 @@
       "duration": 60,
       "views": 1923,
       "likes": 273,
-      "comments": 29,
+      "comments": 27,
       "shares": 2,
-      "engagement_rate": 0.1581,
+      "engagement_rate": 0.157,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -18018,7 +17997,7 @@
       "description": "#howto draw a wall like an #architect",
       "date": "2021-03-01",
       "duration": 60,
-      "views": 2812,
+      "views": 2813,
       "likes": 130,
       "comments": 11,
       "shares": 1,
@@ -18204,9 +18183,9 @@
       "duration": 59,
       "views": 10100,
       "likes": 589,
-      "comments": 33,
+      "comments": 32,
       "shares": 11,
-      "engagement_rate": 0.0627,
+      "engagement_rate": 0.0626,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -18227,9 +18206,9 @@
       "duration": 60,
       "views": 2276,
       "likes": 533,
-      "comments": 25,
+      "comments": 23,
       "shares": 8,
-      "engagement_rate": 0.2487,
+      "engagement_rate": 0.2478,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -18365,9 +18344,9 @@
       "duration": 59,
       "views": 1549,
       "likes": 205,
-      "comments": 11,
+      "comments": 7,
       "shares": 1,
-      "engagement_rate": 0.1401,
+      "engagement_rate": 0.1375,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -18593,11 +18572,11 @@
       "description": "#blackarchitect Calvin McCargo, Jr on #hiphopdance and #architecture #blackhistoryfacts #blm",
       "date": "2021-02-16",
       "duration": 48,
-      "views": 1501,
+      "views": 1502,
       "likes": 216,
       "comments": 16,
       "shares": 4,
-      "engagement_rate": 0.1572,
+      "engagement_rate": 0.1571,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -18664,9 +18643,9 @@
       "duration": 59,
       "views": 45600,
       "likes": 2502,
-      "comments": 205,
+      "comments": 198,
       "shares": 23,
-      "engagement_rate": 0.0599,
+      "engagement_rate": 0.0597,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -18710,9 +18689,9 @@
       "duration": 59,
       "views": 1559,
       "likes": 246,
-      "comments": 24,
+      "comments": 22,
       "shares": 11,
-      "engagement_rate": 0.1802,
+      "engagement_rate": 0.179,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -19007,11 +18986,11 @@
       "description": "#blackarchitect speak about advice for #architecturestudent ... get some #sleep #blackhistoryfacts #blm",
       "date": "2021-02-08",
       "duration": 47,
-      "views": 985,
+      "views": 986,
       "likes": 181,
       "comments": 7,
       "shares": 3,
-      "engagement_rate": 0.1939,
+      "engagement_rate": 0.1937,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -19053,11 +19032,11 @@
       "description": "#blackarchitect Joseph Cole on the AREs and Licensure. #blackarchitecttiktok #architecturestudent #blm",
       "date": "2021-02-08",
       "duration": 58,
-      "views": 768,
+      "views": 769,
       "likes": 134,
       "comments": 6,
       "shares": 0,
-      "engagement_rate": 0.1823,
+      "engagement_rate": 0.1821,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -19400,9 +19379,9 @@
       "duration": 8,
       "views": 2031,
       "likes": 165,
-      "comments": 19,
+      "comments": 15,
       "shares": 0,
-      "engagement_rate": 0.0906,
+      "engagement_rate": 0.0886,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -19469,7 +19448,7 @@
       "duration": 61,
       "views": 172100,
       "likes": 42200,
-      "comments": 742,
+      "comments": 743,
       "shares": 2979,
       "engagement_rate": 0.2668,
       "sentiment": {
@@ -20295,7 +20274,7 @@
       "description": "#smartdevices in my #smarthome - U by Moen. #architecture #blackarchitect #architecturestudent #architecturaldesign #blm",
       "date": "2021-01-29",
       "duration": 38,
-      "views": 3307,
+      "views": 3309,
       "likes": 402,
       "comments": 53,
       "shares": 22,
@@ -20527,9 +20506,9 @@
       "duration": 59,
       "views": 2541,
       "likes": 248,
-      "comments": 14,
+      "comments": 13,
       "shares": 0,
-      "engagement_rate": 0.1031,
+      "engagement_rate": 0.1027,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -20640,7 +20619,7 @@
       "description": "understanding scale #architecture #blackarchitect #architecturestudent #architecturaldesign #blm",
       "date": "2021-01-22",
       "duration": 60,
-      "views": 5132,
+      "views": 5133,
       "likes": 244,
       "comments": 30,
       "shares": 5,
@@ -20732,11 +20711,11 @@
       "description": "#greenscreensticker #rococoaesthetic #rococo #architecture #blackarchitect #architecturestudent #architecturaldesign #blm",
       "date": "2021-01-21",
       "duration": 59,
-      "views": 1473,
+      "views": 1474,
       "likes": 159,
       "comments": 19,
       "shares": 2,
-      "engagement_rate": 0.1222,
+      "engagement_rate": 0.1221,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -20801,11 +20780,11 @@
       "description": "#stitch with @ktmcardles.0179118 #stairs #architecture #blackarchitect #architecturestudent #architecturaldesign #blm",
       "date": "2021-01-21",
       "duration": 59,
-      "views": 6268,
+      "views": 6320,
       "likes": 970,
       "comments": 45,
       "shares": 11,
-      "engagement_rate": 0.1637,
+      "engagement_rate": 0.1623,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -20849,9 +20828,9 @@
       "duration": 15,
       "views": 3005,
       "likes": 396,
-      "comments": 40,
+      "comments": 38,
       "shares": 6,
-      "engagement_rate": 0.1471,
+      "engagement_rate": 0.1464,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -20872,9 +20851,9 @@
       "duration": 59,
       "views": 2479,
       "likes": 360,
-      "comments": 41,
+      "comments": 38,
       "shares": 6,
-      "engagement_rate": 0.1642,
+      "engagement_rate": 0.163,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -20964,9 +20943,9 @@
       "duration": 14,
       "views": 2949,
       "likes": 297,
-      "comments": 29,
+      "comments": 25,
       "shares": 5,
-      "engagement_rate": 0.1122,
+      "engagement_rate": 0.1109,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -21194,9 +21173,9 @@
       "duration": 59,
       "views": 1527,
       "likes": 135,
-      "comments": 12,
+      "comments": 11,
       "shares": 11,
-      "engagement_rate": 0.1035,
+      "engagement_rate": 0.1028,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -21286,9 +21265,9 @@
       "duration": 59,
       "views": 1409,
       "likes": 144,
-      "comments": 34,
+      "comments": 35,
       "shares": 1,
-      "engagement_rate": 0.127,
+      "engagement_rate": 0.1278,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -21585,7 +21564,7 @@
       "duration": 15,
       "views": 33300,
       "likes": 729,
-      "comments": 29,
+      "comments": 28,
       "shares": 4,
       "engagement_rate": 0.0229,
       "sentiment": {
@@ -21675,7 +21654,7 @@
       "description": "Reply to @kell_tries #psa #publicserviceannouncement #affordablehousing #homeownership #buyahouse",
       "date": "2021-01-08",
       "duration": 59,
-      "views": 8916,
+      "views": 8920,
       "likes": 293,
       "comments": 27,
       "shares": 26,
@@ -22160,9 +22139,9 @@
       "duration": 58,
       "views": 5851,
       "likes": 184,
-      "comments": 21,
+      "comments": 22,
       "shares": 5,
-      "engagement_rate": 0.0359,
+      "engagement_rate": 0.0361,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -22296,7 +22275,7 @@
       "description": "dude, where's the house. #architecture #blackarchitect #architecturestudent #architecturaldesign #blm",
       "date": "2021-01-06",
       "duration": 15,
-      "views": 983,
+      "views": 984,
       "likes": 47,
       "comments": 2,
       "shares": 0,
@@ -22413,9 +22392,9 @@
       "duration": 59,
       "views": 864,
       "likes": 67,
-      "comments": 4,
+      "comments": 5,
       "shares": 0,
-      "engagement_rate": 0.0822,
+      "engagement_rate": 0.0833,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -22572,7 +22551,7 @@
       "description": "#cantilever house #architecture #blackarchitect #architecturestudent #architecturaldesign #blm",
       "date": "2021-01-06",
       "duration": 15,
-      "views": 1926,
+      "views": 1927,
       "likes": 161,
       "comments": 17,
       "shares": 0,
@@ -22595,11 +22574,11 @@
       "description": "storm water management #architecture #blackarchitect #architecturestudent #architecturaldesign #blm",
       "date": "2021-01-06",
       "duration": 59,
-      "views": 4348,
+      "views": 4349,
       "likes": 688,
       "comments": 39,
       "shares": 5,
-      "engagement_rate": 0.1684,
+      "engagement_rate": 0.1683,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -22850,9 +22829,9 @@
       "duration": 59,
       "views": 22100,
       "likes": 1456,
-      "comments": 97,
+      "comments": 93,
       "shares": 12,
-      "engagement_rate": 0.0708,
+      "engagement_rate": 0.0706,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -22872,8 +22851,8 @@
       "date": "2021-01-05",
       "duration": 59,
       "views": 54300,
-      "likes": 6282,
-      "comments": 247,
+      "likes": 6283,
+      "comments": 246,
       "shares": 320,
       "engagement_rate": 0.1261,
       "sentiment": {
@@ -23034,9 +23013,9 @@
       "duration": 13,
       "views": 121400,
       "likes": 34600,
-      "comments": 576,
+      "comments": 569,
       "shares": 539,
-      "engagement_rate": 0.2942,
+      "engagement_rate": 0.2941,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -23287,7 +23266,7 @@
       "duration": 59,
       "views": 65100,
       "likes": 11700,
-      "comments": 262,
+      "comments": 261,
       "shares": 115,
       "engagement_rate": 0.1855,
       "sentiment": {
@@ -23655,9 +23634,9 @@
       "duration": 14,
       "views": 348,
       "likes": 23,
-      "comments": 6,
+      "comments": 5,
       "shares": 0,
-      "engagement_rate": 0.0833,
+      "engagement_rate": 0.0805,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -23929,11 +23908,11 @@
       "description": "interview with @Asya #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-26",
       "duration": 76,
-      "views": 598,
-      "likes": 61,
+      "views": 613,
+      "likes": 63,
       "comments": 5,
       "shares": 3,
-      "engagement_rate": 0.1154,
+      "engagement_rate": 0.1158,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -23952,11 +23931,11 @@
       "description": "#onthisday",
       "date": "2026-04-28",
       "duration": 59,
-      "views": 440,
-      "likes": 27,
-      "comments": 12,
+      "views": 448,
+      "likes": 28,
+      "comments": 13,
       "shares": 1,
-      "engagement_rate": 0.0909,
+      "engagement_rate": 0.0938,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -23975,11 +23954,11 @@
       "description": "Kunlé Adeyemi, #blackarchitect  #blackarchitecturetiktok ",
       "date": "2026-04-28",
       "duration": 76,
-      "views": 784,
-      "likes": 104,
+      "views": 802,
+      "likes": 105,
       "comments": 5,
       "shares": 1,
-      "engagement_rate": 0.1403,
+      "engagement_rate": 0.1384,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -23998,11 +23977,11 @@
       "description": "Miriam Issoufou Kamara #blackarchitect  #blackarchitecturetiktok ",
       "date": "2026-04-27",
       "duration": 93,
-      "views": 673,
+      "views": 679,
       "likes": 81,
       "comments": 6,
       "shares": 0,
-      "engagement_rate": 0.1293,
+      "engagement_rate": 0.1281,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -24021,11 +24000,11 @@
       "description": "time for another #CodeQuestions  #WheelOfCode #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-27",
       "duration": 210,
-      "views": 302,
+      "views": 307,
       "likes": 26,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0927,
+      "engagement_rate": 0.0912,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -24044,11 +24023,11 @@
       "description": "the Pan African Architecture Biennale #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-27",
       "duration": 254,
-      "views": 97,
+      "views": 102,
       "likes": 7,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0722,
+      "engagement_rate": 0.0686,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -24067,11 +24046,11 @@
       "description": "another clip from my conversation with @Asya about first #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-28",
       "duration": 47,
-      "views": 332,
-      "likes": 28,
+      "views": 341,
+      "likes": 30,
       "comments": 4,
       "shares": 1,
-      "engagement_rate": 0.0994,
+      "engagement_rate": 0.1026,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -24090,11 +24069,11 @@
       "description": "questions about #payequity and #parenting #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-28",
       "duration": 596,
-      "views": 234,
-      "likes": 11,
+      "views": 239,
+      "likes": 12,
       "comments": 4,
       "shares": 0,
-      "engagement_rate": 0.0641,
+      "engagement_rate": 0.0669,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -24113,11 +24092,11 @@
       "description": "heat traces #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-29",
       "duration": 32,
-      "views": 500,
-      "likes": 41,
+      "views": 508,
+      "likes": 42,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.086,
+      "engagement_rate": 0.0866,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -24136,11 +24115,11 @@
       "description": "wood veneer #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-29",
       "duration": 59,
-      "views": 394,
+      "views": 397,
       "likes": 30,
       "comments": 5,
       "shares": 1,
-      "engagement_rate": 0.0914,
+      "engagement_rate": 0.0907,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -24159,11 +24138,11 @@
       "description": "a quickly on flood vents #blackarchitect #blackarchitecturetiktok ",
       "date": "2026-04-29",
       "duration": 33,
-      "views": 614,
-      "likes": 65,
+      "views": 634,
+      "likes": 66,
       "comments": 6,
       "shares": 0,
-      "engagement_rate": 0.1156,
+      "engagement_rate": 0.1136,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -24182,11 +24161,11 @@
       "description": "i need your help! #blackarchitecturetiktok #blackarchitect #3dprinting ",
       "date": "2026-04-30",
       "duration": 300,
-      "views": 478,
-      "likes": 44,
-      "comments": 4,
-      "shares": 0,
-      "engagement_rate": 0.1004,
+      "views": 523,
+      "likes": 50,
+      "comments": 6,
+      "shares": 1,
+      "engagement_rate": 0.109,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -24205,11 +24184,11 @@
       "description": "#blackarchitect #blackarchitecturetiktok ",
       "date": "2026-05-01",
       "duration": 138,
-      "views": 337,
+      "views": 343,
       "likes": 21,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0623,
+      "engagement_rate": 0.0612,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -24245,7 +24224,7 @@
       "videos": 3,
       "views": 1836,
       "likes": 40,
-      "comments": 6,
+      "comments": 5,
       "new_followers": 0
     },
     {
@@ -24283,41 +24262,41 @@
     {
       "month": "2021-01",
       "videos": 154,
-      "views": 630155,
-      "likes": 87861,
-      "comments": 3630,
+      "views": 630218,
+      "likes": 87862,
+      "comments": 3608,
       "new_followers": 0
     },
     {
       "month": "2021-02",
       "videos": 73,
-      "views": 361970,
+      "views": 361973,
       "likes": 63183,
-      "comments": 2121,
+      "comments": 2102,
       "new_followers": 0
     },
     {
       "month": "2021-03",
       "videos": 49,
-      "views": 181033,
+      "views": 181034,
       "likes": 11905,
-      "comments": 1004,
+      "comments": 996,
       "new_followers": 0
     },
     {
       "month": "2021-04",
       "videos": 53,
-      "views": 128662,
+      "views": 128663,
       "likes": 12730,
-      "comments": 819,
+      "comments": 810,
       "new_followers": 0
     },
     {
       "month": "2021-05",
       "videos": 47,
-      "views": 94673,
+      "views": 94678,
       "likes": 12560,
-      "comments": 795,
+      "comments": 787,
       "new_followers": 0
     },
     {
@@ -24325,7 +24304,7 @@
       "videos": 34,
       "views": 45880,
       "likes": 6906,
-      "comments": 616,
+      "comments": 615,
       "new_followers": 0
     },
     {
@@ -24333,47 +24312,47 @@
       "videos": 18,
       "views": 43646,
       "likes": 4934,
-      "comments": 280,
+      "comments": 279,
       "new_followers": 0
     },
     {
       "month": "2021-08",
       "videos": 24,
-      "views": 58145,
+      "views": 58147,
       "likes": 7448,
-      "comments": 446,
+      "comments": 440,
       "new_followers": 0
     },
     {
       "month": "2021-09",
       "videos": 28,
-      "views": 40358,
+      "views": 40360,
       "likes": 2166,
-      "comments": 163,
+      "comments": 156,
       "new_followers": 0
     },
     {
       "month": "2021-10",
       "videos": 41,
-      "views": 472935,
+      "views": 472936,
       "likes": 19074,
-      "comments": 1020,
+      "comments": 997,
       "new_followers": 0
     },
     {
       "month": "2021-11",
       "videos": 25,
-      "views": 50433,
+      "views": 50434,
       "likes": 4205,
-      "comments": 265,
+      "comments": 263,
       "new_followers": 0
     },
     {
       "month": "2021-12",
       "videos": 19,
-      "views": 58449,
+      "views": 58450,
       "likes": 4869,
-      "comments": 314,
+      "comments": 303,
       "new_followers": 0
     },
     {
@@ -24381,7 +24360,7 @@
       "videos": 18,
       "views": 45766,
       "likes": 4136,
-      "comments": 307,
+      "comments": 304,
       "new_followers": 0
     },
     {
@@ -24389,15 +24368,15 @@
       "videos": 45,
       "views": 609027,
       "likes": 42005,
-      "comments": 1430,
+      "comments": 1420,
       "new_followers": 0
     },
     {
       "month": "2022-03",
       "videos": 29,
-      "views": 96910,
+      "views": 96911,
       "likes": 10695,
-      "comments": 533,
+      "comments": 521,
       "new_followers": 0
     },
     {
@@ -24405,15 +24384,15 @@
       "videos": 21,
       "views": 26666,
       "likes": 2078,
-      "comments": 127,
+      "comments": 128,
       "new_followers": 0
     },
     {
       "month": "2022-05",
       "videos": 28,
-      "views": 71325,
+      "views": 71326,
       "likes": 6065,
-      "comments": 454,
+      "comments": 450,
       "new_followers": 0
     },
     {
@@ -24421,7 +24400,7 @@
       "videos": 15,
       "views": 29237,
       "likes": 2310,
-      "comments": 116,
+      "comments": 111,
       "new_followers": 0
     },
     {
@@ -24429,7 +24408,7 @@
       "videos": 15,
       "views": 23193,
       "likes": 2121,
-      "comments": 178,
+      "comments": 172,
       "new_followers": 0
     },
     {
@@ -24437,7 +24416,7 @@
       "videos": 20,
       "views": 38544,
       "likes": 2906,
-      "comments": 313,
+      "comments": 311,
       "new_followers": 0
     },
     {
@@ -24461,7 +24440,7 @@
       "videos": 12,
       "views": 13654,
       "likes": 1358,
-      "comments": 125,
+      "comments": 124,
       "new_followers": 0
     },
     {
@@ -24493,7 +24472,7 @@
       "videos": 14,
       "views": 15946,
       "likes": 1058,
-      "comments": 67,
+      "comments": 66,
       "new_followers": 0
     },
     {
@@ -24515,9 +24494,9 @@
     {
       "month": "2023-07",
       "videos": 7,
-      "views": 20654,
+      "views": 20660,
       "likes": 676,
-      "comments": 41,
+      "comments": 39,
       "new_followers": 0
     },
     {
@@ -24581,7 +24560,7 @@
       "videos": 6,
       "views": 3588,
       "likes": 163,
-      "comments": 11,
+      "comments": 9,
       "new_followers": 0
     },
     {
@@ -24605,7 +24584,7 @@
       "videos": 1,
       "views": 1452,
       "likes": 120,
-      "comments": 5,
+      "comments": 7,
       "new_followers": 0
     },
     {
@@ -24619,15 +24598,15 @@
     {
       "month": "2025-01",
       "videos": 14,
-      "views": 23725,
+      "views": 23727,
       "likes": 1768,
-      "comments": 186,
+      "comments": 187,
       "new_followers": 0
     },
     {
       "month": "2025-02",
       "videos": 7,
-      "views": 6713,
+      "views": 6714,
       "likes": 613,
       "comments": 60,
       "new_followers": 0
@@ -24651,7 +24630,7 @@
     {
       "month": "2025-05",
       "videos": 2,
-      "views": 4059,
+      "views": 4058,
       "likes": 310,
       "comments": 20,
       "new_followers": 0
@@ -24669,13 +24648,13 @@
       "videos": 3,
       "views": 3832,
       "likes": 363,
-      "comments": 40,
+      "comments": 39,
       "new_followers": 0
     },
     {
       "month": "2025-09",
       "videos": 3,
-      "views": 3280,
+      "views": 3277,
       "likes": 309,
       "comments": 20,
       "new_followers": 0
@@ -24683,15 +24662,15 @@
     {
       "month": "2025-10",
       "videos": 21,
-      "views": 24144,
+      "views": 24146,
       "likes": 1648,
-      "comments": 179,
+      "comments": 177,
       "new_followers": 0
     },
     {
       "month": "2025-11",
       "videos": 4,
-      "views": 5079,
+      "views": 5074,
       "likes": 390,
       "comments": 38,
       "new_followers": 0
@@ -24715,7 +24694,7 @@
     {
       "month": "2026-02",
       "videos": 3,
-      "views": 4437,
+      "views": 4439,
       "likes": 467,
       "comments": 20,
       "new_followers": 0
@@ -24723,7 +24702,7 @@
     {
       "month": "2026-03",
       "videos": 15,
-      "views": 9916,
+      "views": 9918,
       "likes": 1045,
       "comments": 84,
       "new_followers": 0
@@ -24731,15 +24710,15 @@
     {
       "month": "2026-04",
       "videos": 47,
-      "views": 21052,
-      "likes": 2055,
-      "comments": 175,
+      "views": 21255,
+      "likes": 2074,
+      "comments": 178,
       "new_followers": 0
     },
     {
       "month": "2026-05",
       "videos": 1,
-      "views": 337,
+      "views": 343,
       "likes": 21,
       "comments": 0,
       "new_followers": 0
@@ -24757,7 +24736,7 @@
       "bucket": "15-30s",
       "count": 60,
       "avg_views": 2505,
-      "avg_engagement": 0.0902,
+      "avg_engagement": 0.0901,
       "avg_watch_through": null
     },
     {
@@ -24770,14 +24749,14 @@
     {
       "bucket": "60-90s",
       "count": 52,
-      "avg_views": 12665,
-      "avg_engagement": 0.0933,
+      "avg_views": 12666,
+      "avg_engagement": 0.0932,
       "avg_watch_through": null
     },
     {
       "bucket": "90-120s",
       "count": 32,
-      "avg_views": 1497,
+      "avg_views": 1498,
       "avg_engagement": 0.0851,
       "avg_watch_through": null
     },
@@ -24801,72 +24780,42 @@
       {
         "text": "What model and brand of 3D printer are you using?",
         "count": 4,
-        "cluster_id": "c_3dprinting_tools"
+        "cluster_id": "c_3d_printing_tools"
       },
       {
         "text": "How did the final 3D print come out?",
         "count": 3,
-        "cluster_id": "c_3dprinting_tools"
+        "cluster_id": "c_3d_printing_tools"
       },
       {
-        "text": "Is this software compatible with UK version of Revit?",
-        "count": 1,
-        "cluster_id": "c_3dprinting_tools"
+        "text": "Is there software where you can type in words and it will generate the anamorphic design for you?",
+        "count": 2,
+        "cluster_id": "c_3d_printing_tools"
       },
       {
-        "text": "How long has construction been going on / when did it start?",
+        "text": "How long has construction been underway on this project?",
         "count": 3,
         "cluster_id": "c_construction_progress"
       },
       {
-        "text": "Is this market rate housing or LIHTC affordable housing?",
+        "text": "Is this the multi-family building you started documenting from the slab?",
         "count": 2,
         "cluster_id": "c_construction_progress"
       },
       {
-        "text": "What about insulation and soundproofing between units?",
-        "count": 2,
-        "cluster_id": "c_construction_progress"
-      },
-      {
-        "text": "Will building codes be local/jurisdictional or national in the code series?",
+        "text": "Will you be covering local codes or national codes, or both?",
         "count": 2,
         "cluster_id": "c_building_codes"
       },
       {
-        "text": "Are you actually allowed to size structural beams as an architect without an engineer?",
-        "count": 2,
-        "cluster_id": "c_building_codes"
-      },
-      {
-        "text": "Does the city just not want rooftop structures?",
-        "count": 1,
-        "cluster_id": "c_building_codes"
-      },
-      {
-        "text": "What are the fix options when a contractor notches a structural beam incorrectly?",
-        "count": 3,
-        "cluster_id": "c_construction_progress"
-      },
-      {
-        "text": "Can green walls and brick architecture work together?",
+        "text": "Is this market rate housing or LIHTC?",
         "count": 2,
         "cluster_id": "c_construction_progress"
       },
       {
-        "text": "Is there software that auto-generates anamorphic ambigram designs from text input?",
+        "text": "Are you actually a licensed engineer, or why are you allowed to size the beam?",
         "count": 2,
-        "cluster_id": "c_3dprinting_tools"
-      },
-      {
-        "text": "Do you ever still use a tape measure alongside your 3D scanner, and what scanner do you use?",
-        "count": 1,
-        "cluster_id": "c_3dprinting_tools"
-      },
-      {
-        "text": "Are you encountering sensitive conversations with the AI notetaker and how do you handle policy restrictions?",
-        "count": 1,
-        "cluster_id": "c_3dprinting_tools"
+        "cluster_id": "c_arch_profession"
       },
       {
         "text": "Do you work on any LEED projects?",
@@ -24874,92 +24823,108 @@
         "cluster_id": "c_construction_progress"
       },
       {
-        "text": "Why aren't tilt-and-turn windows standard in the US?",
+        "text": "Is the Revit-to-3D-printer plugin compatible with UK version of Revit?",
+        "count": 2,
+        "cluster_id": "c_3d_printing_tools"
+      },
+      {
+        "text": "What scanner did you use and how accurate is it for as-built documentation?",
+        "count": 2,
+        "cluster_id": "c_arch_profession"
+      },
+      {
+        "text": "Does the app scan your head to create the bust?",
+        "count": 1,
+        "cluster_id": "c_3d_printing_tools"
+      },
+      {
+        "text": "Can green walls and brick architecture work together structurally and practically?",
+        "count": 3,
+        "cluster_id": "c_arch_profession"
+      },
+      {
+        "text": "What are the fix options when a contractor notches a beam incorrectly?",
         "count": 2,
         "cluster_id": "c_construction_progress"
       },
       {
-        "text": "What is the NIA website link?",
+        "text": "Does the city just not want rooftop structures, or is this a code issue?",
+        "count": 1,
+        "cluster_id": "c_building_codes"
+      },
+      {
+        "text": "Are you using AI actively in your design process and how?",
         "count": 2,
-        "cluster_id": "c_nia_platform"
+        "cluster_id": "c_arch_profession"
       },
       {
-        "text": "Is NIA a website and can I make my own video promoting it?",
+        "text": "Where can I learn about constructing something partially below grade?",
         "count": 1,
-        "cluster_id": "c_nia_platform"
+        "cluster_id": "c_building_codes"
       },
       {
-        "text": "Do you ever see single-family homes built entirely out of steel?",
-        "count": 1,
-        "cluster_id": "c_construction_progress"
-      },
-      {
-        "text": "How do you resolve an issue when a project is stalled for years like anchor bolt problems?",
+        "text": "Do you ever see single-family houses built entirely out of steel?",
         "count": 1,
         "cluster_id": "c_construction_progress"
       },
       {
-        "text": "Will you be writing a book on Norma Merrick Sklarek and when will it drop?",
-        "count": 1,
-        "cluster_id": "c_blackarch_history"
+        "text": "Is the NIA platform a website? Can I make a video promoting it?",
+        "count": 2,
+        "cluster_id": "c_nia_game_education"
       },
       {
-        "text": "How much Frank Lloyd Wright content will there be versus Black architects?",
-        "count": 1,
-        "cluster_id": "c_blackarch_history"
+        "text": "Will the building code series cover how use classification changes occupancy requirements?",
+        "count": 2,
+        "cluster_id": "c_building_codes"
       }
     ],
     "requests": [
       {
         "text": "Continue and expand the building codes series",
-        "count": 6
+        "count": 8
       },
       {
-        "text": "Do a profile on Louis A. S. Bellinger / other lesser-known Black architects not yet covered",
+        "text": "Do a profile on Louis A.S. Bellinger and other lesser-known Black architects",
         "count": 4
       },
       {
-        "text": "Show blueprints/plans vs. what was actually built on the construction project",
+        "text": "Show the architectural plans side by side with the actual construction reality",
         "count": 3
       },
       {
-        "text": "Make the Revit-to-3D-printer plugin publicly available for testing",
+        "text": "Make the Revit-to-3D-printer tool publicly available and share how to use it",
         "count": 5
+      },
+      {
+        "text": "Do a video on what architects are legally allowed to do across different states",
+        "count": 2
+      },
+      {
+        "text": "Share more about the NIA platform and how to access or contribute to it",
+        "count": 3
+      },
+      {
+        "text": "Post more construction progress updates on the multi-family project",
+        "count": 4
       },
       {
         "text": "Create an architecture 101 explainer series for non-architects",
         "count": 2
       },
       {
-        "text": "Share spreadsheets and tools used in practice",
-        "count": 2
-      },
-      {
-        "text": "Post more content about what architects can and cannot do by state/scope",
-        "count": 2
-      },
-      {
-        "text": "Cover more content on accessibility code requirements (ADA, areas of refuge, etc.)",
-        "count": 1
-      },
-      {
-        "text": "Write or publish the grief book (Empty)",
+        "text": "Do a video on how to get into architecture or the ARE licensing process",
         "count": 3
       },
       {
-        "text": "Post more content about the NAACP ACT-SO competition and how youth can participate",
+        "text": "Share Revit tips and tutorials for beginners",
+        "count": 3
+      },
+      {
+        "text": "Post more profiles of Black women architects specifically",
         "count": 2
       },
       {
-        "text": "Do a dedicated video on green walls and how they interact with masonry",
-        "count": 1
-      },
-      {
-        "text": "Improve audio quality on job site videos",
-        "count": 2
-      },
-      {
-        "text": "Cover the topic of construction administration and how architects handle contractor errors",
+        "text": "Release the book on Black architects and notify the audience when it drops",
         "count": 2
       }
     ]
@@ -25051,6 +25016,11 @@
       "sentiment": 0.7
     },
     {
+      "handle": "@cup_cakery",
+      "comments": 8,
+      "sentiment": 0.7
+    },
+    {
       "handle": "@softlandingstudio",
       "comments": 7,
       "sentiment": 0.7
@@ -25106,231 +25076,184 @@
       "sentiment": 0.7
     },
     {
-      "handle": "@pinkakarose08",
-      "comments": 6,
-      "sentiment": 0.7
-    },
-    {
-      "handle": "@cup_cakery",
+      "handle": "@walter11222",
       "comments": 6,
       "sentiment": 0.7
     }
   ],
   "content_clusters": [
     {
-      "id": "c_blackarch_history",
-      "label": "Black Architects & Architectural History",
-      "video_count": 18,
+      "id": "c_black_arch_history",
+      "label": "Black Architects & Architectural History Profiles",
+      "video_count": 17,
       "share_of_views": 0.0,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.1192,
+      "avg_engagement": 0.1208,
       "trend": "steady",
       "verdict": "MEH"
     },
     {
       "id": "c_building_codes",
       "label": "Building Codes, Zoning & Regulatory Education",
-      "video_count": 16,
+      "video_count": 15,
       "share_of_views": 0.0,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0836,
+      "avg_engagement": 0.0803,
       "trend": "down",
       "verdict": "NOISE"
     },
     {
       "id": "c_construction_progress",
-      "label": "Active Construction Project Updates",
+      "label": "Active Construction Project Updates & Site Walkthroughs",
       "video_count": 15,
       "share_of_views": 0.01,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.1108,
+      "avg_engagement": 0.1107,
       "trend": "steady",
       "verdict": "MEH"
     },
     {
-      "id": "c_3dprinting_tools",
-      "label": "3D Printing, Digital Tools & Software Workflows",
-      "video_count": 25,
+      "id": "c_3d_printing_tools",
+      "label": "3D Printing, Fabrication & Digital Toolmaking",
+      "video_count": 23,
       "share_of_views": 0.01,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0862,
+      "avg_engagement": 0.0873,
       "trend": "steady",
       "verdict": "MEH"
     },
     {
-      "id": "c_profession_industry",
-      "label": "Architecture Profession, Industry Issues & Career",
-      "video_count": 10,
+      "id": "c_arch_profession",
+      "label": "Architecture Profession, Industry Commentary & Personal Practice",
+      "video_count": 15,
       "share_of_views": 0.0,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.095,
-      "trend": "up",
-      "verdict": "MEH"
-    },
-    {
-      "id": "c_nia_platform",
-      "label": "NIA Platform & Black Architect Database",
-      "video_count": 4,
-      "share_of_views": 0.0,
-      "avg_follower_conversion": 0,
-      "avg_engagement": 0.1069,
+      "avg_engagement": 0.0926,
       "trend": "steady",
       "verdict": "MEH"
     },
     {
-      "id": "c_personal_creative",
-      "label": "Personal Projects, Family Moments & Creative Pursuits",
-      "video_count": 12,
+      "id": "c_nia_game_education",
+      "label": "NIA Platform, Architect the Game & Youth Education Outreach",
+      "video_count": 8,
       "share_of_views": 0.0,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0829,
+      "avg_engagement": 0.1047,
       "trend": "steady",
       "verdict": "MEH"
     }
   ],
   "topic_engagement_matrix": [
     {
-      "topic": "Black Architects & Architectural History",
-      "views_idx": 0.18,
-      "likes_idx": 0.23,
-      "comments_idx": 0.2
+      "topic": "Black Architects & Architectural History Profiles",
+      "views_idx": 0.2,
+      "likes_idx": 0.25,
+      "comments_idx": 0.27
     },
     {
       "topic": "Building Codes, Zoning & Regulatory Education",
-      "views_idx": 0.29,
-      "likes_idx": 0.27,
-      "comments_idx": 0.39
+      "views_idx": 0.23,
+      "likes_idx": 0.18,
+      "comments_idx": 0.27
     },
     {
-      "topic": "Active Construction Project Updates",
+      "topic": "Active Construction Project Updates & Site Walkthroughs",
       "views_idx": 0.41,
       "likes_idx": 0.43,
       "comments_idx": 0.72
     },
     {
-      "topic": "3D Printing, Digital Tools & Software Workflows",
-      "views_idx": 0.26,
+      "topic": "3D Printing, Fabrication & Digital Toolmaking",
+      "views_idx": 0.27,
       "likes_idx": 0.19,
-      "comments_idx": 0.43
+      "comments_idx": 0.44
     },
     {
-      "topic": "Architecture Profession, Industry Issues & Career",
-      "views_idx": 0.25,
-      "likes_idx": 0.24,
-      "comments_idx": 0.4
+      "topic": "Architecture Profession, Industry Commentary & Personal Practice",
+      "views_idx": 0.34,
+      "likes_idx": 0.34,
+      "comments_idx": 0.55
     },
     {
-      "topic": "NIA Platform & Black Architect Database",
-      "views_idx": 0.21,
-      "likes_idx": 0.23,
-      "comments_idx": 0.68
-    },
-    {
-      "topic": "Personal Projects, Family Moments & Creative Pursuits",
-      "views_idx": 0.22,
-      "likes_idx": 0.19,
-      "comments_idx": 0.35
+      "topic": "NIA Platform, Architect the Game & Youth Education Outreach",
+      "views_idx": 0.16,
+      "likes_idx": 0.18,
+      "comments_idx": 0.44
     }
   ],
   "presentation_styles": [
     {
-      "style": "tutorial",
-      "video_count": 14,
-      "avg_engagement": 0.0815,
-      "avg_follower_conversion": 0,
-      "verdict": "MEH"
-    },
-    {
       "style": "walkthrough",
+      "video_count": 17,
+      "avg_engagement": 0.1121,
+      "avg_follower_conversion": 0,
+      "verdict": "MEH"
+    },
+    {
+      "style": "tutorial",
       "video_count": 16,
-      "avg_engagement": 0.1114,
-      "avg_follower_conversion": 0,
-      "verdict": "MEH"
-    },
-    {
-      "style": "talking_head",
-      "video_count": 28,
-      "avg_engagement": 0.1132,
-      "avg_follower_conversion": 0,
-      "verdict": "MEH"
-    },
-    {
-      "style": "reaction",
-      "video_count": 4,
-      "avg_engagement": 0.0775,
+      "avg_engagement": 0.0889,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     },
     {
       "style": "personal_story",
-      "video_count": 32,
-      "avg_engagement": 0.0882,
+      "video_count": 20,
+      "avg_engagement": 0.1139,
+      "avg_follower_conversion": 0,
+      "verdict": "MEH"
+    },
+    {
+      "style": "reaction",
+      "video_count": 8,
+      "avg_engagement": 0.0864,
+      "avg_follower_conversion": 0,
+      "verdict": "MEH"
+    },
+    {
+      "style": "talking_head",
+      "video_count": 21,
+      "avg_engagement": 0.0876,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     }
   ],
   "audience_conversation_themes": [
     {
-      "theme": "Appreciation for Black architectural history and underrepresented figures",
+      "theme": "Appreciation for Black architect history and representation in the profession",
       "comment_count": 55,
       "trend": "up"
     },
     {
-      "theme": "Building codes complexity, practical application and professional frustration",
+      "theme": "Building code nuances, zoning complexity and real-world permitting frustrations",
       "comment_count": 40,
       "trend": "up"
     },
     {
-      "theme": "Diversity, equity and access in the architecture profession",
+      "theme": "Construction site realities, contractor errors and design vs. execution gaps",
       "comment_count": 35,
-      "trend": "up"
+      "trend": "steady"
     },
     {
-      "theme": "Construction methods, materials and site observation questions",
+      "theme": "3D printing techniques, troubleshooting and architectural model applications",
       "comment_count": 45,
-      "trend": "steady"
-    },
-    {
-      "theme": "3D printing techniques, troubleshooting and architectural model-making",
-      "comment_count": 40,
       "trend": "up"
     },
     {
-      "theme": "AI tools, software workflows and technology in architecture practice",
-      "comment_count": 25,
+      "theme": "Diversity, equity and barriers to entry in the architecture profession",
+      "comment_count": 30,
       "trend": "up"
     },
     {
-      "theme": "Scope of architect's role, licensure and professional boundaries",
-      "comment_count": 25,
+      "theme": "Personal connection to architecture through family, kids and everyday observation",
+      "comment_count": 30,
       "trend": "steady"
+    },
+    {
+      "theme": "AI and tech tools in architectural practice and project management",
+      "comment_count": 20,
+      "trend": "up"
     }
   ],
-  "external_trends": [
-    {
-      "topic": "Parametricism gets a critical reckoning: Dezeen launches a dedicated series framing it as the architecture of neoliberalism",
-      "audience_resonance": 0.42,
-      "source": "Dezeen"
-    },
-    {
-      "topic": "Abandoned retail infrastructure becomes the new prestige adaptive reuse typology — malls into campuses",
-      "audience_resonance": 0.55,
-      "source": "Dezeen / ArchDaily"
-    },
-    {
-      "topic": "Smiljan Radić's Pritzker lecture reframes architectural knowledge as distraction and lived experience — a direct challenge to formal education orthodoxy",
-      "audience_resonance": 0.61,
-      "source": "ArchDaily"
-    },
-    {
-      "topic": "Museum architecture commissions are going to small, culturally specific practices — not to brand-name starchitects",
-      "audience_resonance": 0.78,
-      "source": "ArchDaily / The Architect's Newspaper"
-    },
-    {
-      "topic": "Biobased, carbon-negative housing prototypes are being delivered at neighborhood scale in Europe — not just exhibited",
-      "audience_resonance": 0.52,
-      "source": "ArchDaily"
-    }
-  ]
+  "external_trends": []
 }
