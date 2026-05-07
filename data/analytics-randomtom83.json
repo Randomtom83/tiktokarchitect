@@ -21,11 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_girldad_moments",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Sophia Sings an Original Song (and I Try to Keep It Together)",
+    "rec_reason": "Audience engagement with Sophia's imaginative songs and creative expression is a rising comment theme (15 comments, trend: up) — one of the strongest upward signals in the entire dataset. The girldad/milestone cluster has the highest avg engagement of any cluster (0.0957), yet only 8 videos exist there vs. 75 car ride videos. The audience is actively commenting on Sophia's original songs and creativity but Tom has not dedicated a standalone video specifically to capturing one of her spontaneous musical moments. No recent video in the last 30+ days touches this angle directly. This is an underleveraged format that sits at the intersection of the two strongest audience comment themes: delight at Sophia's personality (40 comments, steady) and engagement with her imaginative songs (15 comments, up). Audience requests also explicitly ask for more content about explaining real-world topics to a young child, and Sophia's songs often originate from her processing the world — layering that framing adds depth. Walkthrough format (highest video count at 0.0704 avg engagement) is the right container: just let the moment happen and narrate lightly around it.",
+    "rec_confidence": 0.78,
+    "talking_points": [
+      "Capture Sophia mid-song — whether in the car, at home, or anywhere — doing one of her completely original, made-up songs (the weirder and more specific the subject matter, the better)",
+      "Let her finish without interrupting, then react genuinely — your authentic dad reaction is what the audience is showing up for based on comment patterns",
+      "Add a brief voiceover or caption moment noting what inspired the song (a TV show, something she saw, a feeling she had) — this feeds the 'explaining real-world topics through a kid's lens' theme that has 20 comments trending up",
+      "Optional: end with a quiet aside to camera about what it feels like to watch her creative brain work — a small grief or gratitude beat fits naturally here and connects to the community grief/emotion thread (trending up)",
+      "Keep it unpolished — the rawness is the point, and the walkthrough format that dominates this account (78 videos) performs better than talking head or produced reaction formats"
+    ],
+    "reference_urls": [],
+    "suggested_format": "walkthrough",
+    "suggested_length": "45-75s"
   },
   "videos": [
     {
