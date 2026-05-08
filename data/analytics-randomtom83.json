@@ -21,11 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_pets_home",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Bambi Meets Sophia's Morning Chaos — A Day in the Life",
+    "rec_reason": "Bambi content has the second-highest avg engagement on the account at 0.0852, and audience comments about Bambi are trending UP with 15 comments and growing enthusiasm. There are 3 direct audience requests for more Bambi content — one of the highest explicit request counts in the dataset. Crucially, no Bambi-featuring video has been posted in the last 30 days (last Bambi content was November 2025). Combining Bambi with Sophia creates a natural crossover between the two most-loved elements on this account. The morning/wake-up format is also directly requested by 2 audience members and has never been fulfilled. The personal_story format sits at 0.0997 avg engagement — the highest of any format — and this concept lends itself perfectly to that style: unscripted, warm, and real.",
+    "rec_confidence": 0.81,
+    "talking_points": [
+      "Show Bambi's actual morning behavior — does she wake Sophia up, or does Sophia wake Bambi? Let the natural chaos speak for itself.",
+      "Capture one genuine Sophia-to-Bambi interaction: a question she asks the dog, a command that goes hilariously ignored, or a moment of unexpected tenderness.",
+      "Briefly speak to camera about what it means to have a rescue dog as part of the family routine — lean into the 'Bambi's personality' angle that commenters already love.",
+      "Let it be imperfect. The audience responds to realness — a sleepy kid, a stubborn dog, and a dad just trying to get through the morning is exactly the content they're asking for.",
+      "End with a low-stakes tease: 'Sophia has opinions about what Bambi should eat for breakfast' — invites comments and keeps it fun."
+    ],
+    "reference_urls": [],
+    "suggested_format": "personal_story",
+    "suggested_length": "45-75s"
   },
   "videos": [
     {
