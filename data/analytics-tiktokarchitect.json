@@ -21,11 +21,37 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_profession_practice",
+    "verdict": "STRONG",
+    "rec_title": "They just made it harder to become an architect — and it's going to hit Black architects hardest",
+    "rec_reason": "The RISE rule story scores the highest audience resonance (0.91) of any trend this week because it sits at the direct intersection of Tom's two most engaged content pillars: the architecture profession and barriers to entry (30 comments, trending up) and diversity/race in the industry (25 comments, trending up). His audience has an existing emotional investment in who gets access to the profession — it drives his Black architect history content (19 videos, 0.1175 avg engagement, his highest-performing cluster) and his NAACP ACT-SO content, which generated active audience conversation (15 comments, trending up). The RISE rule is a concrete, imminent policy story — effective July 1, 2026 — that directly threatens the pipeline of underrepresented students Tom's audience cares about. The debt-to-income angle maps cleanly onto the 'personal connection to the profession and barriers to entry' audience theme. None of his recent videos have touched this topic. The talking_head format is his highest-engagement presentation style (0.1157 avg). The urgency of the July 1 deadline gives him a time-sensitive hook that rewards posting now rather than later.",
+    "rec_confidence": 0.88,
+    "talking_points": [
+      "Explain the RISE rule plainly: starting July 1, 2026, M.Arch and D.Arch students are capped at $20,500/year in federal loans — less than half what law and medical students can borrow — because the Department of Education no longer classifies architecture as a 'professional' degree, and break down what that actually means in monthly debt terms for a typical architecture student.",
+      "Make the equity argument explicitly: architecture already has one of the worst debt-to-income ratios of any licensed profession, and reduced borrowing capacity will disproportionately price out students from lower-income and underrepresented backgrounds — the exact students the NAACP ACT-SO pipeline and the Black architect community are trying to bring in.",
+      "Connect it to Tom's personal story: he competed in ACT-SO, he is a Black architect, he runs a platform (NIA) designed to surface Black architects — ask the audience directly whether this rule, if it had existed when he was starting out, would have changed his path.",
+      "Address the 'devastating and welcome' framing from professors Dietz and Deamer — is the rule exposing a real problem architecture has been ignoring (unsustainable salaries), and if so, what would actually fixing it look like beyond reversing the ruling?",
+      "Call to action: the AIA is backing federal legislation to reverse this — tell the audience what they can do, and direct them to the NIA platform and his broader content for context on why the diversity of the profession matters."
+    ],
+    "reference_urls": [
+      {
+        "title": "Changes in architecture degree classification may 'push students out of the profession' says AIA",
+        "url": "https://www.dezeen.com/2026/05/06/aia-architecture-degress-professional-degree/",
+        "source": "Dezeen"
+      },
+      {
+        "title": "AIA Raises Concerns Over U.S. Education Department Over Architecture Loan Rule Exclusion",
+        "url": "https://parametric-architecture.com/aia-u-s-education-department/",
+        "source": "Parametric Architecture"
+      },
+      {
+        "title": "U.S. Department of Education may delist architecture as professional degree",
+        "url": "https://www.archpaper.com/2025/11/architecture-degree-trump-directive/",
+        "source": "The Architect's Newspaper"
+      }
+    ],
+    "suggested_format": "talking_head",
+    "suggested_length": "90-120s"
   },
   "videos": [
     {
@@ -25329,5 +25355,41 @@
       "trend": "up"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "Federal reclassification of architecture degrees is a live pipeline crisis, not a future threat",
+      "audience_resonance": 0.91,
+      "source": "Dezeen / The Architect's Newspaper / Parametric Architecture"
+    },
+    {
+      "topic": "Dezeen launches sustained critical series on parametricism — reframing it as ideology, not just aesthetics",
+      "audience_resonance": 0.52,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Museum adaptive reuse goes micro and institutional simultaneously: from IKEA warehouse to The Met",
+      "audience_resonance": 0.44,
+      "source": "Dezeen / ArchDaily / The Architect's Newspaper"
+    },
+    {
+      "topic": "Smiljan Radić's Pritzker lecture frames architecture as accumulated distraction — an anti-canonical counter-signal",
+      "audience_resonance": 0.41,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Biobased and carbon-negative housing at scale: the Dutch model is becoming a replicable prototype",
+      "audience_resonance": 0.48,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Trump-era architecture politics: triumphal arches, Georgian skyscrapers, and the White House ballroom saga continue",
+      "audience_resonance": 0.55,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Morocco and African architecture visibility: the Mohammed VI Tower opens as the continent's third-tallest building",
+      "audience_resonance": 0.72,
+      "source": "Dezeen / ArchDaily"
+    }
+  ]
 }

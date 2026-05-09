@@ -21,11 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_bluey",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Sophia asks a question about Bluey that completely breaks your brain — and you don't have an answer",
+    "rec_reason": "The Bluey cluster has the second-highest engagement on the account at 0.0922, and the audience conversation theme 'Bluey as a meaningful show for parents of daughters' is trending UP with 10 comments. The question 'Is Bluey better than Disney princesses?' has appeared 4 times in the comments — the highest-count audience question on the account — and has never been directly addressed in a video. Audience engagement on parenting praise is also trending up (40 comments), meaning content that shows Tom reflecting thoughtfully on something Sophia says lands well. This video blends the Bluey fandom hook with the car ride format and the 'kids say surprisingly wise things' theme (35 comments, steady), giving it three overlapping resonance signals. The Bluey cluster has only 3 videos, meaning it is significantly underdeveloped relative to its performance ceiling.",
+    "rec_confidence": 0.81,
+    "talking_points": [
+      "Sophia asks you something about Bluey — a character, an episode, or what Bluey's family means to her — that stops you cold because you genuinely don't know how to answer it",
+      "Sit in the honest moment: why does this little cartoon hit different for girl dads? What is it about Bandit and Bluey that makes grown men cry in the school pickup line?",
+      "Bring in the 'Bluey vs. Disney princesses' debate your comments keep raising — let Sophia weigh in herself, unscripted",
+      "Reflect briefly on what kind of dad you want to be vs. the dads you grew up seeing on TV — Bandit is the first TV dad who feels real to a lot of people your age",
+      "End on something Sophia said that you're still thinking about — let the audience sit with it too"
+    ],
+    "reference_urls": [],
+    "suggested_format": "personal_story",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
