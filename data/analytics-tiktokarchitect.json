@@ -21,37 +21,32 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_profession_practice",
+    "best_performing_cluster_id": "c_blackarch_history",
     "verdict": "STRONG",
-    "rec_title": "They just made it harder to become an architect — and it's going to hit Black architects hardest",
-    "rec_reason": "The RISE rule story scores the highest audience resonance (0.91) of any trend this week because it sits at the direct intersection of Tom's two most engaged content pillars: the architecture profession and barriers to entry (30 comments, trending up) and diversity/race in the industry (25 comments, trending up). His audience has an existing emotional investment in who gets access to the profession — it drives his Black architect history content (19 videos, 0.1175 avg engagement, his highest-performing cluster) and his NAACP ACT-SO content, which generated active audience conversation (15 comments, trending up). The RISE rule is a concrete, imminent policy story — effective July 1, 2026 — that directly threatens the pipeline of underrepresented students Tom's audience cares about. The debt-to-income angle maps cleanly onto the 'personal connection to the profession and barriers to entry' audience theme. None of his recent videos have touched this topic. The talking_head format is his highest-engagement presentation style (0.1157 avg). The urgency of the July 1 deadline gives him a time-sensitive hook that rewards posting now rather than later.",
-    "rec_confidence": 0.88,
+    "rec_title": "Peterson Rich Office just designed galleries at BOTH the Met and Brooklyn Museum — and almost nobody is talking about it",
+    "rec_reason": "Peterson Rich Office (PRO) has not appeared in any recent video title or description. The Brooklyn Museum commission carries direct resonance with Tom's strongest audience theme: excitement around Black and underrepresented architect visibility (50 comments trending up), plus the ongoing conversation around diversity and race in the profession (25 comments trending up). PRO's Brooklyn Museum project is architecturally substantive — converting a neglected McKim, Mead & White historic space to reconnect African and Egyptian galleries — which ties beautifully into Tom's Black architect history cluster (highest avg_engagement at 0.1175, steady trend, 19 videos of established audience expectation). The dual-commission story also speaks directly to the 'small firm winning over starchitects' angle, which maps to the profession and industry issues cluster (0.0927 engagement, steady). The talking_head format is Tom's highest-engagement style (0.1157) and suits an explainer-reaction hybrid. This is a timely, fresh, mission-aligned topic with zero recent coverage overlap.",
+    "rec_confidence": 0.81,
     "talking_points": [
-      "Explain the RISE rule plainly: starting July 1, 2026, M.Arch and D.Arch students are capped at $20,500/year in federal loans — less than half what law and medical students can borrow — because the Department of Education no longer classifies architecture as a 'professional' degree, and break down what that actually means in monthly debt terms for a typical architecture student.",
-      "Make the equity argument explicitly: architecture already has one of the worst debt-to-income ratios of any licensed profession, and reduced borrowing capacity will disproportionately price out students from lower-income and underrepresented backgrounds — the exact students the NAACP ACT-SO pipeline and the Black architect community are trying to bring in.",
-      "Connect it to Tom's personal story: he competed in ACT-SO, he is a Black architect, he runs a platform (NIA) designed to surface Black architects — ask the audience directly whether this rule, if it had existed when he was starting out, would have changed his path.",
-      "Address the 'devastating and welcome' framing from professors Dietz and Deamer — is the rule exposing a real problem architecture has been ignoring (unsustainable salaries), and if so, what would actually fixing it look like beyond reversing the ruling?",
-      "Call to action: the AIA is backing federal legislation to reverse this — tell the audience what they can do, and direct them to the NIA platform and his broader content for context on why the diversity of the profession matters."
+      "Introduce Peterson Rich Office (PRO) — a Brooklyn-based firm founded in 2014 — and the remarkable fact that they hold simultaneous commissions at both the Metropolitan Museum of Art and the Brooklyn Museum in the same season, a feat typically reserved for legacy starchitect firms.",
+      "Break down the Brooklyn Museum's Arts of Africa commission specifically: PRO is reopening a historic 1897 enfilade to physically and symbolically connect Egyptian and African galleries — explain how that architectural move is actually a curatorial and decolonization argument embedded in the building itself.",
+      "Discuss what it means for smaller, mission-aligned Black-owned or culturally engaged firms to displace larger firms on major institutional commissions — and what that signals about where cultural patronage is shifting in 2026.",
+      "Connect to Tom's own community: who are the young Black architecture students or practitioners watching this who could be building the next PRO? Reference the NAACP ACT-SO pipeline and the audience theme around barriers to entry in the profession.",
+      "Close with a direct call to action — point viewers to the NIA platform as a discovery resource for firms and figures like PRO that don't get mainstream coverage, reinforcing Tom's platform as the home for this kind of story."
     ],
     "reference_urls": [
       {
-        "title": "Changes in architecture degree classification may 'push students out of the profession' says AIA",
-        "url": "https://www.dezeen.com/2026/05/06/aia-architecture-degress-professional-degree/",
-        "source": "Dezeen"
-      },
-      {
-        "title": "AIA Raises Concerns Over U.S. Education Department Over Architecture Loan Rule Exclusion",
-        "url": "https://parametric-architecture.com/aia-u-s-education-department/",
-        "source": "Parametric Architecture"
-      },
-      {
-        "title": "U.S. Department of Education may delist architecture as professional degree",
-        "url": "https://www.archpaper.com/2025/11/architecture-degree-trump-directive/",
+        "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
+        "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
         "source": "The Architect's Newspaper"
+      },
+      {
+        "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
+        "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
+        "source": "ArchDaily"
       }
     ],
     "suggested_format": "talking_head",
-    "suggested_length": "90-120s"
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
@@ -25357,39 +25352,34 @@
   ],
   "external_trends": [
     {
-      "topic": "Federal reclassification of architecture degrees is a live pipeline crisis, not a future threat",
+      "topic": "The federal reclassification of architecture as a non-professional degree is now an existential pipeline crisis — not just a loan policy dispute",
       "audience_resonance": 0.91,
       "source": "Dezeen / The Architect's Newspaper / Parametric Architecture"
     },
     {
-      "topic": "Dezeen launches sustained critical series on parametricism — reframing it as ideology, not just aesthetics",
-      "audience_resonance": 0.52,
+      "topic": "Dezeen's parametricism series reopens the '21st-century style' debate — and Schumacher admits it hasn't arrived on schedule",
+      "audience_resonance": 0.42,
       "source": "Dezeen"
     },
     {
-      "topic": "Museum adaptive reuse goes micro and institutional simultaneously: from IKEA warehouse to The Met",
+      "topic": "Speculative architecture goes mainstream: Liam Young's Barbican show positions climate fiction as a primary medium of architectural thought",
+      "audience_resonance": 0.38,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Small firms are winning major museum commissions — Peterson Rich Office's simultaneous presence at the Met and Brooklyn Museum signals a shift in cultural patronage",
+      "audience_resonance": 0.74,
+      "source": "The Architect's Newspaper / ArchDaily"
+    },
+    {
+      "topic": "Adaptive reuse as institutional and ecological logic: former warehouses, schools, and convents are the new cultural infrastructure",
+      "audience_resonance": 0.51,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "Smiljan Radić's Pritzker lecture reframes architectural knowledge as accumulation of 'distraction' — an anti-canonical pedagogy argument days before it goes live",
       "audience_resonance": 0.44,
-      "source": "Dezeen / ArchDaily / The Architect's Newspaper"
-    },
-    {
-      "topic": "Smiljan Radić's Pritzker lecture frames architecture as accumulated distraction — an anti-canonical counter-signal",
-      "audience_resonance": 0.41,
       "source": "ArchDaily"
-    },
-    {
-      "topic": "Biobased and carbon-negative housing at scale: the Dutch model is becoming a replicable prototype",
-      "audience_resonance": 0.48,
-      "source": "ArchDaily"
-    },
-    {
-      "topic": "Trump-era architecture politics: triumphal arches, Georgian skyscrapers, and the White House ballroom saga continue",
-      "audience_resonance": 0.55,
-      "source": "Dezeen"
-    },
-    {
-      "topic": "Morocco and African architecture visibility: the Mohammed VI Tower opens as the continent's third-tallest building",
-      "audience_resonance": 0.72,
-      "source": "Dezeen / ArchDaily"
     }
   ]
 }
