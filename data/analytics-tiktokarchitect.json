@@ -21,11 +21,37 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_profession_industry",
+    "verdict": "STRONG",
+    "rec_title": "The Government Just Made It Harder to Become an Architect — and Black Students Will Feel It Most",
+    "rec_reason": "The RISE rule reclassification story scores the highest audience resonance (0.88) because it intersects three of Tom's strongest content threads simultaneously: the architecture profession/industry cluster (trending up, 0.0912 avg engagement), the diversity/equity theme that generates 35 comments and is trending up in audience conversation, and the Black architect representation theme that drives the highest comment volume (60 comments, trending up). The audience has already self-selected as people who care about access barriers in the profession — this policy is a live, concrete expression of exactly that barrier, with a hard deadline of July 1, 2026. The AIAS itself has flagged that first-generation, low-income, and underrepresented applicants are disproportionately harmed — language that maps directly onto Tom's community. No recent video has touched this story. Audience requests for ARE exam content and 'what architects can and cannot do across states' signal existing appetite for policy-adjacent career content. This is the rare moment where a trending external story, Tom's lived identity as a Black architect, and his audience's documented concerns about equity and access all point to the same video.",
+    "rec_confidence": 0.87,
+    "talking_points": [
+      "Break down what the RISE rule actually does in plain numbers: graduate architecture students would be capped at $20,500/year vs. $50,000/year for recognized professional programs — that's not a technicality, that's a career-ending funding gap for many students who can't rely on family money.",
+      "Name who gets hit hardest: the AIAS has explicitly stated that first-generation, low-income, and underrepresented students — the exact pipeline Tom's NIA platform and Black architect content is trying to build — are the most exposed. Connect this to Tom's own audience and community.",
+      "Explain why architecture is a long, expensive degree that already has high attrition among underrepresented groups — the financial barrier the RISE rule adds doesn't land equally; it compounds existing inequity in a profession that is already only about 2% Black.",
+      "Frame the stakes beyond the individual student: fewer diverse students entering graduate programs in 2026-2027 means fewer licensed Black architects entering firms in the late 2020s — this is a workforce pipeline crisis, not just a loan policy dispute.",
+      "Call to action: the AIA is backing congressional legislation to reverse it before July 1, 2026 — Tom's audience can contact their representatives, and he can link to AIA's advocacy resources and the NIA platform as a support network for affected students."
+    ],
+    "reference_urls": [
+      {
+        "title": "Changes in architecture degree classification may 'push students out of the profession' says AIA",
+        "url": "https://www.dezeen.com/2026/05/06/aia-architecture-degress-professional-degree/",
+        "source": "Dezeen"
+      },
+      {
+        "title": "U.S. Department of Education may delist architecture as professional degree",
+        "url": "https://www.archpaper.com/2025/11/architecture-degree-trump-directive/",
+        "source": "The Architect's Newspaper"
+      },
+      {
+        "title": "AIA Raises Concerns Over U.S. Education Department Over Architecture Loan Rule Exclusion",
+        "url": "https://parametric-architecture.com/aia-u-s-education-department/",
+        "source": "Parametric Architecture"
+      }
+    ],
+    "suggested_format": "talking_head",
+    "suggested_length": "90-120s"
   },
   "videos": [
     {
@@ -25398,5 +25424,36 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "The federal reclassification of architecture as a non-professional degree is now an existential pipeline crisis — not just a loan policy dispute",
+      "audience_resonance": 0.88,
+      "source": "Dezeen / The Architect's Newspaper / Parametric Architecture"
+    },
+    {
+      "topic": "Dezeen's parametricism series reopens the '21st-century style' debate — and Schumacher admits it hasn't arrived on schedule",
+      "audience_resonance": 0.41,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Speculative architecture goes mainstream: Liam Young's Barbican show positions climate fiction as a primary medium of architectural thought",
+      "audience_resonance": 0.33,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Small firms are winning major museum commissions — Peterson Rich Office's simultaneous presence at the Met and Brooklyn Museum signals a shift in cultural patronage",
+      "audience_resonance": 0.79,
+      "source": "The Architect's Newspaper / ArchDaily"
+    },
+    {
+      "topic": "Adaptive reuse as institutional and ecological logic: former warehouses, schools, and convents are the new cultural infrastructure",
+      "audience_resonance": 0.52,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "Smiljan Radić's Pritzker lecture reframes architectural knowledge as accumulation of 'distraction' — an anti-canonical pedagogy argument days before it goes live",
+      "audience_resonance": 0.44,
+      "source": "ArchDaily"
+    }
+  ]
 }

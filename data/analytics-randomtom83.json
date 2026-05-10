@@ -21,11 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_books",
+    "verdict": "STRONG",
+    "rec_title": "Sophia Picks a Book to Give Away — and Her Reason Wrecks Me",
+    "rec_reason": "The books cluster is the single highest-performing content on this entire account with an avg engagement rate of 0.2007 — more than double any other cluster. Yet there is only 1 video in this cluster, meaning it is massively underexploited. The audience is actively asking follow-up questions about the book moment ('Is the book still at the church?' — 2 questions; 'Where did you find that Bible?' — 1 question), and the comment theme around Sophia's book donation is trending UP. The top audience request theme of 'explaining real-world topics to Sophia' (5 requests) maps perfectly onto a video where Sophia chooses a book to give to another child and has to articulate WHY — which organically surfaces themes of generosity, empathy, and what books mean to her. This is fresh territory: no book content has appeared in the last 30 days of posts, and it has not been recommended previously. The 'praising Tom's parenting style' comment theme (35 comments, trending up) strongly rewards this kind of gentle, values-led moment.",
+    "rec_confidence": 0.89,
+    "talking_points": [
+      "Let Sophia lead — ask her to pick one of her books to give to another kid who doesn't have one, and just film her process of deciding (the reasoning she gives will be gold)",
+      "Ask her what she thinks the other kid will feel when they get the book — this taps directly into the 'explaining real-world concepts' request and her developing empathy",
+      "Tie it back to the previous book moment if it feels natural — the audience is already asking 'is the book still at the church?' so a callback or small update gives existing fans a payoff",
+      "Keep Tom mostly behind the camera or reacting quietly — the 'praising Tom's parenting patience' comment theme suggests the audience loves watching him hold space rather than lead",
+      "End on Sophia's words, not a wrap-up from Tom — her unscripted logic and language is what drove the 0.2007 engagement on the original video"
+    ],
+    "reference_urls": [],
+    "suggested_format": "walkthrough",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
