@@ -4,7 +4,7 @@
     "display_name": "Tom Reynolds",
     "followers": 0,
     "following": 0,
-    "updated_at": "2026-05-09T09:17:35.771115"
+    "updated_at": "2026-05-10T09:32:32.260588"
   },
   "overview": {
     "date_range": {
@@ -12,8 +12,8 @@
       "end": "2026-05-06"
     },
     "videos": 511,
-    "views": 282478,
-    "likes": 16519,
+    "views": 282574,
+    "likes": 16523,
     "comments": 1545,
     "shares": 296,
     "engagement_rate": 0.065,
@@ -21,21 +21,11 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_girldad",
+    "best_performing_cluster_id": null,
     "verdict": "MEH",
-    "rec_title": "Sophia + Bambi in the car together — what happens when she tries to explain the dog to herself out loud",
-    "rec_reason": "This is a direct response to the top audience request ('More videos of Bambi the rescue dog in the car,' 2 explicit asks) combined with the highest-volume comment theme (affection and pride in Sophia, 60 comments) and the second-highest comment theme (praise for Tom's parenting style, 40 comments, trending UP). The c_girldad cluster has the highest avg_engagement of any cluster at 0.0978, and c_pets_home sits at 0.082 — combining both subjects in one video creates a crossover moment that neither cluster achieves alone. The 'walkthrough' format also outperforms 'personal_story' (0.0837 vs 0.0698) and has never been applied to the Bambi-in-car concept. No recent video in the last 30 days covers Bambi and Sophia together in the car as a primary subject — the closest (day 1796, Nov 11 2025) is outside the 30-day window. The 'kids saying surprisingly funny or wise things' comment theme (35 comments, steady) strongly predicts that Sophia narrating the dog's existence or behavior will land. This is also freshly differentiated from the previous recommendation (Bluey brain-break question) and avoids the car ride fatigue of solo conversation posts.",
-    "rec_confidence": 0.81,
-    "talking_points": [
-      "Sophia tries to explain to Bambi why they're in the car and where they're going — let her monologue run without interruption",
-      "Tom reacts minimally, letting the audience sit in the absurdity and sweetness of a preschooler being fully earnest with a dog",
-      "At least one moment where Sophia says something that accidentally reveals how she sees the world (animals have feelings, dogs understand English, etc.)",
-      "End on a quiet beat — Bambi just existing, Sophia satisfied with her own explanation — no punchline needed, the mundane IS the content",
-      "Optional: Tom speaks directly to camera at the end with one sentence about what it's like to have these two in his life — the emotional gut-punch the audience keeps showing up for"
-    ],
-    "reference_urls": [],
-    "suggested_format": "personal_story",
-    "suggested_length": "45-75s"
+    "rec_title": "",
+    "rec_reason": "",
+    "rec_confidence": 0
   },
   "videos": [
     {
@@ -56,8 +46,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7630984828581612830",
       "has_transcript": false,
-      "cluster": "c_girldad",
-      "style": "talking_head",
+      "cluster": "c_personal",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -67,11 +57,11 @@
       "description": "\"Mismo Lucha, Mismo Grito\" created using @Suno and @VidMuse AI  still trying to capture the anger and pain of history repeating",
       "date": "2026-04-18",
       "duration": 192,
-      "views": 136,
+      "views": 137,
       "likes": 8,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0588,
+      "engagement_rate": 0.0584,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -79,7 +69,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7630130776427777311",
       "has_transcript": false,
-      "cluster": "c_advocacy",
+      "cluster": "c_socialpolitical",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -103,7 +93,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7630081914619170078",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -125,7 +115,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7629696580789996830",
       "has_transcript": false,
-      "cluster": "c_advocacy",
+      "cluster": "c_socialpolitical",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -136,11 +126,11 @@
       "description": "Sophia's first day on her big girl bike (with training wheels) #girldad #preschoolersoftiktok ",
       "date": "2026-04-16",
       "duration": 20,
-      "views": 135,
+      "views": 136,
       "likes": 9,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0815,
+      "engagement_rate": 0.0809,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -171,7 +161,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7629506378402401566",
       "has_transcript": false,
-      "cluster": "c_advocacy",
+      "cluster": "c_socialpolitical",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -194,7 +184,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7628426006855961886",
       "has_transcript": false,
-      "cluster": "c_advocacy",
+      "cluster": "c_personal",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -205,7 +195,7 @@
       "description": "\"Mismo Lucha, Mismo Grito\" an anthem to the moment",
       "date": "2026-04-08",
       "duration": 192,
-      "views": 117,
+      "views": 118,
       "likes": 1,
       "comments": 0,
       "shares": 0,
@@ -217,7 +207,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7626254978075643149",
       "has_transcript": false,
-      "cluster": "c_advocacy",
+      "cluster": "c_socialpolitical",
       "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
@@ -241,7 +231,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7626006457531649310",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -264,7 +254,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7622683871951244574",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -274,11 +264,11 @@
       "description": "day 1930: wackadoo #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-03-24",
       "duration": 135,
-      "views": 139,
+      "views": 140,
       "likes": 13,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.1007,
+      "engagement_rate": 0.1,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -287,7 +277,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7620812680235912479",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -310,7 +300,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7619454566471339294",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -333,7 +323,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7615622752430607646",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -356,7 +346,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7615243372147592479",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -366,11 +356,11 @@
       "description": "day 1915 #carrideconversations #preschoolersoftiktok ",
       "date": "2026-03-09",
       "duration": 591,
-      "views": 100,
+      "views": 101,
       "likes": 3,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.03,
+      "engagement_rate": 0.0297,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -379,7 +369,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7615237555230870814",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": null,
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -402,7 +392,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7613399557342383390",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -425,7 +415,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7612671094977269022",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -448,7 +438,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7601931454716661022",
       "has_transcript": false,
       "cluster": "c_bluey",
-      "style": "talking_head",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -471,7 +461,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7601172861633449247",
       "has_transcript": false,
       "cluster": "c_bluey",
-      "style": "talking_head",
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -494,7 +484,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7600052221929213215",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -517,7 +507,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7597813919830363422",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -540,7 +530,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7591223976332987678",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -562,7 +552,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7587641520862285086",
       "has_transcript": false,
-      "cluster": "c_grief_health",
+      "cluster": "c_personal",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -586,7 +576,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7584462489853742366",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -609,7 +599,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7579268863246814495",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -632,7 +622,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7579264973084380446",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -654,8 +644,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7576669628294810911",
       "has_transcript": false,
-      "cluster": "c_pets_home",
-      "style": "personal_story",
+      "cluster": "c_garden",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -677,8 +667,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7574482962381638943",
       "has_transcript": false,
-      "cluster": "c_pets_home",
-      "style": "personal_story",
+      "cluster": "c_petdog",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -700,8 +690,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7574481780028312863",
       "has_transcript": false,
-      "cluster": "c_pets_home",
-      "style": "reaction",
+      "cluster": "c_socialpolitical",
+      "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -723,8 +713,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7571892085922549022",
       "has_transcript": false,
-      "cluster": "c_pets_home",
-      "style": null,
+      "cluster": "c_petdog",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -747,7 +737,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7571841112135060766",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -770,7 +760,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7571593398608563487",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -793,7 +783,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7569268455598279966",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -815,8 +805,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7569266893773622559",
       "has_transcript": false,
-      "cluster": "c_pets_home",
-      "style": null,
+      "cluster": "c_petdog",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -839,7 +829,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7569239800083975454",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -861,7 +851,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7565154318974831903",
       "has_transcript": false,
-      "cluster": "c_grief_health",
+      "cluster": "c_personal",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -884,8 +874,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7564887896663149855",
       "has_transcript": false,
-      "cluster": "c_girldad",
-      "style": "personal_story",
+      "cluster": "c_carride",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -908,7 +898,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7555863766781529375",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -931,7 +921,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7551008197784456479",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -954,7 +944,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7551005610662235423",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -977,7 +967,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7545615101009644830",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1000,7 +990,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7541211052650810655",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1046,7 +1036,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7534720371279367454",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1069,7 +1059,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7532495155098701086",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1092,7 +1082,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7532133643980950815",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1115,7 +1105,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7531815032984816927",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1138,7 +1128,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7530259498234055967",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1161,7 +1151,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7529197874589076766",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1183,8 +1173,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7528813535338450207",
       "has_transcript": false,
-      "cluster": "c_carride",
-      "style": "personal_story",
+      "cluster": "c_socialpolitical",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1207,7 +1197,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7527437954961165598",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1230,7 +1220,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7525862951547374879",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1253,7 +1243,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7525012703065181470",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1276,7 +1266,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7520702612254084383",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1299,7 +1289,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7516536780422696222",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1322,7 +1312,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7515206994907663646",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1345,7 +1335,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7511554662760303903",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1368,7 +1358,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7509851722525805854",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1391,7 +1381,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7504467384569253150",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1414,7 +1404,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7502218350001425694",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1436,8 +1426,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7498705649514089759",
       "has_transcript": false,
-      "cluster": "c_advocacy",
-      "style": "talking_head",
+      "cluster": null,
+      "style": "reaction",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1459,8 +1449,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7498700120297442590",
       "has_transcript": false,
-      "cluster": "c_girldad",
-      "style": "personal_story",
+      "cluster": null,
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1482,8 +1472,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7498693879181462815",
       "has_transcript": false,
-      "cluster": "c_girldad",
-      "style": "personal_story",
+      "cluster": null,
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1493,7 +1483,7 @@
       "description": "eff Summit Health (VillageMD)",
       "date": "2025-04-17",
       "duration": 310,
-      "views": 2188,
+      "views": 2189,
       "likes": 43,
       "comments": 11,
       "shares": 7,
@@ -1505,7 +1495,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7494407816011123998",
       "has_transcript": false,
-      "cluster": "c_grief_health",
+      "cluster": "c_personal",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -1529,7 +1519,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7491673795225226526",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1552,7 +1542,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7490121247238524191",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1575,7 +1565,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7487971280117861662",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1598,7 +1588,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7485505218671545631",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "reaction",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1621,7 +1611,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7483299694131596575",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1644,7 +1634,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7478328617139817758",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1667,7 +1657,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7478324286747331870",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1690,7 +1680,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7473905196268047647",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1712,8 +1702,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7466844964295576862",
       "has_transcript": false,
-      "cluster": "c_advocacy",
-      "style": "personal_story",
+      "cluster": "c_socialpolitical",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1736,7 +1726,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7466528383610932511",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1759,7 +1749,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7465753614179372319",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1782,7 +1772,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7464963520380161310",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1805,7 +1795,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7463108149906558239",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1828,7 +1818,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7462380186676301086",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1851,7 +1841,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7461381471094279454",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1874,7 +1864,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7449933118770826526",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "reaction",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1897,7 +1887,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7445257408915459358",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "reaction",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1919,8 +1909,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7443510998515993898",
       "has_transcript": false,
-      "cluster": "c_girldad",
-      "style": "personal_story",
+      "cluster": "c_books",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1943,7 +1933,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7432276738715209006",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "reaction",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1966,7 +1956,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7431199149195791659",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": null,
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1989,7 +1979,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7421904745062796587",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": null,
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -1999,11 +1989,11 @@
       "description": "a mouse took a walk through the deep dark wood... #girldadtiktok #toddlersoftiktok #girldad ",
       "date": "2024-09-28",
       "duration": 541,
-      "views": 512,
+      "views": 513,
       "likes": 44,
       "comments": 6,
       "shares": 0,
-      "engagement_rate": 0.0977,
+      "engagement_rate": 0.0975,
       "sentiment": {
         "positive": 0.5,
         "neutral": 0.5,
@@ -2035,7 +2025,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7419084083176738091",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2058,7 +2048,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7418573988424666411",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2081,7 +2071,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7417823860424215851",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2104,7 +2094,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7412626090516073771",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "reaction",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2127,7 +2117,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7412622104610295083",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2173,7 +2163,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7401322574937918763",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2196,7 +2186,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7401126549224803627",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2219,7 +2209,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7400545379173010734",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2242,7 +2232,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7399752714600664366",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2265,7 +2255,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7398673134901136682",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2288,7 +2278,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7398670558474374443",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2311,7 +2301,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7398156198433836331",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -2334,7 +2324,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7397782359816391978",
       "has_transcript": false,
       "cluster": "c_carride",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -5219,11 +5209,11 @@
       "description": "bold claim @proctergamble #cascadeplatinum ",
       "date": "2022-12-19",
       "duration": 42,
-      "views": 444,
+      "views": 445,
       "likes": 39,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0923,
+      "engagement_rate": 0.0921,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -6438,11 +6428,11 @@
       "description": "she was determined to get at me #girldad #babiesoftiktok #dadsoftiktok #babyville",
       "date": "2022-02-22",
       "duration": 15,
-      "views": 6434,
+      "views": 6437,
       "likes": 35,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0058,
+      "engagement_rate": 0.0057,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -6507,7 +6497,7 @@
       "description": "#babyolympics the Baby Fall on baby @nbcolympics #babiesoftiktok #girldad #DAD1news",
       "date": "2022-02-19",
       "duration": 46,
-      "views": 1191,
+      "views": 1192,
       "likes": 42,
       "comments": 4,
       "shares": 0,
@@ -11521,11 +11511,11 @@
       "description": "a very emotional experience #carrideconversations #girldad #preschoolersoftiktok ",
       "date": "2026-04-27",
       "duration": 513,
-      "views": 224,
+      "views": 230,
       "likes": 12,
       "comments": 2,
       "shares": 1,
-      "engagement_rate": 0.067,
+      "engagement_rate": 0.0652,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11544,11 +11534,11 @@
       "description": "we have a plan #preschoolersoftiktok #girldad ",
       "date": "2026-04-27",
       "duration": 103,
-      "views": 139,
+      "views": 141,
       "likes": 10,
       "comments": 4,
       "shares": 1,
-      "engagement_rate": 0.1079,
+      "engagement_rate": 0.1064,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11567,11 +11557,11 @@
       "description": "the Statik phone mount. not bad",
       "date": "2026-04-28",
       "duration": 202,
-      "views": 123,
+      "views": 128,
       "likes": 2,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0325,
+      "engagement_rate": 0.0312,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11590,11 +11580,11 @@
       "description": "Mickey Boat - reminiscing about the @disneycruiselineofficial ",
       "date": "2026-04-28",
       "duration": 180,
-      "views": 115,
+      "views": 117,
       "likes": 4,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0348,
+      "engagement_rate": 0.0342,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11613,11 +11603,11 @@
       "description": "day 1966 robo puppy (thanks @Star ) #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-04-29",
       "duration": 600,
-      "views": 109,
+      "views": 111,
       "likes": 2,
       "comments": 0,
       "shares": 2,
-      "engagement_rate": 0.0367,
+      "engagement_rate": 0.036,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11636,11 +11626,11 @@
       "description": "🥺💝😭😭 #girldad #preschoolersoftiktok ",
       "date": "2026-05-02",
       "duration": 23,
-      "views": 150,
+      "views": 153,
       "likes": 7,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0467,
+      "engagement_rate": 0.0458,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11659,11 +11649,11 @@
       "description": "time for the @The Home Depot build #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-05-02",
       "duration": 509,
-      "views": 89,
+      "views": 92,
       "likes": 4,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.0562,
+      "engagement_rate": 0.0543,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11682,11 +11672,11 @@
       "description": "batman #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-05-03",
       "duration": 180,
-      "views": 299,
+      "views": 318,
       "likes": 23,
       "comments": 1,
       "shares": 2,
-      "engagement_rate": 0.087,
+      "engagement_rate": 0.0818,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11705,11 +11695,11 @@
       "description": "day 1971: how to tell a story (got cut off) #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-05-04",
       "duration": 180,
-      "views": 172,
+      "views": 179,
       "likes": 5,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0291,
+      "engagement_rate": 0.0279,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11728,11 +11718,11 @@
       "description": "challenging 4 decades of generational trauma in one moment... #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-05-06",
       "duration": 172,
-      "views": 501,
-      "likes": 44,
+      "views": 523,
+      "likes": 47,
       "comments": 7,
       "shares": 0,
-      "engagement_rate": 0.1018,
+      "engagement_rate": 0.1033,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11751,11 +11741,11 @@
       "description": "another #carrideconversations after school edition #preschoolersoftiktok #girldad ",
       "date": "2026-05-05",
       "duration": 600,
-      "views": 113,
+      "views": 120,
       "likes": 4,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0354,
+      "engagement_rate": 0.0333,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11774,11 +11764,11 @@
       "description": "flowers #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-05-06",
       "duration": 502,
-      "views": 165,
-      "likes": 7,
+      "views": 171,
+      "likes": 8,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0424,
+      "engagement_rate": 0.0468,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -12012,7 +12002,7 @@
     {
       "month": "2022-02",
       "videos": 29,
-      "views": 23354,
+      "views": 23358,
       "likes": 1281,
       "comments": 121,
       "new_followers": 0
@@ -12092,7 +12082,7 @@
     {
       "month": "2022-12",
       "videos": 6,
-      "views": 3156,
+      "views": 3157,
       "likes": 252,
       "comments": 34,
       "new_followers": 0
@@ -12252,7 +12242,7 @@
     {
       "month": "2024-09",
       "videos": 6,
-      "views": 2566,
+      "views": 2567,
       "likes": 164,
       "comments": 21,
       "new_followers": 0
@@ -12308,7 +12298,7 @@
     {
       "month": "2025-04",
       "videos": 6,
-      "views": 3657,
+      "views": 3658,
       "likes": 131,
       "comments": 21,
       "new_followers": 0
@@ -12396,7 +12386,7 @@
     {
       "month": "2026-03",
       "videos": 8,
-      "views": 1094,
+      "views": 1096,
       "likes": 64,
       "comments": 8,
       "new_followers": 0
@@ -12404,7 +12394,7 @@
     {
       "month": "2026-04",
       "videos": 14,
-      "views": 1922,
+      "views": 1942,
       "likes": 66,
       "comments": 10,
       "new_followers": 0
@@ -12412,8 +12402,8 @@
     {
       "month": "2026-05",
       "videos": 7,
-      "views": 1489,
-      "likes": 94,
+      "views": 1556,
+      "likes": 98,
       "comments": 9,
       "new_followers": 0
     }
@@ -12458,7 +12448,7 @@
       "bucket": "120s+",
       "count": 148,
       "avg_views": 383,
-      "avg_engagement": 0.0724,
+      "avg_engagement": 0.0723,
       "avg_watch_through": null
     }
   ],
@@ -12474,22 +12464,22 @@
       {
         "text": "What hardiness zone are you in?",
         "count": 1,
-        "cluster_id": "c_pets_home"
+        "cluster_id": "c_garden"
       },
       {
-        "text": "Is the book still at the church/store?",
+        "text": "Is the book still there at the church?",
         "count": 2,
-        "cluster_id": "c_girldad"
+        "cluster_id": "c_books"
       },
       {
-        "text": "Where did you find that Bluey item?",
+        "text": "Where did you find the Bluey item?",
         "count": 1,
         "cluster_id": "c_bluey"
       },
       {
         "text": "Are you talking about Summit Medical Group specifically?",
         "count": 1,
-        "cluster_id": "c_grief_health"
+        "cluster_id": "c_personal"
       },
       {
         "text": "How long was the car ride?",
@@ -12497,40 +12487,40 @@
         "cluster_id": "c_carride"
       },
       {
-        "text": "Did you see that Homan is upset that some immigrants know their rights?",
-        "count": 1,
-        "cluster_id": "c_advocacy"
+        "text": "Did you get her a taco pizza?",
+        "count": 2,
+        "cluster_id": "c_carride"
       },
       {
-        "text": "Is Bluey better than Disney princesses?",
-        "count": 4,
+        "text": "Would Bluey count as a Disney princess?",
+        "count": 3,
         "cluster_id": "c_bluey"
       },
       {
-        "text": "Is first cousin once removed the correct term for that relationship?",
+        "text": "Where did you find that Bible?",
         "count": 1,
-        "cluster_id": "c_carride"
+        "cluster_id": "c_books"
       }
     ],
     "requests": [
       {
-        "text": "More videos of Bambi the rescue dog in the car",
-        "count": 2
+        "text": "More car ride conversations content with the dog Bambi included",
+        "count": 3
+      },
+      {
+        "text": "More videos of Sophia singing or being creative",
+        "count": 4
+      },
+      {
+        "text": "More content about explaining real-world topics to Sophia",
+        "count": 5
       },
       {
         "text": "More morning routine and wake-up content with Sophia",
         "count": 2
       },
       {
-        "text": "Get Sophia a taco pizza to blow her mind",
-        "count": 1
-      },
-      {
-        "text": "More car ride conversations content in general",
-        "count": 3
-      },
-      {
-        "text": "More philosophical/big question conversations with Sophia",
+        "text": "More videos about civic or social topics through the lens of parenting",
         "count": 2
       }
     ]
@@ -12690,7 +12680,7 @@
   "content_clusters": [
     {
       "id": "c_carride",
-      "label": "Daily Car Ride Conversations with Daughter",
+      "label": "Car Ride Conversations with Daughter (Sophia)",
       "video_count": 77,
       "share_of_views": 0.1,
       "avg_follower_conversion": 0,
@@ -12699,127 +12689,143 @@
       "verdict": "NOISE"
     },
     {
-      "id": "c_girldad",
-      "label": "Girl Dad Parenting Milestones and Family Life",
-      "video_count": 5,
-      "share_of_views": 0.04,
+      "id": "c_petdog",
+      "label": "Rescue Dog (Bambi) Content",
+      "video_count": 3,
+      "share_of_views": 0.0,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0978,
+      "avg_engagement": 0.0961,
       "trend": "steady",
       "verdict": "MEH"
     },
     {
-      "id": "c_grief_health",
-      "label": "Personal Vulnerability: Grief and Health Struggles",
-      "video_count": 3,
+      "id": "c_personal",
+      "label": "Personal Life Events and Emotional Moments",
+      "video_count": 5,
       "share_of_views": 0.03,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0589,
+      "avg_engagement": 0.0474,
       "trend": "steady",
       "verdict": "NOISE"
     },
     {
-      "id": "c_advocacy",
-      "label": "Social and Political Advocacy",
+      "id": "c_socialpolitical",
+      "label": "Social, Political and Civic Commentary",
       "video_count": 7,
       "share_of_views": 0.01,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0352,
+      "avg_engagement": 0.0504,
       "trend": "up",
       "verdict": "NOISE"
     },
     {
-      "id": "c_pets_home",
-      "label": "Rescue Dog and Home Life",
-      "video_count": 5,
-      "share_of_views": 0.01,
-      "avg_follower_conversion": 0,
-      "avg_engagement": 0.082,
-      "trend": "steady",
-      "verdict": "MEH"
-    },
-    {
       "id": "c_bluey",
-      "label": "Bluey Fandom and Kids Pop Culture",
+      "label": "Bluey and Children's Media Reactions",
       "video_count": 3,
       "share_of_views": 0.01,
       "avg_follower_conversion": 0,
       "avg_engagement": 0.0922,
       "trend": "steady",
       "verdict": "MEH"
+    },
+    {
+      "id": "c_books",
+      "label": "Books, Reading and Literacy Moments",
+      "video_count": 1,
+      "share_of_views": 0.03,
+      "avg_follower_conversion": 0,
+      "avg_engagement": 0.2007,
+      "trend": "steady",
+      "verdict": "MEH"
+    },
+    {
+      "id": "c_garden",
+      "label": "Home, Garden and Outdoor Projects",
+      "video_count": 1,
+      "share_of_views": 0.0,
+      "avg_follower_conversion": 0,
+      "avg_engagement": 0.059,
+      "trend": "steady",
+      "verdict": "NOISE"
     }
   ],
   "topic_engagement_matrix": [
     {
-      "topic": "Daily Car Ride Conversations with Daughter",
+      "topic": "Car Ride Conversations with Daughter (Sophia)",
       "views_idx": 0.64,
       "likes_idx": 0.64,
       "comments_idx": 0.7
     },
     {
-      "topic": "Girl Dad Parenting Milestones and Family Life",
-      "views_idx": 3.87,
-      "likes_idx": 11.5,
-      "comments_idx": 10.25
+      "topic": "Rescue Dog (Bambi) Content",
+      "views_idx": 0.76,
+      "likes_idx": 1.46,
+      "comments_idx": 1.21
     },
     {
-      "topic": "Personal Vulnerability: Grief and Health Struggles",
-      "views_idx": 4.93,
-      "likes_idx": 4.43,
-      "comments_idx": 6.06
+      "topic": "Personal Life Events and Emotional Moments",
+      "views_idx": 3.06,
+      "likes_idx": 2.72,
+      "comments_idx": 3.64
     },
     {
-      "topic": "Social and Political Advocacy",
-      "views_idx": 0.43,
-      "likes_idx": 0.37,
-      "comments_idx": 0.43
+      "topic": "Social, Political and Civic Commentary",
+      "views_idx": 0.47,
+      "likes_idx": 0.57,
+      "comments_idx": 0.52
     },
     {
-      "topic": "Rescue Dog and Home Life",
-      "views_idx": 0.69,
-      "likes_idx": 1.07,
-      "comments_idx": 1.19
-    },
-    {
-      "topic": "Bluey Fandom and Kids Pop Culture",
+      "topic": "Bluey and Children's Media Reactions",
       "views_idx": 1.46,
       "likes_idx": 1.58,
       "comments_idx": 2.43
+    },
+    {
+      "topic": "Books, Reading and Literacy Moments",
+      "views_idx": 17.84,
+      "likes_idx": 55.48,
+      "comments_idx": 49.94
+    },
+    {
+      "topic": "Home, Garden and Outdoor Projects",
+      "views_idx": 0.8,
+      "likes_idx": 0.56,
+      "comments_idx": 2.32
     }
   ],
   "presentation_styles": [
     {
-      "style": "personal_story",
-      "video_count": 77,
-      "avg_engagement": 0.0698,
-      "avg_follower_conversion": 0,
-      "verdict": "MEH"
-    },
-    {
       "style": "walkthrough",
-      "video_count": 3,
-      "avg_engagement": 0.0837,
+      "video_count": 83,
+      "avg_engagement": 0.0697,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     },
     {
-      "style": "talking_head",
-      "video_count": 8,
-      "avg_engagement": 0.0451,
+      "style": "personal_story",
+      "video_count": 6,
+      "avg_engagement": 0.05,
       "avg_follower_conversion": 0,
       "verdict": "NOISE"
     },
     {
       "style": "reaction",
-      "video_count": 7,
-      "avg_engagement": 0.0588,
+      "video_count": 4,
+      "avg_engagement": 0.0772,
+      "avg_follower_conversion": 0,
+      "verdict": "MEH"
+    },
+    {
+      "style": "talking_head",
+      "video_count": 5,
+      "avg_engagement": 0.0404,
       "avg_follower_conversion": 0,
       "verdict": "NOISE"
     },
     {
-      "style": "personal_story",
-      "video_count": 77,
-      "avg_engagement": 0.0698,
+      "style": "walkthrough",
+      "video_count": 83,
+      "avg_engagement": 0.0697,
       "avg_follower_conversion": 0,
       "verdict": "MEH"
     }
@@ -12831,33 +12837,48 @@
       "trend": "steady"
     },
     {
-      "theme": "Praise for the father's parenting style and patience",
-      "comment_count": 40,
-      "trend": "up"
-    },
-    {
-      "theme": "Community grief and emotional support after a loss",
-      "comment_count": 5,
-      "trend": "steady"
-    },
-    {
-      "theme": "Frustration with healthcare system failures",
-      "comment_count": 5,
-      "trend": "up"
-    },
-    {
-      "theme": "Bluey as a meaningful show for parents of daughters",
-      "comment_count": 10,
-      "trend": "up"
-    },
-    {
-      "theme": "Kids saying surprisingly funny or wise things",
+      "theme": "Praising the father's parenting style and patience",
       "comment_count": 35,
+      "trend": "up"
+    },
+    {
+      "theme": "Grief, sympathy and communal mourning",
+      "comment_count": 10,
       "trend": "steady"
     },
     {
-      "theme": "Shared parenting experiences and relatability",
-      "comment_count": 30,
+      "theme": "Bluey fandom and discussion of the show's quality",
+      "comment_count": 15,
+      "trend": "up"
+    },
+    {
+      "theme": "Frustration with healthcare systems and shared personal medical experiences",
+      "comment_count": 5,
+      "trend": "steady"
+    },
+    {
+      "theme": "Excitement and engagement with Sophia's book donation moment",
+      "comment_count": 5,
+      "trend": "up"
+    },
+    {
+      "theme": "Dog ownership humor and relatability",
+      "comment_count": 10,
+      "trend": "steady"
+    },
+    {
+      "theme": "Civic rights and immigration awareness responses",
+      "comment_count": 5,
+      "trend": "steady"
+    },
+    {
+      "theme": "Food preferences debate sparked by Sophia's taco-pizza song",
+      "comment_count": 5,
+      "trend": "up"
+    },
+    {
+      "theme": "Tree care and gardening advice exchange",
+      "comment_count": 5,
       "trend": "steady"
     }
   ],
