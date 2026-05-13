@@ -1,0 +1,147 @@
+{
+  "scan_date": "2026-05-13",
+  "sources_checked": [
+    "ArchDaily",
+    "Dezeen",
+    "Archinect",
+    "The Architect's Newspaper",
+    "Curbed",
+    "Architectural Digest",
+    "Designboom",
+    "Architect Magazine (AIA)",
+    "Failed Architecture",
+    "McMansion Hell",
+    "99% Invisible"
+  ],
+  "trends": [
+    {
+      "topic": "Parametricism's death certificate is being written in real time — Dezeen launches a full critical series",
+      "synthesis": "Dezeen has launched a multi-part editorial series on parametricism — and it is not a celebration. The most-read piece today is a polemical op-ed by architectural theorist Douglas Spencer arguing that parametricism can never become a dominant style because capitalism is 'no longer interested in the lives of the masses.' Spencer's core thesis holds that Patrik Schumacher's 2008 Parametricist Manifesto premised the style's universality on a specific phase of post-Fordist neoliberal capitalism that has since collapsed into inequality-driven development. Dezeen's own series introduction by Owen Hopkins positioned parametricism as 'the architecture of neoliberalism itself,' while a companion interview revealed Schumacher himself is 'not happy' with how slowly the style is being adopted. This is a rare moment of coordinated critical discourse — three pieces stacked in a week dissecting a style's ideological limits, not just its aesthetics. The series is also tracking buildings like Metropol Parasol and the Yokohama Port Terminal as canonical case studies, anchoring abstract theory in built reality.",
+      "sources": [
+        {
+          "title": "\"The relationship between architecture and capitalism on which parametricism was premised ceased to exist long ago\"",
+          "url": "https://www.dezeen.com/2026/05/11/douglas-spencer-parametricism-opinion/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "Parametricism is the architecture \"of neoliberalism itself\"",
+          "url": "https://www.dezeen.com/2026/05/05/parametricism-introduction-owen-hopkins/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "A simple guide to parametricism",
+          "url": "https://www.dezeen.com/2026/05/06/parametricism-simple-guide/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "This is the most substantive architecture theory discourse this week. Content creators should engage with the Spencer-Schumacher fault line directly: the question isn't whether parametricism is beautiful, it's whether it ever had a viable political economy — and whether the same critique now applies to AI-generated form. This is a live debate with named combatants, which is rare and highly shareable."
+    },
+    {
+      "topic": "Tour Triangle tops out — Paris's 20-year skyline fight reaches a milestone that re-opens the height debate",
+      "synthesis": "Herzog & de Meuron's Tour Triangle has officially topped out at 180 metres in Paris, becoming the third-tallest structure within the city limits after the Eiffel Tower and Tour Montparnasse. The milestone is architecturally significant but politically explosive: the project began in 2006, survived multiple legal challenges and planning rejections, and is partly responsible for Paris mayor Anne Hidalgo reinstating the city's height limit in 2023, meaning Tour Triangle will hold its rank indefinitely. At 42 storeys, it is a mixed-use tower combining offices, a hotel, retail, and a public belvedere, clad in a glass trapezoidal form whose silhouette shifts dramatically depending on viewing angle. The topping-out arrives as a kind of ironic coda — the building finally exists, but the conditions that might have spawned successors have already been foreclosed by the very controversy it caused.",
+      "sources": [
+        {
+          "title": "Tour Triangle skyscraper by Herzog & de Meuron tops out in Paris",
+          "url": "https://www.dezeen.com/2026/05/11/tour-triangle-skyscraper-herzog-de-meuron-tops-out-paris/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "Tour Triangle is the rare project that changed policy by existing. Architecture content creators should frame this not as a completion story but as a case study in how a single building can reshape a city's regulatory DNA — and ask what other cities have Tour Triangle equivalents quietly in the pipeline."
+    },
+    {
+      "topic": "Affordability as architecture's dominant critical framework — biennales make economics the curatorial question of 2026",
+      "synthesis": "The Tallinn Architecture Biennale 2026 announced competition winners today under its curatorial theme 'How Much?' — a direct interrogation of money, affordability, and resource allocation in architecture. The winning installation, 'Resonance' by Aru Ma-Architects (Cheng Hao Chung and Zhang Jie), reinterprets luxury as a spatial condition achieved through restraint and material economy, using rebar, rope, limestone, and plywood. The biennale frames contemporary practice through the lens of economic constraint and cultural value. This sits in close conversation with the upcoming World Urban Forum 13 in Baku (May 17–22) themed 'Housing the World,' and the inaugural Pan-African Architecture Biennale in Nairobi (September 2026) curated by Omar Degan, which explicitly aims to shift the narrative from fragility to resilience across all 54 African nations. Across these three events, 'affordability' has moved from a social policy keyword to the central curatorial and critical framework for global architecture discourse in 2026.",
+      "sources": [
+        {
+          "title": "Tallinn Architecture Biennale 2026 Announces Winners of Installation and Vision Competitions",
+          "url": "https://www.archdaily.com/1041464/tallinn-architecture-biennale-2026-announces-winners-of-installation-and-vision-competitions",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "One Week Until WUF13 Begins in Baku: Exploring Safe and Resilient Cities Under the Theme \"Housing the World\"",
+          "url": "https://www.archdaily.com/1041422/one-week-until-wuf13-begins-in-baku-exploring-safe-and-resilient-cities-under-the-theme-housing-the-world",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "The convergence of TAB 2026, WUF13, and the Pan-African Biennale around affordability/resource scarcity is not coincidental — it is a disciplinary reckoning. Creators who keep framing architecture through aesthetics alone are increasingly out of step with where institutional discourse is heading. The next six months offer multiple entry points to cover this shift through specific competitions, project types, and named critics."
+    },
+    {
+      "topic": "AI is colonizing the visualization workflow — and the industry press is not yet calling it out",
+      "synthesis": "ArchDaily published a sponsored feature today framed as editorial: 'How AI Is Transforming the Architectural Visualization Workflow,' produced with Chaos (makers of V-Ray). The piece argues that AI is becoming embedded throughout the design workflow, enabling architects to move 'from concept to photoreal imagery in minutes.' The CTO of Chaos, Vlado Koylazov, is quoted positioning this as continuity with design thinking rather than disruption. Notably, this content sits alongside legitimately editorial pieces on the ArchDaily homepage with no strong visual differentiation — a blurring of sponsored and critical content that is itself a signal worth tracking. The underlying claim — that AI visualization accelerates iteration without compromising intent — is being asserted, not tested.",
+      "sources": [
+        {
+          "title": "How AI Is Transforming the Architectural Visualization Workflow",
+          "url": "https://www.archdaily.com/1041348/how-ai-is-transforming-the-architectural-visualization-workflow",
+          "source": "ArchDaily"
+        }
+      ],
+      "so_what": "This piece is noise dressed as signal — but its placement is the signal. The architecture media ecosystem is increasingly surfacing vendor-sponsored AI content as editorial. Content creators have an opening to do the critical piece this isn't: what does AI visualization actually break in the design process, and who isn't being served by 'faster iteration'?"
+    },
+    {
+      "topic": "Design-forward residential towers are claiming democratic legitimacy — and it deserves scrutiny",
+      "synthesis": "Johnston Marklee's Ray Phoenix — a 26-storey, 401-apartment residential tower in Phoenix's Roosevelt Row Arts District — was widely covered this week as a model of architect-designed, culturally embedded housing. The studio describes the building's design as 'democratic by nature,' citing a consistent grid that unites living units with communal spaces. The mint-green metal facade is derived from the surrounding desert landscape, and the building was co-developed to make 'art, architecture, and design highly accessible.' However, the building contains a majority of studio apartments with resort-style amenities, sits in an arts district known for gentrification pressure, and was developed by New York and Kansas capital. The gap between the democratic rhetoric and the product type is worth watching.",
+      "sources": [
+        {
+          "title": "Johnston Marklee completes \"democratic by nature\" green-metal tower in Phoenix",
+          "url": "https://www.dezeen.com/2026/05/11/johnston-marklee-ray-phoenix-arizona/",
+          "source": "Dezeen"
+        }
+      ],
+      "so_what": "This is a case study in how 'democratic design' language is being attached to market-rate luxury rental product. Architecture critics and content creators should probe the gap between this rhetoric and the actual affordability and tenure of the units — especially as the TAB 2026 and WUF13 are simultaneously interrogating what 'democratic' architecture actually costs."
+    },
+    {
+      "topic": "Peterson Rich Office is becoming the go-to firm for culturally urgent institutional adaptive reuse",
+      "synthesis": "Peterson Rich Office (PRO) has emerged this week as one of the most in-demand names in institutional architecture, with two major projects in active play simultaneously. The Brooklyn Museum's $13 million Arts of Africa galleries commission — transforming previously underutilized storage into 6,400 square feet of permanent gallery space — is entering its construction phase this summer, with the project also reopening an original 1897 enfilade to physically connect African and Egyptian art galleries for the first time, a curatorial decision with significant art-historical implications. Simultaneously, the Metropolitan Museum of Art is unveiling PRO's newly completed Condé M. Nast Galleries in May 2026. PRO's design philosophy — exposing new infrastructure as a distinct layer rather than concealing it — has become a template for how small firms navigate adaptive reuse inside landmark buildings under historic preservation constraints.",
+      "sources": [
+        {
+          "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
+          "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
+          "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
+          "source": "The Architect's Newspaper"
+        }
+      ],
+      "so_what": "PRO is executing a rare double-institutional moment — two flagship New York museum commissions opening within months of each other. For content creators, this is a firm worth profiling now, before the galleries open, as a model of how small practices win culturally sensitive institutional work without the scale of legacy firms."
+    }
+  ],
+  "people": [
+    {
+      "name": "Douglas Spencer",
+      "role": "Architectural theorist / critic",
+      "why": "Published the most-read op-ed of the week on Dezeen, arguing parametricism is structurally incapable of becoming a dominant style because its underlying capitalist logic — post-Fordist neoliberalism — has collapsed. His 2016 book 'The Architecture of Neoliberalism' is being surfaced as the theoretical anchor for Dezeen's entire parametricism series."
+    },
+    {
+      "name": "Patrik Schumacher",
+      "role": "Principal, Zaha Hadid Architects",
+      "why": "Dezeen's interview with Schumacher revealed he is 'not happy' with how slowly parametricism is being adopted — a candid admission that puts him in direct debate with Spencer and frames him as a reluctant defender of a style under serious critical pressure."
+    },
+    {
+      "name": "Miriam Peterson",
+      "role": "Founding Partner, Peterson Rich Office",
+      "why": "Named as a Dezeen Awards 2026 judge today, while simultaneously leading two of New York's most culturally significant institutional commissions: the Brooklyn Museum Arts of Africa galleries and the Met's Condé M. Nast Galleries. She is at the apex of her firm's institutional visibility."
+    },
+    {
+      "name": "Cheng Hao Chung & Zhang Jie (Aru Ma-Architects)",
+      "role": "Founding principals, Aru Ma-Architects",
+      "why": "Won the Tallinn Architecture Biennale 2026 Installation Competition with 'Resonance' — a pavilion made from rebar, rope, limestone, and plywood that reframes luxury as atmospheric restraint. The win positions them as a firm to watch in the growing critical conversation about resource-conscious architecture."
+    },
+    {
+      "name": "Omar Degan",
+      "role": "Curator, Pan-African Architecture Biennale; Somali-Italian architect",
+      "why": "Curating the inaugural Pan-African Architecture Biennale in Nairobi (September 2026), aiming to represent all 54 African nations and shift architectural discourse from narratives of fragility to resilience. One of the most consequential new curatorial voices in global architecture."
+    },
+    {
+      "name": "Jacques Herzog & Pierre de Meuron",
+      "role": "Founding partners, Herzog & de Meuron",
+      "why": "Tour Triangle topped out in Paris this week — the culmination of a 20-year project that reshaped the city's planning policy. The milestone renews scrutiny of the firm's role in one of Europe's longest-running architectural controversies."
+    },
+    {
+      "name": "Sharon Johnston & Mark Lee",
+      "role": "Founding principals, Johnston Marklee",
+      "why": "Completed Ray Phoenix in Arizona — a 401-unit residential tower whose 'democratic by nature' framing is drawing attention to the tension between design-forward architectural rhetoric and market-rate development in a gentrifying arts district."
+    }
+  ]
+}
