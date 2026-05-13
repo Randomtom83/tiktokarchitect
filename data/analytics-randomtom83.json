@@ -22,34 +22,18 @@
   },
   "headline_signal": {
     "best_performing_cluster_id": "c_bluey_media",
-    "verdict": "STRONG",
-    "rec_title": "\"Is Bluey a Disney Princess? We Investigated and Asked Sophia for the Final Answer\"",
-    "rec_reason": "c_bluey_media is the highest-engagement cluster on the account at 0.1019 avg engagement, outperforming every other cluster and every presentation style. The question 'Is Bluey a Disney princess?' has been asked 12 times by viewers — the single most-asked question in the entire audience questions dataset by a wide margin — and the Bluey fandom comment theme is trending UP with 15 comments. A prior video ('we have a very unfortunate definitive answer') touched this territory on 2026-02-01, but that was over 3 months ago and the audience is still actively asking. The spin here is new: framing it as a father-daughter investigation where Sophia delivers the verdict, combining the high-engagement Bluey hook with the affirming father-daughter dynamic that also trends up with 45 comments. This stacks two of the account's strongest engagement signals into one video without repeating recent content.",
-    "rec_confidence": 0.87,
+    "verdict": "MEH",
+    "rec_title": "Sophia Tries Taco Pizza for the First Time (You Asked for This)",
+    "rec_reason": "Two separate audience members directly requested Tom introduce Sophia to taco pizza — a rare, specific, actionable audience request. The toddler humor and relatable preschooler behavior theme drives 35 steady comments and is one of the most consistent engagement drivers on the account. Sophia milestone and reaction content (c_milestones: 0.0817 avg engagement, c_bluey_media: 0.1019) outperforms the dominant car ride cluster (0.0655), suggesting that content where Sophia reacts to something — rather than just talks — performs better. Personal story format averages 0.0976 engagement, the highest of any format. This video fulfills a named audience request, features Sophia in a reactive/milestone moment, and has a built-in comedic payoff — all elements that have driven the account's strongest comment threads. No taco pizza content appears anywhere in recent video history.",
+    "rec_confidence": 0.81,
     "talking_points": [
-      "Set up the debate: what actually makes someone a Disney princess — is it a crown, a castle, a Disney studio logo, or something else? Let the audience feel the stakes before Sophia weighs in.",
-      "Walk through Sophia's personal criteria for 'princess-hood' — does Bluey have a dress? Does she sing? Does she have a prince? Let her logic (however preschool-chaotic) drive the humor.",
-      "React to the fact that Disney technically now distributes Bluey in some markets — does that change the answer? Use this as the twist that makes older viewers lean in.",
-      "Deliver Sophia's definitive ruling with full seriousness, treating her verdict like a Supreme Court opinion — this is the shareable, clip-able moment.",
-      "Close with a callback to the community: 'You've been asking this for months — Sophia has spoken. The debate is officially over.' This rewards loyal viewers who asked the question."
+      "Open with the callback: 'Someone in the comments told me I had to do this. So here we are.' — immediately rewards loyal viewers who made the request",
+      "Film Sophia's genuine first reaction to taco pizza — let her narrate what she thinks it is before tasting, leaning into her natural preschooler logic and commentary",
+      "Play up the philosophical angle Sophia would naturally land on: is it a pizza that thinks it's a taco, or a taco that got lost? Let her decide",
+      "Capture the post-taste verdict in her own words — does it get the Sophia seal of approval or the dramatic rejection face?",
+      "Close with a direct-to-camera dad moment: 'The people have spoken. We delivered. What do you want us to try next?' — invites the next round of audience requests and builds the feedback loop"
     ],
-    "reference_urls": [
-      {
-        "title": "Bluey Is Now Officially Part of the Disney Family — Here's What That Means",
-        "url": "https://www.parents.com/bluey-disney-acquisition-what-parents-need-to-know",
-        "source": "Parents.com"
-      },
-      {
-        "title": "Why Bluey Resonates So Deeply With Parents, Not Just Kids",
-        "url": "https://www.theatlantic.com/family/archive/bluey-parents-emotional-resonance",
-        "source": "The Atlantic"
-      },
-      {
-        "title": "The Official Disney Princess Criteria — And Why It's Weirder Than You Think",
-        "url": "https://screenrant.com/disney-princess-official-criteria-explained",
-        "source": "Screen Rant"
-      }
-    ],
+    "reference_urls": [],
     "suggested_format": "personal_story",
     "suggested_length": "60-90s"
   },
