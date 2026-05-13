@@ -21,11 +21,37 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_bluey_media",
+    "verdict": "STRONG",
+    "rec_title": "\"Is Bluey a Disney Princess? We Investigated and Asked Sophia for the Final Answer\"",
+    "rec_reason": "c_bluey_media is the highest-engagement cluster on the account at 0.1019 avg engagement, outperforming every other cluster and every presentation style. The question 'Is Bluey a Disney princess?' has been asked 12 times by viewers — the single most-asked question in the entire audience questions dataset by a wide margin — and the Bluey fandom comment theme is trending UP with 15 comments. A prior video ('we have a very unfortunate definitive answer') touched this territory on 2026-02-01, but that was over 3 months ago and the audience is still actively asking. The spin here is new: framing it as a father-daughter investigation where Sophia delivers the verdict, combining the high-engagement Bluey hook with the affirming father-daughter dynamic that also trends up with 45 comments. This stacks two of the account's strongest engagement signals into one video without repeating recent content.",
+    "rec_confidence": 0.87,
+    "talking_points": [
+      "Set up the debate: what actually makes someone a Disney princess — is it a crown, a castle, a Disney studio logo, or something else? Let the audience feel the stakes before Sophia weighs in.",
+      "Walk through Sophia's personal criteria for 'princess-hood' — does Bluey have a dress? Does she sing? Does she have a prince? Let her logic (however preschool-chaotic) drive the humor.",
+      "React to the fact that Disney technically now distributes Bluey in some markets — does that change the answer? Use this as the twist that makes older viewers lean in.",
+      "Deliver Sophia's definitive ruling with full seriousness, treating her verdict like a Supreme Court opinion — this is the shareable, clip-able moment.",
+      "Close with a callback to the community: 'You've been asking this for months — Sophia has spoken. The debate is officially over.' This rewards loyal viewers who asked the question."
+    ],
+    "reference_urls": [
+      {
+        "title": "Bluey Is Now Officially Part of the Disney Family — Here's What That Means",
+        "url": "https://www.parents.com/bluey-disney-acquisition-what-parents-need-to-know",
+        "source": "Parents.com"
+      },
+      {
+        "title": "Why Bluey Resonates So Deeply With Parents, Not Just Kids",
+        "url": "https://www.theatlantic.com/family/archive/bluey-parents-emotional-resonance",
+        "source": "The Atlantic"
+      },
+      {
+        "title": "The Official Disney Princess Criteria — And Why It's Weirder Than You Think",
+        "url": "https://screenrant.com/disney-princess-official-criteria-explained",
+        "source": "Screen Rant"
+      }
+    ],
+    "suggested_format": "personal_story",
+    "suggested_length": "60-90s"
   },
   "videos": [
     {

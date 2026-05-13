@@ -21,11 +21,37 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_profession_advocacy",
+    "verdict": "STRONG",
+    "rec_title": "The DOE Just Cut Architecture's Federal Loan Limits — Here's What That Means for Who Gets to Become an Architect",
+    "rec_reason": "This is the highest-resonance external trend this week (0.91) and maps directly onto multiple live audience signals Tom already has in play. Four viewers already asked 'Does the DOE reclassification mean only wealthy students will be able to afford the professional degree?' — the second-highest question count in the profession_advocacy cluster. The audience theme 'Diversity, Equity & Systemic Barriers in Architecture Profession' is trending up with 30 comments, and 'NAACP ACT-SO & Pipeline Programs for Young Architects' is also trending up — both directly implicated by a rule that most harms first-generation and low-income students. Tom has already posted ACT-SO content (April 25) and regularly covers Black architect pipelines, making him a credible and personally invested voice on this topic. The AIA's formal public statement (May 1–6) and July 1, 2026 effective date create genuine urgency. The c_profession_advocacy cluster holds a steady 0.0939 avg engagement — the highest of the MEH clusters — and a talking-head format with cited sources is Tom's most-used style. No recent video has touched the RISE rule or DOE reclassification directly. This is a rare convergence of a time-sensitive national policy story, a pre-existing audience question, Tom's established identity as a diversity-in-architecture advocate, and a hard deadline.",
+    "rec_confidence": 0.88,
+    "talking_points": [
+      "Explain exactly what the RISE rule does in dollar terms: M.Arch and D.Arch students would be capped at $20,500/year and $100,000 lifetime in federal loans versus $50,000/year and $200,000 for programs that retain professional degree status — make this concrete with a hypothetical student budget breakdown.",
+      "Connect the equity stakes directly: the AIAS has confirmed the students most impacted are first-generation, low-income, and underrepresented applicants — the same pipeline Tom covers in ACT-SO content and Black architect profiles. Ask the audience: who disappears from the profession if this holds?",
+      "Explain the July 1, 2026 cliff — this isn't hypothetical, it's weeks away — and what the AIA is doing (backing congressional legislation, AIA President Azaroff's public statement) so viewers know what advocacy looks like right now.",
+      "Raise the scope-of-practice angle his audience already asked about: if the professional degree loses federal recognition, what downstream effects hit licensure pathways, ARE eligibility, and firm hiring pipelines by the late 2020s?",
+      "Give viewers a concrete action: direct them to the AIA's public position, the NIA (whose link Tom has already been asked to promote), and any comment period or congressional contact opportunities — turning a reaction video into a call to action."
+    ],
+    "reference_urls": [
+      {
+        "title": "Changes in architecture degree classification may 'push students out of the profession' says AIA",
+        "url": "https://www.dezeen.com/2026/05/06/aia-architecture-degress-professional-degree/",
+        "source": "Dezeen"
+      },
+      {
+        "title": "U.S. Department of Education may delist architecture as professional degree",
+        "url": "https://www.archpaper.com/2025/11/architecture-degree-trump-directive/",
+        "source": "The Architect's Newspaper"
+      },
+      {
+        "title": "AIA Raises Concerns Over U.S. Education Department Over Architecture Loan Rule Exclusion",
+        "url": "https://parametric-architecture.com/aia-u-s-education-department/",
+        "source": "Parametric Architecture"
+      }
+    ],
+    "suggested_format": "talking_head",
+    "suggested_length": "90-120s"
   },
   "videos": [
     {
@@ -25379,5 +25405,36 @@
       "trend": "up"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "The federal reclassification of architecture as a non-professional degree is now an existential pipeline crisis — not just a loan policy dispute",
+      "audience_resonance": 0.91,
+      "source": "Dezeen / The Architect's Newspaper / Parametric Architecture"
+    },
+    {
+      "topic": "Dezeen's parametricism series reopens the '21st-century style' debate — and Schumacher admits it hasn't arrived on schedule",
+      "audience_resonance": 0.42,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Speculative architecture goes mainstream: Liam Young's Barbican show positions climate fiction as a primary medium of architectural thought",
+      "audience_resonance": 0.38,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Small firms are winning major museum commissions — Peterson Rich Office's simultaneous presence at the Met and Brooklyn Museum signals a shift in cultural patronage",
+      "audience_resonance": 0.72,
+      "source": "The Architect's Newspaper / ArchDaily"
+    },
+    {
+      "topic": "Adaptive reuse as institutional and ecological logic: former warehouses, schools, and convents are the new cultural infrastructure",
+      "audience_resonance": 0.55,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "Smiljan Radić's Pritzker lecture reframes architectural knowledge as accumulation of 'distraction' — an anti-canonical pedagogy argument days before it goes live",
+      "audience_resonance": 0.44,
+      "source": "ArchDaily"
+    }
+  ]
 }
