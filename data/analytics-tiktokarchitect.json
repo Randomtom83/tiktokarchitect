@@ -23,26 +23,31 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_black_arch_history",
     "verdict": "STRONG",
-    "rec_title": "The Small Firm Winning Big: How Peterson Rich Office Got Two Major Museum Commissions by Doing What Most Architects Won't",
-    "rec_reason": "Peterson Rich Office scores the highest audience resonance (0.79) among this week's trends because it sits precisely at the intersection of Tom's two most audience-engaged clusters: Black architectural history/cultural representation (55 comments trending up on Black architects being surfaced, 7 audience requests for more architect profiles) and architecture profession commentary (c_arch_profession trending up). PRO's Brooklyn Museum commission directly involves the Arts of Africa collection — a culturally resonant subject for Tom's audience that is already primed for stories about Black architectural visibility. Critically, PRO has NOT appeared in any recent video, making it a fully fresh subject. The personal story format outperforms all other formats in Tom's data (avg engagement 0.1146) and pairs naturally with a 'how a small firm wins big' narrative arc. This also gives Tom a rare opportunity to connect a live news peg (PRO's Brooklyn Museum construction start this summer) to his ongoing Black architecture history thread without it feeling like a forced trend-chase. The audience's growing concern about diversity and access in the profession (25 comments, trending up) gives the equity dimension of this story real community resonance.",
-    "rec_confidence": 0.81,
+    "rec_title": "Norma Merrick Sklarek: The Architect America Kept Overlooking (And Why That Has to Change)",
+    "rec_reason": "Norma Merrick Sklarek is the single most-requested name in the audience requests data (profile requests count: 7, tied with Paul R. Williams and others explicitly named). She has NOT appeared in any recent video title or description. The Black Architect Profiles cluster carries the highest avg_engagement of all clusters at 0.1202, and the audience conversation theme 'Excitement and appreciation for Black architectural history being surfaced' is trending UP with 55 comments — the largest comment volume of any theme. The 'Concern about diversity, equity and access in the architecture profession' theme (25 comments, trending up) also maps directly to Sklarek's story as the first Black woman licensed as an architect in both New York (1954) and California (1962), who was systematically denied recognition despite designing landmark buildings. The personal_story format has the second-highest avg_engagement at 0.1146, and Tom's own identity as a Black architect gives him authentic framing authority on this subject. This is a rare case where audience demand, content cluster strength, engagement data, and creator authenticity all point at the same video.",
+    "rec_confidence": 0.91,
     "talking_points": [
-      "Who Peterson Rich Office actually is — a small firm navigating landmark institutional commissions at both the Brooklyn Museum and the Met simultaneously, and why that double-institutional moment is almost unheard of for a practice their size",
-      "The Brooklyn Museum's Arts of Africa gallery commission specifically: what it means to physically reconnect African and Egyptian art galleries through an original 1897 enfilade that's been closed off — and why that curatorial decision carries weight beyond just square footage",
-      "PRO's design philosophy of exposing new infrastructure as a distinct visible layer rather than concealing it — and how that approach is actually what makes them competitive inside historic preservation-constrained landmark buildings where most firms get stuck",
-      "The equity and access dimension: what it signals for the profession when culturally sensitive institutional work — work that literally frames how African art is presented to the public — goes to a firm with this kind of intentionality, and what that means for who gets to shape those narratives",
-      "Tie to the NIA database and Tom's own platform: this is exactly the kind of contemporary practice story the architecture community needs surfaced, alongside the historical profiles — the pipeline from history to present is the through-line Tom is uniquely positioned to own"
+      "Who Sklarek actually was: the credentials, the firsts, the buildings she designed at Gruen Associates and Welton Becket — including the US Embassy in Tokyo and Terminal One at LAX — and why most people have never heard her name despite the scale of her work.",
+      "The structural erasure pattern: how credit was routinely absorbed by white male principals above her, and how this reflects a systemic dynamic that still shows up in architecture firms today — connect to the audience's 'diversity and equity' conversation trending in comments.",
+      "Her founding of the first Black-owned, woman-owned architecture firm in California (Siegel, Sklarek, Diamond) and what that meant as an act of institution-building, not just individual achievement.",
+      "The NIA database angle: prompt viewers to search for her in the NIA database (audiences already asking 'Is the NIA database available as a website?' — 2 questions logged), turning this into a resource discovery moment and driving link-in-bio traffic.",
+      "Personal reflection from Tom: as a Black architect, what does Sklarek's story mean to his own practice and identity — this is the personal_story layer that lifts engagement above pure history content and connects to the 'personal connection to the creator' theme (25 comments, steady)."
     ],
     "reference_urls": [
       {
-        "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
-        "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
+        "title": "Norma Merrick Sklarek: The Rosa Parks of Architecture",
+        "url": "https://www.archdaily.com/898704/norma-merrick-sklarek-the-rosa-parks-of-architecture",
         "source": "ArchDaily"
       },
       {
-        "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
-        "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
-        "source": "The Architect's Newspaper"
+        "title": "Norma Merrick Sklarek, Trailblazing Architect, Dies at 85",
+        "url": "https://www.nytimes.com/2012/02/08/arts/design/norma-merrick-sklarek-architect-dies-at-85.html",
+        "source": "The New York Times"
+      },
+      {
+        "title": "Pioneering Black Architects: Norma Merrick Sklarek",
+        "url": "https://www.architectural-review.com/essays/pioneers/norma-merrick-sklarek-first-african-american-woman-licensed-architect",
+        "source": "The Architectural Review"
       }
     ],
     "suggested_format": "personal_story",
@@ -25363,34 +25368,39 @@
   ],
   "external_trends": [
     {
-      "topic": "Parametricism's death certificate is being written in real time — Dezeen launches a full critical series",
-      "audience_resonance": 0.45,
-      "source": "Dezeen"
+      "topic": "Norma Merrick Sklarek — First Black Woman Licensed Architect in the US",
+      "audience_resonance": 0.91,
+      "source": "ArchDaily / Architectural Record"
     },
     {
-      "topic": "Tour Triangle tops out — Paris's 20-year skyline fight reaches a milestone that re-opens the height debate",
-      "audience_resonance": 0.38,
-      "source": "Dezeen"
+      "topic": "Paul R. Williams — Hollywood's Architect and His Legacy",
+      "audience_resonance": 0.89,
+      "source": "Curbed / Los Angeles Times Architecture"
     },
     {
-      "topic": "Affordability as architecture's dominant critical framework — biennales make economics the curatorial question of 2026",
-      "audience_resonance": 0.72,
-      "source": "ArchDaily / Dezeen"
+      "topic": "Louis Bellinger — Pioneering Black Architect of the South",
+      "audience_resonance": 0.87,
+      "source": "Preservation Society of Charleston / NIA Database"
     },
     {
-      "topic": "AI is colonizing the visualization workflow — and the industry press is not yet calling it out",
-      "audience_resonance": 0.58,
-      "source": "ArchDaily"
+      "topic": "Revit Workflows for Small Architecture Firms in 2026",
+      "audience_resonance": 0.74,
+      "source": "Autodesk BIM Community / ArchDaily"
     },
     {
-      "topic": "Design-forward residential towers are claiming democratic legitimacy — and it deserves scrutiny",
-      "audience_resonance": 0.61,
-      "source": "Dezeen"
+      "topic": "ADU Design Trends and Zoning Reform Momentum Across US Cities",
+      "audience_resonance": 0.71,
+      "source": "Planetizen / Strong Towns"
     },
     {
-      "topic": "Peterson Rich Office is becoming the go-to firm for culturally urgent institutional adaptive reuse",
-      "audience_resonance": 0.79,
-      "source": "ArchDaily / The Architect's Newspaper"
+      "topic": "AI Tools Reshaping Architecture Practice — What Firms Are Actually Using",
+      "audience_resonance": 0.68,
+      "source": "Dezeen / Architectural Digest Pro"
+    },
+    {
+      "topic": "NAACP ACT-SO Competition — Architecture Track and Youth Pipeline",
+      "audience_resonance": 0.66,
+      "source": "NAACP.org / Diverse Issues in Higher Education"
     }
   ]
 }

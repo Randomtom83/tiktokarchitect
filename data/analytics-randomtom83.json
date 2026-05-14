@@ -23,19 +23,19 @@
   "headline_signal": {
     "best_performing_cluster_id": "c_milestones",
     "verdict": "MEH",
-    "rec_title": "Sophia meets taco pizza for the first time — and I have to film the reaction",
-    "rec_reason": "Two separate audience members explicitly requested the taco pizza moment ('Get Sophia a taco pizza to blow her mind' — 2 requests), making this one of the most specific and actionable audience asks on the account. The c_milestones cluster carries the highest avg engagement of any cluster at 0.1034, outperforming the dominant car ride content (0.0653) by a significant margin. The top audience conversation theme is 'warmth and affection toward Sophia's growth and personality' (70 comments, steady), and 'humor and relatability around toddler behavior and parenting chaos' is trending up (30 comments). A first-reaction food moment combines all three: it's a milestone-adjacent experience, it's inherently funny and unpredictable, and it centers Sophia's personality — exactly what this audience shows up for. Critically, nothing in the last 30+ videos covers this, so it is fully fresh. The personal_story format outperforms talking_head and reaction formats on this account (0.0839 avg engagement), and this video naturally fits that framing — a small family adventure with a genuine payoff moment.",
-    "rec_confidence": 0.84,
+    "rec_title": "Bambi meets Sophia's morning wake-up chaos — and nobody is ready",
+    "rec_reason": "This recommendation fuses three converging signals that have not been combined in a single video recently. First, Bambi content has been requested by 3 audience members and has not appeared in any video in the last 30 days. Second, morning wake-up content with Sophia has been explicitly requested by 2 audience members and has never been posted as a standalone format — only car ride content covers the morning window. Third, the comment theme around 'humor and relatability around toddler behavior' is actively trending up with 30 comments, and 'personal_story' is the highest-performing format on this account at 0.0839 avg engagement vs. walkthrough at 0.0679. Combining Bambi and Sophia in an unscripted morning moment plays directly into what the audience already loves about this account: warmth, chaos, and genuine dad energy — without requiring any new setup or location.",
+    "rec_confidence": 0.76,
     "talking_points": [
-      "Set up the backstory: your TikTok audience literally requested this — let viewers feel like they made it happen, which rewards the community and creates a callback moment",
-      "Capture Sophia's unfiltered first reaction to taco pizza — the weirder and more specific her commentary, the better; her logic and observations are what the audience loves most",
-      "Let the moment breathe: don't over-narrate — the audience engagement data shows personal story format works best when the human moment leads, not the dad's commentary",
-      "Optional Bambi angle: if Bambi is nearby and shows interest in the pizza, fold it in — the dog content has an engaged niche audience (3 explicit requests for more Bambi) and combining clusters has worked before (car ride + Bambi videos visible in the history)",
-      "Close with a genuine dad reflection — even one sentence about watching her experience something new ties back to the warmth theme that drives 70 comments on milestone content"
+      "Capture the moment Bambi realizes Sophia is waking up — the anticipation and excitement from the dog is its own story",
+      "Show the actual chaos of a preschool morning: Sophia's half-asleep negotiating, Bambi inserting herself into everything, nothing going according to plan",
+      "Drop in a beat of quiet dad reflection — what does this ordinary chaotic morning actually mean to you? The audience responds strongly to emotional undercurrents beneath the comedy",
+      "Let Sophia and Bambi have at least one unscripted interaction that you don't narrate — let the audience just watch it happen",
+      "Optional closer: a single honest line about how fast this season of life is moving — ties into the grief and memory themes your audience already holds space for"
     ],
     "reference_urls": [],
     "suggested_format": "personal_story",
-    "suggested_length": "45-75s"
+    "suggested_length": "60-90s"
   },
   "videos": [
     {
