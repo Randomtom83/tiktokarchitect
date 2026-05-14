@@ -21,11 +21,21 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
+    "best_performing_cluster_id": "c_milestones",
     "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "rec_title": "Sophia meets taco pizza for the first time — and I have to film the reaction",
+    "rec_reason": "Two separate audience members explicitly requested the taco pizza moment ('Get Sophia a taco pizza to blow her mind' — 2 requests), making this one of the most specific and actionable audience asks on the account. The c_milestones cluster carries the highest avg engagement of any cluster at 0.1034, outperforming the dominant car ride content (0.0653) by a significant margin. The top audience conversation theme is 'warmth and affection toward Sophia's growth and personality' (70 comments, steady), and 'humor and relatability around toddler behavior and parenting chaos' is trending up (30 comments). A first-reaction food moment combines all three: it's a milestone-adjacent experience, it's inherently funny and unpredictable, and it centers Sophia's personality — exactly what this audience shows up for. Critically, nothing in the last 30+ videos covers this, so it is fully fresh. The personal_story format outperforms talking_head and reaction formats on this account (0.0839 avg engagement), and this video naturally fits that framing — a small family adventure with a genuine payoff moment.",
+    "rec_confidence": 0.84,
+    "talking_points": [
+      "Set up the backstory: your TikTok audience literally requested this — let viewers feel like they made it happen, which rewards the community and creates a callback moment",
+      "Capture Sophia's unfiltered first reaction to taco pizza — the weirder and more specific her commentary, the better; her logic and observations are what the audience loves most",
+      "Let the moment breathe: don't over-narrate — the audience engagement data shows personal story format works best when the human moment leads, not the dad's commentary",
+      "Optional Bambi angle: if Bambi is nearby and shows interest in the pizza, fold it in — the dog content has an engaged niche audience (3 explicit requests for more Bambi) and combining clusters has worked before (car ride + Bambi videos visible in the history)",
+      "Close with a genuine dad reflection — even one sentence about watching her experience something new ties back to the warmth theme that drives 70 comments on milestone content"
+    ],
+    "reference_urls": [],
+    "suggested_format": "personal_story",
+    "suggested_length": "45-75s"
   },
   "videos": [
     {

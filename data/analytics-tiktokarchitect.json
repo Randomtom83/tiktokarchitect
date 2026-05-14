@@ -21,11 +21,32 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": null,
-    "verdict": "MEH",
-    "rec_title": "",
-    "rec_reason": "",
-    "rec_confidence": 0
+    "best_performing_cluster_id": "c_black_arch_history",
+    "verdict": "STRONG",
+    "rec_title": "The Small Firm Winning Big: How Peterson Rich Office Got Two Major Museum Commissions by Doing What Most Architects Won't",
+    "rec_reason": "Peterson Rich Office scores the highest audience resonance (0.79) among this week's trends because it sits precisely at the intersection of Tom's two most audience-engaged clusters: Black architectural history/cultural representation (55 comments trending up on Black architects being surfaced, 7 audience requests for more architect profiles) and architecture profession commentary (c_arch_profession trending up). PRO's Brooklyn Museum commission directly involves the Arts of Africa collection — a culturally resonant subject for Tom's audience that is already primed for stories about Black architectural visibility. Critically, PRO has NOT appeared in any recent video, making it a fully fresh subject. The personal story format outperforms all other formats in Tom's data (avg engagement 0.1146) and pairs naturally with a 'how a small firm wins big' narrative arc. This also gives Tom a rare opportunity to connect a live news peg (PRO's Brooklyn Museum construction start this summer) to his ongoing Black architecture history thread without it feeling like a forced trend-chase. The audience's growing concern about diversity and access in the profession (25 comments, trending up) gives the equity dimension of this story real community resonance.",
+    "rec_confidence": 0.81,
+    "talking_points": [
+      "Who Peterson Rich Office actually is — a small firm navigating landmark institutional commissions at both the Brooklyn Museum and the Met simultaneously, and why that double-institutional moment is almost unheard of for a practice their size",
+      "The Brooklyn Museum's Arts of Africa gallery commission specifically: what it means to physically reconnect African and Egyptian art galleries through an original 1897 enfilade that's been closed off — and why that curatorial decision carries weight beyond just square footage",
+      "PRO's design philosophy of exposing new infrastructure as a distinct visible layer rather than concealing it — and how that approach is actually what makes them competitive inside historic preservation-constrained landmark buildings where most firms get stuck",
+      "The equity and access dimension: what it signals for the profession when culturally sensitive institutional work — work that literally frames how African art is presented to the public — goes to a firm with this kind of intentionality, and what that means for who gets to shape those narratives",
+      "Tie to the NIA database and Tom's own platform: this is exactly the kind of contemporary practice story the architecture community needs surfaced, alongside the historical profiles — the pipeline from history to present is the through-line Tom is uniquely positioned to own"
+    ],
+    "reference_urls": [
+      {
+        "title": "Peterson Rich Office Designs Permanent Galleries for Brooklyn Museum's African Art Collection",
+        "url": "https://www.archdaily.com/1040053/peterson-rich-office-designs-permanent-galleries-for-brooklyn-museums-african-art-collection",
+        "source": "ArchDaily"
+      },
+      {
+        "title": "Peterson Rich Office to design Brooklyn Museum's Arts of Africa gallery",
+        "url": "https://www.archpaper.com/2026/03/peterson-rich-office-brooklyn-museum-arts-africa/",
+        "source": "The Architect's Newspaper"
+      }
+    ],
+    "suggested_format": "personal_story",
+    "suggested_length": "90-120s"
   },
   "videos": [
     {
@@ -25340,5 +25361,36 @@
       "trend": "steady"
     }
   ],
-  "external_trends": []
+  "external_trends": [
+    {
+      "topic": "Parametricism's death certificate is being written in real time — Dezeen launches a full critical series",
+      "audience_resonance": 0.45,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Tour Triangle tops out — Paris's 20-year skyline fight reaches a milestone that re-opens the height debate",
+      "audience_resonance": 0.38,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Affordability as architecture's dominant critical framework — biennales make economics the curatorial question of 2026",
+      "audience_resonance": 0.72,
+      "source": "ArchDaily / Dezeen"
+    },
+    {
+      "topic": "AI is colonizing the visualization workflow — and the industry press is not yet calling it out",
+      "audience_resonance": 0.58,
+      "source": "ArchDaily"
+    },
+    {
+      "topic": "Design-forward residential towers are claiming democratic legitimacy — and it deserves scrutiny",
+      "audience_resonance": 0.61,
+      "source": "Dezeen"
+    },
+    {
+      "topic": "Peterson Rich Office is becoming the go-to firm for culturally urgent institutional adaptive reuse",
+      "audience_resonance": 0.79,
+      "source": "ArchDaily / The Architect's Newspaper"
+    }
+  ]
 }
