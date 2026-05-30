@@ -12,9 +12,8 @@ from datetime import datetime
 from glob import glob
 from pathlib import Path
 
-import anthropic
+from llm_client import call_ollama
 
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 DATA_DIR = Path(os.path.dirname(__file__)) / ".." / "data"
 
 
@@ -155,20 +154,8 @@ Return ONLY valid JSON:
   }}
 }}"""
 
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=8192,
-        messages=[{"role": "user", "content": prompt}],
-    )
-
-    text = response.content[0].text
-    if text.startswith("```"):
-        text = text.split("```")[1]
-        if text.startswith("json"):
-            text = text[4:]
-
-    return json.loads(text)
+    system_prompt = "You are Tom's content assistant. Synthesize architecture blog trends with past performance metrics to generate a powerful, data-driven daily TikTok recommendation. Respond ONLY with valid, raw JSON matching the requested schema."
+    return call_ollama(prompt, system_prompt=system_prompt, json_mode=True)
 
 
 def main():

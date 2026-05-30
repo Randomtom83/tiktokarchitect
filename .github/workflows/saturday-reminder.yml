@@ -1,10 +1,10 @@
 name: Saturday YouTube Re-Auth Reminder
 
 on:
-  schedule:
-    # Saturdays at 12:45 UTC = 8:45 AM EDT / 7:45 AM EST
-    # (Tom's existing calendar reminder fires at 8:45 local; this email backs it up.)
-    - cron: '45 12 * * 6'
+  # schedule:
+  #   # Saturdays at 12:45 UTC = 8:45 AM EDT / 7:45 AM EST
+  #   # (Tom's existing calendar reminder fires at 8:45 local; this email backs it up.)
+  #   - cron: '45 12 * * 6'
   workflow_dispatch:  # allow manual trigger for testing
 
 jobs:

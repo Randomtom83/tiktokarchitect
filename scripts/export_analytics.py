@@ -11,9 +11,8 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from collections import defaultdict
 
-import anthropic
+from llm_client import call_ollama
 
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 DATA_DIR = Path(os.path.dirname(__file__)) / ".." / "data"
 
 ACCOUNTS = ["tiktokarchitect", "randomtom83"]
@@ -35,9 +34,10 @@ def format_date(s):
 
 
 def claude_analyze(videos, comments_by_video):
-    """Send video data and comments to Claude for semantic analysis."""
+    """Send video data and comments to Ollama for semantic analysis."""
     video_summaries = []
-    for v in videos[:100]:
+    # Optimized to most recent 15 videos for fast and highly representative local analysis
+    for v in videos[:15]:
         vid = v["id"]
         summary = {
             "id": vid,
@@ -51,11 +51,26 @@ def claude_analyze(videos, comments_by_video):
         }
         vid_comments = comments_by_video.get(vid, [])
         if vid_comments:
-            summary["sample_comments"] = [c["text"] for c in vid_comments[:20]]
+            # Optimized from 20 to 5 comments to keep context window compact and fast
+            summary["sample_comments"] = [c["text"] for c in vid_comments[:5]]
         video_summaries.append(summary)
 
+    # Format videos as a clear text list instead of raw JSON to prevent Ollama Schema.org JSON-LD hallucination
+    video_text_list = []
+    for s in video_summaries:
+        comments_str = f"Comments: {', '.join(s.get('sample_comments', []))}" if s.get("sample_comments") else "No comments"
+        video_text_list.append(
+            f"- Video ID: {s['id']}\n"
+            f"  Title: {s['title']}\n"
+            f"  Description: {s['description']}\n"
+            f"  Date: {s['date']}\n"
+            f"  Metrics: {s['views']} views, {s['likes']} likes, {s['comments_count']} comments, {s['duration']}s\n"
+            f"  {comments_str}"
+        )
+    formatted_videos = "\n\n".join(video_text_list)
+
     prompt = f"""Analyze these TikTok videos from an architectural designer's account.
-Return a JSON object with these exact fields:
+You MUST return a single JSON object containing exactly these five keys: "content_clusters", "presentation_styles", "audience_conversation_themes", "questions", and "requests". 
 
 1. "content_clusters": Group videos by SUBJECT MATTER (what they talk about), not keywords.
    Each cluster: {{"id": "c_<short>", "label": "<descriptive name>", "video_ids": ["id1", ...]}}
@@ -63,7 +78,7 @@ Return a JSON object with these exact fields:
 
 2. "presentation_styles": Tag each video's DELIVERY FORMAT.
    Options: "walkthrough", "tutorial", "personal_story", "reaction", "talking_head"
-   Return: {{"style": "<name>", "video_ids": ["id1", ...]}}
+   Each style: {{"style": "<style_name>", "video_ids": ["id1", ...]}}
 
 3. "audience_conversation_themes": Cluster the comments by what people are ACTUALLY DISCUSSING.
    Filter out emoji-only, "first!", low-substance comments.
@@ -75,56 +90,14 @@ Return a JSON object with these exact fields:
 5. "requests": Content requests from the audience.
    Each: {{"text": "<what they want>", "count": <approx frequency>}}
 
-Return ONLY valid JSON. No markdown, no explanation.
+CRITICAL: Do NOT output Schema.org metadata, @context, @type, or generic video details. The root of your JSON response MUST be an object with exactly the five keys listed above.
 
-Videos:
-{json.dumps(video_summaries, indent=2)}"""
+Monitored Videos List:
+{formatted_videos}"""
 
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=16384,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    text = response.content[0].text
+    system_prompt = "You are a senior data analyst specialized in social media metrics and architectural content strategy. Respond ONLY with a valid, raw JSON object containing exactly the five requested keys: 'content_clusters', 'presentation_styles', 'audience_conversation_themes', 'questions', 'requests'. Do NOT output Schema.org, JSON-LD, @context, or generic video descriptors."
+    return call_ollama(prompt, system_prompt=system_prompt, json_mode=True)
 
-    # Robust JSON extraction
-    result = None
-    try:
-        result = json.loads(text)
-    except json.JSONDecodeError:
-        pass
-
-    if result is None and "```" in text:
-        for chunk in text.split("```"):
-            chunk = chunk.strip()
-            if chunk.startswith("json"):
-                chunk = chunk[4:].strip()
-            try:
-                result = json.loads(chunk)
-                break
-            except json.JSONDecodeError:
-                continue
-
-    if result is None:
-        start = text.find("{")
-        if start >= 0:
-            depth = 0
-            for i in range(start, len(text)):
-                if text[i] == "{":
-                    depth += 1
-                elif text[i] == "}":
-                    depth -= 1
-                if depth == 0:
-                    try:
-                        result = json.loads(text[start:i + 1])
-                    except json.JSONDecodeError:
-                        pass
-                    break
-
-    if result is None:
-        raise ValueError(f"Failed to parse JSON: {text[:200]}")
-    return result
 
 
 def compute_verdict(follower_conversion, engagement, trend):

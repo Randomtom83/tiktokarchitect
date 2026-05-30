@@ -1,10 +1,10 @@
 name: Analytics Deploy — Merge, Deploy, Email
 
 on:
-  push:
-    branches: [master]
-    paths:
-      - 'data/analytics-*.json'
+  # push:
+  #   branches: [master]
+  #   paths:
+  #     - 'data/analytics-*.json'
   workflow_dispatch:
 
 permissions:

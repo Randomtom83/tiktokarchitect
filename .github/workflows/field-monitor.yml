@@ -1,9 +1,9 @@
 name: Field Monitor — Architecture Blog Scan
 
 on:
-  schedule:
-    # Mon-Sat at 10:00 UTC (5:00 AM ET)
-    - cron: '0 10 * * 1-6'
+  # schedule:
+  #   # Mon-Sat at 10:00 UTC (5:00 AM ET)
+  #   - cron: '0 10 * * 1-6'
   workflow_dispatch:  # allow manual trigger
 
 permissions:

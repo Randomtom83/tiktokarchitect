@@ -1,9 +1,9 @@
 name: TikTok Ingest — Download & Analyze
 
 on:
-  schedule:
-    # Daily at 08:00 UTC (3:00 AM ET) — before Field Monitor at 10:00 UTC
-    - cron: '0 8 * * *'
+  # schedule:
+  #   # Daily at 08:00 UTC (3:00 AM ET) — before Field Monitor at 10:00 UTC
+  #   - cron: '0 8 * * *'
   workflow_dispatch:
 
 permissions:
