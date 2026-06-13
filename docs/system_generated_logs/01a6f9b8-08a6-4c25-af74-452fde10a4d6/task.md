@@ -1,0 +1,26 @@
+# Task List: Redesign Skill Suggester
+
+- `[x]` Define Task list in `task.md`
+- `[x]` Build the zero-dependency Python local backend (`server.py`)
+  - `[x]` Base HTTP request handler to serve files and dashboard
+  - `[x]` Implement `POST /api/state` for instant state updates to `state.json`
+  - `[x]` Implement `POST /api/scan` for on-demand triggers of `run_nightly.ps1`
+  - `[x]` Implement `POST /api/ollama-proxy` as a proxy to `localhost:11434` for CORS safety
+- `[x]` Redesign the visual dashboard template in `dashboard_builder.py`
+  - `[x]` Design modern dark glassmorphism layout (Google Font: Outfit/Plus Jakarta Sans)
+  - `[x]` Add "Weekly Time Saved" and "Simplicity Score" badges and calculations
+  - `[x]` Design the interactive Ollama Co-Pilot chat widget for each card
+  - `[x]` Connect dashboard buttons (`Mark Built`, `Snooze`, `Dismiss`) to backend `/api/state`
+  - `[x]` Connect "Scan Now" button to backend `/api/scan` with a loading state
+  - `[x]` Create a clean Settings panel for Ollama URL, model name, and connection tester
+- `[x]` Create double-click helper `start_app.ps1`
+- `[x]` Verify the entire application locally
+  - `[x]` Start server, load UI in browser
+  - `[x]` Verify AJAX state saving
+  - `[x]` Test local Ollama connection and chat proxy
+  - `[x]` Test manual scan trigger
+- `[x]` Write completion walkthrough artifact (`walkthrough.md`)
+- `[x]` Implement Notes & Agent Feedback Loop
+  - `[x]` Update server.py `/api/state` to save candidate-specific and global notes
+  - `[x]` Update dashboard_builder.py to add Notes UI (global context panel & card-specific textareas)
+  - `[x]` Update judge.py to load state.json, inject global and candidate notes into Ollama prompts, and bypass cache for re-judging when notes change

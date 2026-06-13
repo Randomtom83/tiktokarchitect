@@ -1,0 +1,76 @@
+{
+  "scan_date": "2026-05-30",
+  "sources_checked": [
+    "ArchDaily",
+    "Dezeen",
+    "Archinect",
+    "The Architect's Newspaper",
+    "Curbed",
+    "Architectural Digest",
+    "Designboom",
+    "Architect Magazine (AIA)",
+    "Failed Architecture",
+    "McMansion Hell",
+    "99% Invisible"
+  ],
+  "trends": [
+    {
+      "topic": "Innovative Use of Timber in Mountain Housing",
+      "synthesis": "Recent projects highlight the use of timber as a sustainable and aesthetic material for mountain housing. Arup's fragmented timber volumes in Albania introduce texture and rhythm across sloping sites, while V Taller proposes a forest retreat around a monolithic stone core in Japan.",
+      "sources": [
+        {
+          "title": "Fragmented Timber Volumes Compose Forested Mountain Housing by Arup in Albania",
+          "url": "https://www.designboom.com/architecture/fragmented-timber-volumes-forested-mountain-housing-arup-albania-dajti-village/",
+          "source": "Designboom"
+        },
+        {
+          "title": "V Taller Proposes Forest Retreat Around Monolithic Stone Core for NOT A HOTEL in Japan",
+          "url": "https://www.designboom.com/architecture/v-taller-forest-retreat-monolithic-stone-core-notahotel-japan/",
+          "source": "Designboom"
+        }
+      ],
+      "so_what": "This trend suggests that architects are increasingly exploring timber's potential for sustainable and contextually sensitive design in mountainous regions."
+    },
+    {
+      "topic": "Transforming Historic Industrial Sites",
+      "synthesis": "Several projects showcase the transformation of historic industrial sites into cultural centers. Kengo Kuma's renovation of a shipyard in Guangzhou, China, turns it into an arts and cultural hub with a walkable volcanic stone rooftop.",
+      "sources": [
+        {
+          "title": "Historic Shipyard in China Becomes Walkable Volcanic Stone Rooftop by Kengo Kuma",
+          "url": "https://www.designboom.com/architecture/historic-shipyard-china-walkable-volcanic-stone-rooftop-kengo-kuma-guangzhou-1914/",
+          "source": "Designboom"
+        }
+      ],
+      "so_what": "This trend indicates a growing interest in adaptive reuse and the repurposing of industrial heritage sites for cultural and community purposes."
+    },
+    {
+      "topic": "Interactive Art Installations",
+      "synthesis": "Art installations are becoming more interactive, engaging with natural elements like plants and fungi to create immersive sound environments. Soft Frequencies is an example where artists and technologists transform ecological signals into sonic experiences.",
+      "sources": [
+        {
+          "title": "Soft Frequencies: Amplifying Sonic Signals from Plants, Fungi and Other Beings",
+          "url": "https://www.designboom.com/art/soft-frequencies-sonic-signals-plants-fungi-other-beings/",
+          "source": "Designboom"
+        }
+      ],
+      "so_what": "This trend suggests that architects and designers should consider integrating interactive art installations to enhance public spaces and engage communities in unique ways."
+    }
+  ],
+  "people": [
+    {
+      "name": "Kengo Kuma",
+      "role": "Architect",
+      "why": "Transforming historic industrial sites into cultural centers with innovative designs like the Guangzhou shipyard renovation."
+    },
+    {
+      "name": "V Taller",
+      "role": "Architecture Firm",
+      "why": "Proposing a forest retreat around a monolithic stone core in Japan, showcasing sustainable and contextually sensitive design."
+    },
+    {
+      "name": "Oscar Magnuson",
+      "role": "Designer",
+      "why": "Discussing the importance of building a brand DNA that resists fleeting trends, emphasizing long-term horizons in design."
+    }
+  ]
+}

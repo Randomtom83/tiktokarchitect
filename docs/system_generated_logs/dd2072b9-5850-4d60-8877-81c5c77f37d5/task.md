@@ -1,0 +1,8 @@
+- [x] 1. Modify `TtsSanitizer.kt` to remove over-blocked mother references
+- [x] 2. Update local `speak` functions in `TodayScreen.kt`, `DragonNookScreen.kt`, `DragonSkyScreen.kt`, `JarsScreen.kt`, and `ToothbrushingScreen.kt` to wrap calls in `TtsSanitizer.sanitize` with try-catch logging to `DevLogger`
+- [x] 3. Reword static TTS prompts containing banned words in `ToothbrushingScreen.kt`, `TodayScreen.kt`, `DragonNookScreen.kt`, and `JarsScreen.kt`
+- [x] 4. Respect Calm Mode (reduced motion) in `JarsScreen.kt` (JarDetailDialog), `ToothbrushingScreen.kt` (pulsing mascot), `DragonSkyScreen.kt` (bobbing offset), and `TodayScreen.kt` (SundayAllowanceOverlay coin flight)
+- [x] 5. Make Sunday Allowance mini-game split dynamic based on actual splits in `TodayScreen.kt`
+- [x] 6. Fix money parsing truncation error in `TaskManagerScreen.kt` line 494
+- [x] 7. Reconcile project dashboard `sophiaquest-build-dashboard.html` and write the code audit report under `docs/code_audit_2026-06-12.md`
+- [/] 8. Run unit tests (Passed!) and deploy debug build to device (Device offline; pending user ADB toggle)

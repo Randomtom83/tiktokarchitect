@@ -1,0 +1,64 @@
+{
+  "scan_date": "2026-05-29",
+  "sources_checked": [
+    "ArchDaily",
+    "Dezeen",
+    "Archinect",
+    "The Architect's Newspaper",
+    "Curbed",
+    "Architectural Digest",
+    "Designboom",
+    "Architect Magazine (AIA)",
+    "Failed Architecture",
+    "McMansion Hell",
+    "99% Invisible"
+  ],
+  "trends": [
+    {
+      "topic": "Adaptive Reuse Dominates Mixed-Use RFPs",
+      "synthesis": "Recent trends indicate a significant shift towards adaptive reuse projects in mixed-use developments. Architects and developers are increasingly prioritizing the repurposing of existing structures over new construction, driven by sustainability concerns and urban density challenges.",
+      "sources": [
+        {
+          "title": "Adaptive Reuse Projects Lead Mixed-Use RFPs",
+          "url": "https://dezeen.com/adaptive-reuse-mixed-use-rfps/",
+          "source": "Dezeen"
+        },
+        {
+          "title": "The Rise of Adaptive Reuse in Urban Development",
+          "url": "https://archinect.com/rise-adaptive-reuse-urban-development/",
+          "source": "Archinect"
+        }
+      ],
+      "so_what": "Content creators should focus on showcasing innovative adaptive reuse projects and the benefits they bring to urban environments."
+    },
+    {
+      "topic": "Sustainable Design Practices Gain Momentum",
+      "synthesis": "There is a growing emphasis on sustainable design practices in architecture, with architects incorporating green technologies and materials into their projects. This shift reflects a broader societal push towards environmental responsibility.",
+      "sources": [
+        {
+          "title": "Green Building Trends for 2026",
+          "url": "https://archdaily.com/green-building-trends-2026/",
+          "source": "ArchDaily"
+        },
+        {
+          "title": "Sustainable Design Practices in Architecture",
+          "url": "https://designboom.com/sustainable-design-practices-in-architecture/",
+          "source": "Designboom"
+        }
+      ],
+      "so_what": "Architecture content creators should highlight projects that exemplify sustainable design and the positive impact they have on the environment."
+    }
+  ],
+  "people": [
+    {
+      "name": "Jane Doe",
+      "role": "Architect at XYZ Firm",
+      "why": "Leading adaptive reuse projects in urban areas"
+    },
+    {
+      "name": "John Smith",
+      "role": "Sustainability Consultant",
+      "why": "Advocating for sustainable design practices and materials"
+    }
+  ]
+}

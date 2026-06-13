@@ -1,0 +1,8 @@
+- `[x]` Create local Google Finance Scout in `agents/google_finance.py` with scraper, agent logic, and CLI commands
+- `[x]` Add the `google_finance` scout to `run_full_zoo.py`
+- `[x]` Verify the local CLI capabilities:
+  - `[x]` Verify individual ticker scraping (`python agents/google_finance.py --ticker AAPL`)
+  - `[x]` Verify trending tickers scraping (`python agents/google_finance.py --trending`)
+- `[x]` Verify pipeline integration:
+  - `[x]` Run `python agents/google_finance.py` to write `data/scout_google_finance.json`
+  - `[x]` Run `python utils/central_triage.py` to verify triage ingestion

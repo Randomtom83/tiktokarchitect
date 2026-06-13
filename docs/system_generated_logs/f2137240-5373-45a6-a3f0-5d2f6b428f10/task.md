@@ -1,0 +1,23 @@
+# Checklist for Local Agent Correction & Codebase Audit
+
+- [x] Fix Git Bash shell command execution in `local-agents/runner.py`
+- [x] Verify shell command execution works by checking logs / dry-runs
+- [x] Fix duplicate/colliding event IDs in `Content.kt` and `Events.kt`
+  - [x] Rename `pro_bono_ask` (pavilion) → `pro_bono_pavilion_ask`
+  - [x] Delete duplicate `faia_essay_blank` (fellowship statement)
+  - [x] Rename `advisor_letter` (school) → `advisor_letter_school`
+  - [x] Rename `elena_reference` (axp) → `elena_reference_axp`
+  - [x] Rename `mentor_lunch` (senior) → `mentor_lunch_senior`
+  - [x] Rename `mock_exam` (ncarb) → `mock_exam_ncarb`
+  - [x] Rename `design_competition` (library) → `design_competition_library`
+  - [x] Rename `scope_creep` (extra) → `scope_creep_extra`
+  - [x] Rename `materials_lab` (class) → `materials_lab_visit`
+  - [x] Rename `exit_interview` (notice) → `exit_interview_notice`
+  - [x] Rename `are_retake` (exam) → `are_retake_exam`
+  - [x] Rename `redline_session` (pa) → `redline_session_pa`
+  - [x] Rename `ncarb_transfer` (reciprocal) → `ncarb_transfer_reciprocal`
+- [x] Resolve duplicate follow-up map entries in `Events.kt`
+- [x] Run a clean Gradle compilation (`./gradlew clean :app:compileDebugKotlin`) to verify warnings are cleared
+- [x] Stage, commit, and push changes (including `docs/codebase_audit_map.md`)
+- [x] Run the local multi-agent orchestrator pipelines and verify runs complete cleanly
+- [x] Finalize walkthrough documentation

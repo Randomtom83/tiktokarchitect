@@ -1,0 +1,31 @@
+# Lakou Gap Resolutions Checklist
+
+- [x] Crash Prevention & Permissions
+  - [x] Add calendar permissions to AndroidManifest.xml
+  - [x] Request calendar permissions at runtime in MainActivity.kt
+  - [x] Harden ClaudeExtractor JSON parsing and update local date parser
+  - [x] Wrap meetings queries in try-catch blocks in today provider and project details
+- [x] Authentication & Triage UI
+  - [x] Keep dropboxAuthProvider loading during redirect flow
+  - [x] Add loading timeout to dropboxAuthProvider
+  - [x] Propagate token exchange errors to UI instead of silent debugPrint
+  - [x] Implement auto-pagination loop for Fieldy conversations
+  - [x] Implement carrier retry deduplication in SMS listener
+- [x] Task, Expense, and Milestone Management
+  - [x] Implement task updates in tasks provider
+  - [x] Add task editing bottom sheet to tasks screen and planner screen
+  - [x] Create expenses provider and expenses list screen (view, edit, delete)
+  - [x] Add delete file operation to DropboxClient
+  - [x] Create milestones provider and milestones editing section
+  - [x] Update project details view with client info and edit details dialog
+  - [x] Connect milestone invoicing status to project fee burn card
+- [x] Intake, Reports & Settings
+  - [x] Auto-parse client info on intake form poll and update clients database
+  - [x] Add Weekly Category Summary report card to Timer screen
+  - [x] Create Settings view with routes to watched senders and new consultants directory
+  - [x] Create consultants provider and consultants management screen
+- [x] Code Quality & Security
+  - [x] Make SmsReceiver methodChannel volatile
+  - [x] Validate shared file paths to prevent path traversal in share routing
+  - [x] Log watched senders parse errors to Trace instead of swallowing
+  - [x] Drop retired quests and xp_log tables in DB v5 migration
