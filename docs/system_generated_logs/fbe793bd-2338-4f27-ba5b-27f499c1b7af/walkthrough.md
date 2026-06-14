@@ -167,3 +167,20 @@ Audited the system scheduling setup and identified that the Windows Task Schedul
 * **[scheduler.py](file:///C:/Users/thoma/Dropbox/My%20Documents/Programs/FinancialAnalysis/scheduler.py) [MODIFY]**: Overwrote the legacy script to act as a **Delegation Wrapper**. It now automatically intercepts any triggers from Windows Task Scheduler and forwards them directly to the active workspace (`Websites/TrainedMarketMonkey/scheduler.py`) in the correct execution context, preserving all updates permanently.
 * **Verification**: Ran `python scheduler.py --status` through the wrapper and verified it successfully redirects arguments and outputs the correct active workspace status.
 
+---
+
+## Duplicate Post Fix via Socket-Based Singleton Lock (June 13, 2026)
+
+### Summary
+Diagnosed a duplicate WordPress posting issue where two identical posts were created at the exact same minute. The root cause was identified as concurrent execution of `run_full_zoo.py` by two separate instances of `scheduler.py` running in the background (one elevated instance started by Windows Task Scheduler via the wrapper, and one non-elevated instance running in the user session).
+
+### Fixes & Implementation
+* **[scheduler.py](file:///c:/Users/thoma/Dropbox/My%20Documents/Websites/TrainedMarketMonkey/scheduler.py) [MODIFY]**:
+  * Implemented `acquire_singleton_lock(port=11499)` which attempts to bind a local TCP socket to port `11499`.
+  * If the port is already in use, the script logs an alert and exits immediately, preventing duplicate loops or concurrent runs.
+  * Unlike file-based locks, socket locks are automatically and instantly released by the OS if the process crashes, preventing stale lock file issues.
+* **Process Cleanup**:
+  * Terminated the duplicate non-elevated process (PID 30872).
+  * Terminated the Task Scheduler task instance (`TrainedMarketMonkey_Scheduler`) to stop the wrapper.
+  * *Note: The orphaned elevated subprocess (PID 21200) running the old code remains active due to UAC permissions; it will be cleared upon next reboot, after which the new singleton lock will be active.*
+

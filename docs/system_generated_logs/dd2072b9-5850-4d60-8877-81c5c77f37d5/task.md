@@ -1,8 +1,17 @@
-- [x] 1. Modify `TtsSanitizer.kt` to remove over-blocked mother references
-- [x] 2. Update local `speak` functions in `TodayScreen.kt`, `DragonNookScreen.kt`, `DragonSkyScreen.kt`, `JarsScreen.kt`, and `ToothbrushingScreen.kt` to wrap calls in `TtsSanitizer.sanitize` with try-catch logging to `DevLogger`
-- [x] 3. Reword static TTS prompts containing banned words in `ToothbrushingScreen.kt`, `TodayScreen.kt`, `DragonNookScreen.kt`, and `JarsScreen.kt`
-- [x] 4. Respect Calm Mode (reduced motion) in `JarsScreen.kt` (JarDetailDialog), `ToothbrushingScreen.kt` (pulsing mascot), `DragonSkyScreen.kt` (bobbing offset), and `TodayScreen.kt` (SundayAllowanceOverlay coin flight)
-- [x] 5. Make Sunday Allowance mini-game split dynamic based on actual splits in `TodayScreen.kt`
-- [x] 6. Fix money parsing truncation error in `TaskManagerScreen.kt` line 494
-- [x] 7. Reconcile project dashboard `sophiaquest-build-dashboard.html` and write the code audit report under `docs/code_audit_2026-06-12.md`
-- [/] 8. Run unit tests (Passed!) and deploy debug build to device (Device offline; pending user ADB toggle)
+- [x] Database Schema and Migration (C1)
+    - [x] Implement `MIGRATION_5_6` in `SophiaQuestDatabase.kt`
+    - [x] Add `MIGRATION_5_6` to the Room database builder chain
+- [x] Seed Data Corrections (H-C, M-F)
+    - [x] Set `"the"` sight word `isUnlocked = false` in `LiteracyRepository.kt`
+    - [x] Correct hint typos (`c-car` -> `c-ar`, `sh-shell` -> `sh-ell`, `r-rock` -> `r-ock`)
+    - [x] Set `isAudioOnly = true` for the 5 non-CVC triplets
+- [x] Manifest Commenting (H-D)
+    - [x] Document optional `CAMERA` permission usage and gating in `AndroidManifest.xml`
+- [x] Settings Preset Corrections (M-A, M-B)
+    - [x] Correct Age 5 splits to `updateSplits(40, 40, 20)` in `SettingsScreen.kt`
+    - [x] Keep Dragon Nook enabled (`setDragonLayerEnabled(true)`) for Age 8+ preset
+    - [x] Update Age 8+ preset description to reflect Sky Sanctuary
+- [x] PA ViewModel Fallback Logic (M-E)
+    - [x] Only query database levels if `activeActivityId == PaActivityId.RHYME` in `PaActivityViewModel.kt`
+- [x] Verification
+    - [x] Run Gradle compile test (`./gradlew assembleDebug`)

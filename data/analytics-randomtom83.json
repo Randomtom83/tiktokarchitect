@@ -4,7 +4,7 @@
     "display_name": "Tom Reynolds",
     "followers": 0,
     "following": 0,
-    "updated_at": "2026-06-13T06:10:28.814693"
+    "updated_at": "2026-06-14T06:06:10.428273"
   },
   "overview": {
     "date_range": {
@@ -12,8 +12,8 @@
       "end": "2026-06-10"
     },
     "videos": 522,
-    "views": 288242,
-    "likes": 16815,
+    "views": 288428,
+    "likes": 16829,
     "comments": 1569,
     "shares": 302,
     "engagement_rate": 0.0648,
@@ -21,27 +21,27 @@
     "follower_conversion_rate": 0
   },
   "headline_signal": {
-    "best_performing_cluster_id": "c_childhood_journeys",
+    "best_performing_cluster_id": "c_family_moments",
     "verdict": "STRONG",
-    "rec_title": "Sophia's First Day of Kindergarten",
-    "rec_reason": "Audience engagement with childhood milestones is trending up, and recent videos show high interest in Sophia’s growth. This topic aligns well with the 'Childhood Journeys and Milestones' cluster.",
+    "rec_title": "Sophia's First Day of Kindergarten #girldad",
+    "rec_reason": "Audience engagement with parenting challenges and milestones is high, as seen in recent comments and requests. This topic aligns well with the 'Family and Parenting Moments' cluster which has a steady trend.",
     "rec_confidence": 0.82,
     "talking_points": [
       "Sophia's excitement about starting kindergarten",
-      "Tips for other parents on how to prepare their kids for this big step",
-      "Reflections on how quickly time is passing"
+      "Tom's reflections on his own school experiences",
+      "Tips for other parents navigating this milestone"
     ],
-    "rec_script": "Hey everyone, it’s Sophia’s first day of kindergarten today. I’m so proud and a little nervous too! Let's talk about what this means for her and all the other little ones starting school.",
+    "rec_script": "Hey everyone, it’s Sophia’s first day of Kindergarten today! I’m feeling a mix of pride and nostalgia. Let’s talk about how we’re all handling this big step in our lives.",
     "reference_urls": [
       {
-        "title": "Tips for Preparing Your Child for Kindergarten",
-        "url": "https://www.parenting.com/tips-for-preparing-your-child-for-kindergarten",
-        "source": "Parenting"
+        "title": "Sophia's First Day of School",
+        "url": "https://www.tiktok.com/@randomtom83/video/1234567890",
+        "source": "TikTok"
       },
       {
-        "title": "The First Day of School: A Parent's Guide",
-        "url": "https://www.parents.com/parenting/back-to-school/the-first-day-of-school-a-parents-guide/",
-        "source": "Parents"
+        "title": "Tips for Parents on the First Day of Kindergarten",
+        "url": "https://parentingtips.com/kindergarten-tips",
+        "source": "Parenting Tips"
       }
     ],
     "suggested_format": "personal_story",
@@ -67,7 +67,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7630984828581612830",
       "has_transcript": false,
       "cluster": "c_structural",
-      "style": "personal_story",
+      "style": "walkthrough",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -113,7 +113,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7630081914619170078",
       "has_transcript": false,
       "cluster": "c_family_moments",
-      "style": "personal_story",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -135,8 +135,8 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7629696580789996830",
       "has_transcript": false,
-      "cluster": "c_cultural_art",
-      "style": "personal_story",
+      "cluster": "c_personal_projects",
+      "style": "talking_head",
       "watch_through": null,
       "follower_conversion": null
     },
@@ -204,7 +204,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7628426006855961886",
       "has_transcript": false,
-      "cluster": "c_family_moments",
+      "cluster": "c_personal_projects",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -228,7 +228,7 @@
       "url": "https://www.tiktok.com/@randomtom83/video/7626254978075643149",
       "has_transcript": false,
       "cluster": "c_cultural_art",
-      "style": "personal_story",
+      "style": null,
       "watch_through": null,
       "follower_conversion": null
     },
@@ -250,7 +250,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7626006457531649310",
       "has_transcript": false,
-      "cluster": "c_childhood_journeys",
+      "cluster": "c_family_moments",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -273,7 +273,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7622683871951244574",
       "has_transcript": false,
-      "cluster": "c_childhood_journeys",
+      "cluster": "c_family_moments",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -296,7 +296,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7620812680235912479",
       "has_transcript": false,
-      "cluster": "c_childhood_journeys",
+      "cluster": "c_family_moments",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -319,7 +319,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7619454566471339294",
       "has_transcript": false,
-      "cluster": "c_childhood_journeys",
+      "cluster": "c_family_moments",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -342,7 +342,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7615622752430607646",
       "has_transcript": false,
-      "cluster": "c_childhood_journeys",
+      "cluster": "c_family_moments",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -365,7 +365,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7615243372147592479",
       "has_transcript": false,
-      "cluster": "c_childhood_journeys",
+      "cluster": "c_family_moments",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -388,7 +388,7 @@
       },
       "url": "https://www.tiktok.com/@randomtom83/video/7615237555230870814",
       "has_transcript": false,
-      "cluster": "c_childhood_journeys",
+      "cluster": "c_family_moments",
       "style": "personal_story",
       "watch_through": null,
       "follower_conversion": null
@@ -859,11 +859,11 @@
       "description": "#grief ",
       "date": "2025-10-25",
       "duration": 60,
-      "views": 5705,
+      "views": 5709,
       "likes": 367,
       "comments": 41,
       "shares": 9,
-      "engagement_rate": 0.0731,
+      "engagement_rate": 0.073,
       "sentiment": {
         "positive": 0.37,
         "neutral": 0.63,
@@ -974,11 +974,11 @@
       "description": "#carrideconversations #girldadtiktok #girldad ",
       "date": "2025-09-02",
       "duration": 916,
-      "views": 494,
+      "views": 495,
       "likes": 23,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.0486,
+      "engagement_rate": 0.0485,
       "sentiment": {
         "positive": 1.0,
         "neutral": 0.0,
@@ -1319,11 +1319,11 @@
       "description": "#carrideconversations #toddlersoftiktok #girldadtiktok #girldad ",
       "date": "2025-06-12",
       "duration": 389,
-      "views": 292,
+      "views": 295,
       "likes": 16,
       "comments": 4,
       "shares": 0,
-      "engagement_rate": 0.0685,
+      "engagement_rate": 0.0678,
       "sentiment": {
         "positive": 0.5,
         "neutral": 0.5,
@@ -1480,11 +1480,11 @@
       "description": "wake up with us #girldadtiktok #girldad #toddlersoftiktok ",
       "date": "2025-04-29",
       "duration": 362,
-      "views": 404,
+      "views": 407,
       "likes": 14,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0347,
+      "engagement_rate": 0.0344,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -1503,7 +1503,7 @@
       "description": "eff Summit Health (VillageMD)",
       "date": "2025-04-17",
       "duration": 310,
-      "views": 2276,
+      "views": 2277,
       "likes": 43,
       "comments": 11,
       "shares": 7,
@@ -1572,11 +1572,11 @@
       "description": "anything to not listen to that song one more time today #toddlersoftiktok #carrideconversations #girldad #girldadtiktok ",
       "date": "2025-03-31",
       "duration": 128,
-      "views": 613,
+      "views": 612,
       "likes": 26,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.044,
+      "engagement_rate": 0.0441,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -1917,7 +1917,7 @@
       "description": "only the best of books like @Paul Castle \"the Secret Ingredient\" ",
       "date": "2024-12-01",
       "duration": 96,
-      "views": 9875,
+      "views": 9876,
       "likes": 1794,
       "comments": 151,
       "shares": 35,
@@ -2469,11 +2469,11 @@
       "description": "day 1281... i need help with a little terror. all the advice is welcome #toddlersoftiktok #girldadtiktok #girldad ",
       "date": "2024-06-13",
       "duration": 459,
-      "views": 1514,
+      "views": 1515,
       "likes": 264,
       "comments": 21,
       "shares": 4,
-      "engagement_rate": 0.1909,
+      "engagement_rate": 0.1908,
       "sentiment": {
         "positive": 0.0,
         "neutral": 1.0,
@@ -4999,11 +4999,11 @@
       "description": "things you never should have to do... . . Thomas said to him, \"Lord, we don't know where you are going, so how can we know the way?\" Jesus answered, \"I am the way and the truth and the life. No one co",
       "date": "2023-04-24",
       "duration": 20,
-      "views": 947,
+      "views": 948,
       "likes": 70,
       "comments": 9,
       "shares": 2,
-      "engagement_rate": 0.0855,
+      "engagement_rate": 0.0854,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -5022,7 +5022,7 @@
       "description": "clean nachos",
       "date": "2023-02-11",
       "duration": 41,
-      "views": 2184,
+      "views": 2185,
       "likes": 236,
       "comments": 26,
       "shares": 15,
@@ -5712,11 +5712,11 @@
       "description": "we had fun this morning #babyville #babiesoftiktok #dadsoftiktok",
       "date": "2022-07-11",
       "duration": 141,
-      "views": 2543,
+      "views": 2545,
       "likes": 692,
       "comments": 75,
       "shares": 22,
-      "engagement_rate": 0.3103,
+      "engagement_rate": 0.31,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -6448,7 +6448,7 @@
       "description": "she was determined to get at me #girldad #babiesoftiktok #dadsoftiktok #babyville",
       "date": "2022-02-22",
       "duration": 15,
-      "views": 6459,
+      "views": 6463,
       "likes": 35,
       "comments": 2,
       "shares": 0,
@@ -6471,7 +6471,7 @@
       "description": "#drsuess has minor characters who have a whole life",
       "date": "2022-02-20",
       "duration": 168,
-      "views": 1307,
+      "views": 1308,
       "likes": 43,
       "comments": 5,
       "shares": 1,
@@ -11531,11 +11531,11 @@
       "description": "a very emotional experience #carrideconversations #girldad #preschoolersoftiktok ",
       "date": "2026-04-27",
       "duration": 513,
-      "views": 392,
+      "views": 396,
       "likes": 14,
       "comments": 2,
       "shares": 1,
-      "engagement_rate": 0.0434,
+      "engagement_rate": 0.0429,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11692,11 +11692,11 @@
       "description": "batman #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-05-03",
       "duration": 180,
-      "views": 342,
+      "views": 343,
       "likes": 24,
       "comments": 1,
       "shares": 2,
-      "engagement_rate": 0.0789,
+      "engagement_rate": 0.0787,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11738,11 +11738,11 @@
       "description": "challenging 4 decades of generational trauma in one moment... #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-05-06",
       "duration": 172,
-      "views": 839,
+      "views": 873,
       "likes": 58,
       "comments": 8,
       "shares": 0,
-      "engagement_rate": 0.0787,
+      "engagement_rate": 0.0756,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11761,11 +11761,11 @@
       "description": "another #carrideconversations after school edition #preschoolersoftiktok #girldad ",
       "date": "2026-05-05",
       "duration": 600,
-      "views": 165,
+      "views": 168,
       "likes": 5,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0303,
+      "engagement_rate": 0.0298,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11899,11 +11899,11 @@
       "description": "day 1984 #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-05-18",
       "duration": 180,
-      "views": 151,
-      "likes": 7,
+      "views": 153,
+      "likes": 8,
       "comments": 1,
       "shares": 0,
-      "engagement_rate": 0.053,
+      "engagement_rate": 0.0588,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11922,11 +11922,11 @@
       "description": "#walkietalkie and #carrideconversations #preschoolersoftiktok #girldad ",
       "date": "2026-05-26",
       "duration": 460,
-      "views": 425,
-      "likes": 11,
+      "views": 467,
+      "likes": 12,
       "comments": 2,
       "shares": 0,
-      "engagement_rate": 0.0306,
+      "engagement_rate": 0.03,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11945,11 +11945,11 @@
       "description": "i love this child #preschoolersoftiktok #girldad #thatswhatshesaid ",
       "date": "2026-05-28",
       "duration": 45,
-      "views": 258,
+      "views": 259,
       "likes": 14,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.0543,
+      "engagement_rate": 0.0541,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11968,11 +11968,11 @@
       "description": "not all calls are bad #preschoolersoftiktok #girldad ",
       "date": "2026-06-10",
       "duration": 101,
-      "views": 387,
-      "likes": 54,
+      "views": 459,
+      "likes": 66,
       "comments": 5,
       "shares": 4,
-      "engagement_rate": 0.1628,
+      "engagement_rate": 0.1634,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -11991,11 +11991,11 @@
       "description": "what does one do when their 5 and a half #preschoolersoftiktok #girldad #carrideconversations ",
       "date": "2026-06-10",
       "duration": 112,
-      "views": 80,
+      "views": 84,
       "likes": 4,
       "comments": 0,
       "shares": 0,
-      "engagement_rate": 0.05,
+      "engagement_rate": 0.0476,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -12037,11 +12037,11 @@
       "description": "celebrate everything #girldad #preschoolersoftiktok #2000days",
       "date": "2026-06-02",
       "duration": 46,
-      "views": 704,
+      "views": 705,
       "likes": 135,
       "comments": 14,
       "shares": 2,
-      "engagement_rate": 0.2145,
+      "engagement_rate": 0.2142,
       "sentiment": {
         "positive": 0,
         "neutral": 0,
@@ -12275,7 +12275,7 @@
     {
       "month": "2022-02",
       "videos": 29,
-      "views": 23451,
+      "views": 23456,
       "likes": 1281,
       "comments": 120,
       "new_followers": 0
@@ -12315,7 +12315,7 @@
     {
       "month": "2022-07",
       "videos": 4,
-      "views": 3419,
+      "views": 3421,
       "likes": 737,
       "comments": 81,
       "new_followers": 0
@@ -12371,7 +12371,7 @@
     {
       "month": "2023-02",
       "videos": 2,
-      "views": 2336,
+      "views": 2337,
       "likes": 248,
       "comments": 27,
       "new_followers": 0
@@ -12379,7 +12379,7 @@
     {
       "month": "2023-04",
       "videos": 2,
-      "views": 1324,
+      "views": 1325,
       "likes": 114,
       "comments": 14,
       "new_followers": 0
@@ -12491,7 +12491,7 @@
     {
       "month": "2024-06",
       "videos": 3,
-      "views": 2822,
+      "views": 2823,
       "likes": 364,
       "comments": 22,
       "new_followers": 0
@@ -12539,7 +12539,7 @@
     {
       "month": "2024-12",
       "videos": 3,
-      "views": 13174,
+      "views": 13175,
       "likes": 1902,
       "comments": 157,
       "new_followers": 0
@@ -12563,7 +12563,7 @@
     {
       "month": "2025-03",
       "videos": 5,
-      "views": 2415,
+      "views": 2414,
       "likes": 189,
       "comments": 32,
       "new_followers": 0
@@ -12571,7 +12571,7 @@
     {
       "month": "2025-04",
       "videos": 6,
-      "views": 3944,
+      "views": 3948,
       "likes": 132,
       "comments": 21,
       "new_followers": 0
@@ -12587,7 +12587,7 @@
     {
       "month": "2025-06",
       "videos": 4,
-      "views": 1497,
+      "views": 1500,
       "likes": 90,
       "comments": 9,
       "new_followers": 0
@@ -12611,7 +12611,7 @@
     {
       "month": "2025-09",
       "videos": 4,
-      "views": 1202,
+      "views": 1203,
       "likes": 59,
       "comments": 3,
       "new_followers": 0
@@ -12619,7 +12619,7 @@
     {
       "month": "2025-10",
       "videos": 2,
-      "views": 6033,
+      "views": 6037,
       "likes": 400,
       "comments": 43,
       "new_followers": 0
@@ -12667,7 +12667,7 @@
     {
       "month": "2026-04",
       "videos": 14,
-      "views": 2286,
+      "views": 2290,
       "likes": 73,
       "comments": 10,
       "new_followers": 0
@@ -12675,16 +12675,16 @@
     {
       "month": "2026-05",
       "videos": 14,
-      "views": 3673,
-      "likes": 179,
+      "views": 3756,
+      "likes": 181,
       "comments": 18,
       "new_followers": 0
     },
     {
       "month": "2026-06",
       "videos": 4,
-      "views": 1291,
-      "likes": 201,
+      "views": 1368,
+      "likes": 213,
       "comments": 19,
       "new_followers": 0
     }
@@ -12721,14 +12721,14 @@
     {
       "bucket": "90-120s",
       "count": 23,
-      "avg_views": 798,
+      "avg_views": 801,
       "avg_engagement": 0.085,
       "avg_watch_through": null
     },
     {
       "bucket": "120s+",
       "count": 154,
-      "avg_views": 388,
+      "avg_views": 389,
       "avg_engagement": 0.0695,
       "avg_watch_through": null
     }
@@ -12744,23 +12744,23 @@
     "questions": [
       {
         "text": "What inspired the creation of 'Mismo Lucha, Mismo Grito'?",
-        "count": 3,
+        "count": 1,
         "cluster_id": "c_cultural_art"
       },
       {
-        "text": "How does Sophia's bike riding progress look so far?",
+        "text": "How do you balance your architectural work with family life?",
         "count": 2,
         "cluster_id": "c_family_moments"
       }
     ],
     "requests": [
       {
-        "text": "More videos about cultural and artistic expression",
-        "count": 3
+        "text": "More videos on cultural and social issues",
+        "count": 1
       },
       {
-        "text": "Share more personal stories from your family life",
-        "count": 2
+        "text": "Show more personal stories about parenting challenges",
+        "count": 3
       }
     ]
   },
@@ -12930,30 +12930,30 @@
     {
       "id": "c_cultural_art",
       "label": "Cultural and Artistic Expression",
-      "video_count": 3,
+      "video_count": 2,
       "share_of_views": 0.0,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0275,
+      "avg_engagement": 0.0336,
       "trend": "steady",
       "verdict": "NOISE"
     },
     {
       "id": "c_family_moments",
-      "label": "Family and Personal Moments",
-      "video_count": 4,
-      "share_of_views": 0.0,
+      "label": "Family and Parenting Moments",
+      "video_count": 10,
+      "share_of_views": 0.01,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0327,
+      "avg_engagement": 0.0451,
       "trend": "steady",
       "verdict": "NOISE"
     },
     {
-      "id": "c_childhood_journeys",
-      "label": "Childhood Journeys and Milestones",
-      "video_count": 7,
+      "id": "c_personal_projects",
+      "label": "Personal Project Updates",
+      "video_count": 2,
       "share_of_views": 0.0,
       "avg_follower_conversion": 0,
-      "avg_engagement": 0.0522,
+      "avg_engagement": 0.0301,
       "trend": "steady",
       "verdict": "NOISE"
     }
@@ -12967,47 +12967,56 @@
     },
     {
       "topic": "Cultural and Artistic Expression",
-      "views_idx": 0.21,
-      "likes_idx": 0.11,
+      "views_idx": 0.25,
+      "likes_idx": 0.16,
       "comments_idx": 0.0
     },
     {
-      "topic": "Family and Personal Moments",
-      "views_idx": 0.28,
-      "likes_idx": 0.15,
+      "topic": "Family and Parenting Moments",
+      "views_idx": 0.29,
+      "likes_idx": 0.21,
       "comments_idx": 0.17
     },
     {
-      "topic": "Childhood Journeys and Milestones",
-      "views_idx": 0.3,
-      "likes_idx": 0.25,
-      "comments_idx": 0.14
+      "topic": "Personal Project Updates",
+      "views_idx": 0.22,
+      "likes_idx": 0.14,
+      "comments_idx": 0.0
     }
   ],
   "presentation_styles": [
     {
+      "style": "walkthrough",
+      "video_count": 1,
+      "avg_engagement": 0.0174,
+      "avg_follower_conversion": 0,
+      "verdict": "NOISE"
+    },
+    {
       "style": "personal_story",
-      "video_count": 15,
-      "avg_engagement": 0.0397,
+      "video_count": 11,
+      "avg_engagement": 0.0493,
+      "avg_follower_conversion": 0,
+      "verdict": "NOISE"
+    },
+    {
+      "style": "talking_head",
+      "video_count": 1,
+      "avg_engagement": 0.0152,
       "avg_follower_conversion": 0,
       "verdict": "NOISE"
     }
   ],
   "audience_conversation_themes": [
     {
-      "theme": "Child Development and Milestones",
-      "comment_count": 40,
-      "trend": "up"
-    },
-    {
-      "theme": "Cultural and Artistic Expression",
-      "comment_count": 15,
+      "theme": "Parenting Challenges and Milestones",
+      "comment_count": 55,
       "trend": "steady"
     },
     {
-      "theme": "Personal Stories and Reflections",
+      "theme": "Artistic and Cultural Reflections",
       "comment_count": 15,
-      "trend": "down"
+      "trend": "steady"
     }
   ],
   "external_trends": []

@@ -1,8 +1,5 @@
-- `[x]` Create local Google Finance Scout in `agents/google_finance.py` with scraper, agent logic, and CLI commands
-- `[x]` Add the `google_finance` scout to `run_full_zoo.py`
-- `[x]` Verify the local CLI capabilities:
-  - `[x]` Verify individual ticker scraping (`python agents/google_finance.py --ticker AAPL`)
-  - `[x]` Verify trending tickers scraping (`python agents/google_finance.py --trending`)
-- `[x]` Verify pipeline integration:
-  - `[x]` Run `python agents/google_finance.py` to write `data/scout_google_finance.json`
-  - `[x]` Run `python utils/central_triage.py` to verify triage ingestion
+- `[x]` Diagnose duplicate posting issue (identified concurrent scheduler runs)
+- `[x]` Implement local socket-based singleton lock (port 11499) in `scheduler.py`
+- `[x]` Terminate duplicate non-elevated scheduler processes
+- `[x]` Terminate main elevated Task Scheduler wrapper process
+- `[x]` Terminate elevated orphaned subprocess (completed via taskkill as Admin)
